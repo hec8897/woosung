@@ -1,9 +1,13 @@
 import { Carousel, Slide } from 'vue-carousel';
 const MainSlider = {
     template:`<div class='slider'>
-            <carousel :perPage='1'>
+            <!-- vue-carousel https://www.npmjs.com/package/vue-carousel -->
+            <carousel 
+            :perPage='1' 
+            :loop='true'
+            >
             <slide>
-                <p>Slide 1 Content</p>
+                    <p>Slide 1 Content</p>
             </slide>
             <slide>
                 <p>Slide 2 Content</p>

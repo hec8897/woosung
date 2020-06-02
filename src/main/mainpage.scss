@@ -1,12 +1,21 @@
 div.home{
     div.slider{
         width: 100%;
-        background-color: #d0d0d0;
+        margin-top: 25px;
         .VueCarousel-wrapper{
             height: 500px;
+            background-color: #d0d0d0;
+
+            div.inner{
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
             p{
                 text-align: center;
-                margin-top: 250px;
+                position: relative;
+                top: 250px;
+                font-size: 50px;
             }
 
         }
