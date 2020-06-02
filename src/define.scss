@@ -4,4 +4,22 @@ $white:#fff;
 .wrap{
     max-width: 1200px;
     margin: 0 auto;
+    @media (max-width:1200px) {
+        max-width: 98%;
+    }
+}
+
+.mo{
+    visibility: hidden;
+    @media (max-width:767px) {
+        visibility: initial;
+    }
+}
+section{
+    padding: 100px 0px;
+    @media (max-width:767px) {
+        padding: 50px 0px;
+        
+    }
+
 }

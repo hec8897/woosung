@@ -10,6 +10,13 @@ html,body{
     font-size: 18px;
     color: $black;
     font-family:'Roboto','NanumSquareRound','나눔스퀘어라운드', sans-serif; 
+    @media (max-width:1024px) {
+        font-size: 16px;
+    }
+
+    @media (max-width:767px) {
+        font-size: 14px;
+    }
 }
 
 html,body,ul,ol,li,img,div,span,iframe,a,p,input,textarea,select,i,section{
@@ -37,4 +44,10 @@ select{
 select:focus{
     background:$white url('../image/arrow_t.png') no-repeat right;
     border:1px solid #999;
+}
+
+
+h2{
+    font-size: 1.667rem;
+    font-weight: normal;
 }
