@@ -48,15 +48,16 @@ const Section1 = {
                             <p>농자재 소식 농자재 소식 농자재 소식 </p>
                             <p class='date'>2020.06.01</p>
                         </div>
+                    </div>
+                    <div class='photos mo'>
+                        <div class='inner'>
+                            <div class='photo'>123</div>
+                            <p>농자재 소식 농자재 소식 농자재 소식 </p>
+                            <p class='date'>2020.06.01</p>
+                        </div>
                         
                     </div>
-                    <div class='photos'>
-                        <div class='inner'>
-                                <div class='photo'>123</div>
-                                <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                                <p class='date'>2020.06.01</p>
-                        </div>
-                    </div>
+               
 </div>
             </div>
         </div>

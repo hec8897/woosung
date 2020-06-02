@@ -136,6 +136,24 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/footer.scss":
+/*!*************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/footer.scss ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "footer {\n  height: 400px;\n  background-color: #424242; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/header.scss":
 /*!*************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/header.scss ***!
@@ -165,7 +183,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "div.home div.slider {\n  width: 100%;\n  height: 450px;\n  background-color: #d0d0d0; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n  div.home h2 span {\n    cursor: pointer;\n    position: absolute;\n    right: 0;\n    font-weight: 100; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    margin-left: 30px; }\n    @media (max-width: 767px) {\n      div.home section.section1 div.content.news_info {\n        margin: 0; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      width: 150%;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo > div {\n        width: 180px;\n        display: inline-block;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        @media (max-width: 1200px) {\n          div.home section.section1 div.content.news_info div.news_photo > div {\n            width: 24%; } }\n        @media (max-width: 767px) {\n          div.home section.section1 div.content.news_info div.news_photo > div {\n            width: 48%; } }\n        div.home section.section1 div.content.news_info div.news_photo > div div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo > div div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo > div div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo > div div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo > div div.inner p {\n                height: auto; } }\n\ndiv.home section.section2 {\n  background-color: #f3f3f3; }\n  div.home section.section2 div.youtubes {\n    text-align: center;\n    margin-top: 10px; }\n    div.home section.section2 div.youtubes > div {\n      width: 23.8%;\n      height: 190px;\n      display: inline-block;\n      margin-top: 20px;\n      margin-right: 10px;\n      background-color: #d0d0d0; }\n      @media (max-width: 1024px) {\n        div.home section.section2 div.youtubes > div {\n          width: 46%;\n          margin-right: 0px;\n          margin: 5px;\n          height: 170px; } }\n\ndiv.home section.section3 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.home section.section3 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section3 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section3 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section3 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section3 div.content.news2_info {\n    float: right;\n    overflow: hidden; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content.news2_info {\n        float: initial; } }\n    div.home section.section3 div.content.news2_info div.news2 {\n      height: 180px;\n      padding: 20px 0px;\n      box-sizing: border-box;\n      overflow-y: scroll; }\n      div.home section.section3 div.content.news2_info div.news2 ul li {\n        text-align: left;\n        margin-bottom: 20px; }\n        div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n          vertical-align: middle;\n          display: inline-block;\n          width: 160px;\n          height: 115px;\n          background-color: #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n              max-width: 40%;\n              height: 80px; } }\n        div.home section.section3 div.content.news2_info div.news2 ul li p {\n          height: 100px;\n          vertical-align: top;\n          width: 50%;\n          margin-left: 10px;\n          display: inline-block;\n          overflow: hidden;\n          font-size: 0.875rem; }\n", ""]);
+exports.push([module.i, "div.home div.slider {\n  width: 100%;\n  height: 450px;\n  background-color: #d0d0d0; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n  div.home h2 span {\n    cursor: pointer;\n    position: absolute;\n    right: 0;\n    font-weight: 100; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      width: 150%;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo > div {\n        width: 180px;\n        display: inline-block;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        @media (max-width: 1200px) {\n          div.home section.section1 div.content.news_info div.news_photo > div {\n            width: 32%; } }\n        @media (max-width: 767px) {\n          div.home section.section1 div.content.news_info div.news_photo > div {\n            width: 48%; } }\n        div.home section.section1 div.content.news_info div.news_photo > div div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo > div div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo > div div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo > div div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo > div div.inner p {\n                height: auto; } }\n\ndiv.home section.section2 {\n  background-color: #f3f3f3; }\n  div.home section.section2 div.youtubes {\n    text-align: center;\n    margin-top: 10px; }\n    div.home section.section2 div.youtubes > div {\n      width: 23.8%;\n      height: 190px;\n      display: inline-block;\n      margin-top: 20px;\n      margin-right: 10px;\n      background-color: #d0d0d0; }\n      @media (max-width: 1024px) {\n        div.home section.section2 div.youtubes > div {\n          width: 46%;\n          margin-right: 0px;\n          margin: 5px;\n          height: 170px; } }\n\ndiv.home section.section3 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.home section.section3 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section3 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section3 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section3 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section3 div.content.news2_info {\n    float: right;\n    overflow: hidden; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content.news2_info {\n        float: initial; } }\n    div.home section.section3 div.content.news2_info div.news2 {\n      height: 180px;\n      padding: 20px 0px;\n      box-sizing: border-box;\n      overflow-y: scroll; }\n      div.home section.section3 div.content.news2_info div.news2 ul li {\n        text-align: left;\n        margin-bottom: 20px; }\n        div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n          vertical-align: middle;\n          display: inline-block;\n          width: 160px;\n          height: 115px;\n          background-color: #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n              max-width: 40%;\n              height: 80px; } }\n        div.home section.section3 div.content.news2_info div.news2 ul li p {\n          height: 100px;\n          vertical-align: top;\n          width: 50%;\n          margin-left: 10px;\n          display: inline-block;\n          overflow: hidden;\n          font-size: 0.875rem; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3630,18 +3648,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common.scss */ "./src/common.scss");
 /* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_common_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _common_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/header */ "./src/common/header.js");
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./router */ "./src/router.js");
+/* harmony import */ var _common_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/footer */ "./src/common/footer.js");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./router */ "./src/router.js");
+
 
 
 
 new Vue({
-    router: _router__WEBPACK_IMPORTED_MODULE_2__["default"],
+    router: _router__WEBPACK_IMPORTED_MODULE_3__["default"],
     template:`<div>
         <AppHeader/>
         <router-view/>
+        <AppFooter/>
     </div>`,
     components:{
-        AppHeader: _common_header__WEBPACK_IMPORTED_MODULE_1__["default"]
+        AppHeader: _common_header__WEBPACK_IMPORTED_MODULE_1__["default"],
+        AppFooter: _common_footer__WEBPACK_IMPORTED_MODULE_2__["default"]
     }
 }).$mount('#app')
 
@@ -3656,6 +3678,55 @@ new Vue({
 
 var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
             var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./common.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/common/footer.js":
+/*!******************************!*\
+  !*** ./src/common/footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.scss */ "./src/common/footer.scss");
+/* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_footer_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+const Footer = {
+    template:`<footer>123</footer>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/common/footer.scss":
+/*!********************************!*\
+  !*** ./src/common/footer.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./footer.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/footer.scss");
 
             content = content.__esModule ? content.default : content;
 
@@ -3878,15 +3949,16 @@ const Section1 = {
                             <p>농자재 소식 농자재 소식 농자재 소식 </p>
                             <p class='date'>2020.06.01</p>
                         </div>
+                    </div>
+                    <div class='photos mo'>
+                        <div class='inner'>
+                            <div class='photo'>123</div>
+                            <p>농자재 소식 농자재 소식 농자재 소식 </p>
+                            <p class='date'>2020.06.01</p>
+                        </div>
                         
                     </div>
-                    <div class='photos'>
-                        <div class='inner'>
-                                <div class='photo'>123</div>
-                                <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                                <p class='date'>2020.06.01</p>
-                        </div>
-                    </div>
+               
 </div>
             </div>
         </div>
