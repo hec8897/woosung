@@ -1,6 +1,10 @@
 header{
     padding: 30px 0px;
     border-bottom: 1px solid #d0d0d0;;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: rgba($color: #fff, $alpha: 0.6);
     @media (max-width:767px) {
         padding: 20px 0px;
     }
@@ -28,12 +32,26 @@ header{
         top: 50%;
         text-align: center;
         transform: translate(-50%,-50%);
-      
-
         li{
-            display: inline;
+            display: inline-block;
             margin: 0px 25px;
             font-size: 1.3rem;
+            cursor:  pointer;
+            &::before{
+                position: absolute;
+                bottom: -10px;
+                content: '';
+                width: 00%;
+                height: 2px;
+                background-color: #222;
+                transition: .1s ease-in;
+                transform-origin: center;
+                margin: 0 auto;
+            }
+            &:hover::before{
+                width: 100%;
+
+            }
             @media (max-width:1024px) {
                 font-size: 1.125rem;
             }

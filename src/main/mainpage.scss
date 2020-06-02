@@ -1,8 +1,15 @@
 div.home{
     div.slider{
         width: 100%;
-        height: 450px;
         background-color: #d0d0d0;
+        .VueCarousel-wrapper{
+            height: 500px;
+            p{
+                text-align: center;
+                margin-top: 250px;
+            }
+
+        }
     }
     h2{
         border-bottom: 1px solid #d0d0d0;;
@@ -130,6 +137,13 @@ div.home{
     }
     section.section2{
         background-color: #f3f3f3;
+        div.wrap{
+            @media (max-width:767px) {
+                width: 95%;
+                
+            }            
+
+        }
         div.youtubes{
             text-align: center;
             margin-top: 10px;
