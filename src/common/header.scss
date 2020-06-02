@@ -3,101 +3,122 @@ header{
     padding: 30px 0px;
     border-bottom: 1px solid #d0d0d0;;
     position: fixed;
-    top: 0;
     width: 100%;
     z-index: 999;
-    background-color:$white;
+    top: 0px;
+    background-color: rgba($color: #fff, $alpha: 0.6);
     @media (max-width:767px) {
         padding: 20px 0px;
     }
-  
+
     div.wrap{
-  
+
 
     h1{
         width: 150px;
         display: inline-block;
         vertical-align: middle;
-        @media (max-width:767px) {
-            width: 100%;
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-            
-        }
         img{
             width: 100%;
-            @media (max-width:767px) {
-                width: 150px;
-
-            }
-    
         }
-      
-
-    }
-    div.gnb_area{
-        width: 60%;
-        display: inline-block;
-        float: right;
+        @media (max-width:1024px) {
+            width: 130px;
+        }
         @media (max-width:767px) {
-            width: 100%;
-            display: block;
-            text-align: center;
-            float: none;
+            width: 100px;
         }
-        div.top_gnb{
-            text-align: right;
-            font-size: 0.75rem;
-            @media (max-width:767px) {
-                text-align: center;
+
+
+    }
+    ul{
+        position: absolute;
+        width: 100%;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        transform: translate(-50%,-50%);
+        li{
+            display: inline-block;
+            margin: 0px 25px;
+            font-size: 1.3rem;
+            cursor:  pointer;
+            &::before{
+                display: block;
                 position: relative;
-                top: -80px;
-                font-size: 0.875rem;
+                bottom: -35px;
+                content: '';
+                width: 0%;
+                height: 1px;
+                background-color: $PointColor;
+                transition: .1s ease-in;
+                margin: 0 auto;
+            }
+            div{
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                top: 100px;
+                z-index: 999;
+                visibility: hidden;
+                opacity: 0.0;
+                transition: 0.1s ease-in;
+                p{
+                    white-space: nowrap;
+                    font-size: 0.875rem;
+                    margin-bottom: 10px;
+                }
+
             }
 
-            span{
-                margin-right: 15px;
+            &:hover::before{
+                width: 100%;
+
             }
-        }
-        div.bottom_gnb{
-            text-align: right;
-            margin-top: 15px;
-            span{
-                font-size: 18px;
-                margin-left: 40px;
-                font-weight: bold;
-                &.point{
-                    color: $PointColor;
-                }
+            @media (max-width:1200px) {
+                font-size: 1.125rem;
             }
             @media (max-width:767px) {
-                text-align: center;
-                span{
-                    margin-left: 0;
-                    margin: 0px 10px;
-                }
+                display: none;
+
             }
-          
 
         }
     }
-  
-    // div.mo_menu{
-    //     width: 30px;
-    //     height: 30px;
-    //     display: inline-block;
-    //     position: absolute;
-    //     right: 0;
-    //     top: 50%;
-    //     transform: translateY(-50%);
-    //     cursor: pointer;
-    //     div{
-    //         width: 100%;
-    //         height: 3px;
-    //         margin: 5px 0px;
-    //         background-color: #222;
-    //     }
-    // }
-}
+    div.mo_menu{
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        div{
+            width: 100%;
+            height: 3px;
+            margin: 5px 0px;
+            background-color: #222;
+        }
+    }
+    }
+    div.slide_down{
+        position: fixed;
+        width: 100%;
+        height: 00px;
+        top: 110px;
+        background-color: rgba($color: #fff, $alpha: 0.6);
+        transition: .2s ease-in;
+        z-index: -1;
+        @media (max-width:1024px) {
+            display: none;
+        }
+
+    }
+    &:hover div.slide_down{
+        height: 300px;
+    }
+    &:hover div.hidden_menu{
+        visibility: initial;
+        opacity: 1.0;
+    }
 }
