@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Roboto:400,700&display=swap&subset=korean');
+@import './define.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-size: 18px;
+    color: $black;
+    font-family:'Roboto','NanumSquareRound','나눔스퀘어라운드', sans-serif; 
+}
+
+html,body,ul,ol,li,img,div,span,iframe,a,p,input,textarea,select,i,section{
+    position: relative;
+    letter-spacing: -0.5px;
+    word-break: keep-all;
+}
+
+a,a:hover,a:active,a:focus{text-decoration:none;}
+img{border:none; width:auto; vertical-align: middle;}
+ul,ol{list-style:none;}
+iframe,object,video,embed{position:relative; top:0; left:0; max-width:100%}
+input,select{outline: none;}
+input{display:block; height:30px; padding:0 10px; line-height:30px; border:1px solid #e0e0e0; outline:none; transition:all 0.2s ease}
+textarea{padding:10px; border:1px solid #e0e0e0; outline:none; transition:all 0.2s ease}
+input:focus,select:focus,textarea:focus{border:1px solid #999; background:#f6f6f6; transition:all 0.2s ease}
+select::-ms-expand{display:none}
+select{
+    position:relative; display:block; height:30px; font-weight:400; box-sizing:border-box;
+    padding:0 5px; border:1px solid #e0e0e0; border-radius:0; outline:none; transition:all 0.2s ease;
+    background:$white url('../image/arrow_b.png') no-repeat right;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+}
+select:focus{
+    background:$white url('../image/arrow_t.png') no-repeat right;
+    border:1px solid #999;
+}
