@@ -3,7 +3,7 @@ div.home{
         width: 100%;
         .VueCarousel-wrapper{
             height: 500px;
-            background-color: #d0d0d0;
+            background-color: #87CEFA;
 
             div.inner{
                 width: 100%;
@@ -99,6 +99,13 @@ div.home{
                         padding: 5px;
                         box-sizing: border-box;
                         vertical-align: middle;
+                        &.none{
+                            display: none;
+                            @media (max-width:767px) {
+                                display: inline-block;
+                                
+                            }
+                        }
                    
                         @media (max-width:1200px) {
                             width: 32%;
@@ -118,7 +125,7 @@ div.home{
                                 @media (max-width:767px) {
                                     height: 120px;
                                 }
-
+                              
                             }
                             p{
                                 height: 50px;
@@ -130,11 +137,8 @@ div.home{
                                 @media (max-width:767px) {
                                     height: auto;
                                 }
-
-
                             }
-                            p.date{
-                            }
+                   
                         }
                     }
                 }
@@ -239,7 +243,6 @@ div.home{
                                     max-width: 40%;
                                     height: 80px;
                                 }
-
                             }
                             p{
                                 height: 100px;

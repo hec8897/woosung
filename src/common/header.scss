@@ -1,114 +1,120 @@
 @import '../define.scss';
 header{
     padding: 30px 0px;
-    border-bottom: 1px solid #d0d0d0;;
     position: fixed;
     width: 100%;
     z-index: 999;
     top: 0px;
-    background-color: rgba($color: #fff, $alpha: 0.6);
     @media (max-width:767px) {
         padding: 20px 0px;
     }
-
     div.wrap{
-
-
-    h1{
-        width: 150px;
-        display: inline-block;
-        vertical-align: middle;
-        img{
-            width: 100%;
-        }
-        @media (max-width:1024px) {
-            width: 130px;
-        }
-        @media (max-width:767px) {
-            width: 100px;
-        }
-
-
-    }
-    ul{
-        position: absolute;
-        width: 100%;
-        left: 50%;
-        top: 50%;
-        text-align: center;
-        transform: translate(-50%,-50%);
-        li{
+        h1{
+            width: 150px;
             display: inline-block;
-            margin: 0px 25px;
-            font-size: 1.3rem;
-            cursor:  pointer;
-            &::before{
-                display: block;
-                position: relative;
-                bottom: -35px;
-                content: '';
-                width: 0%;
-                height: 1px;
-                background-color: $PointColor;
-                transition: .1s ease-in;
-                margin: 0 auto;
-            }
-            div{
-                position: absolute;
+            vertical-align: middle;
+            img{
                 width: 100%;
-                text-align: center;
-                top: 100px;
-                z-index: 999;
-                visibility: hidden;
-                opacity: 0.0;
-                transition: 0.1s ease-in;
-                p{
-                    white-space: nowrap;
-                    font-size: 0.875rem;
-                    margin-bottom: 10px;
+            }
+            @media (max-width:1024px) {
+                width: 130px;
+            }
+            @media (max-width:767px) {
+                width: 100px;
+            }
+        }
+        ul{
+            position: absolute;
+            width: 100%;
+            left: 50%;
+            top: 50%;
+            text-align: center;
+            transform: translate(-50%,-50%);
+            li{
+                display: inline-block;
+                margin: 0px 25px;
+                font-size: 1.125rem;
+                cursor:  pointer;
+                &::before{
+                    display: block;
+                    position: relative;
+                    bottom: -35px;
+                    content: '';
+                    width: 0%;
+                    height: 2px;
+                    background-color: $PointColor;
+                    transition: .1s ease-in;
+                    margin: 0 auto;
+                }
+                div{
+                    position: absolute;
+                    width: 100%;
+                    text-align: center;
+                    top: 100px;
+                    z-index: 999;
+                    visibility: hidden;
+                    opacity: 0.0;
+                    transition: 0.1s ease-in;
+                    p{
+                        white-space: nowrap;
+                        font-size: 0.875rem;
+                        margin-bottom: 10px;
+                        &:hover{
+                            color: $PointColor;
+                        }
+                    }
+
+                }
+
+                &:hover::before{
+                    width: 100%;
+                }
+                @media (max-width:1200px) {
+                    font-size: 1rem;
+                }
+                @media (max-width:767px) {
+                    display: none;
                 }
 
             }
-
-            &:hover::before{
+        }
+        div.mo_menu{
+            width: 30px;
+            height: 30px;
+            display: inline-block;
+            position: absolute;
+            right: 0;
+            top: 40%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            div{
                 width: 100%;
+                height: 3px;
+                margin: 5px 0px;
+                background-color: #222;
+                transition: 0.1s ease-in;
 
+                &:last-child{
+                    width: 50%;
+                    background-color: $PointColor;
+                    position: absolute;
+                    right: 0;
+                    margin-top: 0;
+                }
             }
-            @media (max-width:1200px) {
-                font-size: 1.125rem;
+            &:hover div:nth-child(2){
+                width: 60%;
             }
-            @media (max-width:767px) {
-                display: none;
-
-            }
-
         }
-    }
-    div.mo_menu{
-        width: 30px;
-        height: 30px;
-        display: inline-block;
-        position: absolute;
-        right: 0;
-        top: 50%;
-        transform: translateY(-50%);
-        cursor: pointer;
-        div{
-            width: 100%;
-            height: 3px;
-            margin: 5px 0px;
-            background-color: #222;
-        }
-    }
     }
     div.slide_down{
         position: fixed;
         width: 100%;
         height: 00px;
-        top: 110px;
-        background-color: rgba($color: #fff, $alpha: 0.6);
+        background-color: rgba($color: #fff, $alpha: 1);
         transition: .2s ease-in;
         z-index: -1;
+        top: 0;
         @media (max-width:1024px) {
             display: none;
         }

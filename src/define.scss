@@ -13,7 +13,7 @@ $MainColor:#87CEFA;
 
 .mo{
     visibility: hidden;
-    @media (max-width:1200px) {
+    @media (max-width:767px) {
         visibility: initial;
     }
 }

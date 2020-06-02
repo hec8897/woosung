@@ -32,7 +32,7 @@ const Header = {
                     팜 카페
                 </li>
             </ul>
-            <div class='mo mo_menu'>
+            <div class='mo_menu'>
                 <div></div>
                 <div></div>
                 <div></div>

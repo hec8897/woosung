@@ -49,7 +49,7 @@ const Section1 = {
                             <p class='date'>2020.06.01</p>
                         </div>
                     </div>
-                    <div class='photos mo'>
+                    <div class='photos none'>
                         <div class='inner'>
                             <div class='photo'>123</div>
                             <p>농자재 소식 농자재 소식 농자재 소식 </p>
