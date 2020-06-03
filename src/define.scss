@@ -34,10 +34,16 @@ span.more{
         transition: .1s ease-in;
         b{
             font-size: 16px;
+            @media (max-width:1024px) {
+                font-size: 14px;
+            }
         }
         &:hover{
             background-color: $MainColor;
             color: $white;
-
         }
+        @media (max-width:1024px) {
+            font-size: 16   px;
+        }
+     
 }

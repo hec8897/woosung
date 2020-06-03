@@ -20,7 +20,6 @@ const MoNav = {
                             <p>Win-Win Pro</p>
                             <p>Win-Win Pos</p>
                         </div>
-
                     </li>
                     <li>
                         <span>고객지원센터</span>

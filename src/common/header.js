@@ -60,7 +60,6 @@ const Header = {
         methods: {
             MoNavOpen(){
                 this.moNav == false?this.moNav = true:this.moNav = false
-                console.log(this.moNav)
             }
         },
     }
