@@ -183,7 +183,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "div.mo_nav {\n  width: 100%;\n  height: 100vh;\n  background-color: white;\n  position: absolute;\n  top: 0; }\n", ""]);
+exports.push([module.i, "div.mo_nav {\n  width: 100%;\n  height: 100vh;\n  background-color: white;\n  position: fixed;\n  top: 0; }\n  div.mo_nav div.inner {\n    position: absolute;\n    top: 40%;\n    left: 50%;\n    transform: translate(-50%, -50%); }\n    div.mo_nav div.inner ul li {\n      text-align: center;\n      font-size: 18px;\n      margin: 15px 0px; }\n\n.fade-enter-active, .fade-leave-active {\n  transition: opacity .1s; }\n\n.fade-enter, .fade-leave-to {\n  opacity: 0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3909,7 +3909,20 @@ __webpack_require__.r(__webpack_exports__);
 
 const MoNav = {
     props:['show'],
-    template:`<div class='mo_nav' v-if="show">123</div>`,
+    template:`
+    <transition name='fade'>
+        <div class='mo_nav' v-if="show">
+            <div class='inner'>
+                <ul>
+                    <li>회사소개</li>
+                    <li>제품소개</li>
+                    <li>고객지원센터</li>
+                    <li>팜카페</li>
+                </ul>
+            </div>
+        </div>
+    </transition>
+    `,
 
 }
 
