@@ -3,7 +3,8 @@ const Section3 = {
         <div class='wrap'>
             <div class='content notice'>
                 <h2>팜카페 
-                    <span>+</span>
+                                    <span class='more'><b>더보기</b> +</span>
+
                 </h2>
                 <ul class='notices'>
                     <li>
@@ -25,7 +26,8 @@ const Section3 = {
             </div>
             <div class='content news2_info'>
                 <h2>농업계 소식
-                    <span>+</span>
+                                    <span class='more'><b>더보기</b> +</span>
+
                 </h2>
                 <div class='news2'>
                     <ul>

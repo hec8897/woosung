@@ -25,13 +25,7 @@ div.home{
         vertical-align: middle;
         text-align: left;
 
-        span{
-            cursor: pointer;
-            position: absolute;
-            right: 0;
-            font-weight: 100;
-        
-        }
+   
     }
     section.section1{
         div.content{
@@ -85,20 +79,22 @@ div.home{
 
                 div.news_photo{
                     margin-top: 15px;
-                    width: 150%;
                     text-align: left;
                     overflow: hidden;
                         @media (max-width:1200px) {
                             width: 100%;
                             text-align: center;
                         }
-
-                    &>div{
-                        width: 180px;
-                        display: inline-block;
+                        .VueCarousel-pagination{
+                            display: none;
+                        }
+                    div.photos{
+                        width: 100%;
+                        // display: inline-block;
                         padding: 5px;
                         box-sizing: border-box;
                         vertical-align: middle;
+
                         &.none{
                             display: none;
                             @media (max-width:767px) {
@@ -107,13 +103,6 @@ div.home{
                             }
                         }
                    
-                        @media (max-width:1200px) {
-                            width: 32%;
-                        }
-
-                        @media (max-width:767px) {
-                            width: 48%;
-                        }
 
                         div.inner{
                             width: 100%;
@@ -152,26 +141,23 @@ div.home{
         div.wrap{
             @media (max-width:767px) {
                 width: 95%;
-                
             }            
-
         }
         div.youtubes{
             text-align: center;
             margin-top: 10px;
-            &>div{
-                width: 23.8%;
+            div.slide_inner{
+                width: 95%;
+                max-width: 280px;
                 height: 190px;
                 display: inline-block;
                 margin-top: 20px;
                 margin-right: 10px;
-                background-color: #d0d0d0;
-                @media (max-width:1024px) {
-                    width: 46%;
-                    margin-right: 0px;
-                    margin: 5px;
-                    height: 170px;
-                    
+                border: 1px solid #87CEFA;
+                margin: 5px;
+                @media (max-width:767px) {
+                    // width: 180px;
+                    // width: 30%;
                 }
             }
         }

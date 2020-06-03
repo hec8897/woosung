@@ -2,7 +2,6 @@ $black:#222;
 $white:#fff;
 $PointColor:#4682B4;
 $MainColor:#87CEFA;
-
 .wrap{
     max-width: 1200px;
     margin: 0 auto;
@@ -23,5 +22,22 @@ section{
         padding: 50px 0px;
         
     }
+}
 
+span.more{
+        cursor: pointer;
+        position: absolute;
+        right: 0;
+        font-size: 20px;
+        padding: 5px;
+        border-radius: 5px;;
+        transition: .1s ease-in;
+        b{
+            font-size: 16px;
+        }
+        &:hover{
+            background-color: $MainColor;
+            color: $white;
+
+        }
 }
