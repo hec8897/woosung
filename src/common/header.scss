@@ -63,9 +63,7 @@ header{
                             color: $PointColor;
                         }
                     }
-
                 }
-
                 &:hover::before{
                     width: 100%;
                 }
@@ -75,10 +73,10 @@ header{
                 @media (max-width:767px) {
                     display: none;
                 }
-
             }
         }
         div.mo_menu{
+            cursor: pointer;
             width: 30px;
             height: 30px;
             display: inline-block;
@@ -86,7 +84,12 @@ header{
             right: 0;
             top: 40%;
             transform: translateY(-50%);
-            cursor: pointer;
+            visibility: hidden;
+            @media (max-width:1200px) {
+            visibility: initial;
+
+            }
+
             div{
                 width: 100%;
                 height: 3px;
