@@ -1,0 +1,26 @@
+div.about{
+    div.about_ceo{
+
+        div.ceo_head{
+            width: 100%;
+            height: 500px;
+            background-image: url(../../image/about/menu_ceo.jpg);
+            background-size: cover;;
+        }
+        div.wrap{
+            padding: 100px 0px;
+            div.caption{
+                width: 100%;
+                height: 300px;
+                background-image: url(../../image/about/ceo_head.jpg);
+                h2{
+                    color: #fff;
+                    text-align: center;
+                    line-height: 300px;
+                    font-weight: bold;
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+}

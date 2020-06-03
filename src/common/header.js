@@ -6,14 +6,12 @@ const Header = {
         <moNav v-bind:show='moNav'/>
 
         <div class='wrap'>
-            <h1>
-                <img src='image/logo.png'>
-            </h1>   
+            <h1><router-link to='/'><img src='image/logo.png'></router-link></h1>
             <ul>
                 <li>
-                    회사 소개
+                    <router-link to='/about' tag='span'>회사 소개</router-link>
                     <div class='hidden_menu'>
-                        <p>CEO 인사말</p>
+                        <router-link to='/about/ceo' tag='p'>CEO 인사말</router-link>
                         <p>기업역량</p>
                         <p>회사소개</p>
                     </div>

@@ -4,6 +4,8 @@ const MainSlider = {
             <carousel 
             :perPage='1' 
             :loop='true'
+            :autoplay='true'
+            :autoplayTimeout="3500"
             >
             <slide>
                     <p>Slide 1 Content</p>

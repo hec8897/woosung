@@ -37,7 +37,7 @@ module.exports = {
                 options: {
                     name: '[name].[ext]',
                     context: path.resolve(__dirname, "src/"),
-                    outputPath: 'image/',
+                    outputPath: 'dist/image/',
                     useRelativePaths: true
                 }
             }

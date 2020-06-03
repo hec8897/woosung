@@ -86,6 +86,32 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./image/about/ceo_head.jpg":
+/*!**********************************!*\
+  !*** ./image/about/ceo_head.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/ceo_head.jpg");
+
+/***/ }),
+
+/***/ "./image/about/menu_ceo.jpg":
+/*!**********************************!*\
+  !*** ./image/about/menu_ceo.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/menu_ceo.jpg");
+
+/***/ }),
+
 /***/ "./image/arrow_b.png":
 /*!***************************!*\
   !*** ./image/arrow_b.png ***!
@@ -95,7 +121,7 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/arrow_b.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/arrow_b.png");
 
 /***/ }),
 
@@ -108,7 +134,30 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/arrow_t.png");
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/arrow_t.png");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/about/about.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/about/about.scss ***!
+  \***********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/menu_ceo.jpg */ "./image/about/menu_ceo.jpg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../image/about/ceo_head.jpg */ "./image/about/ceo_head.jpg");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+// Module
+exports.push([module.i, "div.about div.about_ceo div.ceo_head {\n  width: 100%;\n  height: 500px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover; }\n\ndiv.about div.about_ceo div.wrap {\n  padding: 100px 0px; }\n  div.about div.about_ceo div.wrap div.caption {\n    width: 100%;\n    height: 300px;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n    div.about div.about_ceo div.wrap div.caption h2 {\n      color: #fff;\n      text-align: center;\n      line-height: 300px;\n      font-weight: bold;\n      font-size: 40px; }\n", ""]);
+// Exports
+module.exports = exports;
+
 
 /***/ }),
 
@@ -165,7 +214,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px; }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle; }\n    header div.wrap h1 img {\n      width: 100%; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 25px;\n      font-size: 1.125rem;\n      cursor: pointer; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        position: absolute;\n        width: 100%;\n        text-align: center;\n        top: 100px;\n        z-index: 999;\n        visibility: hidden;\n        opacity: 0.0;\n        transition: 0.1s ease-in; }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin-bottom: 10px; }\n          header div.wrap ul li div p:hover {\n            color: #4682B4; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 767px) {\n        header div.wrap ul li {\n          display: none; } }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%);\n    visibility: hidden; }\n    @media (max-width: 1200px) {\n      header div.wrap div.mo_menu {\n        visibility: initial; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #222;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #222;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n  header:hover div.slide_down {\n    height: 300px; }\n  header:hover div.hidden_menu {\n    visibility: initial;\n    opacity: 1.0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(255, 255, 255, 0.2); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer; }\n    header div.wrap h1 img {\n      width: 100%; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 25px;\n      font-size: 1.125rem;\n      cursor: pointer; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        position: absolute;\n        width: 100%;\n        text-align: center;\n        top: 100px;\n        z-index: 999;\n        visibility: hidden;\n        opacity: 0.0;\n        transition: 0.1s ease-in; }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin-bottom: 10px; }\n          header div.wrap ul li div p:hover {\n            color: #4682B4; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 767px) {\n        header div.wrap ul li {\n          display: none; } }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%);\n    visibility: hidden; }\n    @media (max-width: 1200px) {\n      header div.wrap div.mo_menu {\n        visibility: initial; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #222;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #222;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n  header:hover div.slide_down {\n    height: 300px; }\n  header:hover div.hidden_menu {\n    visibility: initial;\n    opacity: 1.0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3670,6 +3719,82 @@ if (inBrowser && window.Vue) {
 
 /***/ }),
 
+/***/ "./src/about/about.scss":
+/*!******************************!*\
+  !*** ./src/about/about.scss ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./about.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/about/about.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/about/aboutpage.js":
+/*!********************************!*\
+  !*** ./src/about/aboutpage.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./about.scss */ "./src/about/about.scss");
+/* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_about_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+const About = {
+    template:`<div class='about'>
+        <router-view></router-view>
+    </div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./src/about/ceo_about.js":
+/*!********************************!*\
+  !*** ./src/about/ceo_about.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const CeoAbout = {
+    template:`
+        <div class='about_ceo'>
+            <div class='ceo_head'></div>
+            <div class='wrap'>
+                <div class='caption'>
+                    <h2>우리는 성공한다!</h2>
+                </div>
+            </div>
+        </div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CeoAbout);
+
+/***/ }),
+
 /***/ "./src/app.js":
 /*!********************!*\
   !*** ./src/app.js ***!
@@ -3749,7 +3874,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_footer_scss__WEBPACK_IMPORTED_MODULE_0__);
 
 const Footer = {
-    template:`<footer>123</footer>`
+    template:`<footer></footer>`
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -3805,14 +3930,12 @@ const Header = {
         <moNav v-bind:show='moNav'/>
 
         <div class='wrap'>
-            <h1>
-                <img src='image/logo.png'>
-            </h1>   
+            <h1><router-link to='/'><img src='image/logo.png'></router-link></h1>
             <ul>
                 <li>
-                    회사 소개
+                    <router-link to='/about' tag='span'>회사 소개</router-link>
                     <div class='hidden_menu'>
-                        <p>CEO 인사말</p>
+                        <router-link to='/about/ceo' tag='p'>CEO 인사말</router-link>
                         <p>기업역량</p>
                         <p>회사소개</p>
                     </div>
@@ -4076,21 +4199,10 @@ const Section1 = {
                     
                 </h2>
                 <ul class='notices'>
-                    <li>
-                        <p>공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1</p>
-                        <span>2020.06.22</span>
+                    <li v-for='notice in notices'>
+                        <p>{{notice.tit}}</p>
+                        <span>{{notice.date}}</span>
                     </li>
-                    <li>공지사항2<span>2020.06.22</span></li>
-                    <li>공지사항3<span>2020.06.22</span></li>
-                    <li>공지사항4<span>2020.06.22</span></li>
-                    <li>공지사항5<span>2020.06.22</span></li>
                 </ul>
             </div>
             <div class='content news_info'>
@@ -4138,30 +4250,7 @@ const Section1 = {
                             </div>
                         </div>
                     </slide>
-
                     </Carousel>
-                    <!-- <div class='photos'>
-                        <div class='inner'>
-                            <div class='photo'>123</div>
-                            <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                            <p class='date'>2020.06.01</p>
-                        </div>
-                    </div>
-                    <div class='photos'>
-                         <div class='inner'>
-                            <div class='photo'>123</div>
-                            <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                            <p class='date'>2020.06.01</p>
-                        </div>
-                    </div>
-                    <div class='photos'>
-                        <div class='inner'>
-                            <div class='photo'>123</div>
-                            <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                            <p class='date'>2020.06.01</p>
-                        </div>
-                    </div>
-                 -->
                 </div>
             </div>
         </div>
@@ -4169,6 +4258,49 @@ const Section1 = {
        components: {
         Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
         Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
+      },
+      data(){
+          return{
+              notices:[
+                    {
+                      idx:0,
+                      writer:"우성소프트",
+                      tit:"우성소프트에서 알려드립니다.",
+                      date:"2020-06-03",
+                    },
+                    {
+                        idx:1,
+                        writer:"우성소프트",
+                        tit:"사이트가 리뉴얼 되었습니다.",
+                        date:"2020-06-03",
+                    },
+                    {
+                        idx:2,
+                        writer:"우성소프트",
+                        tit:"테스트 입력",
+                        date:"2020-06-03",
+                      },
+                      {
+                          idx:3,
+                          writer:"우성소프트",
+                          tit:"우성소프트 테스트 입력",
+                          date:"2020-06-03",
+                      },
+                      {
+                        idx:4,
+                        writer:"우성소프트",
+                        tit:"우성소프트에서 알려드립니다.",
+                        date:"2020-06-03",
+                      },
+                      {
+                          idx:5,
+                          writer:"우성소프트",
+                          tit:"우성소프트에서 알려드립니다2.",
+                          date:"2020-06-03",
+                      },
+
+              ]
+          }
       }
 }
 
@@ -4311,6 +4443,8 @@ const MainSlider = {
             <carousel 
             :perPage='1' 
             :loop='true'
+            :autoplay='true'
+            :autoplayTimeout="3500"
             >
             <slide>
                     <p>Slide 1 Content</p>
@@ -4344,6 +4478,11 @@ const MainSlider = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _main_mainpage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main/mainpage */ "./src/main/mainpage.js");
+/* harmony import */ var _about_aboutpage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about/aboutpage */ "./src/about/aboutpage.js");
+/* harmony import */ var _about_ceo_about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about/ceo_about */ "./src/about/ceo_about.js");
+
+
+
 
 
 
@@ -4353,6 +4492,30 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
             path: '/',
             component: _main_mainpage__WEBPACK_IMPORTED_MODULE_1__["default"],
             name: 'main'
+        },
+        {
+            path: '/about',
+            component: _about_aboutpage__WEBPACK_IMPORTED_MODULE_2__["default"],
+            name: 'about',
+            children:[
+                {
+                    path:'',
+                    component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
+                },
+                {
+                    path:'ceo',
+                    component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
+                },
+                {
+                    path:'ability',
+                    component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
+                },
+                {
+                    path:'company',
+                    component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
+                },
+
+            ]
         }
     ]
 })
