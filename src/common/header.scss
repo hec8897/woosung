@@ -105,6 +105,22 @@ header{
             &:hover div:nth-child(2){
                 width: 60%;
             }
+            &.active{
+                div{
+                    
+                &:nth-child(1){
+                    transform: rotate(46deg) translateY(12px);
+                }   
+                &:nth-child(2){
+                    opacity: 0.0;
+                }     
+                &:last-child{
+                    background-color: #222;
+                    transform: rotate(-46deg) translateY(-12.5px);
+                    width: 100%;
+                }
+                }
+            }
         }
     }
     div.slide_down{

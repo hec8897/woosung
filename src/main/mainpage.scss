@@ -1,9 +1,11 @@
 div.home{
     div.slider{
         width: 100%;
+        margin-bottom: 50px;
         .VueCarousel-wrapper{
-            height: 500px;
+            height: 600px;
             background-color: #87CEFA;
+            
 
             div.inner{
                 width: 100%;
@@ -17,6 +19,9 @@ div.home{
                 font-size: 50px;
             }
 
+        }
+        .VueCarousel-pagination{
+            margin-top: -100px;
         }
     }
     h2{

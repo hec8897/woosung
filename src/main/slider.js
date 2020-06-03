@@ -1,7 +1,6 @@
 import { Carousel, Slide } from 'vue-carousel';
 const MainSlider = {
     template:`<div class='slider'>
-            <!-- vue-carousel https://www.npmjs.com/package/vue-carousel -->
             <carousel 
             :perPage='1' 
             :loop='true'

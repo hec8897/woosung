@@ -1,6 +1,10 @@
 import './header.scss';
+import moNav from '../common/mo_nav'
+
 const Header = {
     template:`<header>
+        <moNav v-bind:show='moNav'/>
+
         <div class='wrap'>
             <h1>
                 <img src='image/logo.png'>
@@ -32,7 +36,7 @@ const Header = {
                     팜 카페
                 </li>
             </ul>
-            <div class='mo_menu'>
+            <div class='mo_menu' @click='MoNavOpen' v-bind:class="{active:moNav}">
                 <div></div>
                 <div></div>
                 <div></div>
@@ -40,9 +44,23 @@ const Header = {
         </div>
         <div class='slide_down'>
             <div class='wrap'>
-            </div>
+            </div>            
         </div>
-    </header>`
-}
+    </header>`,
+    components:{
+        moNav
+        },
+        data(){
+            return{
+                moNav:false
+            }
+        },
+        methods: {
+            MoNavOpen(){
+                this.moNav == false?this.moNav = true:this.moNav = false
+                console.log(this.moNav)
+            }
+        },
+    }
 
 export default Header;

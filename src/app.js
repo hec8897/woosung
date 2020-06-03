@@ -13,6 +13,6 @@ new Vue({
     </div>`,
     components:{
         AppHeader,
-        AppFooter
+        AppFooter,
     }
 }).$mount('#app')
