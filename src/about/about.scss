@@ -5,16 +5,21 @@ div.about{
         background-size: cover;;
         background-image: url(../../image/about/menu_ceo.jpg);
         margin-bottom: 50px;
+        background-position: center;
+
         
         h3{
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
-            font-size: 40px;
+            font-size: 2.2rem;
             color: #fff;
             text-align: center;
             letter-spacing: 2px;
+        }
+        @media (max-width:1024px) {
+            background-position: right;;
         }
     
     }
@@ -40,9 +45,22 @@ div.about{
             div.text_contant{
                 width: 45%;
                 display: inline-block;
+                @media (max-width:767px) {
+                    width: 95%;
+                    display: block;
+                    margin: 0 auto;
+                }
+
                 h4{
                     font-size: 24px;
                     margin: 20px 0px;
+                    @media (max-width:767px) {
+                        font-size: 18px;
+                        &.tit{
+                            text-align: center;
+                        }
+                    }
+
                 }
                 p{
                     word-break: keep-all;
@@ -60,6 +78,8 @@ div.about{
                 img{
                     width: 100%;
                 }
+                @media (max-width:767px) {
+                }
             }
           
            
@@ -70,17 +90,34 @@ div.about{
             div.caption{
                 margin-left: 10%;
                 text-align: right;
+                @media (max-width:767px) {
+                    display: none;
+
+                }
                 
             }
         }
         section.section2{
+            @media (max-width:767px) {
+                padding-top: 0;
+            }
+
             div.text_contant{
                 width: 40%;
                 margin-left: 10%;
+                @media (max-width:767px) {
+
+                    width: 95%;
+                    display: block;
+                    margin: 0 auto;
+                }
             }
             div.caption{
                 width: 45%;
                 max-width: 450px;
+                @media (max-width:767px) {
+                    display: none;
+                }
 
             }
 
