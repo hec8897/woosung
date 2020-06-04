@@ -40,6 +40,12 @@ div.about{
             left: 0;
             z-index: -1;
             background-color: #f7f7f7;
+            @media (max-width:767px) {
+                width: 75%;
+                height: 600px;
+                bottom: -200px;
+            }
+
         }
         div.wrap{
             div.text_contant{
