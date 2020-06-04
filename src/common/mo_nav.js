@@ -7,12 +7,7 @@ const MoNav = {
             <div class='inner'>
                 <ul>
                     <li>
-                        <span>회사소개</span>
-                        <div class='sub_menu'>
-                            <p>CEO 인사말</p>
-                            <p>기업역량</p>
-                            <p>회사소개</p>
-                        </div>
+                        <router-link to='/about' tag='span'>회사 소개</router-link>
                     </li>
                     <li>
                         <span>제품소개</span>
@@ -33,8 +28,7 @@ const MoNav = {
                 </ul>
             </div>
         </div>
-    </transition>
-    `,
+    </transition>`
 
 }
 

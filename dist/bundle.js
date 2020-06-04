@@ -139,7 +139,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/me
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "div.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 50px;\n  background-position: center; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n  @media (max-width: 1024px) {\n    div.about div.about_head {\n      background-position: right; } }\n\ndiv.about div.about_contant section {\n  padding: 75px 0px; }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 75px; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.obj {\n      width: 75%;\n      height: 600px;\n      bottom: -200px; } }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.wrap div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n    @media (max-width: 767px) {\n      div.about div.about_contant div.wrap div.text_contant h4 {\n        font-size: 18px; }\n        div.about div.about_contant div.wrap div.text_contant h4.tit {\n          text-align: center; } }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n    @media (max-width: 767px) {\n      div.about div.about_contant section.section1 div.caption {\n        display: none; } }\n\n@media (max-width: 767px) {\n  div.about div.about_contant section.section2 {\n    padding-top: 0; } }\n\ndiv.about div.about_contant section.section2 div.text_contant {\n  width: 40%;\n  margin-left: 10%; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n\ndiv.about div.about_contant section.section2 div.caption {\n  width: 45%;\n  max-width: 450px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.caption {\n      display: none; } }\n\ndiv.about div.about_contant section.section3 {\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%; }\n  div.about div.about_contant section div.fig img {\n    width: 100%; }\n", ""]);
+exports.push([module.i, "div.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 50px;\n  background-position: center; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n  @media (max-width: 1024px) {\n    div.about div.about_head {\n      background-position: right; } }\n\ndiv.about div.about_contant section {\n  padding: 75px 0px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section {\n      padding: 50px 0px; } }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 75px; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.obj {\n      width: 75%;\n      height: 600px;\n      bottom: -200px; } }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.wrap div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n    @media (max-width: 767px) {\n      div.about div.about_contant div.wrap div.text_contant h4 {\n        font-size: 18px; }\n        div.about div.about_contant div.wrap div.text_contant h4.tit {\n          text-align: center; } }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n    @media (max-width: 767px) {\n      div.about div.about_contant section.section1 div.caption {\n        display: none; } }\n\n@media (max-width: 767px) {\n  div.about div.about_contant section.section2 {\n    padding-top: 0; } }\n\ndiv.about div.about_contant section.section2 div.text_contant {\n  width: 40%;\n  margin-left: 10%; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n\ndiv.about div.about_contant section.section2 div.caption {\n  width: 45%;\n  max-width: 450px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.caption {\n      display: none; } }\n\ndiv.about div.about_contant section.section3 {\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%; }\n  div.about div.about_contant section div.fig img {\n    width: 100%; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -217,7 +217,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.mo_nav {\n  width: 100%;\n  height: 100vh;\n  background-color: white;\n  position: fixed;\n  top: 0; }\n  div.mo_nav div.inner {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%); }\n    div.mo_nav div.inner ul li {\n      text-align: center;\n      color: #4682B4;\n      font-size: 20px;\n      margin: 15px 0px;\n      font-weight: bold; }\n      div.mo_nav div.inner ul li p {\n        font-size: 14px;\n        margin: 10px 0px;\n        color: #222;\n        font-weight: normal; }\n\n.fade-enter-active, .fade-leave-active {\n  transition: opacity .1s; }\n\n.fade-enter, .fade-leave-to {\n  opacity: 0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.mo_nav {\n  width: 100%;\n  height: 100vh;\n  background-color: white;\n  position: fixed;\n  top: 0; }\n  div.mo_nav div.inner {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%); }\n    div.mo_nav div.inner ul li {\n      text-align: center;\n      color: #4682B4;\n      font-size: 20px;\n      margin: 15px 0px;\n      font-weight: bold; }\n      div.mo_nav div.inner ul li span {\n        cursor: pointer; }\n        div.mo_nav div.inner ul li span.router-link-active {\n          color: #222;\n          text-decoration: underline; }\n      div.mo_nav div.inner ul li p {\n        cursor: pointer;\n        font-size: 14px;\n        margin: 10px 0px;\n        color: #222;\n        font-weight: normal; }\n\n.fade-enter-active,\n.fade-leave-active {\n  transition: opacity .1s; }\n\n.fade-enter,\n.fade-leave-to {\n  opacity: 0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -236,6 +236,24 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
 exports.push([module.i, "div.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    height: 600px;\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      height: 100%;\n      position: relative; }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\ndiv.home section.section2 {\n  background-color: #f3f3f3; }\n  @media (max-width: 767px) {\n    div.home section.section2 div.wrap {\n      width: 95%; } }\n  div.home section.section2 div.youtubes {\n    text-align: center;\n    margin-top: 10px; }\n    div.home section.section2 div.youtubes div.slide_inner {\n      width: 95%;\n      max-width: 280px;\n      height: 190px;\n      display: inline-block;\n      margin-top: 20px;\n      margin-right: 10px;\n      border: 1px solid #87CEFA;\n      margin: 5px; }\n\ndiv.home section.section3 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.home section.section3 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section3 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section3 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section3 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section3 div.content.news2_info {\n    float: right;\n    overflow: hidden; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content.news2_info {\n        float: initial; } }\n    div.home section.section3 div.content.news2_info div.news2 {\n      height: 180px;\n      padding: 20px 0px;\n      box-sizing: border-box;\n      overflow-y: scroll; }\n      div.home section.section3 div.content.news2_info div.news2 ul li {\n        text-align: left;\n        margin-bottom: 20px; }\n        div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n          vertical-align: middle;\n          display: inline-block;\n          width: 160px;\n          height: 115px;\n          background-color: #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n              max-width: 40%;\n              height: 80px; } }\n        div.home section.section3 div.content.news2_info div.news2 ul li p {\n          height: 100px;\n          vertical-align: top;\n          width: 50%;\n          margin-left: 10px;\n          display: inline-block;\n          overflow: hidden;\n          font-size: 0.875rem; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/product/product.scss":
+/*!***************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/product/product.scss ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "", ""]);
 // Exports
 module.exports = exports;
 
@@ -3744,11 +3762,16 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./about.scss */ "./src/about/about.scss");
 /* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_about_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
 
 const About = {
     template:`<div class='about'>
         <router-view></router-view>
-    </div>`
+    </div>`,
+    created() {
+        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('moNav',false)
+    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
@@ -3971,6 +3994,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header.scss */ "./src/common/header.scss");
 /* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_header_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _common_mo_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/mo_nav */ "./src/common/mo_nav.js");
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
+
 
 
 
@@ -3987,13 +4013,15 @@ const Header = {
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
                 </li>
-                <li>제품 소개
+                <li>
+                    <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
-                        <p>Win-Win Pro</p>
-                        <p>Win-Win Pos</p>
+                        <router-link to='/product/pro' tag='p'>Win-Win Pro</p>
+                        <router-link to='/product/pos' tag='p'>Win-Win Pos</p>
                     </div>
                 </li>
                 <li>
+
                     고객 지원 센터
                     <div class='hidden_menu'>
                         <p>자주하는 질문</p>
@@ -4028,6 +4056,11 @@ const Header = {
                 logo:"image/logo_w.png",
                 logo_b:"image/logo.png"
             }
+        },
+        created() {
+            _eventbus__WEBPACK_IMPORTED_MODULE_2__["default"].$on('moNav',(data)=>{
+                this.moNav = false
+            })
         },
         methods: {
             MoNavOpen(){
@@ -4095,12 +4128,7 @@ const MoNav = {
             <div class='inner'>
                 <ul>
                     <li>
-                        <span>회사소개</span>
-                        <div class='sub_menu'>
-                            <p>CEO 인사말</p>
-                            <p>기업역량</p>
-                            <p>회사소개</p>
-                        </div>
+                        <router-link to='/about' tag='span'>회사 소개</router-link>
                     </li>
                     <li>
                         <span>제품소개</span>
@@ -4121,8 +4149,7 @@ const MoNav = {
                 </ul>
             </div>
         </div>
-    </transition>
-    `,
+    </transition>`
 
 }
 
@@ -4159,6 +4186,20 @@ module.exports = content.locals || {};
 
 /***/ }),
 
+/***/ "./src/eventbus.js":
+/*!*************************!*\
+  !*** ./src/eventbus.js ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const EventBus = new Vue();
+/* harmony default export */ __webpack_exports__["default"] = (EventBus);
+
+/***/ }),
+
 /***/ "./src/main/mainpage.js":
 /*!******************************!*\
   !*** ./src/main/mainpage.js ***!
@@ -4172,8 +4213,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _section1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./section1 */ "./src/main/section1.js");
 /* harmony import */ var _section2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./section2 */ "./src/main/section2.js");
 /* harmony import */ var _section3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./section3 */ "./src/main/section3.js");
-/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./mainpage.scss */ "./src/main/mainpage.scss");
-/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_mainpage_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mainpage.scss */ "./src/main/mainpage.scss");
+/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_mainpage_scss__WEBPACK_IMPORTED_MODULE_5__);
 
 
 
@@ -4184,20 +4226,20 @@ __webpack_require__.r(__webpack_exports__);
 
 const MainPage = {
     template:`<div class='home'>
-        <Slider/>
-        <Section1 />
-        <Section2 />
-        <Section3 />
-        
-    </div>`,
+                <Slider/>
+                <Section1 />
+                <Section2 />
+                <Section3 />
+            </div>`,
     components:{
         Slider: _slider__WEBPACK_IMPORTED_MODULE_0__["default"],
         Section1: _section1__WEBPACK_IMPORTED_MODULE_1__["default"],
         Section2: _section2__WEBPACK_IMPORTED_MODULE_2__["default"],
         Section3: _section3__WEBPACK_IMPORTED_MODULE_3__["default"]
-
-
-    }
+    },
+    created() {
+        _eventbus__WEBPACK_IMPORTED_MODULE_4__["default"].$emit('moNav',false)
+    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (MainPage);
@@ -4523,6 +4565,95 @@ const MainSlider = {
 
 /***/ }),
 
+/***/ "./src/product/pos.js":
+/*!****************************!*\
+  !*** ./src/product/pos.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const pos = {
+    template:`<div>
+        pos
+    </div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (pos);
+
+/***/ }),
+
+/***/ "./src/product/pro.js":
+/*!****************************!*\
+  !*** ./src/product/pro.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const pro = {
+    template:`<div>
+        pro
+    </div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (pro);
+
+/***/ }),
+
+/***/ "./src/product/product.scss":
+/*!**********************************!*\
+  !*** ./src/product/product.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./product.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/product/product.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/product/productpage.js":
+/*!************************************!*\
+  !*** ./src/product/productpage.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./product.scss */ "./src/product/product.scss");
+/* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_product_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+const product = {
+    template:`<div class='product'>
+                <router-view></router-view>
+            </div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (product);
+
+/***/ }),
+
 /***/ "./src/router.js":
 /*!***********************!*\
   !*** ./src/router.js ***!
@@ -4536,6 +4667,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_mainpage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main/mainpage */ "./src/main/mainpage.js");
 /* harmony import */ var _about_aboutpage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about/aboutpage */ "./src/about/aboutpage.js");
 /* harmony import */ var _about_ceo_about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about/ceo_about */ "./src/about/ceo_about.js");
+/* harmony import */ var _product_productpage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./product/productpage */ "./src/product/productpage.js");
+/* harmony import */ var _product_pro__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./product/pro */ "./src/product/pro.js");
+/* harmony import */ var _product_pos__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./product/pos */ "./src/product/pos.js");
+
+
+
 
 
 
@@ -4558,6 +4695,25 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                     path:'',
                     component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
                 },
+            ]
+        },
+        {
+            path:'/product',
+            component:_product_productpage__WEBPACK_IMPORTED_MODULE_4__["default"],
+            name:'product',
+            children:[
+                {
+                    path:'',
+                    component:_product_pro__WEBPACK_IMPORTED_MODULE_5__["default"]
+                },
+                {
+                    path:'pro',
+                    component:_product_pro__WEBPACK_IMPORTED_MODULE_5__["default"]
+                },
+                {
+                    path:'pos',
+                    component:_product_pos__WEBPACK_IMPORTED_MODULE_6__["default"]
+                }
             ]
         }
     ]

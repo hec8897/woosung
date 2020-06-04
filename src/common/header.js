@@ -1,5 +1,7 @@
 import './header.scss';
 import moNav from '../common/mo_nav'
+import EventBus from '../eventbus';
+
 
 const Header = {
     template:`<header >
@@ -14,13 +16,15 @@ const Header = {
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
                 </li>
-                <li>제품 소개
+                <li>
+                    <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
-                        <p>Win-Win Pro</p>
-                        <p>Win-Win Pos</p>
+                        <router-link to='/product/pro' tag='p'>Win-Win Pro</p>
+                        <router-link to='/product/pos' tag='p'>Win-Win Pos</p>
                     </div>
                 </li>
                 <li>
+
                     고객 지원 센터
                     <div class='hidden_menu'>
                         <p>자주하는 질문</p>
@@ -55,6 +59,11 @@ const Header = {
                 logo:"image/logo_w.png",
                 logo_b:"image/logo.png"
             }
+        },
+        created() {
+            EventBus.$on('moNav',(data)=>{
+                this.moNav = false
+            })
         },
         methods: {
             MoNavOpen(){

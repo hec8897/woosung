@@ -26,6 +26,10 @@ div.about{
     div.about_contant{
         section{
             padding: 75px 0px;
+            @media (max-width:767px) {
+                padding: 50px 0px;
+            }
+
         }
         h2{
             text-align: center;
