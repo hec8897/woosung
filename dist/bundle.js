@@ -86,19 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./image/about/ceo_head.jpg":
-/*!**********************************!*\
-  !*** ./image/about/ceo_head.jpg ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/ceo_head.jpg");
-
-/***/ }),
-
 /***/ "./image/about/menu_ceo.jpg":
 /*!**********************************!*\
   !*** ./image/about/menu_ceo.jpg ***!
@@ -149,12 +136,10 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/menu_ceo.jpg */ "./image/about/menu_ceo.jpg");
-var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../image/about/ceo_head.jpg */ "./image/about/ceo_head.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "div.about div.about_ceo div.ceo_head {\n  width: 100%;\n  height: 500px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: cover; }\n\ndiv.about div.about_ceo div.wrap {\n  padding: 100px 0px; }\n  div.about div.about_ceo div.wrap div.caption {\n    width: 100%;\n    height: 300px;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n    div.about div.about_ceo div.wrap div.caption h2 {\n      color: #fff;\n      text-align: center;\n      line-height: 300px;\n      font-weight: bold;\n      font-size: 40px; }\n", ""]);
+exports.push([module.i, "div.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 100px; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 40px;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n\ndiv.about div.about_contant section.section2 {\n  padding-bottom: 100px; }\n  div.about div.about_contant section.section2 div.text_contant {\n    width: 40%;\n    margin-left: 10%; }\n  div.about div.about_contant section.section2 div.caption {\n    width: 45%;\n    max-width: 450px; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%;\n  height: 400px;\n  background-color: #d0d0d0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -214,7 +199,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(255, 255, 255, 0.2); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer; }\n    header div.wrap h1 img {\n      width: 100%; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 25px;\n      font-size: 1.125rem;\n      cursor: pointer; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        position: absolute;\n        width: 100%;\n        text-align: center;\n        top: 100px;\n        z-index: 999;\n        visibility: hidden;\n        opacity: 0.0;\n        transition: 0.1s ease-in; }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin-bottom: 10px; }\n          header div.wrap ul li div p:hover {\n            color: #4682B4; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 767px) {\n        header div.wrap ul li {\n          display: none; } }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%);\n    visibility: hidden; }\n    @media (max-width: 1200px) {\n      header div.wrap div.mo_menu {\n        visibility: initial; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #222;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #222;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n  header:hover div.slide_down {\n    height: 300px; }\n  header:hover div.hidden_menu {\n    visibility: initial;\n    opacity: 1.0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(0, 0, 0, 0.3); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    z-index: 999;\n    position: relative; }\n    header div.wrap h1 img {\n      width: 100%;\n      transition: 0.1s ease-in; }\n      header div.wrap h1 img.default {\n        display: inline; }\n      header div.wrap h1 img.black {\n        display: none; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    z-index: 990;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 25px;\n      font-size: 1.125rem;\n      cursor: pointer;\n      color: white; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        position: absolute;\n        width: 100%;\n        text-align: center;\n        top: 100px;\n        z-index: 999;\n        visibility: hidden;\n        opacity: 0.0;\n        transition: 0.1s ease-in; }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin-bottom: 10px; }\n          header div.wrap ul li div p:hover {\n            color: #4682B4; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 767px) {\n        header div.wrap ul li {\n          display: none; } }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%);\n    visibility: hidden; }\n    @media (max-width: 1200px) {\n      header div.wrap div.mo_menu {\n        visibility: initial; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #222;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #222;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n  header:hover div.slide_down {\n    height: 300px; }\n  header:hover div.wrap h1 img.black {\n    display: inline; }\n  header:hover div.wrap h1 img.default {\n    display: none; }\n  header:hover div.wrap ul li {\n    color: #222; }\n  header:hover div.hidden_menu {\n    visibility: initial;\n    opacity: 1.0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3781,13 +3766,72 @@ const About = {
 __webpack_require__.r(__webpack_exports__);
 const CeoAbout = {
     template:`
-        <div class='about_ceo'>
-            <div class='ceo_head'></div>
-            <div class='wrap'>
-                <div class='caption'>
-                    <h2>우리는 성공한다!</h2>
-                </div>
+        <div class='about_contant'>
+            <div class='about_head'>
+                <h3 class='wrap'>회사 소개</h3>
             </div>
+                <h2>CEO 인사말</h2>
+                <section class='section1'>
+                    <div class='content wrap'>
+                        <div class='text_contant'>
+                            <h4>우리는 성공한다!</h4>
+                            <p>30년전 우성소프트의 사명(社名)은 우성의 프로그램을 
+                            사용하는 모든 고객의 성공을 염원하며 만들어 졌습니다.
+                            30년간 1000개가 넘는 고객사의 선택과 만족, 신뢰를 원동력으로
+                            고객의 성공이 회사의 사명(使命)이 되었습니다.
+                            </p>
+                            <p>
+                                우성소프트의 농자재유통 전문프로그램 WinWin Pro는 농자재 유통 업무에 필요한 판매재고관리,
+                                매출 통계 분석 등의 기능을 사용자 환경에 맞추어 쉽고 간편하게 사용할 수 있도록 현장형 최적화
+                                프로그램으로 개발되었습니다. 또한, PLS와 판매기록제, 세무 업무 지원기능을 통해 농자재 판매
+                                관리인에게 요구되는 대부분의 업무를 프로그램화 하여 사용자가 현장 업무에만 집중 할 수 있도록 서비스 하고 있습니다.
+                            </p>
+                        </div>
+                        <div class='caption'>
+                            <img src='image/about/ceo_caption.jpg'> 
+                        </div>
+                    </div>
+                    <div class='obj'></div>
+                </section>
+
+                <section class='section2'>
+                    <div class='content wrap'>
+                    <div class='caption'>
+                            <img src='image/about/ceo_caption2.jpg'> 
+                        </div>
+                        <div class='text_contant'>
+                        <p>
+                            계속 변화하는 유통 환경과 고객의 요구에 맞추어 우성소프트는 농자재 판매상 전용 판매자 시점 결제 시스템(POS)을
+                            개발하여 전국에 보급하고 있으며 농자재 제조사 및 유통사와 실시간 제품 정보 공유를 통하여 다양한 정보가
+                            전달될 수 있도록 최선을 다하고 있습니다.
+                        </p>
+                        <p>
+                            우성소프트는 앞으로도 고객과 현장에서 늘 함께하는 파트너로써의 자리를 지켜 나가겠습니다.
+                        </p>
+                        <h4>주식 회사 우성 소프트 대표이사 이태권</h4>
+                        </div>
+                  
+                    </div>
+                </section>
+
+                <h2>기업 역량</h2>
+
+                <section class='section3 wrap'>
+                    <div class='fig'></div>
+                </section>
+
+                <h2>회사 소개</h2>
+
+                <section class='section4 wrap'>
+                    <div class='fig'></div>
+                </section>
+
+                <!-- <h2>찾아 오시는길</h2>
+
+                <section class='section5'>지도 미정</section> -->
+
+
+
         </div>`
 }
 
@@ -3926,11 +3970,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Header = {
-    template:`<header>
+    template:`<header >
         <moNav v-bind:show='moNav'/>
 
         <div class='wrap'>
-            <h1><router-link to='/'><img src='image/logo.png'></router-link></h1>
+            <router-link to='/' tag='h1'>
+            <img v-bind:src='logo' class='default'>
+            <img v-bind:src='logo_b' class='black'>
+            </router-link>
             <ul>
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
@@ -3976,12 +4023,21 @@ const Header = {
         },
         data(){
             return{
-                moNav:false
+                headerActive:false,
+                moNav:false,
+                logo:"image/logo_w.png",
+                logo_b:"image/logo.png"
             }
         },
         methods: {
             MoNavOpen(){
                 this.moNav == false?this.moNav = true:this.moNav = false
+            },
+            mouseover(){
+                this.headerActive == false?this.headerActive = true:this.headerActive = false
+            },
+            mouseout(){
+                this.headerActive == false?this.headerActive = false:this.headerActive = true
             }
         },
     }

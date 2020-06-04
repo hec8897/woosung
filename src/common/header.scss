@@ -5,7 +5,7 @@ header{
     width: 100%;
     z-index: 999;
     top: 0px;
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(0,0,0,0.3);
     @media (max-width:767px) {
         padding: 20px 0px;
     }
@@ -15,8 +15,18 @@ header{
             display: inline-block;
             vertical-align: middle;
             cursor: pointer;
+            z-index: 999;
+            position: relative;
             img{
                 width: 100%;
+                transition: 0.1s ease-in;
+                &.default{
+                    display: inline;
+                }
+                &.black{
+                    display: none;
+                }
+               
             }
             @media (max-width:1024px) {
                 width: 130px;
@@ -27,6 +37,7 @@ header{
         }
         ul{
             position: absolute;
+            z-index: 990;
             width: 100%;
             left: 50%;
             top: 50%;
@@ -37,6 +48,7 @@ header{
                 margin: 0px 25px;
                 font-size: 1.125rem;
                 cursor:  pointer;
+                color: white;
                 &::before{
                     display: block;
                     position: relative;
@@ -162,6 +174,16 @@ header{
     &:hover div.slide_down{
         height: 300px;
     }
+    &:hover div.wrap h1 img.black{
+        display: inline;
+    }
+    &:hover div.wrap h1 img.default{
+        display: none;
+    }
+    &:hover div.wrap ul li{
+        color: #222;
+    }
+
     &:hover div.hidden_menu{
         visibility: initial;
         opacity: 1.0;

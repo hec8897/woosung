@@ -2,11 +2,14 @@ import './header.scss';
 import moNav from '../common/mo_nav'
 
 const Header = {
-    template:`<header>
+    template:`<header >
         <moNav v-bind:show='moNav'/>
 
         <div class='wrap'>
-            <h1><router-link to='/'><img src='image/logo.png'></router-link></h1>
+            <router-link to='/' tag='h1'>
+            <img v-bind:src='logo' class='default'>
+            <img v-bind:src='logo_b' class='black'>
+            </router-link>
             <ul>
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
@@ -52,12 +55,21 @@ const Header = {
         },
         data(){
             return{
-                moNav:false
+                headerActive:false,
+                moNav:false,
+                logo:"image/logo_w.png",
+                logo_b:"image/logo.png"
             }
         },
         methods: {
             MoNavOpen(){
                 this.moNav == false?this.moNav = true:this.moNav = false
+            },
+            mouseover(){
+                this.headerActive == false?this.headerActive = true:this.headerActive = false
+            },
+            mouseout(){
+                this.headerActive == false?this.headerActive = false:this.headerActive = true
             }
         },
     }
