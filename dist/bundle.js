@@ -86,6 +86,19 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./image/about/ceo_head.jpg":
+/*!**********************************!*\
+  !*** ./image/about/ceo_head.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/ceo_head.jpg");
+
+/***/ }),
+
 /***/ "./image/about/menu_ceo.jpg":
 /*!**********************************!*\
   !*** ./image/about/menu_ceo.jpg ***!
@@ -251,9 +264,12 @@ module.exports = exports;
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/ceo_head.jpg */ "./image/about/ceo_head.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.product div.pro div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n\ndiv.product div.pro section.section1 {\n  text-align: center;\n  padding-bottom: 200px; }\n  div.product div.pro section.section1 div.icon_box {\n    width: 18%;\n    margin: 10px;\n    max-width: 200px;\n    height: 180px;\n    background-color: #87CEFA;\n    display: inline-block;\n    border-radius: 5px;\n    vertical-align: middle;\n    position: relative;\n    opacity: 0.0;\n    top: 30px; }\n    div.product div.pro section.section1 div.icon_box.active {\n      animation: fadeup .4s ease-in-out;\n      animation-fill-mode: both; }\n    div.product div.pro section.section1 div.icon_box.icon_box1 {\n      background-color: #9fd8fb; }\n    div.product div.pro section.section1 div.icon_box.icon_box2 {\n      background-color: lightskyblue;\n      animation-delay: 0.2s; }\n    div.product div.pro section.section1 div.icon_box.icon_box3 {\n      background-color: #6fc4f9;\n      animation-delay: 0.4s; }\n    div.product div.pro section.section1 div.icon_box.icon_box4 {\n      background-color: #3eb0f7;\n      animation-delay: 0.6s; }\n    div.product div.pro section.section1 div.icon_box.icon_box5 {\n      background-color: #0d9cf5;\n      animation-delay: 0.8s; }\n    div.product div.pro section.section1 div.icon_box div.inner {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%); }\n      div.product div.pro section.section1 div.icon_box div.inner img {\n        width: 60%; }\n    div.product div.pro section.section1 div.icon_box div.outer {\n      width: 100%;\n      position: absolute;\n      top: 115%;\n      left: 50%;\n      transform: translateX(-50%); }\n      div.product div.pro section.section1 div.icon_box div.outer h4 {\n        font-size: 1rem; }\n      div.product div.pro section.section1 div.icon_box div.outer p {\n        font-size: 0.75rem;\n        margin: 5px 0px; }\n\n@keyframes fadeup {\n  0% {\n    opacity: 0.0;\n    top: 30px; }\n  100% {\n    opacity: 1.0;\n    top: 0px; } }\n\ndiv.product div.pro section.section2 {\n  background-color: #f2f2f2; }\n  div.product div.pro section.section2 h2 {\n    font-weight: bold; }\n  div.product div.pro section.section2 div.s2_boxs {\n    text-align: center; }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box {\n      display: inline-block;\n      width: 32%;\n      height: 350px;\n      margin: 20px 0.5%;\n      box-sizing: border-box;\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner {\n        cursor: pointer;\n        width: 100%;\n        height: 100%;\n        background-color: #87CEFA;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        transition: .3s ease-in-out;\n        padding: 50px;\n        box-sizing: border-box; }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box:hover div.inner {\n        opacity: 0.0;\n        visibility: hidden; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4016,8 +4032,8 @@ const Header = {
                 <li>
                     <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
-                        <router-link to='/product/pro' tag='p'>Win-Win Pro</p>
-                        <router-link to='/product/pos' tag='p'>Win-Win Pos</p>
+                        <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
+                        <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
                     </div>
                 </li>
                 <li>
@@ -4594,9 +4610,96 @@ const pos = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 const pro = {
-    template:`<div>
-        pro
-    </div>`
+    template:`<div class='pro'>
+        <div class='head_banner'></div>
+        <section class='section1'>
+            <div class='wrap'>
+                <div class='icon_box icon_box1' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pro_s1_icon1.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>농자재 전문</h4>
+                        <p>작물보호제, 종묘, 비료 등</p>
+                        <p>농자재 전문 판매 재고 관리</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box2' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pro_s1_icon2.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>쉬운 사용법</h4>
+                        <p>수기장부와 같은 화면으로</p>
+                        <p>누구나 사용 가능</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box3' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pro_s1_icon3.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>다양한 기능!</h4>
+                        <p>견적서, 거래명세서 등</p>
+                        <p>다양한 양식 출력!</p>
+                        <p>매출/매입 자료 통계</p>
+                        <p>세무 자료 메일 전송</p>
+                        <p>농약판매기록 전송</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box4' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pro_s1_icon4.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>편리하다!</h4>
+                        <p>최초 1회 고객등록 입력 후</p>
+                        <p>판매/재고관리, 결제까지 한번에!</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box5' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pro_s1_icon5.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>믿을 수 있다!</h4>
+                        <p>30년간 축적된 현장 기술력</p>
+                        <p>클라우드 서버 자동 백업</p>
+                        <p>빠르고 친절한 A/S와 고객만족</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section2'>
+            <div class='wrap'>
+                <h2>제품 주요 기능</h2>
+                <div class='s2_boxs'>
+                    <div class='s2_box1 s2_box'>
+                        <div class='inner'>
+                            <h4>편리한 장부관리, 재고관리</h4>
+                        </div>
+                    </div>
+                    <div class='s2_box2 s2_box'>
+                        <div class='inner'></div>
+                    </div>
+                    <div class='s2_box3 s2_box'>
+                        <div class='inner'></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>`,
+    data(){
+        return{
+            S1B:false,
+        }
+    },
+    mounted() {
+        setTimeout(() => {
+            this.S1B = true
+        }, 500);
+        
+    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (pro);
