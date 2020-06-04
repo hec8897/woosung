@@ -20,19 +20,6 @@ const router = new VueRouter({
                     path:'',
                     component:CeoAbout
                 },
-                {
-                    path:'ceo',
-                    component:CeoAbout
-                },
-                {
-                    path:'ability',
-                    component:CeoAbout
-                },
-                {
-                    path:'company',
-                    component:CeoAbout
-                },
-
             ]
         }
     ]

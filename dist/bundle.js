@@ -139,7 +139,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/me
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "div.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 100px; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 40px;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n\ndiv.about div.about_contant section.section2 {\n  padding-bottom: 100px; }\n  div.about div.about_contant section.section2 div.text_contant {\n    width: 40%;\n    margin-left: 10%; }\n  div.about div.about_contant section.section2 div.caption {\n    width: 45%;\n    max-width: 450px; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%;\n  height: 400px;\n  background-color: #d0d0d0; }\n", ""]);
+exports.push([module.i, "div.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 50px; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 40px;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.about div.about_contant section {\n  padding: 75px 0px; }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 75px; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n\ndiv.about div.about_contant section.section2 div.text_contant {\n  width: 40%;\n  margin-left: 10%; }\n\ndiv.about div.about_contant section.section2 div.caption {\n  width: 45%;\n  max-width: 450px; }\n\ndiv.about div.about_contant section.section3 {\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%; }\n  div.about div.about_contant section div.fig img {\n    width: 100%; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3770,8 +3770,8 @@ const CeoAbout = {
             <div class='about_head'>
                 <h3 class='wrap'>회사 소개</h3>
             </div>
-                <h2>CEO 인사말</h2>
                 <section class='section1'>
+                    <h2>CEO 인사말</h2>
                     <div class='content wrap'>
                         <div class='text_contant'>
                             <h4>우리는 성공한다!</h4>
@@ -3814,16 +3814,20 @@ const CeoAbout = {
                     </div>
                 </section>
 
-                <h2>기업 역량</h2>
 
-                <section class='section3 wrap'>
-                    <div class='fig'></div>
+                <section class='section3'>
+                    <h2>기업 역량</h2>
+                    <div class='fig wrap'>
+                        <img src='image/about/fig1.png'>
+                    </div>
                 </section>
 
-                <h2>회사 소개</h2>
 
-                <section class='section4 wrap'>
-                    <div class='fig'></div>
+                <section class='section4'>
+                    <h2>회사 연혁</h2>
+                    <div class='fig wrap'>
+                        <img src='image/about/fig2.png'>
+                    </div>
                 </section>
 
                 <!-- <h2>찾아 오시는길</h2>
@@ -3981,11 +3985,6 @@ const Header = {
             <ul>
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
-                    <div class='hidden_menu'>
-                        <router-link to='/about/ceo' tag='p'>CEO 인사말</router-link>
-                        <p>기업역량</p>
-                        <p>회사소개</p>
-                    </div>
                 </li>
                 <li>제품 소개
                     <div class='hidden_menu'>
@@ -4558,19 +4557,6 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                     path:'',
                     component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
                 },
-                {
-                    path:'ceo',
-                    component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
-                },
-                {
-                    path:'ability',
-                    component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
-                },
-                {
-                    path:'company',
-                    component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
-                },
-
             ]
         }
     ]

@@ -4,8 +4,8 @@ const CeoAbout = {
             <div class='about_head'>
                 <h3 class='wrap'>회사 소개</h3>
             </div>
-                <h2>CEO 인사말</h2>
                 <section class='section1'>
+                    <h2>CEO 인사말</h2>
                     <div class='content wrap'>
                         <div class='text_contant'>
                             <h4>우리는 성공한다!</h4>
@@ -48,16 +48,20 @@ const CeoAbout = {
                     </div>
                 </section>
 
-                <h2>기업 역량</h2>
 
-                <section class='section3 wrap'>
-                    <div class='fig'></div>
+                <section class='section3'>
+                    <h2>기업 역량</h2>
+                    <div class='fig wrap'>
+                        <img src='image/about/fig1.png'>
+                    </div>
                 </section>
 
-                <h2>회사 소개</h2>
 
-                <section class='section4 wrap'>
-                    <div class='fig'></div>
+                <section class='section4'>
+                    <h2>회사 연혁</h2>
+                    <div class='fig wrap'>
+                        <img src='image/about/fig2.png'>
+                    </div>
                 </section>
 
                 <!-- <h2>찾아 오시는길</h2>

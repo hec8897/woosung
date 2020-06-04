@@ -13,11 +13,6 @@ const Header = {
             <ul>
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
-                    <div class='hidden_menu'>
-                        <router-link to='/about/ceo' tag='p'>CEO 인사말</router-link>
-                        <p>기업역량</p>
-                        <p>회사소개</p>
-                    </div>
                 </li>
                 <li>제품 소개
                     <div class='hidden_menu'>
