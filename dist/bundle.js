@@ -5172,11 +5172,17 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./product.scss */ "./src/product/product.scss");
 /* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_product_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
+
 
 const product = {
     template:`<div class='product'>
                 <router-view></router-view>
-            </div>`
+            </div>`,
+    created() {
+        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('moNav',false)
+    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (product);
