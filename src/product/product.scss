@@ -355,6 +355,7 @@ div.product {
                     background-repeat: repeat-x;
                     background-position: bottom;
                     vertical-align: middle;
+                 
 
                     &>div{
                         width: 100%;
@@ -390,6 +391,18 @@ div.product {
                             font-size: 0.875rem;
                         }
                     }
+                    @media (max-width:767px) {
+                        width: 45%;
+                        &:last-child{
+                            width: 92%;
+                            img{
+                                width: 40%;
+                            }
+                        }
+                        img.arrow{
+                            display: none;
+                        }
+                    }
                 }
 
                 @keyframes leftFade {
@@ -412,9 +425,15 @@ div.product {
                 text-align: center;
                 font-weight: bold;
                 margin-bottom: 100px;
+                @media (max-width:767px) {
+                    margin-bottom: 50px;
+                }
                 &.bot{
                     margin-top: 100px;
                     margin-bottom: 0;
+                    @media (max-width:767px) {
+                        margin-top: 40px;
+                    }
                 }
             }
             div.content{
@@ -429,6 +448,7 @@ div.product {
                 min-height: 500px;
                 @include shadowDefault();
 
+
                 img{
                     width: 60%;
                     margin-bottom: 50px;
@@ -436,6 +456,14 @@ div.product {
                 h3{
                     margin: 20px 0px;
                 }
+
+                @media (max-width:767px) {
+                    width: 90%;
+                    min-height: 400px;
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+
             }
         }
     }
