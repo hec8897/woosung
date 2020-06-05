@@ -36,7 +36,7 @@ const Header = {
                     팜 카페
                 </li>
             </ul>
-            <div class='login_btn'>로그인</div>
+            <!-- <div class='login_btn'>로그인</div> -->
 
             <div class='mo_menu' @click='MoNavOpen' v-bind:class="{active:moNav}">
                 <div></div>

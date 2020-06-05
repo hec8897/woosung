@@ -124,7 +124,7 @@ header{
             top: 40%;
             transform: translateY(-50%);
             visibility: hidden;
-            @media (max-width:1200px) {
+            @media (max-width:767px) {
             visibility: initial;
 
             }
