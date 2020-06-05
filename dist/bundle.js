@@ -125,6 +125,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./image/product/box_bg.gif":
+/*!**********************************!*\
+  !*** ./image/product/box_bg.gif ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/box_bg.gif");
+
+/***/ }),
+
 /***/ "./image/product/pro_capture0.png":
 /*!****************************************!*\
   !*** ./image/product/pro_capture0.png ***!
@@ -420,6 +433,7 @@ var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(/*! ../../image/product/
 var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(/*! ../../image/product/pro_s3_img1.jpg */ "./image/product/pro_s3_img1.jpg");
 var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(/*! ../../image/product/pro_s3_img3.jpg */ "./image/product/pro_s3_img3.jpg");
 var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(/*! ../../image/product/pro_s3_img2.jpg */ "./image/product/pro_s3_img2.jpg");
+var ___CSS_LOADER_URL_IMPORT_12___ = __webpack_require__(/*! ../../image/product/box_bg.gif */ "./image/product/box_bg.gif");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
@@ -433,8 +447,9 @@ var ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);
 var ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);
 var ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);
+var ___CSS_LOADER_URL_REPLACEMENT_12___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_12___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.product div.pro div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n\ndiv.product div.pro section.section1 {\n  text-align: center;\n  padding-bottom: 200px; }\n  @media (max-width: 1024px) {\n    div.product div.pro section.section1 {\n      padding-bottom: 50px; } }\n  div.product div.pro section.section1 div.icon_box {\n    width: 18%;\n    margin: 10px;\n    max-width: 200px;\n    height: 180px;\n    background-color: #87CEFA;\n    display: inline-block;\n    border-radius: 5px;\n    vertical-align: middle;\n    position: relative;\n    opacity: 0.0;\n    top: 30px;\n    text-align: center;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    @media (max-width: 1024px) {\n      div.product div.pro section.section1 div.icon_box {\n        max-width: 170px;\n        margin: 5px;\n        height: 200px; } }\n    @media (max-width: 767px) {\n      div.product div.pro section.section1 div.icon_box {\n        width: 44%;\n        max-width: 44%;\n        margin: 10px; } }\n    @media (max-width: 480px) {\n      div.product div.pro section.section1 div.icon_box {\n        margin: 5px; } }\n    div.product div.pro section.section1 div.icon_box.active {\n      animation: fadeup .4s ease-in-out;\n      animation-fill-mode: both; }\n    div.product div.pro section.section1 div.icon_box.icon_box1 {\n      background-color: lightskyblue;\n      animation-delay: 0s; }\n    div.product div.pro section.section1 div.icon_box.icon_box2 {\n      background-color: #6fc4f9;\n      animation-delay: 0.2s; }\n    div.product div.pro section.section1 div.icon_box.icon_box3 {\n      background-color: #56baf8;\n      animation-delay: 0.4s; }\n    div.product div.pro section.section1 div.icon_box.icon_box4 {\n      background-color: #3eb0f7;\n      animation-delay: 0.6s; }\n    div.product div.pro section.section1 div.icon_box.icon_box5 {\n      background-color: #25a6f6;\n      animation-delay: 0.8s; }\n    div.product div.pro section.section1 div.icon_box div.inner {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%); }\n      div.product div.pro section.section1 div.icon_box div.inner img {\n        width: 60%; }\n      @media (max-width: 767px) {\n        div.product div.pro section.section1 div.icon_box div.inner {\n          top: 30%; }\n          div.product div.pro section.section1 div.icon_box div.inner img {\n            width: 40%; } }\n      @media (max-width: 480px) {\n        div.product div.pro section.section1 div.icon_box div.inner {\n          top: 20%; } }\n    div.product div.pro section.section1 div.icon_box div.outer {\n      width: 100%;\n      position: absolute;\n      top: 115%;\n      left: 50%;\n      transform: translateX(-50%); }\n      div.product div.pro section.section1 div.icon_box div.outer h4 {\n        font-size: 1rem; }\n      div.product div.pro section.section1 div.icon_box div.outer p {\n        font-size: 0.75rem;\n        margin: 5px 0px; }\n      @media (max-width: 767px) {\n        div.product div.pro section.section1 div.icon_box div.outer {\n          top: 55%;\n          color: white; } }\n      @media (max-width: 480px) {\n        div.product div.pro section.section1 div.icon_box div.outer {\n          top: 35%; } }\n\n@keyframes fadeup {\n  0% {\n    opacity: 0.0;\n    top: 30px; }\n  100% {\n    opacity: 1.0;\n    top: 0px; } }\n\ndiv.product div.pro section.section2 {\n  background-color: #f2f2f2; }\n  div.product div.pro section.section2 h2 {\n    font-weight: bold;\n    text-align: center;\n    margin-bottom: 75px; }\n    @media (max-width: 767px) {\n      div.product div.pro section.section2 h2 {\n        margin-bottom: 30px; } }\n  div.product div.pro section.section2 div.s2_boxs {\n    text-align: center; }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box {\n      display: inline-block;\n      width: 32%;\n      height: 350px;\n      margin: 20px 0.5%;\n      box-sizing: border-box;\n      background-size: cover;\n      background-position: center;\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n      @media (max-width: 1024px) {\n        div.product div.pro section.section2 div.s2_boxs div.s2_box {\n          height: 300px; } }\n      @media (max-width: 767px) {\n        div.product div.pro section.section2 div.s2_boxs div.s2_box {\n          width: 48%; } }\n      @media (max-width: 480px) {\n        div.product div.pro section.section2 div.s2_boxs div.s2_box {\n          width: 95%; } }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box0 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box1 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box2 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box3 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box4 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box5 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box6 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box7 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box8 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner {\n        cursor: pointer;\n        width: 100%;\n        height: 100%;\n        background-color: rgba(34, 34, 34, 0.8);\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        transition: .3s ease-in-out;\n        padding: 50px;\n        box-sizing: border-box;\n        color: #f0f0f0; }\n        @media (max-width: 1024px) {\n          div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner {\n            padding: 30px; } }\n        div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner p {\n          margin-top: 40px;\n          text-align: left;\n          font-size: 0.875rem;\n          line-height: 1.5rem; }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box:hover div.inner {\n        opacity: 0.0;\n        visibility: hidden; }\n  div.product div.pro section.section2.slide div.s2_boxs {\n    text-align: center; }\n    div.product div.pro section.section2.slide div.s2_boxs div.s2_box {\n      width: 95%;\n      height: 450px; }\n      @media (max-width: 767px) {\n        div.product div.pro section.section2.slide div.s2_boxs div.s2_box {\n          height: 300px; } }\n\ndiv.product div.pro section.section3 h2 {\n  font-weight: bold;\n  margin-bottom: 80px;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.product div.pro section.section3 h2 {\n      margin-bottom: 50px; } }\n\ndiv.product div.pro section.section3 div.content {\n  padding: 50px 0px;\n  border-bottom: 1px solid #d0d0d0; }\n  @media (max-width: 767px) {\n    div.product div.pro section.section3 div.content h3 {\n      text-align: center;\n      font-size: 22px; } }\n  div.product div.pro section.section3 div.content.content1 {\n    border-top: 1px solid #d0d0d0; }\n  div.product div.pro section.section3 div.content div.img {\n    width: 30%;\n    max-width: 330px;\n    height: 250px;\n    background-color: #d0d0d0;\n    display: inline-block;\n    vertical-align: middle;\n    background-size: cover;\n    background-position: center; }\n    @media (max-width: 767px) {\n      div.product div.pro section.section3 div.content div.img {\n        display: none; } }\n    div.product div.pro section.section3 div.content div.img.img1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + "); }\n    div.product div.pro section.section3 div.content div.img.img2 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_10___ + "); }\n    div.product div.pro section.section3 div.content div.img.img3 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_11___ + "); }\n  div.product div.pro section.section3 div.content ul {\n    width: 65%;\n    display: inline-block;\n    vertical-align: middle;\n    margin: 50px 0px; }\n    @media (max-width: 767px) {\n      div.product div.pro section.section3 div.content ul {\n        width: 100%; } }\n    div.product div.pro section.section3 div.content ul li {\n      font-size: 0.875rem;\n      margin: 15px 0px;\n      position: relative;\n      padding-left: 50px; }\n      @media (max-width: 767px) {\n        div.product div.pro section.section3 div.content ul li {\n          padding-left: 30px; } }\n      div.product div.pro section.section3 div.content ul li b {\n        font-weight: bold; }\n      div.product div.pro section.section3 div.content ul li span {\n        position: absolute;\n        width: 7px;\n        height: 7px;\n        left: 30px;\n        top: 50%;\n        transform: translateY(-50%);\n        background-color: #4682B4;\n        display: inline-block; }\n        @media (max-width: 767px) {\n          div.product div.pro section.section3 div.content ul li span {\n            left: 10px; } }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.product div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n\ndiv.product section.section1 {\n  text-align: center;\n  padding-bottom: 200px; }\n  @media (max-width: 1024px) {\n    div.product section.section1 {\n      padding-bottom: 50px; } }\n  div.product section.section1 div.icon_box {\n    width: 18%;\n    margin: 10px;\n    max-width: 200px;\n    height: 180px;\n    background-color: #87CEFA;\n    display: inline-block;\n    border-radius: 5px;\n    vertical-align: middle;\n    position: relative;\n    opacity: 0.0;\n    top: 30px;\n    text-align: center;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    @media (max-width: 1024px) {\n      div.product section.section1 div.icon_box {\n        max-width: 170px;\n        margin: 5px;\n        height: 200px; } }\n    @media (max-width: 767px) {\n      div.product section.section1 div.icon_box {\n        width: 44%;\n        max-width: 44%;\n        margin: 10px; } }\n    @media (max-width: 480px) {\n      div.product section.section1 div.icon_box {\n        margin: 5px; } }\n    div.product section.section1 div.icon_box.active {\n      animation: fadeup .4s ease-in-out;\n      animation-fill-mode: both; }\n    div.product section.section1 div.icon_box.icon_box1 {\n      background-color: lightskyblue;\n      animation-delay: 0s; }\n    div.product section.section1 div.icon_box.icon_box2 {\n      background-color: #6fc4f9;\n      animation-delay: 0.2s; }\n    div.product section.section1 div.icon_box.icon_box3 {\n      background-color: #56baf8;\n      animation-delay: 0.4s; }\n    div.product section.section1 div.icon_box.icon_box4 {\n      background-color: #3eb0f7;\n      animation-delay: 0.6s; }\n    div.product section.section1 div.icon_box.icon_box5 {\n      background-color: #25a6f6;\n      animation-delay: 0.8s; }\n    div.product section.section1 div.icon_box div.inner {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%); }\n      div.product section.section1 div.icon_box div.inner img {\n        width: 60%; }\n      @media (max-width: 767px) {\n        div.product section.section1 div.icon_box div.inner {\n          top: 30%; }\n          div.product section.section1 div.icon_box div.inner img {\n            width: 40%; } }\n      @media (max-width: 480px) {\n        div.product section.section1 div.icon_box div.inner {\n          top: 20%; } }\n    div.product section.section1 div.icon_box div.outer {\n      width: 100%;\n      position: absolute;\n      top: 115%;\n      left: 50%;\n      transform: translateX(-50%); }\n      div.product section.section1 div.icon_box div.outer h4 {\n        font-size: 1rem; }\n      div.product section.section1 div.icon_box div.outer p {\n        font-size: 0.75rem;\n        margin: 5px 0px; }\n      @media (max-width: 767px) {\n        div.product section.section1 div.icon_box div.outer {\n          top: 55%;\n          color: white; } }\n      @media (max-width: 480px) {\n        div.product section.section1 div.icon_box div.outer {\n          top: 35%; } }\n\n@keyframes fadeup {\n  0% {\n    opacity: 0.0;\n    top: 30px; }\n  100% {\n    opacity: 1.0;\n    top: 0px; } }\n\ndiv.product section.section2 {\n  background-color: #f2f2f2; }\n  div.product section.section2 h2 {\n    font-weight: bold;\n    text-align: center;\n    margin-bottom: 75px; }\n    @media (max-width: 767px) {\n      div.product section.section2 h2 {\n        margin-bottom: 30px; } }\n\ndiv.product div.pro section.section2 div.s2_boxs {\n  text-align: center; }\n  div.product div.pro section.section2 div.s2_boxs div.s2_box {\n    display: inline-block;\n    width: 32%;\n    height: 350px;\n    margin: 20px 0.5%;\n    box-sizing: border-box;\n    background-size: cover;\n    background-position: center;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    @media (max-width: 1024px) {\n      div.product div.pro section.section2 div.s2_boxs div.s2_box {\n        height: 300px; } }\n    @media (max-width: 767px) {\n      div.product div.pro section.section2 div.s2_boxs div.s2_box {\n        width: 48%; } }\n    @media (max-width: 480px) {\n      div.product div.pro section.section2 div.s2_boxs div.s2_box {\n        width: 95%; } }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box0 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box2 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box3 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box4 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box5 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box6 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box7 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box8 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + "); }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner {\n      cursor: pointer;\n      width: 100%;\n      height: 100%;\n      background-color: rgba(34, 34, 34, 0.8);\n      position: absolute;\n      left: 50%;\n      top: 50%;\n      transform: translate(-50%, -50%);\n      transition: .3s ease-in-out;\n      padding: 50px;\n      box-sizing: border-box;\n      color: #f0f0f0; }\n      @media (max-width: 1024px) {\n        div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner {\n          padding: 30px; } }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner p {\n        margin-top: 40px;\n        text-align: left;\n        font-size: 0.875rem;\n        line-height: 1.5rem; }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box:hover div.inner {\n      opacity: 0.0;\n      visibility: hidden; }\n\ndiv.product div.pro section.section2.slide div.s2_boxs {\n  text-align: center; }\n  div.product div.pro section.section2.slide div.s2_boxs div.s2_box {\n    width: 95%;\n    height: 450px; }\n    @media (max-width: 767px) {\n      div.product div.pro section.section2.slide div.s2_boxs div.s2_box {\n        height: 300px; } }\n\ndiv.product div.pro section.section3 h2 {\n  font-weight: bold;\n  margin-bottom: 80px;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.product div.pro section.section3 h2 {\n      margin-bottom: 50px; } }\n\ndiv.product div.pro section.section3 div.content {\n  padding: 50px 0px;\n  border-bottom: 1px solid #d0d0d0; }\n  @media (max-width: 767px) {\n    div.product div.pro section.section3 div.content h3 {\n      text-align: center;\n      font-size: 22px; } }\n  div.product div.pro section.section3 div.content.content1 {\n    border-top: 1px solid #d0d0d0; }\n  div.product div.pro section.section3 div.content div.img {\n    width: 30%;\n    max-width: 330px;\n    height: 250px;\n    background-color: #d0d0d0;\n    display: inline-block;\n    vertical-align: middle;\n    background-size: cover;\n    background-position: center; }\n    @media (max-width: 767px) {\n      div.product div.pro section.section3 div.content div.img {\n        display: none; } }\n    div.product div.pro section.section3 div.content div.img.img1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + "); }\n    div.product div.pro section.section3 div.content div.img.img2 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_10___ + "); }\n    div.product div.pro section.section3 div.content div.img.img3 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_11___ + "); }\n  div.product div.pro section.section3 div.content ul {\n    width: 65%;\n    display: inline-block;\n    vertical-align: middle;\n    margin: 50px 0px; }\n    @media (max-width: 767px) {\n      div.product div.pro section.section3 div.content ul {\n        width: 100%; } }\n    div.product div.pro section.section3 div.content ul li {\n      font-size: 0.875rem;\n      margin: 15px 0px;\n      position: relative;\n      padding-left: 50px; }\n      @media (max-width: 767px) {\n        div.product div.pro section.section3 div.content ul li {\n          padding-left: 30px; } }\n      div.product div.pro section.section3 div.content ul li b {\n        font-weight: bold; }\n      div.product div.pro section.section3 div.content ul li span {\n        position: absolute;\n        width: 7px;\n        height: 7px;\n        left: 30px;\n        top: 50%;\n        transform: translateY(-50%);\n        background-color: #4682B4;\n        display: inline-block; }\n        @media (max-width: 767px) {\n          div.product div.pro section.section3 div.content ul li span {\n            left: 10px; } }\n\ndiv.product div.pos section.section2 div.s2_boxs {\n  text-align: center; }\n  div.product div.pos section.section2 div.s2_boxs div.s2_box {\n    display: inline-block;\n    width: 18%;\n    margin: 5px;\n    height: 300px;\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_12___ + ");\n    background-repeat: repeat-x;\n    background-position: bottom;\n    vertical-align: middle; }\n    div.product div.pos section.section2 div.s2_boxs div.s2_box > div {\n      width: 100%;\n      height: 290px;\n      background-color: white;\n      padding: 20px;\n      padding-top: 40px;\n      box-sizing: border-box;\n      opacity: 0.0;\n      animation: leftFade .4s ease-in-out;\n      animation-fill-mode: both; }\n      div.product div.pos section.section2 div.s2_boxs div.s2_box > div h5 {\n        color: #4682B4; }\n      div.product div.pos section.section2 div.s2_boxs div.s2_box > div h4 {\n        margin-bottom: 20px; }\n      div.product div.pos section.section2 div.s2_boxs div.s2_box > div img {\n        width: 55%; }\n      div.product div.pos section.section2 div.s2_boxs div.s2_box > div img.arrow {\n        width: auto;\n        position: absolute;\n        left: -15%;\n        z-index: 99;\n        top: 50%;\n        transform: translateY(-50%); }\n      div.product div.pos section.section2 div.s2_boxs div.s2_box > div p {\n        margin-top: 20px;\n        font-size: 0.875rem; }\n\n@keyframes leftFade {\n  0% {\n    opacity: 0.0;\n    margin-right: 10px; }\n  100% {\n    opacity: 1.0;\n    margin-right: 0px; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4756,9 +4771,125 @@ const MainSlider = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 const pos = {
-    template:`<div>
-        pos
-    </div>`
+    template:`<div class='pos'>
+                <div class='head_banner'></div>
+                <section class='section1 pos_section'>
+            <div class='wrap'>
+                <div class='icon_box icon_box1' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pos_s1_icon1.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>쉽고 편리하다</h4>
+                        <p>PC활용 능력 최소화</p>
+                        <p>누구나 쉽게 사용가능</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box2' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pos_s1_icon2.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>빠른 처리속도!</h4>
+                        <p>결제와 동시에 판매기록</p>
+                        <p>자동처리</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box3' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pos_s1_icon3.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>자동 매출 관리</h4>
+                        <p>매출기록 손쉽게 확인</p>
+                        <p>농약판매기록-농약안전</p>
+                        <p>정보시스템 전송가능</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box4' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pos_s1_icon4.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>전자서명</h4>
+                        <p>개인정보 동의서 출력 필요없이</p>
+                        <p>전자서명으로 간편하게</p>
+                    </div>
+                </div>
+                <div class='icon_box icon_box5' v-bind:class="{active:S1B}">
+                    <div class='inner'>
+                        <img src='image/product/pos_s1_icon5.png'>
+                    </div>
+                    <div class='outer'>
+                        <h4>믿을 수 있다!</h4>
+                        <p>전국 A/S망과 콜센터 운영</p>
+                        <p>고장 걱정없이 안심하고 사용</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class='section2'>
+            <div class='wrap'>
+                <h2>포스 사용방법</h2>
+                <div class='s2_boxs'>
+                    <div class='s2_box s2_box1'>
+                        <div>
+                            <h5>STEP.1</h5>
+                            <h4>고객확인</h4>
+                            <img src='image/product/pos_s2_icon1.png'>
+                            <p>농약 판매 기록을 위한 고객 확인 절차</p>
+                        </div>
+                    </div>
+                    <div class='s2_box s2_box1'>
+                        <div>
+                            <h5>STEP.2</h5>
+                            <h4>바코드 스캔</h4>
+                            <img src='image/product/pos_s2_icon2.png'>
+                            <p>일반 마트처럼</br> 바코드 스캔</p>
+                            <img src='image/product/icon_arrow.png' class='arrow'>
+                        </div>
+                    </div>
+                    <div class='s2_box s2_box1'>
+                        <div>
+                            <h5>STEP.3</h5>
+                            <h4>장부기록 (자동)</h4>
+                            <img src='image/product/pos_s2_icon3.png'>
+                            <p>제품 정보 자동확인 매출장부에 기록</p>
+                            <img src='image/product/icon_arrow.png' class='arrow'>
+                        </div>
+                    </div>
+                    <div class='s2_box s2_box1'>
+                        <div>
+                            <h5>STEP.4</h5>
+                            <h4>결제</h4>
+                            <img src='image/product/pos_s2_icon4.png'>
+                            <p>결제 금액 확인 </br>현금/카드 결제</p>
+                            <img src='image/product/icon_arrow.png' class='arrow'>
+                        </div>
+                    </div>
+                    <div class='s2_box s2_box1'>
+                        <div>
+                            <h5>STEP.5</h5>
+                            <h4>단말기 전송</h4>
+                            <img src='image/product/pos_s2_icon5.png'>
+                            <p>결제완료 후 </br>자동으로 입금처리</p>
+                            <img src='image/product/icon_arrow.png' class='arrow'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>`,
+        data(){
+            return{
+                S1B:false
+        }},
+    mounted() {
+        setTimeout(() => {
+            this.S1B = true
+        }, 500);
+        
+    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (pos);
@@ -4781,7 +4912,7 @@ __webpack_require__.r(__webpack_exports__);
 const pro = {
     template:`<div class='pro'>
         <div class='head_banner'></div>
-        <section class='section1'>
+        <section class='section1 pro_section'>
             <div class='wrap'>
                 <div class='icon_box icon_box1' v-bind:class="{active:S1B}">
                     <div class='inner'>
@@ -4839,7 +4970,7 @@ const pro = {
                 </div>
             </div>
         </section>
-
+<!-- 
         <section class='section2 normal'>
             <div class='wrap'>
                 <h2>제품 주요 기능(나열방식)</h2>
@@ -4852,7 +4983,7 @@ const pro = {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class='section2 slide'>
                 <h2>제품 주요 기능(슬라이드방식)</h2>

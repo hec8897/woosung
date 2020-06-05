@@ -3,7 +3,7 @@ import { Carousel, Slide } from 'vue-carousel';
 const pro = {
     template:`<div class='pro'>
         <div class='head_banner'></div>
-        <section class='section1'>
+        <section class='section1 pro_section'>
             <div class='wrap'>
                 <div class='icon_box icon_box1' v-bind:class="{active:S1B}">
                     <div class='inner'>
@@ -61,7 +61,7 @@ const pro = {
                 </div>
             </div>
         </section>
-
+<!-- 
         <section class='section2 normal'>
             <div class='wrap'>
                 <h2>제품 주요 기능(나열방식)</h2>
@@ -74,7 +74,7 @@ const pro = {
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <section class='section2 slide'>
                 <h2>제품 주요 기능(슬라이드방식)</h2>
