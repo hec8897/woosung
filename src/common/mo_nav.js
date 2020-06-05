@@ -10,10 +10,10 @@ const MoNav = {
                         <router-link to='/about' tag='span'>회사 소개</router-link>
                     </li>
                     <li>
-                        <span>제품소개</span>
+                        <router-link to='/product' tag='span'>제품 소개</router-link>
                         <div class='sub_menu'>
-                            <p>Win-Win Pro</p>
-                            <p>Win-Win Pos</p>
+                            <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
+                            <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
                         </div>
                     </li>
                     <li>
