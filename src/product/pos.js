@@ -107,6 +107,25 @@ const pos = {
                 </div>
             </div>
         </section>
+        <section class='section3'>
+            <div class='wrap'>
+                <h2><strong>Win-Win Pos</strong> 만의 차별화 된 기능!</h2>
+                <div class='content content1'>
+                    <img src='image/product/pos_s3_img1.png'>
+                    <h3>개인정보이용 동의서 전사서명</h3>
+                    <p>동의 출력한다고 A4용지, 토너(잉크) 소모할 필요없이</p>
+                    <p>서명패드에 서명만 하면 개인정보이용 동의서 서명란에 자동입력!</p>
+                </div>
+                <div class='content content2'>
+                    <img src='image/product/pos_s3_img2.png'>
+                    <h3>개인정보이용 동의서 전사서명</h3>
+                    <p>그동안 매출장부에 일일이 타이핑해서 입력하느라 힘드셨죠?</p>
+                    <p>전송 버튼 한번이면 자동으로 농약 농약 판매기록이 안전정보시스템으로 전송!</p>
+                </div>
+                <h2 class='bot'><strong>Win-Win Pos</strong>는 농자재 유통관리에 최적화 된 서비스를 제공합니다.</h2>
+            </div>
+        </section>
+
     </div>`,
         data(){
             return{

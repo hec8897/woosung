@@ -61,8 +61,7 @@ const pro = {
                 </div>
             </div>
         </section>
-<!-- 
-        <section class='section2 normal'>
+        <!-- <section class='section2 normal'>
             <div class='wrap'>
                 <h2>제품 주요 기능(나열방식)</h2>
                 <div class='s2_boxs'>
@@ -77,7 +76,7 @@ const pro = {
         </section> -->
 
         <section class='section2 slide'>
-                <h2>제품 주요 기능(슬라이드방식)</h2>
+                <h2>제품 주요 기능</h2>
                 <div class='s2_boxs'>
                     <Carousel 
                     :per-page-custom=[[767,3],[350,1]]

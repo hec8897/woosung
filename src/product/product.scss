@@ -380,7 +380,7 @@ div.product {
                         img.arrow{
                             width: auto;
                             position: absolute;
-                            left: -15%;
+                            left: -12.5%;
                             z-index: 99;
                             top: 50%;
                             transform: translateY(-50%);
@@ -402,6 +402,39 @@ div.product {
                         margin-right: 0px;
                     }
                     
+                }
+            }
+        }
+        section.section3{
+            background-color: lighten($color: $MainColor, $amount: 21%);
+            text-align: center;
+            h2{
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 100px;
+                &.bot{
+                    margin-top: 100px;
+                    margin-bottom: 0;
+                }
+            }
+            div.content{
+                width: 47%;
+                display: inline-block;
+                background-color: $white;
+                margin: 10px;
+                padding: 60px 20px;
+                box-sizing: border-box;
+                vertical-align: middle;
+                box-sizing: border-box;
+                min-height: 500px;
+                @include shadowDefault();
+
+                img{
+                    width: 60%;
+                    margin-bottom: 50px;
+                }
+                h3{
+                    margin: 20px 0px;
                 }
             }
         }
