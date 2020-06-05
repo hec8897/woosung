@@ -86,19 +86,6 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./image/about/ceo_head.jpg":
-/*!**********************************!*\
-  !*** ./image/about/ceo_head.jpg ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/ceo_head.jpg");
-
-/***/ }),
-
 /***/ "./image/about/menu_ceo.jpg":
 /*!**********************************!*\
   !*** ./image/about/menu_ceo.jpg ***!
@@ -135,6 +122,162 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/arrow_t.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture0.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture0.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture0.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture1.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture1.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture1.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture2.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture2.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture2.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture3.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture3.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture3.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture4.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture4.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture4.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture5.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture5.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture5.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture6.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture6.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture6.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture7.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture7.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture7.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_capture8.png":
+/*!****************************************!*\
+  !*** ./image/product/pro_capture8.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_capture8.png");
+
+/***/ }),
+
+/***/ "./image/product/pro_s3_img1.jpg":
+/*!***************************************!*\
+  !*** ./image/product/pro_s3_img1.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_s3_img1.jpg");
+
+/***/ }),
+
+/***/ "./image/product/pro_s3_img2.jpg":
+/*!***************************************!*\
+  !*** ./image/product/pro_s3_img2.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_s3_img2.jpg");
+
+/***/ }),
+
+/***/ "./image/product/pro_s3_img3.jpg":
+/*!***************************************!*\
+  !*** ./image/product/pro_s3_img3.jpg ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pro_s3_img3.jpg");
 
 /***/ }),
 
@@ -176,7 +319,7 @@ exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nan
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\n* {\n  margin: 0;\n  padding: 0; }\n\nhtml, body {\n  font-size: 18px;\n  color: #222;\n  font-family: 'Roboto','NanumSquareRound','나눔스퀘어라운드', sans-serif; }\n  @media (max-width: 1024px) {\n    html, body {\n      font-size: 16px; } }\n  @media (max-width: 767px) {\n    html, body {\n      font-size: 14px; } }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i, section {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ninput {\n  display: block;\n  height: 30px;\n  padding: 0 10px;\n  line-height: 30px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ntextarea {\n  padding: 10px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ninput:focus, select:focus, textarea:focus {\n  border: 1px solid #999;\n  background: #f6f6f6;\n  transition: all 0.2s ease; }\n\nselect::-ms-expand {\n  display: none; }\n\nselect {\n  position: relative;\n  display: block;\n  height: 30px;\n  font-weight: 400;\n  box-sizing: border-box;\n  padding: 0 5px;\n  border: 1px solid #e0e0e0;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.2s ease;\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat right;\n  -webkit-appearance: none;\n  -moz-appearance: none; }\n\nselect:focus {\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat right;\n  border: 1px solid #999; }\n\nh2 {\n  font-size: 1.667rem;\n  font-weight: normal; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\n* {\n  margin: 0;\n  padding: 0; }\n\nhtml, body {\n  font-size: 18px;\n  color: #222;\n  font-family: 'Roboto','NanumSquareRound','나눔스퀘어라운드', sans-serif; }\n  @media (max-width: 1024px) {\n    html, body {\n      font-size: 16px; } }\n  @media (max-width: 767px) {\n    html, body {\n      font-size: 14px; } }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i, section {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ninput {\n  display: block;\n  height: 30px;\n  padding: 0 10px;\n  line-height: 30px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ntextarea {\n  padding: 10px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ninput:focus, select:focus, textarea:focus {\n  border: 1px solid #999;\n  background: #f6f6f6;\n  transition: all 0.2s ease; }\n\nselect::-ms-expand {\n  display: none; }\n\nselect {\n  position: relative;\n  display: block;\n  height: 30px;\n  font-weight: 400;\n  box-sizing: border-box;\n  padding: 0 5px;\n  border: 1px solid #e0e0e0;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.2s ease;\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat right;\n  -webkit-appearance: none;\n  -moz-appearance: none; }\n\nselect:focus {\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat right;\n  border: 1px solid #999; }\n\nh2 {\n  font-size: 1.667rem;\n  font-weight: normal; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -212,7 +355,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(0, 0, 0, 0.3); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    z-index: 999;\n    position: relative; }\n    header div.wrap h1 img {\n      width: 100%;\n      transition: 0.1s ease-in; }\n      header div.wrap h1 img.default {\n        display: inline; }\n      header div.wrap h1 img.black {\n        display: none; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    z-index: 990;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 25px;\n      font-size: 1.125rem;\n      cursor: pointer;\n      color: white; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        position: absolute;\n        width: 100%;\n        text-align: center;\n        top: 100px;\n        z-index: 999;\n        visibility: hidden;\n        opacity: 0.0;\n        transition: 0.1s ease-in; }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin-bottom: 10px; }\n          header div.wrap ul li div p:hover {\n            color: #4682B4; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 767px) {\n        header div.wrap ul li {\n          display: none; } }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%);\n    visibility: hidden; }\n    @media (max-width: 1200px) {\n      header div.wrap div.mo_menu {\n        visibility: initial; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #222;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #222;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n  header:hover div.slide_down {\n    height: 300px; }\n  header:hover div.wrap h1 img.black {\n    display: inline; }\n  header:hover div.wrap h1 img.default {\n    display: none; }\n  header:hover div.wrap ul li {\n    color: #222; }\n  header:hover div.hidden_menu {\n    visibility: initial;\n    opacity: 1.0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(0, 0, 0, 0.3); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    z-index: 999;\n    position: relative; }\n    header div.wrap h1 img {\n      width: 100%;\n      transition: 0.1s ease-in; }\n      header div.wrap h1 img.default {\n        display: inline; }\n      header div.wrap h1 img.black {\n        display: none; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    z-index: 990;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 25px;\n      font-size: 1.125rem;\n      cursor: pointer;\n      color: white; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        position: absolute;\n        width: 100%;\n        text-align: center;\n        top: 100px;\n        z-index: 999;\n        visibility: hidden;\n        opacity: 0.0;\n        transition: 0.1s ease-in; }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin-bottom: 10px; }\n          header div.wrap ul li div p:hover {\n            color: #4682B4; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 767px) {\n        header div.wrap ul li {\n          display: none; } }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%);\n    visibility: hidden; }\n    @media (max-width: 1200px) {\n      header div.wrap div.mo_menu {\n        visibility: initial; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #222;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #222;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n  header:hover div.slide_down {\n    height: 300px; }\n  header:hover div.wrap h1 img.black {\n    display: inline; }\n  header:hover div.wrap h1 img.default {\n    display: none; }\n  header:hover div.wrap ul li {\n    color: #222; }\n  header:hover div.hidden_menu {\n    visibility: initial;\n    opacity: 1.0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -230,7 +373,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.mo_nav {\n  width: 100%;\n  height: 100vh;\n  background-color: white;\n  position: fixed;\n  top: 0; }\n  div.mo_nav div.inner {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%); }\n    div.mo_nav div.inner ul li {\n      text-align: center;\n      color: #4682B4;\n      font-size: 20px;\n      margin: 15px 0px;\n      font-weight: bold; }\n      div.mo_nav div.inner ul li span {\n        cursor: pointer; }\n        div.mo_nav div.inner ul li span.router-link-active {\n          color: #222;\n          text-decoration: underline; }\n      div.mo_nav div.inner ul li p {\n        cursor: pointer;\n        font-size: 14px;\n        margin: 10px 0px;\n        color: #222;\n        font-weight: normal; }\n\n.fade-enter-active,\n.fade-leave-active {\n  transition: opacity .1s; }\n\n.fade-enter,\n.fade-leave-to {\n  opacity: 0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.mo_nav {\n  width: 100%;\n  height: 100vh;\n  background-color: white;\n  position: fixed;\n  top: 0; }\n  div.mo_nav div.inner {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%); }\n    div.mo_nav div.inner ul li {\n      text-align: center;\n      color: #4682B4;\n      font-size: 20px;\n      margin: 15px 0px;\n      font-weight: bold; }\n      div.mo_nav div.inner ul li span {\n        cursor: pointer; }\n        div.mo_nav div.inner ul li span.router-link-active {\n          color: #222;\n          text-decoration: underline; }\n      div.mo_nav div.inner ul li p {\n        cursor: pointer;\n        font-size: 14px;\n        margin: 10px 0px;\n        color: #222;\n        font-weight: normal; }\n\n.fade-enter-active,\n.fade-leave-active {\n  transition: opacity .1s; }\n\n.fade-enter,\n.fade-leave-to {\n  opacity: 0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -265,11 +408,33 @@ module.exports = exports;
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/ceo_head.jpg */ "./image/about/ceo_head.jpg");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/product/pro_capture0.png */ "./image/product/pro_capture0.png");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../image/product/pro_capture1.png */ "./image/product/pro_capture1.png");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../../image/product/pro_capture2.png */ "./image/product/pro_capture2.png");
+var ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ../../image/product/pro_capture3.png */ "./image/product/pro_capture3.png");
+var ___CSS_LOADER_URL_IMPORT_4___ = __webpack_require__(/*! ../../image/product/pro_capture4.png */ "./image/product/pro_capture4.png");
+var ___CSS_LOADER_URL_IMPORT_5___ = __webpack_require__(/*! ../../image/product/pro_capture5.png */ "./image/product/pro_capture5.png");
+var ___CSS_LOADER_URL_IMPORT_6___ = __webpack_require__(/*! ../../image/product/pro_capture6.png */ "./image/product/pro_capture6.png");
+var ___CSS_LOADER_URL_IMPORT_7___ = __webpack_require__(/*! ../../image/product/pro_capture7.png */ "./image/product/pro_capture7.png");
+var ___CSS_LOADER_URL_IMPORT_8___ = __webpack_require__(/*! ../../image/product/pro_capture8.png */ "./image/product/pro_capture8.png");
+var ___CSS_LOADER_URL_IMPORT_9___ = __webpack_require__(/*! ../../image/product/pro_s3_img1.jpg */ "./image/product/pro_s3_img1.jpg");
+var ___CSS_LOADER_URL_IMPORT_10___ = __webpack_require__(/*! ../../image/product/pro_s3_img3.jpg */ "./image/product/pro_s3_img3.jpg");
+var ___CSS_LOADER_URL_IMPORT_11___ = __webpack_require__(/*! ../../image/product/pro_s3_img2.jpg */ "./image/product/pro_s3_img2.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
+var ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);
+var ___CSS_LOADER_URL_REPLACEMENT_4___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_4___);
+var ___CSS_LOADER_URL_REPLACEMENT_5___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_5___);
+var ___CSS_LOADER_URL_REPLACEMENT_6___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_6___);
+var ___CSS_LOADER_URL_REPLACEMENT_7___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_7___);
+var ___CSS_LOADER_URL_REPLACEMENT_8___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_8___);
+var ___CSS_LOADER_URL_REPLACEMENT_9___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_9___);
+var ___CSS_LOADER_URL_REPLACEMENT_10___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_10___);
+var ___CSS_LOADER_URL_REPLACEMENT_11___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_11___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.product div.pro div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n\ndiv.product div.pro section.section1 {\n  text-align: center;\n  padding-bottom: 200px; }\n  div.product div.pro section.section1 div.icon_box {\n    width: 18%;\n    margin: 10px;\n    max-width: 200px;\n    height: 180px;\n    background-color: #87CEFA;\n    display: inline-block;\n    border-radius: 5px;\n    vertical-align: middle;\n    position: relative;\n    opacity: 0.0;\n    top: 30px; }\n    div.product div.pro section.section1 div.icon_box.active {\n      animation: fadeup .4s ease-in-out;\n      animation-fill-mode: both; }\n    div.product div.pro section.section1 div.icon_box.icon_box1 {\n      background-color: #9fd8fb; }\n    div.product div.pro section.section1 div.icon_box.icon_box2 {\n      background-color: lightskyblue;\n      animation-delay: 0.2s; }\n    div.product div.pro section.section1 div.icon_box.icon_box3 {\n      background-color: #6fc4f9;\n      animation-delay: 0.4s; }\n    div.product div.pro section.section1 div.icon_box.icon_box4 {\n      background-color: #3eb0f7;\n      animation-delay: 0.6s; }\n    div.product div.pro section.section1 div.icon_box.icon_box5 {\n      background-color: #0d9cf5;\n      animation-delay: 0.8s; }\n    div.product div.pro section.section1 div.icon_box div.inner {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%); }\n      div.product div.pro section.section1 div.icon_box div.inner img {\n        width: 60%; }\n    div.product div.pro section.section1 div.icon_box div.outer {\n      width: 100%;\n      position: absolute;\n      top: 115%;\n      left: 50%;\n      transform: translateX(-50%); }\n      div.product div.pro section.section1 div.icon_box div.outer h4 {\n        font-size: 1rem; }\n      div.product div.pro section.section1 div.icon_box div.outer p {\n        font-size: 0.75rem;\n        margin: 5px 0px; }\n\n@keyframes fadeup {\n  0% {\n    opacity: 0.0;\n    top: 30px; }\n  100% {\n    opacity: 1.0;\n    top: 0px; } }\n\ndiv.product div.pro section.section2 {\n  background-color: #f2f2f2; }\n  div.product div.pro section.section2 h2 {\n    font-weight: bold; }\n  div.product div.pro section.section2 div.s2_boxs {\n    text-align: center; }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box {\n      display: inline-block;\n      width: 32%;\n      height: 350px;\n      margin: 20px 0.5%;\n      box-sizing: border-box;\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner {\n        cursor: pointer;\n        width: 100%;\n        height: 100%;\n        background-color: #87CEFA;\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        transition: .3s ease-in-out;\n        padding: 50px;\n        box-sizing: border-box; }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box:hover div.inner {\n        opacity: 0.0;\n        visibility: hidden; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16   px; } }\n\ndiv.product div.pro div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n\ndiv.product div.pro section.section1 {\n  text-align: center;\n  padding-bottom: 200px; }\n  div.product div.pro section.section1 div.icon_box {\n    width: 18%;\n    margin: 10px;\n    max-width: 200px;\n    height: 180px;\n    background-color: #87CEFA;\n    display: inline-block;\n    border-radius: 5px;\n    vertical-align: middle;\n    position: relative;\n    opacity: 0.0;\n    top: 30px; }\n    div.product div.pro section.section1 div.icon_box.active {\n      animation: fadeup .4s ease-in-out;\n      animation-fill-mode: both; }\n    div.product div.pro section.section1 div.icon_box.icon_box1 {\n      background-color: #9fd8fb; }\n    div.product div.pro section.section1 div.icon_box.icon_box2 {\n      background-color: lightskyblue;\n      animation-delay: 0.2s; }\n    div.product div.pro section.section1 div.icon_box.icon_box3 {\n      background-color: #6fc4f9;\n      animation-delay: 0.4s; }\n    div.product div.pro section.section1 div.icon_box.icon_box4 {\n      background-color: #3eb0f7;\n      animation-delay: 0.6s; }\n    div.product div.pro section.section1 div.icon_box.icon_box5 {\n      background-color: #0d9cf5;\n      animation-delay: 0.8s; }\n    div.product div.pro section.section1 div.icon_box div.inner {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%); }\n      div.product div.pro section.section1 div.icon_box div.inner img {\n        width: 60%; }\n    div.product div.pro section.section1 div.icon_box div.outer {\n      width: 100%;\n      position: absolute;\n      top: 115%;\n      left: 50%;\n      transform: translateX(-50%); }\n      div.product div.pro section.section1 div.icon_box div.outer h4 {\n        font-size: 1rem; }\n      div.product div.pro section.section1 div.icon_box div.outer p {\n        font-size: 0.75rem;\n        margin: 5px 0px; }\n\n@keyframes fadeup {\n  0% {\n    opacity: 0.0;\n    top: 30px; }\n  100% {\n    opacity: 1.0;\n    top: 0px; } }\n\ndiv.product div.pro section.section2 {\n  background-color: #f2f2f2; }\n  div.product div.pro section.section2 h2 {\n    font-weight: bold;\n    text-align: center;\n    margin-bottom: 75px; }\n  div.product div.pro section.section2 div.s2_boxs {\n    text-align: center; }\n    div.product div.pro section.section2 div.s2_boxs div.s2_box {\n      display: inline-block;\n      width: 32%;\n      height: 350px;\n      margin: 20px 0.5%;\n      box-sizing: border-box;\n      background-size: cover;\n      background-position: center; }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box0 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box1 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box2 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box3 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box4 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box5 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box6 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_6___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box7 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_7___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box.s2_box8 {\n        background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_8___ + "); }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner {\n        cursor: pointer;\n        width: 100%;\n        height: 100%;\n        background-color: rgba(34, 34, 34, 0.8);\n        position: absolute;\n        left: 50%;\n        top: 50%;\n        transform: translate(-50%, -50%);\n        transition: .3s ease-in-out;\n        padding: 50px;\n        box-sizing: border-box;\n        color: #f0f0f0; }\n        div.product div.pro section.section2 div.s2_boxs div.s2_box div.inner p {\n          margin-top: 40px;\n          text-align: left;\n          font-size: 0.875rem;\n          line-height: 1.5rem; }\n      div.product div.pro section.section2 div.s2_boxs div.s2_box:hover div.inner {\n        opacity: 0.0;\n        visibility: hidden; }\n  div.product div.pro section.section2.slide div.s2_boxs {\n    text-align: center; }\n    div.product div.pro section.section2.slide div.s2_boxs div.s2_box {\n      width: 95%;\n      height: 450px; }\n\ndiv.product div.pro section.section3 h2 {\n  font-weight: bold;\n  margin-bottom: 80px;\n  text-align: center; }\n\ndiv.product div.pro section.section3 div.content {\n  padding: 50px 0px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.product div.pro section.section3 div.content h3 {\n    text-align: center; }\n  div.product div.pro section.section3 div.content.content1 {\n    border-top: 1px solid #d0d0d0; }\n  div.product div.pro section.section3 div.content div.img {\n    width: 30%;\n    max-width: 330px;\n    height: 250px;\n    background-color: #d0d0d0;\n    display: inline-block;\n    vertical-align: middle;\n    background-size: cover;\n    background-position: center; }\n    div.product div.pro section.section3 div.content div.img.img1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_9___ + "); }\n    div.product div.pro section.section3 div.content div.img.img2 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_10___ + "); }\n    div.product div.pro section.section3 div.content div.img.img3 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_11___ + "); }\n  div.product div.pro section.section3 div.content ul {\n    width: 65%;\n    display: inline-block;\n    vertical-align: middle;\n    margin: 50px 0px; }\n    div.product div.pro section.section3 div.content ul li {\n      font-size: 0.875rem;\n      margin: 15px 0px;\n      position: relative;\n      padding-left: 50px; }\n      div.product div.pro section.section3 div.content ul li b {\n        font-weight: bold; }\n      div.product div.pro section.section3 div.content ul li span {\n        position: absolute;\n        width: 7px;\n        height: 7px;\n        left: 30px;\n        top: 50%;\n        transform: translateY(-50%);\n        background-color: #4682B4;\n        display: inline-block; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4609,6 +4774,10 @@ const pos = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
+
+
 const pro = {
     template:`<div class='pro'>
         <div class='head_banner'></div>
@@ -4670,28 +4839,130 @@ const pro = {
                 </div>
             </div>
         </section>
-        <section class='section2'>
+        <section class='section2 normal'>
             <div class='wrap'>
                 <h2>제품 주요 기능</h2>
                 <div class='s2_boxs'>
-                    <div class='s2_box1 s2_box'>
+                    <div class='s2_box' v-for="(s2Desc,i) in s2Descs" v-bind:class="'s2_box'+i">
                         <div class='inner'>
-                            <h4>편리한 장부관리, 재고관리</h4>
+                            <h4>{{s2Desc.title}}</h4>
+                            <p>{{s2Desc.desc}}</p>
                         </div>
-                    </div>
-                    <div class='s2_box2 s2_box'>
-                        <div class='inner'></div>
-                    </div>
-                    <div class='s2_box3 s2_box'>
-                        <div class='inner'></div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class='section2 slide'>
+                <h2>제품 주요 기능</h2>
+                <div class='s2_boxs'>
+                    <Carousel :perPage='3'>
+                        <Slide v-for="(s2Desc,i) in s2Descs" >
+                            <div class='s2_box' v-bind:class="'s2_box'+i">
+                                <div class='inner'>
+                                    <h4>{{s2Desc.title}}</h4>
+                                    <p>{{s2Desc.desc}}</p>
+                                </div>
+                            </div>
+                        </Slide>
+                    </Carousel>
+                </div>
+        </section>
+        <section class='section3'>
+            <div class='wrap'>
+                <h2><strong>Win-Win Pro</strong>는 </br>농자재 유통관리에 최적화된 서비스를 제공합니다.</h2>
+                <div class="content content1">
+                        <h3>품목, 재고 관리</h3>
+                    <div class='img img1'></div>
+                    <ul class='text'>
+                        <li><span></span> 농업경영업체 등록 자동확인, 부가세-과세, 영세, 면세 구분, 주민등록번호 체크 기능</li>
+                        <li><span></span> 최근 작업한 판매기록 20건을 바로 확인할 수 있는 최근거래고객 기능</li>
+                        <li><span></span> 고객 기본정보 엑셀 파일 저장 기능(성명,주소,주민등록번호 등)</li>
+                        <li><span></span> 고객별 미수금 현황 엑셀 파일 저장 또는 출력 기능</li>
+                        <li><span></span> 간편 추출 검색 기능(특정 제품 구매 고객, 외상금 있는 고객 등)</li>
+                    </ul>
+                </div>
+                <div class="content right">
+                    <h3>123</h3>
+                <div class='img img2'></div>
+
+                    <ul class='text left'>
+                        <li><span></span>농약 제품 PLS(농약허용물질목록 관리제도) 등록제품과 매칭 작업 기능</li>
+                        <li><span></span>품목 일괄 수정 작업 기능 - 품목분류 작업, 등록번호 작업, 바코드 매칭 작업</li>
+                        <li><span></span>농약 검색 기능 - PLS 등록 품목 검색(농진청 최신 DB 자료)</li>
+                        <li><span></span>품목별 부가세 - 부가세, 영세, 면세, 비자료 구분하여 등록</li>
+                        <li><span></span>창고별 재고관리 기능, 재고 조정 작업 기능</li>
+                    </ul>
+
+                </div>
+                <div class="content left">
+                    <h3>123</h3>
+
+                <div class='img img3'></div>
+                    <ul class='text'>
+                        <li><span></span>매입 매출 입력 후 바로 영수증, 거래명세서, 세금계산서 발행 가능</li>
+                        <li><span></span>미수금 장부 엑셀 파일 저장, 출력 및 미수고객 문자보내기 가능</li>
+                        <li><span></span>농어민 판매대장, 독성별 판매대장, 농약혼용표 관리</li>
+                        <li><span></span>단일품목별 판매현황, 푼목별 판매량 및 판매금액 집계</li>
+                        <li><span></span>견적서 양식, 납품확인서(농협납품확인서 포함) 양식 제공</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
     </div>`,
+       components: {
+        Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
+        Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
+      },
     data(){
         return{
             S1B:false,
+            s2Descs:[
+                {
+                    no:1,
+                    title:"편한한 장부관리, 재고 관리",
+                    desc:"농자재 전문 판매 프로그램으로 수기식 장부 입력형식을 채택하여 누구나 쉽게 사용할 수 있습니다. 현장에 꼭 필요한 기능을 담아 사용하기에 편리합니다."
+                },
+                {
+                    no:2,
+                    title:"농약판매기록 농진청 전송",
+                    desc:"농약품목의 경우 PLS와 매칭되어 매출장부 작성할 때 작물 입력하면 농진청전송 메뉴에서 별도 입력없이 농약안전관리시스템으로 전송할 수 있습니다."
+                },
+                {
+                    no:3,
+                    title:"클라우드 환경",
+                    desc:"농자재 전문 판매 프로그램으로 수기식 장부 입력형식을 채택하여 누구나 쉽게 사용할 수 있습니다. 현장에 꼭 필요한 기능을 담아 사용하기에 편리합니다."
+                },
+                {
+                    no:4,
+                    title:"스마트폰 연동 지원",
+                    desc:"Win-Win Pro 앱을 설치하여 언제 어디서나 고객관리, 장부관리가 가능합니다. 병해충 촬영, 전자싸인, CID기능 탑재하여 편리하게 사용할 수 있습니다."
+                },
+                {
+                    no:5,
+                    title:"편리한 세무신고",
+                    desc:"바로빌과 연동되어 쉽고 편하게 전자세금계산서를 발행할 수 있습니다. 매입/매출자료에서 필요한 항목만 추출하여 엑셀파일로 저장할 수 있어 증빙서 업무를 보다 편리하게 할 수 있습니다."
+                },
+                {
+                    no:6,
+                    title:"제품 바코드 인식 시스템",
+                    desc:"시중 유통되는 대부분의 작물보호제 제품 바코드가 등록되어 있으며 제품 목록이 정기적으로 갱신됩니다. 개별 등록 기능으로 신규등록하여 사용할 수 있습니다."
+                },
+                {
+                    no:7,
+                    title:"다양한 문서 양식 제공",
+                    desc:"견적서, 거래명세서, 납품확인서, 미수금확인서, 거래약정서 등 다양한 문서 양식 활용으로 편리한 작업환경을 제공합니다."
+                },
+                {
+                    no:8,
+                    title:"데이터 추출, 가공, 분석",
+                    desc:"필요한 데이터를 추출하여 엑셀파일로 저장하거나 출력할 수 있습니다. 품목분류별 매입/매출 통계 데이터도 한 눈에 확인할 수 있습니다."
+                },
+                {
+                    no:9,
+                    title:"문자 전송 기능",
+                    desc:"대용량 문자발송이 가능한 문자전송 기능을 탑재하여 고객 분별로 정보를 제공하거나 채권업무 관련 문자를 편리하게 전송할 수 있습니다."
+                }
+            ]
         }
     },
     mounted() {
