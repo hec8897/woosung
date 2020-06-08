@@ -10,32 +10,126 @@ const faq = {
             <nav class='lnb faq_lnb'>
                 <ul>
                     <li class='active'>전체</li>
-                    <li>질문1</li>
                     <li>win-win pro</li>
                     <li>win-win pos</li>
                     <li>기타</li>
                 </ul>
             </nav>
             <ul class='faq'>
-                <li><span>Q</span>
-                <p>
-                    <label>질문1</label>
-                    자주하는 질문1</p>
-                </li>
-                <li><span>A</span>
-                <p>
-                    자주하는 질문1  
-                    자주하는 질문1  
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet quisquam error, debitis repellendus dicta maiores non labore incidunt natus mollitia explicabo consectetur. Nesciunt, odio aliquam. Nisi, repudiandae! Corporis, dicta
-                </p>
-                </li>
+                <div v-for='(faq,i) in faqs' v-if="i<10">
+                    <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
+                        <span>Q</span>
+                        <p>
+                        <label>{{faq.cate}}</label>{{faq.tit}}</p>
+                    </li>
+                    <li v-bind:id="'aa'+i" class='beactive'>
+                        <span>A</span>
+                        <p>{{faq.desc}}</p>
+                    </li>
+                </div>
             </ul>
         </div>
         </section>
     </div>`,
     components:{
         board
-    }
+    },
+    data(){
+        return{
+            faqs:[
+                {
+                    no:0,
+                    cate:'win-win pro',
+                    tit:'자주하는 질문 테스트 글입니다 win-win pro',
+                    desc:`자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
+                    자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
+                    자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
+                    자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.`
+                },
+                {
+                    no:1,
+                    cate:'win-win pro',
+                    tit:'win-win pro 자주하는 질문 테스트 글',
+                    desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+
+                },
+                {
+                    no:2,
+                    cate:'win-win pos',
+                    tit:'win-win pos 자주하는 질문 테스트 글',
+                    desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:3,
+                    cate:'기타',
+                    tit:'기타 자주하는 질문 테스트 글',
+                    desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:0,
+                    cate:'win-win pro',
+                    tit:'자주하는 질문 테스트 글입니다 win-win pro',
+                    desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
+                },
+                {
+                    no:4,
+                    cate:'win-win pro',
+                    tit:'win-win pro 자주하는 질문 테스트 글',
+                    desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+
+                },
+                {
+                    no:5,
+                    cate:'win-win pos',
+                    tit:'win-win pos 자주하는 질문 테스트 글',
+                    desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:6,
+                    cate:'기타',
+                    tit:'기타 자주하는 질문 테스트 글',
+                    desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:7,
+                    cate:'win-win pro',
+                    tit:'자주하는 질문 테스트 글입니다 win-win pro',
+                    desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
+                },
+                {
+                    no:8,
+                    cate:'win-win pro',
+                    tit:'win-win pro 자주하는 질문 테스트 글',
+                    desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+
+                },
+                {
+                    no:9,
+                    cate:'win-win pos',
+                    tit:'win-win pos 자주하는 질문 테스트 글',
+                    desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:10,
+                    cate:'기타',
+                    tit:'기타 자주하는 질문 테스트 글',
+                    desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                }
+            ]
+        }
+    },
+    methods: {
+        openAA(i){
+            let target = document.getElementById(`aa${i}`)
+            if(target.className =='beactive'){
+                target.className = 'active'
+            }
+            else{
+                target.className = 'beactive'
+            }
+        }
+
+    },
 }
 
 export default faq;

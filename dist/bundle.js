@@ -372,7 +372,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "div.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 70px;\n    text-align: center;\n    border: 2px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 20%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 70px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #d0d0d0;\n        color: white; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box; }\n    div.board div.faq section.section1 ul.faq li p {\n      margin-left: 50px; }\n    div.board div.faq section.section1 ul.faq li span {\n      position: absolute;\n      left: 20px;\n      top: 50%;\n      transform: translateY(-50%);\n      width: 25px;\n      height: 25px;\n      background-color: #ec6647;\n      text-align: center;\n      line-height: 25px;\n      color: white;\n      border-radius: 100%; }\n    div.board div.faq section.section1 ul.faq li label {\n      color: #999;\n      margin: 0px 10px; }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      background-color: #f9f9f9;\n      padding: 35px 20px; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.down div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n", ""]);
+exports.push([module.i, "div.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 70px;\n    text-align: center;\n    border: 2px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 70px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #d0d0d0;\n        color: white; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li p {\n      margin-left: 50px; }\n    div.board div.faq section.section1 ul.faq li span {\n      position: absolute;\n      left: 20px;\n      top: 50%;\n      transform: translateY(-50%);\n      width: 25px;\n      height: 25px;\n      background-color: #ec6647;\n      text-align: center;\n      line-height: 25px;\n      color: white;\n      border-radius: 100%; }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      background-color: #f9f9f9; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.down div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -4283,32 +4283,126 @@ const faq = {
             <nav class='lnb faq_lnb'>
                 <ul>
                     <li class='active'>전체</li>
-                    <li>질문1</li>
                     <li>win-win pro</li>
                     <li>win-win pos</li>
                     <li>기타</li>
                 </ul>
             </nav>
             <ul class='faq'>
-                <li><span>Q</span>
-                <p>
-                    <label>질문1</label>
-                    자주하는 질문1</p>
-                </li>
-                <li><span>A</span>
-                <p>
-                    자주하는 질문1  
-                    자주하는 질문1  
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt amet quisquam error, debitis repellendus dicta maiores non labore incidunt natus mollitia explicabo consectetur. Nesciunt, odio aliquam. Nisi, repudiandae! Corporis, dicta
-                </p>
-                </li>
+                <div v-for='(faq,i) in faqs' v-if="i<10">
+                    <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
+                        <span>Q</span>
+                        <p>
+                        <label>{{faq.cate}}</label>{{faq.tit}}</p>
+                    </li>
+                    <li v-bind:id="'aa'+i" class='beactive'>
+                        <span>A</span>
+                        <p>{{faq.desc}}</p>
+                    </li>
+                </div>
             </ul>
         </div>
         </section>
     </div>`,
     components:{
         board: _board__WEBPACK_IMPORTED_MODULE_0__["default"]
-    }
+    },
+    data(){
+        return{
+            faqs:[
+                {
+                    no:0,
+                    cate:'win-win pro',
+                    tit:'자주하는 질문 테스트 글입니다 win-win pro',
+                    desc:`자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
+                    자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
+                    자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
+                    자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.`
+                },
+                {
+                    no:1,
+                    cate:'win-win pro',
+                    tit:'win-win pro 자주하는 질문 테스트 글',
+                    desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+
+                },
+                {
+                    no:2,
+                    cate:'win-win pos',
+                    tit:'win-win pos 자주하는 질문 테스트 글',
+                    desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:3,
+                    cate:'기타',
+                    tit:'기타 자주하는 질문 테스트 글',
+                    desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:0,
+                    cate:'win-win pro',
+                    tit:'자주하는 질문 테스트 글입니다 win-win pro',
+                    desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
+                },
+                {
+                    no:4,
+                    cate:'win-win pro',
+                    tit:'win-win pro 자주하는 질문 테스트 글',
+                    desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+
+                },
+                {
+                    no:5,
+                    cate:'win-win pos',
+                    tit:'win-win pos 자주하는 질문 테스트 글',
+                    desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:6,
+                    cate:'기타',
+                    tit:'기타 자주하는 질문 테스트 글',
+                    desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:7,
+                    cate:'win-win pro',
+                    tit:'자주하는 질문 테스트 글입니다 win-win pro',
+                    desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
+                },
+                {
+                    no:8,
+                    cate:'win-win pro',
+                    tit:'win-win pro 자주하는 질문 테스트 글',
+                    desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+
+                },
+                {
+                    no:9,
+                    cate:'win-win pos',
+                    tit:'win-win pos 자주하는 질문 테스트 글',
+                    desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:10,
+                    cate:'기타',
+                    tit:'기타 자주하는 질문 테스트 글',
+                    desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                }
+            ]
+        }
+    },
+    methods: {
+        openAA(i){
+            let target = document.getElementById(`aa${i}`)
+            if(target.className =='beactive'){
+                target.className = 'active'
+            }
+            else{
+                target.className = 'beactive'
+            }
+        }
+
+    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (faq);

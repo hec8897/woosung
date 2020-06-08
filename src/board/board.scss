@@ -31,7 +31,7 @@ div.board{
                     border: 2px solid #666;
                     li{
                         cursor: pointer;
-                        width: 20%;
+                        width: 25%;
                         float: left;
                         height: 100%;
                         border-right: 1px solid #d0d0d0;
@@ -57,6 +57,7 @@ div.board{
                     padding: 25px 10px;
                     border-bottom: 1px solid #d0d0d0;
                     box-sizing: border-box;
+                    cursor: pointer;
                     p{
                         margin-left: 50px;
                     }
@@ -74,6 +75,8 @@ div.board{
                         border-radius: 100%;;
                     }
                     label{
+                        display: inline-block;
+                        width: 130px;
                         color: #999;
                         margin: 0px 10px;
                     }
@@ -82,7 +85,18 @@ div.board{
                     }
                     &:nth-child(2n){
                         background-color: #f9f9f9;
-                        padding: 35px 20px;
+                        p{
+                            font-size: 0.875rem;
+                        }
+                        &.active{
+                            visibility: initial;
+                        }
+                        &.beactive{
+                            visibility: hidden;
+                            height: 0;
+                            padding: 0;
+                        }
+                        
                         span{
                             background-color: #20a6f2;
                         }
