@@ -17,6 +17,9 @@ div.board{
     }
     table{
         width: 100%;
+        max-width: 100%;
+        table-layout: fixed;
+
         thead{
                 td{
                     border-top: 2px solid #222;
@@ -24,15 +27,39 @@ div.board{
         }
         tr{
             width: 100%;
+            max-width: 100%;
             td{
+                @media (max-width:767px) {
+                    width: 30%;
+                    &:nth-child(1){
+                        display: none;
+                    }
+                    &:last-child{
+                        display: none;
+                    }
+                }
                 &:nth-child(3){
                     width: 40%;
+                    text-overflow:ellipsis; 
+                    overflow:hidden; 
+                    white-space:nowrap;
+                    @media (max-width:767px) {
+                        width: 30%;
+                        font-size: 0.875rem;
+                    }
                 }
                 &:nth-child(4){
                     width: 10%;
                     img{
                         width: 20px;
                     }
+                    @media (max-width:1024px) {
+                        width: 25%;
+                        img{
+                            width: 15px;
+                        }
+                    }
+                  
                 }
                 font-size: 0.875rem;
                 border-bottom: 1px solid #666;
@@ -115,6 +142,7 @@ div.board{
                         border-bottom: 0px;
                     }
                     &:nth-child(2n){
+                        padding: 55px 10px;
                         background-color: #f9f9f9;
                         border-bottom: 1px solid #d0d0d0;;
 
@@ -148,6 +176,7 @@ div.board{
             h2{
                 margin-bottom: 30px;
                 font-weight: bold;
+                text-align: center;
             }
         }
     }

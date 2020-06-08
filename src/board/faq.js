@@ -23,8 +23,7 @@ const faq = {
                 <div v-for='(faq,i) in faqs' v-if='i < limit && i >= start'>
                     <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
                         <span>Q</span>
-                        <p>
-                        <label>{{faq.cate}}</label>{{faq.tit}}</p>
+                        <p><label>{{faq.cate}}</label>{{faq.tit}}</p>
                     </li>
                     <li v-bind:id="'aa'+i" class='beactive'>
                         <span>A</span>

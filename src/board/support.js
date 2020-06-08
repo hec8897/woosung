@@ -47,7 +47,7 @@ const support = {
                 {
                     no:0,
                     cate:'장애',
-                    tit:"첫번째 글입니다.",
+                    tit:"첫번째 글입니다. 두번째 글입니다. 두번째 글입니다. 두번째 글입니다. 두번째 글입니다.",
                     hwp:'123.hwp',
                     pdf:null,
                     word:null,
