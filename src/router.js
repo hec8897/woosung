@@ -5,6 +5,10 @@ import CeoAbout from './about/ceo_about'
 import Product from './product/productpage'
 import Pro from './product/pro'
 import Pos from './product/pos'
+import boardPage from './board/boardpage';
+import faq from './board/faq';
+import download from './board/download';
+import support from './board/support';
 
 
 const router = new VueRouter({
@@ -42,6 +46,30 @@ const router = new VueRouter({
                     path:'pos',
                     component:Pos
                 }
+            ]
+        },
+        {
+            path:'/board',
+            component:boardPage,
+            name:'board',
+            children:[
+                {
+                    path:'',
+                    component:faq
+                },
+                {
+                    path:'faq',
+                    component:faq
+                },
+                {
+                    path:'download',
+                    component:download
+                },
+                {
+                    path:'support',
+                    component:support
+                }
+
             ]
         }
     ]
