@@ -19,7 +19,7 @@ const support = {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for='(board,i) in boards' v-if='i < limit && i >= start'>
+                        <router-link v-bind:to="'zoom/'+board.no" tag='tr' v-for='(board,i) in boards' v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
                             <td>{{board.cate}}</td>
                             <td>{{board.tit}}</td>
@@ -30,7 +30,7 @@ const support = {
                                 <img v-if='board.hwp!=null'src='image/board/hwp.png'>
                             </td>
                             <td>{{board.date}}</td>
-                        </tr>
+                        </router-link>
                    
                     </tbody>
                 </table>

@@ -9,6 +9,7 @@ import boardPage from './board/boardpage';
 import faq from './board/faq';
 import qna from './board/qna';
 import support from './board/support';
+import zoom from './board/zoom'
 
 
 const router = new VueRouter({
@@ -67,7 +68,12 @@ const router = new VueRouter({
                 },
                 {
                     path:'support',
-                    component:support
+                    component:support,
+                },
+                {
+                    props:true,
+                    path:'zoom/:idx',
+                    component:zoom
                 }
 
             ]
