@@ -12,6 +12,33 @@ div.board{
             color: #fff;
             text-align: center;
             letter-spacing: 2px;
+            width: 100%;
+        }
+    }
+    table{
+        width: 100%;
+        thead{
+                td{
+                    border-top: 2px solid #222;
+            }
+        }
+        tr{
+            width: 100%;
+            td{
+                &:nth-child(3){
+                    width: 40%;
+                }
+                &:nth-child(4){
+                    width: 10%;
+                    img{
+                        width: 20px;
+                    }
+                }
+                font-size: 0.875rem;
+                border-bottom: 1px solid #666;
+                text-align: center;
+                padding: 10px 0px;
+            }
         }
     }
     div.faq{
@@ -26,7 +53,7 @@ div.board{
                 margin: 30px auto;
                 ul{
                     width: 100%;
-                    height: 70px;
+                    height: 50px;
                     text-align: center;
                     border: 2px solid #666;
                     li{
@@ -37,7 +64,7 @@ div.board{
                         border-right: 1px solid #d0d0d0;
                         transition: .1s ease-in-out;
                         box-sizing: border-box;
-                        line-height: 70px;
+                        line-height: 50px;
                         &.active{
                             background-color: #d0d0d0;
                             color: white;
@@ -79,12 +106,18 @@ div.board{
                         width: 130px;
                         color: #999;
                         margin: 0px 10px;
+                        @media (max-width:1024px) {
+                            display: block;
+                            margin: 0px;
+                        }
                     }
                     &:last-child{
                         border-bottom: 0px;
                     }
                     &:nth-child(2n){
                         background-color: #f9f9f9;
+                        border-bottom: 1px solid #d0d0d0;;
+
                         p{
                             font-size: 0.875rem;
                         }
@@ -110,6 +143,12 @@ div.board{
     div.support{
         div.board_head{
             background-image: url(../../image/board/support_head.jpg);;
+        }
+        section.section1{
+            h2{
+                margin-bottom: 30px;
+                font-weight: bold;
+            }
         }
     }
     div.down{

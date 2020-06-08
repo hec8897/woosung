@@ -2,58 +2,101 @@ $black:#222;
 $white:#fff;
 $PointColor:#4682B4;
 $MainColor:#87CEFA;
-.wrap{
+
+.wrap {
     max-width: 1200px;
     margin: 0 auto;
+
     @media (max-width:1200px) {
         max-width: 98%;
     }
 }
 
-.mo{
+.mo {
     visibility: hidden;
+
     @media (max-width:767px) {
         visibility: initial;
     }
 }
-section{
+
+section {
     padding: 100px 0px;
+
     @media (max-width:767px) {
         padding: 50px 0px;
-        
+
     }
 }
-strong{
+
+strong {
     font-weight: bold;
     color: $PointColor;
 }
 
-span.more{
-        cursor: pointer;
-        position: absolute;
-        right: 0;
-        font-size: 20px;
-        padding: 5px;
-        border-radius: 5px;;
-        transition: .1s ease-in;
-        b{
-            font-size: 16px;
-            @media (max-width:1024px) {
-                font-size: 14px;
-            }
-        }
-        &:hover{
-            background-color: $MainColor;
-            color: $white;
-        }
+span.more {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    ;
+    transition: .1s ease-in;
+
+    b {
+        font-size: 16px;
+
         @media (max-width:1024px) {
-            font-size: 16   px;
+            font-size: 14px;
         }
-     
+    }
+
+    &:hover {
+        background-color: $MainColor;
+        color: $white;
+    }
+
+    @media (max-width:1024px) {
+        font-size: 16 px;
+    }
+
 }
 
 @mixin shadowDefault() {
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.page {
+    clear: both;
+    margin: 30px auto 10px auto;
+    text-align: center;
+    span {
+        cursor: pointer;
+        display: inline-block;
+        border: 1px solid #dfdfdf;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        background: #fff;
+        margin: 2px;
+        b{
+            font-size: 0.75rem;
+        }
+        &.on {
+            border: 1px solid #d90125;
+            color: #d90125;
+        }
+        &:hover{
+            border: 1px solid #d90125;
+            color: #d90125; 
+        }
+        &.none{
+            pointer-events: none;
+            opacity: 0.3
+        }
+    }
 }

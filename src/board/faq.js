@@ -1,5 +1,9 @@
 import board from './board'
+import eventBus from '../eventbus';
+import listNumber from '../common/list-number'
+//모드 변경필요
 const faq = {
+    props:['mode'],
     template:`<div class='faq'>
         <div class='board_head'>
             <h3>자주하는 질문(FAQ)</h3>
@@ -16,7 +20,7 @@ const faq = {
                 </ul>
             </nav>
             <ul class='faq'>
-                <div v-for='(faq,i) in faqs' v-if="i<10">
+                <div v-for='(faq,i) in faqs' v-if='i < limit && i >= start'>
                     <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
                         <span>Q</span>
                         <p>
@@ -28,19 +32,33 @@ const faq = {
                     </li>
                 </div>
             </ul>
+            <listNumber  v-bind:DataLength='Math.ceil((this.faqs.length)/10)' v-bind:nowpage='this.limit-10'/>
         </div>
         </section>
     </div>`,
     components:{
-        board
+        board,
+        listNumber
+    },
+    mounted() {
+        eventBus.$emit('UpdateList', {
+            DataLength: Math.ceil((this.faqs.length) / 10),
+            nowpage: this.limit - 10
+        })
+        eventBus.$on('NextPage', (Data) => {
+            this.start = Data * 10;
+            this.limit = (Data * 10) + 10
+        })
     },
     data(){
         return{
+            limit:10,
+            start:0,
             faqs:[
                 {
                     no:0,
                     cate:'win-win pro',
-                    tit:'자주하는 질문 테스트 글입니다 win-win pro',
+                    tit:'1자주하는 질문 테스트 글입니다 win-win pro',
                     desc:`자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
                     자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
                     자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
@@ -112,7 +130,13 @@ const faq = {
                 {
                     no:10,
                     cate:'기타',
-                    tit:'기타 자주하는 질문 테스트 글',
+                    tit:'2기타 자주하는 질문 테스트 글',
+                    desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
+                },
+                {
+                    no:10,
+                    cate:'기타',
+                    tit:'2기타 자주하는 질문 테스트 글',
                     desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
                 }
             ]

@@ -7,7 +7,7 @@ import Pro from './product/pro'
 import Pos from './product/pos'
 import boardPage from './board/boardpage';
 import faq from './board/faq';
-import download from './board/download';
+import qna from './board/qna';
 import support from './board/support';
 
 
@@ -62,8 +62,8 @@ const router = new VueRouter({
                     component:faq
                 },
                 {
-                    path:'download',
-                    component:download
+                    path:'qna',
+                    component:qna
                 },
                 {
                     path:'support',

@@ -27,8 +27,8 @@ const Header = {
                     <router-link to='/board' tag='span'>고객 지원 센터</router-link>
                     <div class='hidden_menu'>
                         <router-link to='/board/faq' tag='p'>자주하는 질문</router-link>    
-                        <router-link to='/board/support' tag='p'>묻고 답하기</router-link>    
-                        <router-link to='/board/download' tag='p'>고객지원센터</router-link>    
+                        <router-link to='/board/qna' tag='p'>묻고 답하기</router-link>    
+                        <router-link to='/board/support' tag='p'>고객지원센터</router-link>    
                     </div>
                 </li>
                 <li>
