@@ -50,12 +50,23 @@ select:focus{
     border:1px solid #999;
 }
 
+.b_text{
+    color: $PointColor;
+}
+.r_text{
+    color: $redPoint;
+}
 
 h2{
     font-size: 1.667rem;
     font-weight: normal;
 }
-
+h3{
+    font-size: 1.25rem;
+}
+h4{
+    font-size: 1rem;
+}
 table,
 thead,
 tbody,

@@ -26,9 +26,14 @@ const download = {
                         <tr v-for="(board,i) in boards" v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
                             <td>묻고 답하기 <b-icon icon="chevron-compact-right"/> {{board.cate}}</td>
-                            <td>{{board.title}}</td>
-                            <td>{{board.date}}</td>
-                            <td>{{board.status}}</td>
+                            <td v-if="board.public" class='r_text'>비공개 글입니다</td>
+                            <td v-else>{{board.title}}</td>
+                            <td >{{board.date}}</td>
+                            <td>
+                                <span v-if="board.status === '답변완료'" class='b_text'>{{board.status}}</span>
+                                <span v-else-if="board.status === '확인중'" class='r_text'>{{board.status}}</span>
+                                <span v-else>{{board.status}}</span>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -60,26 +65,27 @@ const download = {
                     cate:'win-win pro',
                     title:'장애 신고 (708 에러)',
                     date:'20200408',
-                    status:'문의 확인'
+                    status:'접수중'
                 },
                 {
                     no:0,
                     cate:'win-win pro',
                     title:'장애 신고 (708 에러)',
                     date:'20200408',
-                    status:'문의 확인'
+                    status:'확인중'
                 },
                 {
                     no:0,
                     cate:'win-win pro',
                     title:'장애 신고 (708 에러)',
                     date:'20200408',
-                    status:'문의 확인'
+                    status:'답변완료'
                 },
                 {
                     no:0,
+                    public:true,
                     cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
+                    title:'비밀글입니다',
                     date:'20200408',
                     status:'문의 확인'
                 },
