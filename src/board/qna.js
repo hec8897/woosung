@@ -16,25 +16,25 @@ const download = {
                     <thead>
                         <tr>
                             <td>접수번호</td>
-                            <td>채널 <b-icon icon="chevron-compact-right"/> 분류</td>
+                            <td>분류</td>
                             <td>제목</td>
                             <td>작성일</td>
                             <td>상태</td>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr v-for="(board,i) in boards" v-if='i < limit && i >= start'>
+                        <router-link tag='tr' v-bind:to="'zoomqna/'+board.no" v-for="(board,i) in boards" v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
-                            <td>묻고 답하기 <b-icon icon="chevron-compact-right"/> {{board.cate}}</td>
+                            <td>{{board.cate}}</td>
                             <td v-if="board.public" class='r_text'>비공개 글입니다</td>
                             <td v-else>{{board.title}}</td>
-                            <td >{{board.date}}</td>
                             <td>
                                 <span v-if="board.status === '답변완료'" class='b_text'>{{board.status}}</span>
                                 <span v-else-if="board.status === '확인중'" class='r_text'>{{board.status}}</span>
                                 <span v-else>{{board.status}}</span>
                             </td>
-                        </tr>
+                            <td >{{board.date}}</td>
+                        </router-link>
                     </tbody>
                 </table>
                 <listNumber  v-bind:DataLength='Math.ceil((this.boards.length)/10)' v-bind:nowpage='this.limit-10'/>

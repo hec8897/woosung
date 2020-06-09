@@ -10,6 +10,8 @@ import faq from './board/faq';
 import qna from './board/qna';
 import support from './board/support';
 import zoom from './board/zoom'
+import zoomQna from './board/zoom_qna'
+
 
 
 const router = new VueRouter({
@@ -67,6 +69,11 @@ const router = new VueRouter({
                     component:qna
                 },
                 {
+                    props:true,
+                    path:'zoomqna/:idx',
+                    component:zoomQna
+                },
+                {
                     path:'support',
                     component:support,
                 },
@@ -75,7 +82,6 @@ const router = new VueRouter({
                     path:'zoom/:idx',
                     component:zoom
                 }
-
             ]
         }
     ]

@@ -10,8 +10,8 @@ const zoom = {
                         <div class='wrap'>
                               <div class='zoom_table'>
                                     <div class='head'>
-                                          <p>고객지원센터<b-icon icon="chevron-compact-right"/> {{board.cate}}</p>
-                                          <h4>{{board.tit}}<span>{{board.date}}</span></h4>
+                                          <p>고객지원센터<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{board.date}}</span></p>
+                                          <h4>{{board.tit}}</h4>
                                     </div>
                                     <div class='desc'>
                                           <p>{{board.desc}}</p>

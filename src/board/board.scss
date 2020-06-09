@@ -56,12 +56,16 @@ div.board{
                 &:nth-child(2){
                     width: 10%;
                     color: lighten($color: #222, $amount: 20%);
+                    @media (max-width:767px) {
+                        width: 35%;
+                        font-size: 0.875rem;
+                    }
                 }
                 &:nth-child(3){
                     width: 60%;
                 
                     @media (max-width:767px) {
-                        width: 30%;
+                        width: 40%;
                         font-size: 0.875rem;
                     }
                 }
@@ -90,6 +94,72 @@ div.board{
                 }
           
              
+            }
+        }
+
+    }
+    .zoom{
+        div.zoom_table{
+            width: 100%;
+            border-top: 2px solid #999;
+            div.head{
+                padding: 20px 10px;
+                border-bottom: 1px solid #d0d0d0;
+                p{
+                    margin-bottom: 20px;
+                    font-size: 0.875rem;
+                    color: #666;
+                    span{
+                        float: right;
+                        font-size: 0.75rem;
+                        color: #666;
+                    }
+                }
+                h4{
+                    font-size: 1rem;
+                 
+                }
+            }
+            div.desc{
+                padding: 50px 10px;
+                min-height: 200px;
+                color: #666;
+                border-bottom: 1px solid #d0d0d0;
+                p{
+                    line-height: 1.9rem;
+                }
+                div.answer{
+                    border-top: 1px dashed #999;
+                    margin-top: 50px;
+                    padding:30px 0px;
+                }
+            }
+            div.foot{
+                padding: 20px 10px;
+                border-bottom: 2px solid #999;
+                p{
+                    width: 45%;
+                    display: inline-block;
+                    margin: 5px;
+                }
+
+                img{
+                    width: 20px;
+                    @media (max-width:375px) {
+                        width: 15px;
+                        
+                    }
+                }
+
+                span{
+                    font-size: 0.875rem;
+                    margin: 0px 10px;
+                }
+                svg{
+                    width: 15px;
+                    vertical-align: text-top;
+
+                }
             }
         }
     }
@@ -204,63 +274,7 @@ div.board{
                 font-weight: bold;
                 text-align: center;
             }
-            &.zoom{
-                div.zoom_table{
-                    width: 100%;
-                    border-top: 2px solid #999;
-                    div.head{
-                        padding: 20px 10px;
-                        border-bottom: 1px solid #d0d0d0;
-                        p{
-                            margin-bottom: 20px;
-                            font-size: 0.875rem;
-                            color: #666;
-                        }
-                        h4{
-                            font-size: 1rem;
-                            span{
-                                float: right;
-                                font-size: 0.75rem;
-                                color: #666;
-                            }
-                        }
-                    }
-                    div.desc{
-                        padding: 50px 10px;
-                        min-height: 200px;
-                        color: #666;
-                        border-bottom: 1px solid #d0d0d0;
-                        p{
-                            line-height: 1.9rem;
-                        }
-                    }
-                    div.foot{
-                        padding: 20px 10px;
-                        border-bottom: 2px solid #999;
-                        p{
-                            margin: 5px;
-                        }
-
-                        img{
-                            width: 20px;
-                        }
-
-                        span{
-                            font-size: 0.875rem;
-                            margin: 0px 10px;
-                        }
-                        svg{
-                            width: 15px;
-                            vertical-align: text-top;
-
-                        }
-                    }
-                
-                 
-
-                }
-
-            }
+           
         }
     }
     div.qna{
@@ -286,6 +300,10 @@ div.board{
                     td{
                         &:nth-child(2){
                             width: 20%;
+                            @media (max-width:767px) {
+                                width: 40%;
+                                
+                            }
                         }
                         &:nth-child(3){
                             width: 50%;
