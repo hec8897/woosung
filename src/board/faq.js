@@ -14,8 +14,8 @@ const faq = {
             <nav class='lnb faq_lnb'>
                 <ul>
                     <li class='active'>전체</li>
-                    <li>win-win pro</li>
-                    <li>win-win pos</li>
+                    <li>Win-Win pro</li>
+                    <li>win-Win pos</li>
                     <li>기타</li>
                 </ul>
             </nav>

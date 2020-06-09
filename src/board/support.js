@@ -1,5 +1,6 @@
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number'
+import { BIcon, BIconArrowUp, BIconArrowDown } from 'bootstrap-vue'
 const support = {
     template:`<div class='support'>
         <div class='board_head'>
@@ -12,7 +13,7 @@ const support = {
                     <thead>
                         <tr>
                             <td>번호</td>
-                            <td>분류</td>
+                            <td>채널 <b-icon icon="chevron-compact-right"/> 분류</td>
                             <td>제목</td>
                             <td>첨부파일</td>
                             <td>작성일</td>
@@ -21,7 +22,7 @@ const support = {
                     <tbody>
                         <router-link v-bind:to="'zoom/'+board.no" tag='tr' v-for='(board,i) in boards' v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
-                            <td>{{board.cate}}</td>
+                            <td>채널 <b-icon icon="chevron-compact-right"/> {{board.cate}}</td>
                             <td>{{board.tit}}</td>
                             <td>
                                 <img v-if='board.excel!=null'src='image/board/excel.svg'>
@@ -31,7 +32,6 @@ const support = {
                             </td>
                             <td>{{board.date}}</td>
                         </router-link>
-                   
                     </tbody>
                 </table>
                 <listNumber  v-bind:DataLength='Math.ceil((this.boards.length)/10)' v-bind:nowpage='this.limit-10'/>
@@ -168,7 +168,10 @@ const support = {
         })
     },
     components:{
-        listNumber
-    },
+        listNumber,
+        BIcon,
+        BIconArrowUp,
+        BIconArrowDown
+      },
 }
 export default support;

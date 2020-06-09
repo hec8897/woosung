@@ -3,6 +3,7 @@ $white:#fff;
 $PointColor:#4682B4;
 $MainColor:#87CEFA;
 
+
 .wrap {
     max-width: 1200px;
     margin: 0 auto;
@@ -41,7 +42,6 @@ span.more {
     font-size: 20px;
     padding: 5px;
     border-radius: 5px;
-    ;
     transition: .1s ease-in;
 
     b {
@@ -68,6 +68,26 @@ span.more {
     -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
+
+div.btn{
+    margin: 20px 0px;
+    padding: 8px 30px;
+    border: 1px solid #d0d0d0;
+    display: inline-block;
+    font-size: 0.75rem;
+    transition: .1s ease-in;
+    color: #222;
+    &.active{
+        background-color: $PointColor;
+        color: white;
+    }
+    
+    &:hover{
+        background-color: $PointColor;
+        color: white;
+    }
+}
+
 
 
 .page {

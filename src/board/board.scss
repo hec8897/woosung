@@ -1,3 +1,4 @@
+@import '../define.scss';
 div.board{
     div.board_head{
         width: 100%;
@@ -20,29 +21,45 @@ div.board{
         max-width: 100%;
         table-layout: fixed;
 
+
         thead{
+            background-color: #f9fafc;
                 td{
-                    border-top: 2px solid #222;
+                    border-top: 2px solid #444;
+            }
+        }
+        tbody{
+            tr{
+                cursor: pointer;
+                &:hover{
+                    background-color: #f9f9f9;
+                }
             }
         }
         tr{
             width: 100%;
             max-width: 100%;
             td{
-                @media (max-width:767px) {
-                    width: 30%;
-                    &:nth-child(1){
-                        display: none;
-                    }
-                    &:last-child{
-                        display: none;
-                    }
+                font-size: 0.75rem;
+                border-bottom: 1px solid #d0d0d0;
+                padding: 20px 5px;
+                text-overflow:ellipsis; 
+                overflow:hidden; 
+                white-space:nowrap;
+
+
+                &:nth-child(1){
+                    width: 8%;
+                    text-align: center;
+
+                }
+                &:nth-child(2){
+                    width: 10%;
+                    color: lighten($color: #222, $amount: 20%);
                 }
                 &:nth-child(3){
-                    width: 40%;
-                    text-overflow:ellipsis; 
-                    overflow:hidden; 
-                    white-space:nowrap;
+                    width: 60%;
+                
                     @media (max-width:767px) {
                         width: 30%;
                         font-size: 0.875rem;
@@ -59,12 +76,20 @@ div.board{
                             width: 15px;
                         }
                     }
-                  
                 }
-                font-size: 0.875rem;
-                border-bottom: 1px solid #666;
-                text-align: center;
-                padding: 10px 0px;
+
+
+                @media (max-width:767px) {
+                    width: 30%;
+                    &:nth-child(1){
+                        display: none;
+                    }
+                    &:last-child{
+                        display: none;
+                    }
+                }
+          
+             
             }
         }
     }
@@ -74,6 +99,7 @@ div.board{
         }
         section.section1{
             h2{
+                font-weight: bold;
                 text-align: center;
             }
             nav.faq_lnb{
@@ -82,7 +108,7 @@ div.board{
                     width: 100%;
                     height: 50px;
                     text-align: center;
-                    border: 2px solid #666;
+                    border: 1px solid #666;
                     li{
                         cursor: pointer;
                         width: 25%;
@@ -178,11 +204,94 @@ div.board{
                 font-weight: bold;
                 text-align: center;
             }
+            &.zoom{
+                div.zoom_table{
+                    width: 100%;
+                    border-top: 2px solid #999;
+                    div.head{
+                        padding: 20px 10px;
+                        border-bottom: 1px solid #d0d0d0;
+                        p{
+                            margin-bottom: 20px;
+                            font-size: 0.875rem;
+                            color: #666;
+                        }
+                        h4{
+                            font-size: 1rem;
+                            span{
+                                float: right;
+                                font-size: 0.75rem;
+                                color: #666;
+                            }
+                        }
+                    }
+                    div.desc{
+                        padding: 50px 10px;
+                        min-height: 200px;
+                        color: #666;
+                        border-bottom: 1px solid #d0d0d0;
+                        p{
+                            line-height: 1.9rem;
+                        }
+                    }
+                    div.foot{
+                        padding: 20px 10px;
+                        border-bottom: 2px solid #999;
+                        p{
+                            margin: 5px;
+                        }
+
+                        img{
+                            width: 20px;
+                        }
+
+                        span{
+                            font-size: 0.875rem;
+                            margin: 0px 10px;
+                        }
+                        svg{
+                            width: 15px;
+                            vertical-align: text-top;
+
+                        }
+                    }
+                
+                 
+
+                }
+
+            }
         }
     }
-    div.down{
+    div.qna{
         div.board_head{
             background-image: url(../../image/board/download_head.jpg);;
+        }
+        section.section1{
+            h2{
+                margin-bottom: 30px;
+                font-weight: bold;
+                text-align: center;
+            }
+            nav{
+                width: 100%;
+                div{
+                    display: inline-block;
+                    margin-right: 10px;
+                    margin-top: 0;
+                    margin-bottom: 10px;
+                }
+            }
+            table{
+                    td{
+                        &:nth-child(2){
+                            width: 20%;
+                        }
+                        &:nth-child(3){
+                            width: 55%;
+                        }
+                    }
+            }
         }
     }
 }
