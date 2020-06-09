@@ -27,6 +27,7 @@ const zoomQna = {
                                     </div>
                               </div>
                               <router-link tag='div'  to="/board/qna" class='btn'>목록</router-link>
+                              <div class='btn red'>삭제</div>
                         </div>
                     </section>
                 </div>`,

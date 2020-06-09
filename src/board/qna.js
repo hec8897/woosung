@@ -9,10 +9,15 @@ const download = {
             <div class='wrap'>
                 <h2>묻고 답하기</h2>
                 <nav>
-                    <div class='btn' v-bind:class="{active:boardMode}">문의 게시판</div>
-                    <div class='btn' v-bind:class="{active:writeMode}">문의하기</div>
+                    <div class='btn' @click="changeMode" v-if="writeMode">문의 게시판</div>
+                    <div class='btn' @click="changeMode" v-if="boardMode">문의하기</div>
                 </nav>
-                <table>
+                <div class='write_table zoom' v-if="writeMode">
+                    <div class='zoom_table'>
+                        123
+                    </div>
+                </div>
+                <table v-if="boardMode">
                     <thead>
                         <tr>
                             <td>접수번호</td>
@@ -37,7 +42,7 @@ const download = {
                         </router-link>
                     </tbody>
                 </table>
-                <listNumber  v-bind:DataLength='Math.ceil((this.boards.length)/10)' v-bind:nowpage='this.limit-10'/>
+                <listNumber v-if="boardMode" v-bind:DataLength='Math.ceil((this.boards.length)/10)' v-bind:nowpage='this.limit-10'/>
 
             </div>
         </section>
@@ -173,6 +178,10 @@ const download = {
         listNumber
     },
     methods: {
+        changeMode(){
+            this.boardMode == true?this.boardMode = false:this.boardMode = true
+            this.writeMode == true?this.writeMode = false:this.writeMode = true
+        }
         
     },
 }

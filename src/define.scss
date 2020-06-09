@@ -78,15 +78,23 @@ div.btn{
     font-size: 0.75rem;
     transition: .1s ease-in;
     color: #222;
+    &:hover{
+        background-color: $PointColor;
+        color: white;
+    }
+    &.red{
+        &:hover{
+            background-color: $redPoint;
+            color: $white;
+
+        }
+    }
     &.active{
         background-color: $PointColor;
         color: white;
     }
     
-    &:hover{
-        background-color: $PointColor;
-        color: white;
-    }
+    
 }
 
 
