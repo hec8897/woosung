@@ -59687,9 +59687,7 @@ const boardPage = {
     template:`<div class='board'>
                     <router-view></router-view>
                </div>`,
-                 created() {
-                    _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
-                },
+                 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (boardPage);
@@ -59748,6 +59746,9 @@ const faq = {
     components:{
         board: _board__WEBPACK_IMPORTED_MODULE_0__["default"],
         listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_2__["default"]
+    },
+    created() {
+        EventBus.$emit('moNav',false)
     },
     mounted() {
         _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
@@ -59978,6 +59979,7 @@ const download = {
         </section>
     </div>`,
     created() {
+        EventBus.$emit('moNav',false)
         // this.login = this.$store.state.login;
     },
     mounted() {
@@ -60183,6 +60185,9 @@ const support = {
             </div>
         </section>
     </div>`,
+    created() {
+        EventBus.$emit('moNav',false)
+    },
     data(){
         return{
             start:0,

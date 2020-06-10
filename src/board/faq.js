@@ -39,6 +39,9 @@ const faq = {
         board,
         listNumber
     },
+    created() {
+        EventBus.$emit('moNav',false)
+    },
     mounted() {
         eventBus.$emit('UpdateList', {
             DataLength: Math.ceil((this.faqs.length) / 10),

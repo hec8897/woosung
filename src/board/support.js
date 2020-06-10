@@ -39,6 +39,9 @@ const support = {
             </div>
         </section>
     </div>`,
+    created() {
+        EventBus.$emit('moNav',false)
+    },
     data(){
         return{
             start:0,
