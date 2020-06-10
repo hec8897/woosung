@@ -6,15 +6,17 @@ div.home{
             background-color: #87CEFA;
             div.inner{
                 width: 100%;
-                background-image: url(../../image/slide1_bg.png);
                 position: relative;
+                background-size: cover;
+
             }
             div.inner_1{
-                position: relative;
+                background-image: url(../../image/slide1_bg.png);
                 div.slide_content{
                     width: 100%;
-                    height: 600px;
+                    height: 800px;
                     background-color: rgba($color: #222, $alpha: 0.3);
+
                     &>div{
                         width: 100%;
                         position: absolute;
@@ -26,14 +28,14 @@ div.home{
                         text-align: center;
                         font-weight: bold;;
                         color: #fff;
-                        font-size: 2rem;
+                        font-size: 3rem;
                         margin: 20px 0px;
                         @media (max-width:767px) {
                             font-size: 1.75rem;
                         }
                     }
                     h4{
-                        font-size: 1.5rem;
+                        font-size: 2rem;
                         text-align: center;
                         color: #fff;
                         @media (max-width:767px) {

@@ -42461,7 +42461,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      text-overflow: ellipsis;\n      overflow: hidden;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #555555; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center;\n    border: 1px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #d0d0d0;\n        color: white; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li p {\n      margin-left: 50px; }\n    div.board div.faq section.section1 ul.faq li span {\n      position: absolute;\n      left: 20px;\n      top: 50%;\n      transform: translateY(-50%);\n      width: 25px;\n      height: 25px;\n      background-color: #ec6647;\n      text-align: center;\n      line-height: 25px;\n      color: white;\n      border-radius: 100%; }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #d0d0d0; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      text-overflow: ellipsis;\n      overflow: hidden;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #555555; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center;\n    border: 1px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #d0d0d0;\n        color: white; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li p {\n      margin-left: 50px; }\n    div.board div.faq section.section1 ul.faq li span {\n      position: absolute;\n      left: 20px;\n      top: 50%;\n      transform: translateY(-50%);\n      width: 25px;\n      height: 25px;\n      background-color: #ec6647;\n      text-align: center;\n      line-height: 25px;\n      color: white;\n      border-radius: 100%; }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -42528,6 +42528,24 @@ module.exports = exports;
 
 /***/ }),
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/login_page.scss":
+/*!*****************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/login_page.scss ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nsection.login_page h2 {\n  text-align: center; }\n\nsection.login_page ul {\n  margin-top: 50px; }\n  section.login_page ul li {\n    width: 98%;\n    max-width: 450px;\n    height: 60px;\n    margin: 20px auto; }\n    section.login_page ul li input {\n      width: 100%;\n      height: 100%; }\n    section.login_page ul li div.btn {\n      width: 100%;\n      height: 100%;\n      line-height: 60px;\n      padding: 0;\n      background-color: #4682B4;\n      font-size: 1.125rem;\n      color: white;\n      margin-top: 0px; }\n      section.login_page ul li div.btn:hover {\n        background-color: #699bc4; }\n  section.login_page ul p {\n    width: 100%;\n    max-width: 450px;\n    margin: 10px auto; }\n    section.login_page ul p a {\n      float: right;\n      text-decoration: underline; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/monav.scss":
 /*!************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/monav.scss ***!
@@ -42560,7 +42578,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/slide1_b
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "div.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n      position: relative; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      position: relative; }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 600px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 50%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 2rem;\n          margin: 20px 0px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 1.5rem;\n          text-align: center;\n          color: #fff; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\ndiv.home section.section2 {\n  background-color: #f3f3f3; }\n  @media (max-width: 767px) {\n    div.home section.section2 div.wrap {\n      width: 95%; } }\n  div.home section.section2 div.youtubes {\n    text-align: center;\n    margin-top: 10px; }\n    div.home section.section2 div.youtubes div.slide_inner {\n      width: 95%;\n      max-width: 280px;\n      height: 190px;\n      display: inline-block;\n      margin-top: 20px;\n      margin-right: 10px;\n      border: 1px solid #87CEFA;\n      margin: 5px; }\n\ndiv.home section.section3 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.home section.section3 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section3 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section3 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section3 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section3 div.content.news2_info {\n    float: right;\n    overflow: hidden; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content.news2_info {\n        float: initial; } }\n    div.home section.section3 div.content.news2_info div.news2 {\n      height: 180px;\n      padding: 20px 0px;\n      box-sizing: border-box;\n      overflow-y: scroll; }\n      div.home section.section3 div.content.news2_info div.news2 ul li {\n        text-align: left;\n        margin-bottom: 20px; }\n        div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n          vertical-align: middle;\n          display: inline-block;\n          width: 160px;\n          height: 115px;\n          background-color: #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n              max-width: 40%;\n              height: 80px; } }\n        div.home section.section3 div.content.news2_info div.news2 ul li p {\n          height: 100px;\n          vertical-align: top;\n          width: 50%;\n          margin-left: 10px;\n          display: inline-block;\n          overflow: hidden;\n          font-size: 0.875rem; }\n", ""]);
+exports.push([module.i, "div.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      position: relative;\n      background-size: cover; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 800px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 50%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 3rem;\n          margin: 20px 0px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 2rem;\n          text-align: center;\n          color: #fff; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\ndiv.home section.section2 {\n  background-color: #f3f3f3; }\n  @media (max-width: 767px) {\n    div.home section.section2 div.wrap {\n      width: 95%; } }\n  div.home section.section2 div.youtubes {\n    text-align: center;\n    margin-top: 10px; }\n    div.home section.section2 div.youtubes div.slide_inner {\n      width: 95%;\n      max-width: 280px;\n      height: 190px;\n      display: inline-block;\n      margin-top: 20px;\n      margin-right: 10px;\n      border: 1px solid #87CEFA;\n      margin: 5px; }\n\ndiv.home section.section3 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.home section.section3 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section3 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section3 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section3 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section3 div.content.news2_info {\n    float: right;\n    overflow: hidden; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content.news2_info {\n        float: initial; } }\n    div.home section.section3 div.content.news2_info div.news2 {\n      height: 180px;\n      padding: 20px 0px;\n      box-sizing: border-box;\n      overflow-y: scroll; }\n      div.home section.section3 div.content.news2_info div.news2 ul li {\n        text-align: left;\n        margin-bottom: 20px; }\n        div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n          vertical-align: middle;\n          display: inline-block;\n          width: 160px;\n          height: 115px;\n          background-color: #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n              max-width: 40%;\n              height: 80px; } }\n        div.home section.section3 div.content.news2_info div.news2 ul li p {\n          height: 100px;\n          vertical-align: top;\n          width: 50%;\n          margin-left: 10px;\n          display: inline-block;\n          overflow: hidden;\n          font-size: 0.875rem; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -58268,6 +58286,1119 @@ if (inBrowser) {
 
 /***/ }),
 
+/***/ "./node_modules/vuex/dist/vuex.esm.js":
+/*!********************************************!*\
+  !*** ./node_modules/vuex/dist/vuex.esm.js ***!
+  \********************************************/
+/*! exports provided: default, Store, createNamespacedHelpers, install, mapActions, mapGetters, mapMutations, mapState */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* WEBPACK VAR INJECTION */(function(global) {/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Store", function() { return Store; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createNamespacedHelpers", function() { return createNamespacedHelpers; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "install", function() { return install; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapActions", function() { return mapActions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapGetters", function() { return mapGetters; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapMutations", function() { return mapMutations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapState", function() { return mapState; });
+/*!
+ * vuex v3.4.0
+ * (c) 2020 Evan You
+ * @license MIT
+ */
+function applyMixin (Vue) {
+  var version = Number(Vue.version.split('.')[0]);
+
+  if (version >= 2) {
+    Vue.mixin({ beforeCreate: vuexInit });
+  } else {
+    // override init and inject vuex init procedure
+    // for 1.x backwards compatibility.
+    var _init = Vue.prototype._init;
+    Vue.prototype._init = function (options) {
+      if ( options === void 0 ) options = {};
+
+      options.init = options.init
+        ? [vuexInit].concat(options.init)
+        : vuexInit;
+      _init.call(this, options);
+    };
+  }
+
+  /**
+   * Vuex init hook, injected into each instances init hooks list.
+   */
+
+  function vuexInit () {
+    var options = this.$options;
+    // store injection
+    if (options.store) {
+      this.$store = typeof options.store === 'function'
+        ? options.store()
+        : options.store;
+    } else if (options.parent && options.parent.$store) {
+      this.$store = options.parent.$store;
+    }
+  }
+}
+
+var target = typeof window !== 'undefined'
+  ? window
+  : typeof global !== 'undefined'
+    ? global
+    : {};
+var devtoolHook = target.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+
+function devtoolPlugin (store) {
+  if (!devtoolHook) { return }
+
+  store._devtoolHook = devtoolHook;
+
+  devtoolHook.emit('vuex:init', store);
+
+  devtoolHook.on('vuex:travel-to-state', function (targetState) {
+    store.replaceState(targetState);
+  });
+
+  store.subscribe(function (mutation, state) {
+    devtoolHook.emit('vuex:mutation', mutation, state);
+  }, { prepend: true });
+
+  store.subscribeAction(function (action, state) {
+    devtoolHook.emit('vuex:action', action, state);
+  }, { prepend: true });
+}
+
+/**
+ * Get the first item that pass the test
+ * by second argument function
+ *
+ * @param {Array} list
+ * @param {Function} f
+ * @return {*}
+ */
+
+/**
+ * forEach for object
+ */
+function forEachValue (obj, fn) {
+  Object.keys(obj).forEach(function (key) { return fn(obj[key], key); });
+}
+
+function isObject (obj) {
+  return obj !== null && typeof obj === 'object'
+}
+
+function isPromise (val) {
+  return val && typeof val.then === 'function'
+}
+
+function assert (condition, msg) {
+  if (!condition) { throw new Error(("[vuex] " + msg)) }
+}
+
+function partial (fn, arg) {
+  return function () {
+    return fn(arg)
+  }
+}
+
+// Base data struct for store's module, package with some attribute and method
+var Module = function Module (rawModule, runtime) {
+  this.runtime = runtime;
+  // Store some children item
+  this._children = Object.create(null);
+  // Store the origin module object which passed by programmer
+  this._rawModule = rawModule;
+  var rawState = rawModule.state;
+
+  // Store the origin module's state
+  this.state = (typeof rawState === 'function' ? rawState() : rawState) || {};
+};
+
+var prototypeAccessors = { namespaced: { configurable: true } };
+
+prototypeAccessors.namespaced.get = function () {
+  return !!this._rawModule.namespaced
+};
+
+Module.prototype.addChild = function addChild (key, module) {
+  this._children[key] = module;
+};
+
+Module.prototype.removeChild = function removeChild (key) {
+  delete this._children[key];
+};
+
+Module.prototype.getChild = function getChild (key) {
+  return this._children[key]
+};
+
+Module.prototype.hasChild = function hasChild (key) {
+  return key in this._children
+};
+
+Module.prototype.update = function update (rawModule) {
+  this._rawModule.namespaced = rawModule.namespaced;
+  if (rawModule.actions) {
+    this._rawModule.actions = rawModule.actions;
+  }
+  if (rawModule.mutations) {
+    this._rawModule.mutations = rawModule.mutations;
+  }
+  if (rawModule.getters) {
+    this._rawModule.getters = rawModule.getters;
+  }
+};
+
+Module.prototype.forEachChild = function forEachChild (fn) {
+  forEachValue(this._children, fn);
+};
+
+Module.prototype.forEachGetter = function forEachGetter (fn) {
+  if (this._rawModule.getters) {
+    forEachValue(this._rawModule.getters, fn);
+  }
+};
+
+Module.prototype.forEachAction = function forEachAction (fn) {
+  if (this._rawModule.actions) {
+    forEachValue(this._rawModule.actions, fn);
+  }
+};
+
+Module.prototype.forEachMutation = function forEachMutation (fn) {
+  if (this._rawModule.mutations) {
+    forEachValue(this._rawModule.mutations, fn);
+  }
+};
+
+Object.defineProperties( Module.prototype, prototypeAccessors );
+
+var ModuleCollection = function ModuleCollection (rawRootModule) {
+  // register root module (Vuex.Store options)
+  this.register([], rawRootModule, false);
+};
+
+ModuleCollection.prototype.get = function get (path) {
+  return path.reduce(function (module, key) {
+    return module.getChild(key)
+  }, this.root)
+};
+
+ModuleCollection.prototype.getNamespace = function getNamespace (path) {
+  var module = this.root;
+  return path.reduce(function (namespace, key) {
+    module = module.getChild(key);
+    return namespace + (module.namespaced ? key + '/' : '')
+  }, '')
+};
+
+ModuleCollection.prototype.update = function update$1 (rawRootModule) {
+  update([], this.root, rawRootModule);
+};
+
+ModuleCollection.prototype.register = function register (path, rawModule, runtime) {
+    var this$1 = this;
+    if ( runtime === void 0 ) runtime = true;
+
+  if ((true)) {
+    assertRawModule(path, rawModule);
+  }
+
+  var newModule = new Module(rawModule, runtime);
+  if (path.length === 0) {
+    this.root = newModule;
+  } else {
+    var parent = this.get(path.slice(0, -1));
+    parent.addChild(path[path.length - 1], newModule);
+  }
+
+  // register nested modules
+  if (rawModule.modules) {
+    forEachValue(rawModule.modules, function (rawChildModule, key) {
+      this$1.register(path.concat(key), rawChildModule, runtime);
+    });
+  }
+};
+
+ModuleCollection.prototype.unregister = function unregister (path) {
+  var parent = this.get(path.slice(0, -1));
+  var key = path[path.length - 1];
+  if (!parent.getChild(key).runtime) { return }
+
+  parent.removeChild(key);
+};
+
+ModuleCollection.prototype.isRegistered = function isRegistered (path) {
+  var parent = this.get(path.slice(0, -1));
+  var key = path[path.length - 1];
+
+  return parent.hasChild(key)
+};
+
+function update (path, targetModule, newModule) {
+  if ((true)) {
+    assertRawModule(path, newModule);
+  }
+
+  // update target module
+  targetModule.update(newModule);
+
+  // update nested modules
+  if (newModule.modules) {
+    for (var key in newModule.modules) {
+      if (!targetModule.getChild(key)) {
+        if ((true)) {
+          console.warn(
+            "[vuex] trying to add a new module '" + key + "' on hot reloading, " +
+            'manual reload is needed'
+          );
+        }
+        return
+      }
+      update(
+        path.concat(key),
+        targetModule.getChild(key),
+        newModule.modules[key]
+      );
+    }
+  }
+}
+
+var functionAssert = {
+  assert: function (value) { return typeof value === 'function'; },
+  expected: 'function'
+};
+
+var objectAssert = {
+  assert: function (value) { return typeof value === 'function' ||
+    (typeof value === 'object' && typeof value.handler === 'function'); },
+  expected: 'function or object with "handler" function'
+};
+
+var assertTypes = {
+  getters: functionAssert,
+  mutations: functionAssert,
+  actions: objectAssert
+};
+
+function assertRawModule (path, rawModule) {
+  Object.keys(assertTypes).forEach(function (key) {
+    if (!rawModule[key]) { return }
+
+    var assertOptions = assertTypes[key];
+
+    forEachValue(rawModule[key], function (value, type) {
+      assert(
+        assertOptions.assert(value),
+        makeAssertionMessage(path, key, type, value, assertOptions.expected)
+      );
+    });
+  });
+}
+
+function makeAssertionMessage (path, key, type, value, expected) {
+  var buf = key + " should be " + expected + " but \"" + key + "." + type + "\"";
+  if (path.length > 0) {
+    buf += " in module \"" + (path.join('.')) + "\"";
+  }
+  buf += " is " + (JSON.stringify(value)) + ".";
+  return buf
+}
+
+var Vue; // bind on install
+
+var Store = function Store (options) {
+  var this$1 = this;
+  if ( options === void 0 ) options = {};
+
+  // Auto install if it is not done yet and `window` has `Vue`.
+  // To allow users to avoid auto-installation in some cases,
+  // this code should be placed here. See #731
+  if (!Vue && typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+  }
+
+  if ((true)) {
+    assert(Vue, "must call Vue.use(Vuex) before creating a store instance.");
+    assert(typeof Promise !== 'undefined', "vuex requires a Promise polyfill in this browser.");
+    assert(this instanceof Store, "store must be called with the new operator.");
+  }
+
+  var plugins = options.plugins; if ( plugins === void 0 ) plugins = [];
+  var strict = options.strict; if ( strict === void 0 ) strict = false;
+
+  // store internal state
+  this._committing = false;
+  this._actions = Object.create(null);
+  this._actionSubscribers = [];
+  this._mutations = Object.create(null);
+  this._wrappedGetters = Object.create(null);
+  this._modules = new ModuleCollection(options);
+  this._modulesNamespaceMap = Object.create(null);
+  this._subscribers = [];
+  this._watcherVM = new Vue();
+  this._makeLocalGettersCache = Object.create(null);
+
+  // bind commit and dispatch to self
+  var store = this;
+  var ref = this;
+  var dispatch = ref.dispatch;
+  var commit = ref.commit;
+  this.dispatch = function boundDispatch (type, payload) {
+    return dispatch.call(store, type, payload)
+  };
+  this.commit = function boundCommit (type, payload, options) {
+    return commit.call(store, type, payload, options)
+  };
+
+  // strict mode
+  this.strict = strict;
+
+  var state = this._modules.root.state;
+
+  // init root module.
+  // this also recursively registers all sub-modules
+  // and collects all module getters inside this._wrappedGetters
+  installModule(this, state, [], this._modules.root);
+
+  // initialize the store vm, which is responsible for the reactivity
+  // (also registers _wrappedGetters as computed properties)
+  resetStoreVM(this, state);
+
+  // apply plugins
+  plugins.forEach(function (plugin) { return plugin(this$1); });
+
+  var useDevtools = options.devtools !== undefined ? options.devtools : Vue.config.devtools;
+  if (useDevtools) {
+    devtoolPlugin(this);
+  }
+};
+
+var prototypeAccessors$1 = { state: { configurable: true } };
+
+prototypeAccessors$1.state.get = function () {
+  return this._vm._data.$$state
+};
+
+prototypeAccessors$1.state.set = function (v) {
+  if ((true)) {
+    assert(false, "use store.replaceState() to explicit replace store state.");
+  }
+};
+
+Store.prototype.commit = function commit (_type, _payload, _options) {
+    var this$1 = this;
+
+  // check object-style commit
+  var ref = unifyObjectStyle(_type, _payload, _options);
+    var type = ref.type;
+    var payload = ref.payload;
+    var options = ref.options;
+
+  var mutation = { type: type, payload: payload };
+  var entry = this._mutations[type];
+  if (!entry) {
+    if ((true)) {
+      console.error(("[vuex] unknown mutation type: " + type));
+    }
+    return
+  }
+  this._withCommit(function () {
+    entry.forEach(function commitIterator (handler) {
+      handler(payload);
+    });
+  });
+
+  this._subscribers
+    .slice() // shallow copy to prevent iterator invalidation if subscriber synchronously calls unsubscribe
+    .forEach(function (sub) { return sub(mutation, this$1.state); });
+
+  if (
+    ( true) &&
+    options && options.silent
+  ) {
+    console.warn(
+      "[vuex] mutation type: " + type + ". Silent option has been removed. " +
+      'Use the filter functionality in the vue-devtools'
+    );
+  }
+};
+
+Store.prototype.dispatch = function dispatch (_type, _payload) {
+    var this$1 = this;
+
+  // check object-style dispatch
+  var ref = unifyObjectStyle(_type, _payload);
+    var type = ref.type;
+    var payload = ref.payload;
+
+  var action = { type: type, payload: payload };
+  var entry = this._actions[type];
+  if (!entry) {
+    if ((true)) {
+      console.error(("[vuex] unknown action type: " + type));
+    }
+    return
+  }
+
+  try {
+    this._actionSubscribers
+      .slice() // shallow copy to prevent iterator invalidation if subscriber synchronously calls unsubscribe
+      .filter(function (sub) { return sub.before; })
+      .forEach(function (sub) { return sub.before(action, this$1.state); });
+  } catch (e) {
+    if ((true)) {
+      console.warn("[vuex] error in before action subscribers: ");
+      console.error(e);
+    }
+  }
+
+  var result = entry.length > 1
+    ? Promise.all(entry.map(function (handler) { return handler(payload); }))
+    : entry[0](payload);
+
+  return new Promise(function (resolve, reject) {
+    result.then(function (res) {
+      try {
+        this$1._actionSubscribers
+          .filter(function (sub) { return sub.after; })
+          .forEach(function (sub) { return sub.after(action, this$1.state); });
+      } catch (e) {
+        if ((true)) {
+          console.warn("[vuex] error in after action subscribers: ");
+          console.error(e);
+        }
+      }
+      resolve(res);
+    }, function (error) {
+      try {
+        this$1._actionSubscribers
+          .filter(function (sub) { return sub.error; })
+          .forEach(function (sub) { return sub.error(action, this$1.state, error); });
+      } catch (e) {
+        if ((true)) {
+          console.warn("[vuex] error in error action subscribers: ");
+          console.error(e);
+        }
+      }
+      reject(error);
+    });
+  })
+};
+
+Store.prototype.subscribe = function subscribe (fn, options) {
+  return genericSubscribe(fn, this._subscribers, options)
+};
+
+Store.prototype.subscribeAction = function subscribeAction (fn, options) {
+  var subs = typeof fn === 'function' ? { before: fn } : fn;
+  return genericSubscribe(subs, this._actionSubscribers, options)
+};
+
+Store.prototype.watch = function watch (getter, cb, options) {
+    var this$1 = this;
+
+  if ((true)) {
+    assert(typeof getter === 'function', "store.watch only accepts a function.");
+  }
+  return this._watcherVM.$watch(function () { return getter(this$1.state, this$1.getters); }, cb, options)
+};
+
+Store.prototype.replaceState = function replaceState (state) {
+    var this$1 = this;
+
+  this._withCommit(function () {
+    this$1._vm._data.$$state = state;
+  });
+};
+
+Store.prototype.registerModule = function registerModule (path, rawModule, options) {
+    if ( options === void 0 ) options = {};
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if ((true)) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+    assert(path.length > 0, 'cannot register the root module by using registerModule.');
+  }
+
+  this._modules.register(path, rawModule);
+  installModule(this, this.state, path, this._modules.get(path), options.preserveState);
+  // reset store to update getters...
+  resetStoreVM(this, this.state);
+};
+
+Store.prototype.unregisterModule = function unregisterModule (path) {
+    var this$1 = this;
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if ((true)) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+  }
+
+  this._modules.unregister(path);
+  this._withCommit(function () {
+    var parentState = getNestedState(this$1.state, path.slice(0, -1));
+    Vue.delete(parentState, path[path.length - 1]);
+  });
+  resetStore(this);
+};
+
+Store.prototype.hasModule = function hasModule (path) {
+  if (typeof path === 'string') { path = [path]; }
+
+  if ((true)) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+  }
+
+  return this._modules.isRegistered(path)
+};
+
+Store.prototype.hotUpdate = function hotUpdate (newOptions) {
+  this._modules.update(newOptions);
+  resetStore(this, true);
+};
+
+Store.prototype._withCommit = function _withCommit (fn) {
+  var committing = this._committing;
+  this._committing = true;
+  fn();
+  this._committing = committing;
+};
+
+Object.defineProperties( Store.prototype, prototypeAccessors$1 );
+
+function genericSubscribe (fn, subs, options) {
+  if (subs.indexOf(fn) < 0) {
+    options && options.prepend
+      ? subs.unshift(fn)
+      : subs.push(fn);
+  }
+  return function () {
+    var i = subs.indexOf(fn);
+    if (i > -1) {
+      subs.splice(i, 1);
+    }
+  }
+}
+
+function resetStore (store, hot) {
+  store._actions = Object.create(null);
+  store._mutations = Object.create(null);
+  store._wrappedGetters = Object.create(null);
+  store._modulesNamespaceMap = Object.create(null);
+  var state = store.state;
+  // init all modules
+  installModule(store, state, [], store._modules.root, true);
+  // reset vm
+  resetStoreVM(store, state, hot);
+}
+
+function resetStoreVM (store, state, hot) {
+  var oldVm = store._vm;
+
+  // bind store public getters
+  store.getters = {};
+  // reset local getters cache
+  store._makeLocalGettersCache = Object.create(null);
+  var wrappedGetters = store._wrappedGetters;
+  var computed = {};
+  forEachValue(wrappedGetters, function (fn, key) {
+    // use computed to leverage its lazy-caching mechanism
+    // direct inline function use will lead to closure preserving oldVm.
+    // using partial to return function with only arguments preserved in closure environment.
+    computed[key] = partial(fn, store);
+    Object.defineProperty(store.getters, key, {
+      get: function () { return store._vm[key]; },
+      enumerable: true // for local getters
+    });
+  });
+
+  // use a Vue instance to store the state tree
+  // suppress warnings just in case the user has added
+  // some funky global mixins
+  var silent = Vue.config.silent;
+  Vue.config.silent = true;
+  store._vm = new Vue({
+    data: {
+      $$state: state
+    },
+    computed: computed
+  });
+  Vue.config.silent = silent;
+
+  // enable strict mode for new vm
+  if (store.strict) {
+    enableStrictMode(store);
+  }
+
+  if (oldVm) {
+    if (hot) {
+      // dispatch changes in all subscribed watchers
+      // to force getter re-evaluation for hot reloading.
+      store._withCommit(function () {
+        oldVm._data.$$state = null;
+      });
+    }
+    Vue.nextTick(function () { return oldVm.$destroy(); });
+  }
+}
+
+function installModule (store, rootState, path, module, hot) {
+  var isRoot = !path.length;
+  var namespace = store._modules.getNamespace(path);
+
+  // register in namespace map
+  if (module.namespaced) {
+    if (store._modulesNamespaceMap[namespace] && ("development" !== 'production')) {
+      console.error(("[vuex] duplicate namespace " + namespace + " for the namespaced module " + (path.join('/'))));
+    }
+    store._modulesNamespaceMap[namespace] = module;
+  }
+
+  // set state
+  if (!isRoot && !hot) {
+    var parentState = getNestedState(rootState, path.slice(0, -1));
+    var moduleName = path[path.length - 1];
+    store._withCommit(function () {
+      if ((true)) {
+        if (moduleName in parentState) {
+          console.warn(
+            ("[vuex] state field \"" + moduleName + "\" was overridden by a module with the same name at \"" + (path.join('.')) + "\"")
+          );
+        }
+      }
+      Vue.set(parentState, moduleName, module.state);
+    });
+  }
+
+  var local = module.context = makeLocalContext(store, namespace, path);
+
+  module.forEachMutation(function (mutation, key) {
+    var namespacedType = namespace + key;
+    registerMutation(store, namespacedType, mutation, local);
+  });
+
+  module.forEachAction(function (action, key) {
+    var type = action.root ? key : namespace + key;
+    var handler = action.handler || action;
+    registerAction(store, type, handler, local);
+  });
+
+  module.forEachGetter(function (getter, key) {
+    var namespacedType = namespace + key;
+    registerGetter(store, namespacedType, getter, local);
+  });
+
+  module.forEachChild(function (child, key) {
+    installModule(store, rootState, path.concat(key), child, hot);
+  });
+}
+
+/**
+ * make localized dispatch, commit, getters and state
+ * if there is no namespace, just use root ones
+ */
+function makeLocalContext (store, namespace, path) {
+  var noNamespace = namespace === '';
+
+  var local = {
+    dispatch: noNamespace ? store.dispatch : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if (( true) && !store._actions[type]) {
+          console.error(("[vuex] unknown local action type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      return store.dispatch(type, payload)
+    },
+
+    commit: noNamespace ? store.commit : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if (( true) && !store._mutations[type]) {
+          console.error(("[vuex] unknown local mutation type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      store.commit(type, payload, options);
+    }
+  };
+
+  // getters and state object must be gotten lazily
+  // because they will be changed by vm update
+  Object.defineProperties(local, {
+    getters: {
+      get: noNamespace
+        ? function () { return store.getters; }
+        : function () { return makeLocalGetters(store, namespace); }
+    },
+    state: {
+      get: function () { return getNestedState(store.state, path); }
+    }
+  });
+
+  return local
+}
+
+function makeLocalGetters (store, namespace) {
+  if (!store._makeLocalGettersCache[namespace]) {
+    var gettersProxy = {};
+    var splitPos = namespace.length;
+    Object.keys(store.getters).forEach(function (type) {
+      // skip if the target getter is not match this namespace
+      if (type.slice(0, splitPos) !== namespace) { return }
+
+      // extract local getter type
+      var localType = type.slice(splitPos);
+
+      // Add a port to the getters proxy.
+      // Define as getter property because
+      // we do not want to evaluate the getters in this time.
+      Object.defineProperty(gettersProxy, localType, {
+        get: function () { return store.getters[type]; },
+        enumerable: true
+      });
+    });
+    store._makeLocalGettersCache[namespace] = gettersProxy;
+  }
+
+  return store._makeLocalGettersCache[namespace]
+}
+
+function registerMutation (store, type, handler, local) {
+  var entry = store._mutations[type] || (store._mutations[type] = []);
+  entry.push(function wrappedMutationHandler (payload) {
+    handler.call(store, local.state, payload);
+  });
+}
+
+function registerAction (store, type, handler, local) {
+  var entry = store._actions[type] || (store._actions[type] = []);
+  entry.push(function wrappedActionHandler (payload) {
+    var res = handler.call(store, {
+      dispatch: local.dispatch,
+      commit: local.commit,
+      getters: local.getters,
+      state: local.state,
+      rootGetters: store.getters,
+      rootState: store.state
+    }, payload);
+    if (!isPromise(res)) {
+      res = Promise.resolve(res);
+    }
+    if (store._devtoolHook) {
+      return res.catch(function (err) {
+        store._devtoolHook.emit('vuex:error', err);
+        throw err
+      })
+    } else {
+      return res
+    }
+  });
+}
+
+function registerGetter (store, type, rawGetter, local) {
+  if (store._wrappedGetters[type]) {
+    if ((true)) {
+      console.error(("[vuex] duplicate getter key: " + type));
+    }
+    return
+  }
+  store._wrappedGetters[type] = function wrappedGetter (store) {
+    return rawGetter(
+      local.state, // local state
+      local.getters, // local getters
+      store.state, // root state
+      store.getters // root getters
+    )
+  };
+}
+
+function enableStrictMode (store) {
+  store._vm.$watch(function () { return this._data.$$state }, function () {
+    if ((true)) {
+      assert(store._committing, "do not mutate vuex store state outside mutation handlers.");
+    }
+  }, { deep: true, sync: true });
+}
+
+function getNestedState (state, path) {
+  return path.reduce(function (state, key) { return state[key]; }, state)
+}
+
+function unifyObjectStyle (type, payload, options) {
+  if (isObject(type) && type.type) {
+    options = payload;
+    payload = type;
+    type = type.type;
+  }
+
+  if ((true)) {
+    assert(typeof type === 'string', ("expects string as the type, but found " + (typeof type) + "."));
+  }
+
+  return { type: type, payload: payload, options: options }
+}
+
+function install (_Vue) {
+  if (Vue && _Vue === Vue) {
+    if ((true)) {
+      console.error(
+        '[vuex] already installed. Vue.use(Vuex) should be called only once.'
+      );
+    }
+    return
+  }
+  Vue = _Vue;
+  applyMixin(Vue);
+}
+
+/**
+ * Reduce the code which written in Vue.js for getting the state.
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} states # Object's item can be a function which accept state and getters for param, you can do something for state and getters in it.
+ * @param {Object}
+ */
+var mapState = normalizeNamespace(function (namespace, states) {
+  var res = {};
+  if (( true) && !isValidMap(states)) {
+    console.error('[vuex] mapState: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(states).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedState () {
+      var state = this.$store.state;
+      var getters = this.$store.getters;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
+        if (!module) {
+          return
+        }
+        state = module.context.state;
+        getters = module.context.getters;
+      }
+      return typeof val === 'function'
+        ? val.call(this, state, getters)
+        : state[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+/**
+ * Reduce the code which written in Vue.js for committing the mutation
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} mutations # Object's item can be a function which accept `commit` function as the first param, it can accept anthor params. You can commit mutation and do any other things in this function. specially, You need to pass anthor params from the mapped function.
+ * @return {Object}
+ */
+var mapMutations = normalizeNamespace(function (namespace, mutations) {
+  var res = {};
+  if (( true) && !isValidMap(mutations)) {
+    console.error('[vuex] mapMutations: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(mutations).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedMutation () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      // Get the commit method from store
+      var commit = this.$store.commit;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapMutations', namespace);
+        if (!module) {
+          return
+        }
+        commit = module.context.commit;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [commit].concat(args))
+        : commit.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+/**
+ * Reduce the code which written in Vue.js for getting the getters
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} getters
+ * @return {Object}
+ */
+var mapGetters = normalizeNamespace(function (namespace, getters) {
+  var res = {};
+  if (( true) && !isValidMap(getters)) {
+    console.error('[vuex] mapGetters: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(getters).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    // The namespace has been mutated by normalizeNamespace
+    val = namespace + val;
+    res[key] = function mappedGetter () {
+      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
+        return
+      }
+      if (( true) && !(val in this.$store.getters)) {
+        console.error(("[vuex] unknown getter: " + val));
+        return
+      }
+      return this.$store.getters[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+/**
+ * Reduce the code which written in Vue.js for dispatch the action
+ * @param {String} [namespace] - Module's namespace
+ * @param {Object|Array} actions # Object's item can be a function which accept `dispatch` function as the first param, it can accept anthor params. You can dispatch action and do any other things in this function. specially, You need to pass anthor params from the mapped function.
+ * @return {Object}
+ */
+var mapActions = normalizeNamespace(function (namespace, actions) {
+  var res = {};
+  if (( true) && !isValidMap(actions)) {
+    console.error('[vuex] mapActions: mapper parameter must be either an Array or an Object');
+  }
+  normalizeMap(actions).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedAction () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      // get dispatch function from store
+      var dispatch = this.$store.dispatch;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapActions', namespace);
+        if (!module) {
+          return
+        }
+        dispatch = module.context.dispatch;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [dispatch].concat(args))
+        : dispatch.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+/**
+ * Rebinding namespace param for mapXXX function in special scoped, and return them by simple object
+ * @param {String} namespace
+ * @return {Object}
+ */
+var createNamespacedHelpers = function (namespace) { return ({
+  mapState: mapState.bind(null, namespace),
+  mapGetters: mapGetters.bind(null, namespace),
+  mapMutations: mapMutations.bind(null, namespace),
+  mapActions: mapActions.bind(null, namespace)
+}); };
+
+/**
+ * Normalize the map
+ * normalizeMap([1, 2, 3]) => [ { key: 1, val: 1 }, { key: 2, val: 2 }, { key: 3, val: 3 } ]
+ * normalizeMap({a: 1, b: 2, c: 3}) => [ { key: 'a', val: 1 }, { key: 'b', val: 2 }, { key: 'c', val: 3 } ]
+ * @param {Array|Object} map
+ * @return {Object}
+ */
+function normalizeMap (map) {
+  if (!isValidMap(map)) {
+    return []
+  }
+  return Array.isArray(map)
+    ? map.map(function (key) { return ({ key: key, val: key }); })
+    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
+}
+
+/**
+ * Validate whether given map is valid or not
+ * @param {*} map
+ * @return {Boolean}
+ */
+function isValidMap (map) {
+  return Array.isArray(map) || isObject(map)
+}
+
+/**
+ * Return a function expect two param contains namespace and map. it will normalize the namespace and then the param's function will handle the new namespace and the map.
+ * @param {Function} fn
+ * @return {Function}
+ */
+function normalizeNamespace (fn) {
+  return function (namespace, map) {
+    if (typeof namespace !== 'string') {
+      map = namespace;
+      namespace = '';
+    } else if (namespace.charAt(namespace.length - 1) !== '/') {
+      namespace += '/';
+    }
+    return fn(namespace, map)
+  }
+}
+
+/**
+ * Search a special module from store by namespace. if module not exist, print error message.
+ * @param {Object} store
+ * @param {String} helper
+ * @param {String} namespace
+ * @return {Object}
+ */
+function getModuleByNamespace (store, helper, namespace) {
+  var module = store._modulesNamespaceMap[namespace];
+  if (( true) && !module) {
+    console.error(("[vuex] module namespace not found in " + helper + "(): " + namespace));
+  }
+  return module
+}
+
+var index = {
+  Store: Store,
+  install: install,
+  version: '3.4.0',
+  mapState: mapState,
+  mapMutations: mapMutations,
+  mapGetters: mapGetters,
+  mapActions: mapActions,
+  createNamespacedHelpers: createNamespacedHelpers
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (index);
+
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -58461,6 +59592,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
+/* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./store */ "./src/store.js");
+
 
 
 
@@ -58473,6 +59606,7 @@ Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_5__["IconsPlugin"])
 Vue.use(vue_carousel__WEBPACK_IMPORTED_MODULE_4___default.a);
 new Vue({
     router: _router__WEBPACK_IMPORTED_MODULE_3__["default"],
+    store: _store__WEBPACK_IMPORTED_MODULE_6__["store"],
     template:`<div>
         <AppHeader/>
         <router-view/>
@@ -58746,6 +59880,8 @@ const faq = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
+/* harmony import */ var _common_loginpage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/loginpage */ "./src/common/loginpage.js");
+
 
 
 const download = {
@@ -58753,7 +59889,8 @@ const download = {
         <div class='board_head'>
             <h3>묻고 답하기</h3>
         </div>
-        <section class='section1'>
+        <LoginPage v-if="!login"/>
+        <section class='section1' v-else>
             <div class='wrap'>
                 <h2>묻고 답하기</h2>
                 <nav>
@@ -58762,7 +59899,52 @@ const download = {
                 </nav>
                 <div class='write_table zoom' v-if="writeMode">
                     <div class='zoom_table'>
-                        123
+                        <div class='head'>
+                            <h3>문의하기</h3>
+                            <div class='type'>
+                                <span>문의 유형</span>
+                                <label for='type1'>장애신고</label>
+                                <input type="checkbox" id='type1'>
+
+                                <label for='type2'>Win-Win Pro</label>
+                                <input type="checkbox" id='type2'>
+
+                                <label for='type3'>Win-Win Pos</label>
+                                <input type="checkbox" id='type3'>
+
+                                <label for='type4'>기타</label>
+                                <input type="checkbox" id='type4'>
+                            </div>
+                        </div>
+                        <div class='consult_board'>
+                            <ul>
+                                <li>
+                                    <div class='th'>신청자</div>
+                                    <div class='tb'><input type='text' placeholder="신청자를 입력해주세요"/></div>
+                                </li>
+                                <li>
+                                    <div class='th'>연락처</div>
+                                    <div class='tb'><input type='text' placeholder="연락처를 입력해주세요"/></div>
+                                </li>
+                                <li>
+                                    <div class='th'>제목</div>
+                                    <div class='tb'><input type='text' placeholder="제목을 입력해주세요"/></div>
+                                </li>
+
+                                <li>
+                                   <textarea>문의하실 내용을 입력해주세요</textarea>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class='foot'>
+                            <p><label for='public'>비밀글 등록 여부  </label><input type="checkbox" id='public'></p>
+                            <b-form-file 
+                            ref="file-input" 
+                            placeholder="이미지 파일을 선택해주세요"
+                            accept=".jpg, .png, .gif"
+                            class="mb-2"></b-form-file>
+                            
+                        </div>
                     </div>
                 </div>
                 <table v-if="boardMode">
@@ -58795,6 +59977,9 @@ const download = {
             </div>
         </section>
     </div>`,
+    created() {
+        // this.login = this.$store.state.login;
+    },
     mounted() {
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
             DataLength: Math.ceil((this.boards.length) / 10),
@@ -58804,11 +59989,17 @@ const download = {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
         })
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('login',(Data)=>{
+            this.login = Data;
+        })
     },
     data(){
         return{
+            login:false,
+            //vuex로 로그인 관리 묻고답하기
             boardMode:true,
             writeMode:false,
+            file:'',
             //true 문의 게시판 false 문의하기
             limit:10,
             start:0,
@@ -58923,7 +60114,8 @@ const download = {
         }
     },
     components:{
-        listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_1__["default"]
+        listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_1__["default"],
+        LoginPage: _common_loginpage__WEBPACK_IMPORTED_MODULE_2__["default"]
     },
     methods: {
         changeMode(){
@@ -59585,6 +60777,80 @@ const listNumber = {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (listNumber);
+
+/***/ }),
+
+/***/ "./src/common/login_page.scss":
+/*!************************************!*\
+  !*** ./src/common/login_page.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./login_page.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/common/login_page.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/common/loginpage.js":
+/*!*********************************!*\
+  !*** ./src/common/loginpage.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _login_page_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./login_page.scss */ "./src/common/login_page.scss");
+/* harmony import */ var _login_page_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_login_page_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
+
+const LoginPage = {
+    template:`<section class='login_page wrap'>
+        <p>개발버전 로그인 버튼만눌러주세요</p>
+                    <h2>로그인</h2>
+                    <div class='login_inputs'>
+                        <ul>
+                            <li>
+                                <input type='text' placeholder="아이디를 입력해주세요">
+                            </li>
+                            <li>
+                                <input type='password' placeholder="비밀번호를 입력하세요">
+                            </li>
+                            <li>
+                                <div class='btn' @click="login">로그인</div>
+                            </li>
+                            <p>우성소프트 회원이 아니신가요? <a href="">회원가입</a></p>
+                        </ul>
+                    </div>
+              </section>`,
+              methods: {
+                login(){
+                    _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit("login",true)
+                    // store.commit('loginFn',result.data)
+                }
+              },
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (LoginPage);
 
 /***/ }),
 
@@ -60612,6 +61878,34 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
 
 /* harmony default export */ __webpack_exports__["default"] = (router);
 
+
+/***/ }),
+
+/***/ "./src/store.js":
+/*!**********************!*\
+  !*** ./src/store.js ***!
+  \**********************/
+/*! exports provided: store */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "store", function() { return store; });
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+
+Vue.use(vuex__WEBPACK_IMPORTED_MODULE_0__["default"])
+
+const store = new vuex__WEBPACK_IMPORTED_MODULE_0__["default"].Store({
+    state:{
+        login:false,
+    },
+    mutations:{
+        loginFn (state,data) {
+            state.login = true
+        }
+
+    }
+})
 
 /***/ })
 
