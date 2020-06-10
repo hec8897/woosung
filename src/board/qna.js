@@ -89,13 +89,120 @@ const download = {
                         </router-link>
                     </tbody>
                 </table>
-                <listNumber v-if="boardMode" v-bind:DataLength='Math.ceil((this.boards.length)/10)' v-bind:nowpage='this.limit-10'/>
-
+                <listNumber v-if="boardMode" v-bind:DataLength='Math.ceil((boards.length)/10)' v-bind:nowpage='limit-10'/>
             </div>
         </section>
     </div>`,
     created() {
         eventBus.$emit('moNav',false)
+        this.boards = [
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'접수중'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'확인중'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'답변완료'
+            },
+            {
+                no:0,
+                public:true,
+                cate:'win-win pro',
+                title:'비밀글입니다',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            },
+            {
+                no:0,
+                cate:'win-win pro',
+                title:'장애 신고 (708 에러)',
+                date:'20200408',
+                status:'문의 확인'
+            }
+        ]
         // this.login = this.$store.state.login;
     },
     mounted() {
@@ -121,114 +228,7 @@ const download = {
             //true 문의 게시판 false 문의하기
             limit:10,
             start:0,
-            boards:[
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'접수중'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'확인중'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'답변완료'
-                },
-                {
-                    no:0,
-                    public:true,
-                    cate:'win-win pro',
-                    title:'비밀글입니다',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                },
-                {
-                    no:0,
-                    cate:'win-win pro',
-                    title:'장애 신고 (708 에러)',
-                    date:'20200408',
-                    status:'문의 확인'
-                }
-            ]
+            boards:""
         }
     },
     components:{

@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/hec8897/woosung#readme",
   "dependencies": {
+    "@babel/polyfill": "^7.10.1",
+    "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
     "css-loader": "^3.5.3",

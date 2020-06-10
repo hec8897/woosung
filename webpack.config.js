@@ -12,13 +12,17 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: [ path.resolve(__dirname, 'src/js')],
+        include: [
+          path.resolve(__dirname, 'src/js')
+        ],
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
-          options:{
-            presets:['@babel/preset-env','es2015']
-          },
+          loader: 'babel-loader?presets[]=es2015',
+          // loader: 'babel-loader',
+          options: {
+          presets: ['es2015','@babel/preset-env']
+            // plugins: ['@babel/plugin-proposal-class-properties']
+          }
         }
       },
       {
