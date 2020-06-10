@@ -13,7 +13,7 @@ const MainSlider = {
                             <div>
                                 <h4 class='w_text'>쉽고 빠른 농자재</h4>
                                 <h3>판매재고 프로그램의 기준!</h3>
-                                <h4>Walk together and Win together</h4>
+                                <h4>Walk Together, Win Together</h4>
                             </div>
                             </div>
                 </div>
