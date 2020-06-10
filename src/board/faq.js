@@ -40,7 +40,7 @@ const faq = {
         listNumber
     },
     created() {
-        EventBus.$emit('moNav',false)
+        eventBus.$emit('moNav',false)
     },
     mounted() {
         eventBus.$emit('UpdateList', {

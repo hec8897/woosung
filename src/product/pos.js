@@ -1,3 +1,5 @@
+import EventBus from '../eventbus';
+
 const pos = {
     template:`<div class='pos'>
                 <div class='head_banner'></div>
@@ -127,6 +129,9 @@ const pos = {
         </section>
 
     </div>`,
+       created() {
+        EventBus.$emit('moNav',false)
+    },
         data(){
             return{
                 S1B:false

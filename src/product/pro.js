@@ -1,4 +1,5 @@
 import { Carousel, Slide } from 'vue-carousel';
+import EventBus from '../eventbus';
 
 const pro = {
     template:`<div class='pro'>
@@ -141,6 +142,9 @@ const pro = {
         Carousel,
         Slide
       },
+      created() {
+        EventBus.$emit('moNav',false)
+    },
     data(){
         return{
             S1B:false,

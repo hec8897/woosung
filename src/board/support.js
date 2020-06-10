@@ -1,6 +1,7 @@
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number'
 import { BIcon, BIconArrowUp, BIconArrowDown } from 'bootstrap-vue'
+
 const support = {
     template:`<div class='support'>
         <div class='board_head'>
@@ -40,7 +41,7 @@ const support = {
         </section>
     </div>`,
     created() {
-        EventBus.$emit('moNav',false)
+        eventBus.$emit('moNav',false)
     },
     data(){
         return{

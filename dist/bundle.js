@@ -42578,7 +42578,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/slide1_b
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "div.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      position: relative;\n      background-size: cover; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 800px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 50%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 3rem;\n          margin: 20px 0px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 2rem;\n          text-align: center;\n          color: #fff; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\ndiv.home section.section2 {\n  background-color: #f3f3f3; }\n  @media (max-width: 767px) {\n    div.home section.section2 div.wrap {\n      width: 95%; } }\n  div.home section.section2 div.youtubes {\n    text-align: center;\n    margin-top: 10px; }\n    div.home section.section2 div.youtubes div.slide_inner {\n      width: 95%;\n      max-width: 280px;\n      height: 190px;\n      display: inline-block;\n      margin-top: 20px;\n      margin-right: 10px;\n      border: 1px solid #87CEFA;\n      margin: 5px; }\n\ndiv.home section.section3 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.home section.section3 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section3 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section3 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section3 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section3 div.content.news2_info {\n    float: right;\n    overflow: hidden; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content.news2_info {\n        float: initial; } }\n    div.home section.section3 div.content.news2_info div.news2 {\n      height: 180px;\n      padding: 20px 0px;\n      box-sizing: border-box;\n      overflow-y: scroll; }\n      div.home section.section3 div.content.news2_info div.news2 ul li {\n        text-align: left;\n        margin-bottom: 20px; }\n        div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n          vertical-align: middle;\n          display: inline-block;\n          width: 160px;\n          height: 115px;\n          background-color: #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n              max-width: 40%;\n              height: 80px; } }\n        div.home section.section3 div.content.news2_info div.news2 ul li p {\n          height: 100px;\n          vertical-align: top;\n          width: 50%;\n          margin-left: 10px;\n          display: inline-block;\n          overflow: hidden;\n          font-size: 0.875rem; }\n", ""]);
+exports.push([module.i, "div.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      position: relative;\n      background-size: cover; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 800px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n            height: 600px; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 50%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 3rem;\n          margin: 20px 0px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 2rem;\n          text-align: center;\n          color: #fff; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\ndiv.home section.section2 {\n  background-color: #f3f3f3; }\n  @media (max-width: 767px) {\n    div.home section.section2 div.wrap {\n      width: 95%; } }\n  div.home section.section2 div.youtubes {\n    text-align: center;\n    margin-top: 10px; }\n    div.home section.section2 div.youtubes div.slide_inner {\n      width: 95%;\n      max-width: 280px;\n      height: 190px;\n      display: inline-block;\n      margin-top: 20px;\n      margin-right: 10px;\n      border: 1px solid #87CEFA;\n      margin: 5px; }\n\ndiv.home section.section3 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.home section.section3 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section3 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section3 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section3 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #d0d0d0;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section3 div.content.news2_info {\n    float: right;\n    overflow: hidden; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content.news2_info {\n        float: initial; } }\n    div.home section.section3 div.content.news2_info div.news2 {\n      height: 180px;\n      padding: 20px 0px;\n      box-sizing: border-box;\n      overflow-y: scroll; }\n      div.home section.section3 div.content.news2_info div.news2 ul li {\n        text-align: left;\n        margin-bottom: 20px; }\n        div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n          vertical-align: middle;\n          display: inline-block;\n          width: 160px;\n          height: 115px;\n          background-color: #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n              max-width: 40%;\n              height: 80px; } }\n        div.home section.section3 div.content.news2_info div.news2 ul li p {\n          height: 100px;\n          vertical-align: top;\n          width: 50%;\n          margin-left: 10px;\n          display: inline-block;\n          overflow: hidden;\n          font-size: 0.875rem; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -59678,16 +59678,13 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
-/* harmony import */ var _board_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./board.scss */ "./src/board/board.scss");
-/* harmony import */ var _board_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_board_scss__WEBPACK_IMPORTED_MODULE_1__);
-
+/* harmony import */ var _board_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./board.scss */ "./src/board/board.scss");
+/* harmony import */ var _board_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_board_scss__WEBPACK_IMPORTED_MODULE_0__);
 
 const boardPage = {
     template:`<div class='board'>
                     <router-view></router-view>
                </div>`,
-                 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (boardPage);
@@ -59748,7 +59745,7 @@ const faq = {
         listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_2__["default"]
     },
     created() {
-        EventBus.$emit('moNav',false)
+        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('moNav',false)
     },
     mounted() {
         _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
@@ -59979,7 +59976,7 @@ const download = {
         </section>
     </div>`,
     created() {
-        EventBus.$emit('moNav',false)
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
         // this.login = this.$store.state.login;
     },
     mounted() {
@@ -60147,6 +60144,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
 const support = {
     template:`<div class='support'>
         <div class='board_head'>
@@ -60186,7 +60184,7 @@ const support = {
         </section>
     </div>`,
     created() {
-        EventBus.$emit('moNav',false)
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
     },
     data(){
         return{
@@ -61333,6 +61331,9 @@ const MainSlider = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
+
 const pos = {
     template:`<div class='pos'>
                 <div class='head_banner'></div>
@@ -61462,6 +61463,9 @@ const pos = {
         </section>
 
     </div>`,
+       created() {
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
+    },
         data(){
             return{
                 S1B:false
@@ -61489,6 +61493,8 @@ const pos = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
 
 
 const pro = {
@@ -61632,6 +61638,9 @@ const pro = {
         Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
         Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
       },
+      created() {
+        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('moNav',false)
+    },
     data(){
         return{
             S1B:false,
@@ -61753,17 +61762,13 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./product.scss */ "./src/product/product.scss");
 /* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_product_scss__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
-
 
 
 const product = {
     template:`<div class='product'>
                 <router-view></router-view>
             </div>`,
-    created() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('moNav',false)
-    },
+ 
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (product);
