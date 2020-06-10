@@ -125,6 +125,11 @@ div.board{
                         border-right: 1px solid #d0d0d0;
                         margin-right: 10px;
                         padding-right: 10px;
+                        @media (max-width:767px) {
+                            border: 0px;
+                            display: block;
+                            
+                        }
                     }
                     label{
                         font-size: 0.875rem;
@@ -134,6 +139,10 @@ div.board{
                         display: inline-block;
                         vertical-align: middle;
                         margin-right: 20px;
+                        @media (max-width:767px) {
+                            margin-right: 10px;
+                        }
+
                     }
                 }
             }
@@ -167,6 +176,7 @@ div.board{
                         border-bottom: 1px solid #d0d0d0;
                         border-right: 1px solid #d0d0d0;
                         border-left: 1px solid #d0d0d0;
+                     
                         &>div{
                             display: inline-block;
                             padding: 15px 0px;
@@ -176,9 +186,16 @@ div.board{
                             width: 15%;
                             height: 100%;
                             text-align: center;
+                            @media (max-width:767px) {
+                                width: 40%;
+                            }
+
                         }
                         div:nth-child(2){
                            width: 80%;
+                           @media (max-width:767px) {
+                            width: 55%;
+                            }
                             input{
                                 display: block;
                                 border: 0;

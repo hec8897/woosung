@@ -5,11 +5,20 @@ section.login_page{
     }
     ul{
         margin-top: 50px;
+        @media (max-width:767px) {
+            margin-top: 20px;
+            
+        }
         li{
             width: 98%;
             max-width: 450px;
             height: 60px;
             margin: 20px auto;
+            @media (max-width:767px) {
+                width: 90%;
+                height: 50px;
+            }
+
             input{
                 width: 100%;
                 height: 100%;
@@ -26,6 +35,9 @@ section.login_page{
                 &:hover{
                     background-color:lighten($color: $PointColor, $amount: 10%);
                 }
+                @media (max-width:767px) {
+                    line-height: 50px;
+                }
             }
            
         }
@@ -33,6 +45,9 @@ section.login_page{
             width: 100%;
             max-width: 450px;
             margin: 10px auto;
+            @media (max-width:767px) {
+                width: 90%;
+            }
             a{
                 float: right;
                 text-decoration: underline;
