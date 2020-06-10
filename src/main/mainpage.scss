@@ -1,3 +1,4 @@
+@import '../define.scss';
 div.home{
     div.slider{
         width: 100%;
@@ -67,7 +68,7 @@ div.home{
         }
     }
     h2{
-        border-bottom: 1px solid #d0d0d0;;
+        border-bottom: 1px solid #d0d0d0;
         padding-bottom: 15px;
         vertical-align: middle;
         text-align: left;
@@ -109,7 +110,7 @@ div.home{
                             position: absolute;
                             right: 0;
                             font-size: 0.875rem;
-                            border-left: 1px solid #d0d0d0;;
+                            border-left: 1px solid $lightgray;;
                             padding-left: 10px;
                             vertical-align: middle;
                         }
@@ -157,7 +158,7 @@ div.home{
                             div.photo{
                                 width: 100%;
                                 height: 100px;
-                                background-color: #d0d0d0;
+                                background-color: $lightgray;
                                 @media (max-width:767px) {
                                     height: 120px;
                                 }
@@ -184,7 +185,6 @@ div.home{
 
     }
     section.section2{
-        background-color: #f3f3f3;
         div.wrap{
             @media (max-width:767px) {
                 width: 95%;
@@ -210,6 +210,8 @@ div.home{
         }
     }
     section.section3{
+        background-color: $lightgray;
+
         div.content{
             width: 46%;
             display: inline-block;
@@ -243,7 +245,7 @@ div.home{
                             position: absolute;
                             right: 0;
                             font-size: 0.875rem;
-                            border-left: 1px solid #d0d0d0;;
+                            border-left: 1px solid $lightgray;;
                             padding-left: 10px;
                             vertical-align: middle;
                         }
@@ -292,6 +294,42 @@ div.home{
 
             }
         }
+    }
+    section.section4{
+        background-color: $lightgray;
+        text-align: center;
+        div.item{
+            width: calc(94%/5);
+            display: inline-block;
+            margin: 5px;
+            border: 1px solid #d0d0d0;
+            vertical-align: middle;
+            background-color: #fff;
+            img{
+                width: 100%;
+            }
+            h4{
+                padding: 10px;
+                margin-top: 10px;
+                font-size: .875rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-weight: bolder;
+            }
+            p{
+                text-align: left;
+                font-size: 0.75rem;
+                padding: 5px;
+            }
+            &:nth-child(1){
+                margin-left: 0;
+            }
+            &:last-child{
+                margin-right: 0;
+            }
+        }
+
     }
 
 }
