@@ -24,7 +24,7 @@ div.home{
                         width: 100%;
                         position: absolute;
                         left: 50%;
-                        top: 50%;
+                        top: 45%;
                         transform: translate(-50%,-50%);
                     }
                     h3{
@@ -32,7 +32,8 @@ div.home{
                         font-weight: bold;;
                         color: #fff;
                         font-size: 3rem;
-                        margin: 20px 0px;
+                        margin: 10px 0px;
+                        margin-bottom: 30px;
                         @media (max-width:767px) {
                             font-size: 1.75rem;
                         }
@@ -40,7 +41,11 @@ div.home{
                     h4{
                         font-size: 2rem;
                         text-align: center;
-                        color: #fff;
+                        color: darken($color: #00CED1, $amount: 10%);
+                        &.w_text{
+                            color: #fff;
+                            font-weight: 600;
+                        }
                         @media (max-width:767px) {
                             font-size: 1.125rem;
                         }

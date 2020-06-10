@@ -11,9 +11,9 @@ const MainSlider = {
                 <div class='inner inner_1'>
                         <div class='slide_content'>
                             <div>
-                                <h4>쉽고 빠른 농자재</h4>
+                                <h4 class='w_text'>쉽고 빠른 농자재</h4>
                                 <h3>판매재고 프로그램의 기준!</h3>
-                                <h4>우성 소프트</h4>
+                                <h4>Walk together and Win together</h4>
                             </div>
                             </div>
                 </div>
