@@ -11,6 +11,12 @@ import qna from './board/qna';
 import support from './board/support';
 import zoom from './board/zoom'
 import zoomQna from './board/zoom_qna'
+import infopage from './info/infopage'
+import info1 from './info/insectPage'
+import info2 from './info/farmPage'
+import info3 from './info/moviepage'
+
+
 
 
 
@@ -48,6 +54,36 @@ const router = new VueRouter({
                 {
                     path:'pos',
                     component:Pos
+                }
+            ]
+        },
+        {
+            path:'/Information',
+            name:'information',
+            component:infopage,
+            children:[
+                {
+                    path:'',
+                    component:info2,
+                },
+                {
+                    path:'info1',
+                    component:info1,
+                },
+                {
+                    path:'info2',
+                    component:info2,
+                    name:'farm'
+
+                },
+                {
+                    path:'info3',
+                    component:info3,
+                    name:'movie'
+                },
+                {
+                    path:'info4',
+                    component:info1,
                 }
             ]
         },

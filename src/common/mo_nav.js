@@ -17,6 +17,16 @@ const MoNav = {
                         </div>
                     </li>
                     <li>
+                    <router-link to='/information' tag='span'>정보 공유</router-link>
+                    <div class='hidden_menu'>
+                        <!-- <router-link to='/board/faq' tag='p'>병충해 알림</router-link>     -->
+                        <p onclick="alert('서비스 준비중입니다.')">병충해 알림</p>
+                        <router-link to='/board/qna' tag='p'>농자재 소식</router-link>    
+                        <router-link to='/board/support' tag='p'>정보 동영상</router-link>    
+                        <router-link to='/board/support' tag='p'>농업계 소식</router-link>    
+                    </div>
+                </li>
+                    <li>
                     <router-link to='/board' tag='span'>고객 지원 센터</router-link>
                         <div class='sub_menu'>
                             <router-link to='/board/faq' tag='p'>자주하는 질문</router-link>    

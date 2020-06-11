@@ -1,0 +1,142 @@
+@import '../define.scss';
+div.info{
+    div.head_banner {
+        width: 100%;
+        height: 500px;
+        background-color: $lightgray;
+        background-image: url(../../image/info/head_banner.jpg);
+        h3{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 2.2rem;
+            color: #fff;
+            text-align: center;
+            letter-spacing: 2px;
+            width: 100%;
+        }
+    }
+    
+    section{
+    div.popup{
+        div.inner{
+            width: 700px;
+            height: 700px;
+            background-color: #fff;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            iframe{
+                width: 100%;
+                height: 80%;
+                overflow-x: hidden;
+            }
+
+        }
+    }
+
+        h2{
+            text-align: center;
+        }
+        &.farm{
+            ul.content_main{
+                margin-top: 100px;
+                text-align: center;
+                li{
+                    cursor: pointer;
+                    display: inline-block;
+                    width: 100%;
+                    max-width: 385px;
+                    height: 400px;
+                    background-color: $lightgray;
+                    margin: 5px;
+                    vertical-align: middle;
+                    transition: .1s ease-in;
+                    &:hover{
+                        transform: translateY(-3px);
+                        @include shadowDefault();
+                    }
+                    div.img{
+                        height: 270px;
+                        overflow: hidden;
+                        background-color: $MainColor;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    div.text{
+                        height: 130px;
+                        overflow: hidden;
+                        padding: 15px;
+                        text-align: left;
+                    }
+                    h4{
+                        box-sizing: border-box;
+                        font-weight: bold;
+                        margin: 10px 0px;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    p{
+                        font-size: 0.875rem;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                    p.date{
+                        font-size: 0.75rem;
+                        color: #999;
+                        margin-top: 5px;
+                    }
+                }
+
+            }
+        }
+        &.movie{
+            ul{
+                margin-top: 100px;
+                li{
+                    border-bottom: 1px solid #d0d0d0;;
+                    padding: 20px 0px;
+                    &:nth-child(1){
+                        border-top: 1px solid #d0d0d0;
+                    }
+                    &>div{
+                        vertical-align: middle;
+                    }
+                    div.thumbnail{
+                        width: 320px;
+                        height: 200px;
+                        background-color: $lightgray;
+                        display: inline-block;
+                        overflow: hidden;
+                        border-radius: 3px;
+                        img{
+                            margin-top: -20px;
+                            width: 100%;
+                            
+                        }
+                    }
+                    div.text-box{
+                        max-width: 70%;
+                        margin-left: 2%;
+                        display: inline-block;
+                        h3{
+                            font-size: 1.25rem;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-size: 0.875rem;
+                        }
+                        p.date{
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
