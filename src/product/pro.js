@@ -3,7 +3,17 @@ import EventBus from '../eventbus';
 
 const pro = {
     template:`<div class='pro'>
-        <div class='head_banner'></div>
+        <div class='head_banner'>
+            <div class='wrap'>
+                <div class='img'>
+                    <img src="image/product/pro.png">
+                </div>
+                <div class='text'>
+                    <h4>작물 유통 프로그램의 기준!!</h4>
+                    <h3>우성 소프트 Win-Win Pro</h3>
+                </div>
+            </div>
+        </div>
         <section class='section1 pro_section'>
             <div class='wrap'>
                 <div class='icon_box icon_box1' v-bind:class="{active:S1B}">

@@ -54,6 +54,12 @@ div.info{
                     margin: 5px;
                     vertical-align: middle;
                     transition: .1s ease-in;
+                    @media (max-width:767px) {
+                        margin: 0px;
+                        width: 98%;
+                        margin-bottom: 10px;
+                        
+                    }
                     &:hover{
                         transform: translateY(-3px);
                         @include shadowDefault();
@@ -91,6 +97,7 @@ div.info{
                         color: #999;
                         margin-top: 5px;
                     }
+                 
                 }
 
             }
@@ -98,14 +105,21 @@ div.info{
         &.movie{
             ul{
                 margin-top: 100px;
+                @media (max-width:767px) {
+                    margin-top: 50px;
+                }
                 li{
                     border-bottom: 1px solid #d0d0d0;;
                     padding: 20px 0px;
+                    @media (max-width:767px) {
+                        text-align: center;
+                    }
                     &:nth-child(1){
                         border-top: 1px solid #d0d0d0;
                     }
                     &>div{
                         vertical-align: middle;
+                        
                     }
                     div.thumbnail{
                         width: 320px;
@@ -114,6 +128,7 @@ div.info{
                         display: inline-block;
                         overflow: hidden;
                         border-radius: 3px;
+                        cursor: pointer;
                         img{
                             margin-top: -20px;
                             width: 100%;
@@ -124,6 +139,13 @@ div.info{
                         max-width: 70%;
                         margin-left: 2%;
                         display: inline-block;
+                        @media (max-width:767px) {
+                            max-width: 90%;
+                            margin: 0;
+                            margin-top: 20px;
+                            text-align: left;
+                        }
+
                         h3{
                             font-size: 1.25rem;
                             margin-bottom: 20px;
@@ -134,6 +156,19 @@ div.info{
                         p.date{
                             margin-top: 20px;
                         }
+                    }
+                    div.youtube_box{
+                        width: 70%;
+                        height: 500px;
+                        background-color: #d0d0d0;
+                        margin: 20px auto;
+                        display: none;
+                        @media (max-width:767px) {
+                            width: 90%;
+                            height: 250px;
+
+                        }
+
                     }
                 }
             }

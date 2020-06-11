@@ -102,7 +102,7 @@ div.board{
             border-top: 2px solid #999;
             div.head{
                 padding: 20px 10px;
-                border-bottom: 1px solid $lightgray;
+                border-bottom: 1px solid #d0d0d0;
                 p{
                     margin-bottom: 20px;
                     font-size: 0.875rem;
@@ -122,7 +122,7 @@ div.board{
                 div.type{
                     margin-top: 15px;
                     span{
-                        border-right: 1px solid $lightgray;
+                        border-right: 1px solid #d0d0d0;
                         margin-right: 10px;
                         padding-right: 10px;
                         @media (max-width:767px) {
@@ -150,7 +150,7 @@ div.board{
                 padding: 50px 10px;
                 min-height: 200px;
                 color: #666;
-                border-bottom: 1px solid $lightgray;
+                border-bottom: 1px solid #d0d0d0;
                 p{
                     line-height: 1.9rem;
                 }
@@ -173,9 +173,9 @@ div.board{
                     width: 100%;
                     li{
                         box-sizing: border-box;;
-                        border-bottom: 1px solid $lightgray;
-                        border-right: 1px solid $lightgray;
-                        border-left: 1px solid $lightgray;
+                        border-bottom: 1px solid #d0d0d0;;
+                        border-right: 1px solid #d0d0d0;;
+                        border-left: 1px solid #d0d0d0;;
                      
                         &>div{
                             display: inline-block;
