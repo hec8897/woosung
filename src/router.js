@@ -16,10 +16,6 @@ import info1 from './info/insectPage'
 import info2 from './info/farmPage'
 import info3 from './info/moviepage'
 
-
-
-
-
 const router = new VueRouter({
     routes: [
         {

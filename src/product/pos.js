@@ -1,4 +1,5 @@
 import EventBus from '../eventbus';
+import '../../image/product/pos_s1_icon2.png';
 
 const pos = {
     template:`<div class='pos'>
