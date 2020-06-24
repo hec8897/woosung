@@ -7,62 +7,14 @@ const download = {
             <h3>묻고 답하기</h3>
         </div>
         <LoginPage v-if="!login"/>
-        <section class='section1' v-else>
+        <section class='section1'>
             <div class='wrap'>
                 <h2>묻고 답하기</h2>
                 <nav>
                     <div class='btn' @click="changeMode" v-if="writeMode">문의 게시판</div>
-                    <div class='btn' @click="changeMode" v-if="boardMode">문의하기</div>
+                    <router-link tag='div' class='btn' v-if="boardMode" to='qnawrite/'>문의하기</router-link>
                 </nav>
-                <div class='write_table zoom' v-if="writeMode">
-                    <div class='zoom_table'>
-                        <div class='head'>
-                            <h3>문의하기</h3>
-                            <div class='type'>
-                                <span>문의 유형</span>
-                                <label for='type1'>장애신고</label>
-                                <input type="checkbox" id='type1'>
-
-                                <label for='type2'>Win-Win Pro</label>
-                                <input type="checkbox" id='type2'>
-
-                                <label for='type3'>Win-Win Pos</label>
-                                <input type="checkbox" id='type3'>
-
-                                <label for='type4'>기타</label>
-                                <input type="checkbox" id='type4'>
-                            </div>
-                        </div>
-                        <div class='consult_board'>
-                            <ul>
-                                <li>
-                                    <div class='th'>신청자</div>
-                                    <div class='tb'><input type='text' placeholder="신청자를 입력해주세요"/></div>
-                                </li>
-                                <li>
-                                    <div class='th'>연락처</div>
-                                    <div class='tb'><input type='text' placeholder="연락처를 입력해주세요"/></div>
-                                </li>
-                                <li>
-                                    <div class='th'>제목</div>
-                                    <div class='tb'><input type='text' placeholder="제목을 입력해주세요"/></div>
-                                </li>
-
-                                <li>
-                                   <textarea placeholder="문의하실 내용을 입력해주세요"/>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class='foot'>
-                            <p><label for='public'>비밀글 등록 여부  </label><input type="checkbox" id='public'></p>
-                            <!-- <b-form-file 
-                            ref="file-input" 
-                            placeholder="이미지 파일을 선택해주세요"
-                            accept=".jpg, .png, .gif"
-                            class="mb-2"></b-form-file> -->
-                        </div>
-                    </div>
-                </div>
+        
                 <table v-if="boardMode">
                     <thead>
                         <tr>
@@ -227,7 +179,7 @@ const download = {
             //true 문의 게시판 false 문의하기
             limit:10,
             start:0,
-            boards:""
+            boards:{}
         }
     },
     components:{

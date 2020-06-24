@@ -15,6 +15,7 @@ import infopage from './info/infopage'
 import info1 from './info/insectPage'
 import info2 from './info/farmPage'
 import info3 from './info/moviepage'
+import qnaWrite from './board/qna_write';
 
 const router = new VueRouter({
     routes: [
@@ -104,6 +105,10 @@ const router = new VueRouter({
                     props:true,
                     path:'zoomqna/:idx',
                     component:zoomQna
+                },
+                {
+                    path:'qnawrite/',
+                    component:qnaWrite
                 },
                 {
                     path:'support',
