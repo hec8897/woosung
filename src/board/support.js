@@ -1,6 +1,6 @@
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number'
-import { BIcon, BIconArrowUp, BIconArrowDown } from 'bootstrap-vue'
+import axios from 'axios';
 
 const support = {
     template:`<div class='support'>
@@ -16,7 +16,7 @@ const support = {
                             <td>번호</td>
                             <td>채널 <b-icon icon="chevron-compact-right"/> 분류</td>
                             <td>제목</td>
-                            <td>첨부파일</td>
+                            <td>조회수</td>
                             <td>작성일</td>
                         </tr>
                     </thead>
@@ -24,145 +24,36 @@ const support = {
                         <router-link v-bind:to="'zoom/'+board.no" tag='tr' v-for='(board,i) in boards' v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
                             <td>채널 <b-icon icon="chevron-compact-right"/> {{board.cate}}</td>
-                            <td>{{board.tit}}</td>
+                            <td>{{board.title}}
+                            </td>
                             <td>
-                                <img v-if='board.excel!=null'src='image/board/excel.svg'>
-                                <img v-if='board.word!=null'src='image/board/msword.svg'>
-                                <img v-if='board.pdf!=null'src='image/board/pdf.svg'>
-                                <img v-if='board.hwp!=null'src='image/board/hwp.png'>
+                                {{board.join}}                       
                             </td>
                             <td>{{board.date}}</td>
                         </router-link>
                     </tbody>
                 </table>
                 <listNumber v-bind:DataLength='Math.ceil((boards.length)/10)' v-bind:nowpage='limit-10'/>
-
             </div>
         </section>
     </div>`,
-    created() {
-        eventBus.$emit('moNav',false)
-   
-        this.boards = [
-            {
-                no:0,
-                cate:'장애',
-                tit:"첫번째 글입니다. 두번째 글입니다. 두번째 글입니다. 두번째 글입니다. 두번째 글입니다.",
-                hwp:'123.hwp',
-                pdf:null,
-                word:null,
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:1,
-                cate:'공지사항',
-                tit:"두번째 글입니다.",
-                hwp:'123.hwp',
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.07'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            },
-            {
-                no:2,
-                cate:'업데이트',
-                tit:"세번째 글입니다.",
-                hwp:null,
-                pdf:'test.pdf',
-                word:'test.docs',
-                excel:'test.xlsx',
-                date:'2020.06.08'
-            }
-        ]
+    components:{
+        listNumber,
     },
     data(){
         return{
+            mode:'loading',
             start:0,
             limit:10,
             boards:""
         }
     },
+
+    created() {
+        eventBus.$emit('moNav',false)
+        this.getData()
+    },
+
     mounted() {
         eventBus.$emit('UpdateList', {
             DataLength: Math.ceil((this.boards.length) / 10),
@@ -173,11 +64,20 @@ const support = {
             this.limit = (Data * 10) + 10
         })
     },
-    components:{
-        listNumber,
-        BIcon,
-        BIconArrowUp,
-        BIconArrowDown
-      },
+    methods: {
+            getData(){
+                        const BaseData = "../woosung_api/support.data.php"
+                        axios.get(BaseData)
+                        .then((result)=>{
+                            console.log(result)
+                            this.boards = result.data.result;
+                            eventBus.$emit('UpdateList', {
+                                DataLength: Math.ceil((this.boards.length) / 10),
+                                nowpage: this.limit - 10
+                            })
+                        })
+                    }
+    },
+
 }
 export default support;

@@ -1,4 +1,4 @@
-import { BIcon, BIconArrowUp, BIconArrowDown } from 'bootstrap-vue'
+import axios from 'axios';
 
 const zoom = {
     props:['idx','data'],
@@ -8,19 +8,27 @@ const zoom = {
                     </div>
                     <section class='section1 zoom'>
                         <div class='wrap'>
+                              <h3>고객지원센터</h3>
                               <div class='zoom_table'>
                                     <div class='head'>
-                                          <p>고객지원센터<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{board.date}}</span></p>
-                                          <h4>{{board.tit}}</h4>
+                                          <p>고객지원센터
+                                          <b-icon icon="chevron-compact-right"/> 
+                                          <b v-if="board.cate === 'error'">시스템 장애</b>
+                                          <b v-else-if="board.cate === 'update'">업데이트</b>
+                                          <b v-else-if="board.cate === 'info'">공지사항</b>
+                                          <b v-else-if="board.cate === 'notice'">정보</b>
+
+                                          <span> {{board.date}}</span>
+                                          </p>
+                                          <h4>{{board.title}}</h4>
                                     </div>
                                     <div class='desc'>
                                           <p>{{board.desc}}</p>
                                     </div>      
                                     <div class='foot'>
-                                          <p v-if='board.excel!=null'><a href="javascript:void()" download><img src='image/board/excel.svg'> <span>{{board.excel}}</span><b-icon icon="download"/></a></p>
-                                          <p v-if='board.word!=null'><a href="javascript:void()" download><img src='image/board/msword.svg'> <span>{{board.word}}</span><b-icon icon="download"/></a></p>
-                                          <p v-if='board.pdf!=null'><a href="javascript:void()" download><img src='image/board/pdf.svg'> <span>{{board.pdf}}</span><b-icon icon="download"/></a></p>
-                                          <p v-if='board.hwp!=null'><a href="javascript:void()" download><img src='image/board/hwp.png'> <span>{{board.hwp}}</span><b-icon icon="download"/></a></p>
+                                          <p v-for="file in files">
+                                          <a v-bind:href="'../woosung_api/upload_support/'+file" download> {{file}}</a> 
+                                          <b-icon icon="download"/></p>
                                     </div>
                               </div>
                               <router-link tag='div'  to="/board/support" class='btn'>목록</router-link>
@@ -28,26 +36,33 @@ const zoom = {
                     </section>
 
               </div>`,
-              components:{
-                  BIcon,
-                  BIconArrowUp,
-                  BIconArrowDown
-                },
+              created() {
+                    this.getData(this.idx)
+              },
               data(){
                     return{
+                        files:"",
                         board:{
                                   no:0,
-                                  cate:'장애',
-                                  tit:"첫번째 글입니다. 두번째 글입니다. 두번째 글입니다. 두번째 글입니다. 두번째 글입니다.",
-                                  desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, quam eius! Quisquam accusantium corporis laudantium illo, consectetur corrupti veritatis fuga laboriosam ratione totam pariatur odio magni distinctio modi tempore! Culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, quam eius! Quisquam accusantium corporis laudantium illo, consectetur corrupti veritatis fuga laboriosam ratione totam pariatur odio magni distinctio modi tempore! Culpa.",
-                                  hwp:'농진청 제출 자료',
-                                  pdf:'농진청 제출 자료',
-                                  word:'농진청 제출 자료',
-                                  excel:'세무 회계 자료',
-                                  date:'2020.06.08'
+                                  cate:'',
+                                  title:"",
+                                  desc:"",
+                                  date:''
                               }
                     }
-              }
+              },
+              methods: {
+                  getData(idx){
+                        const BaseData = "../woosung_api/support.data.php"
+                        axios.post(BaseData,{idx,join:true})
+                        .then((result)=>{
+
+                            this.board = result.data.result[0];
+                            this.mode = 'load'
+                            this.files = result.data.result[0].files.split(',');
+                        })
+                    }
+                  }
 }
 
 export default zoom;
