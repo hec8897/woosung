@@ -1,6 +1,8 @@
 import board from './board'
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number'
+import axios from 'axios'
+
 //모드 변경필요
 const faq = {
     props:['mode'],
@@ -13,126 +15,50 @@ const faq = {
             <h2>자주하는 질문</h2>
             <nav class='lnb faq_lnb'>
                 <ul>
-                    <li class='active'>전체</li>
-                    <li>Win-Win pro</li>
-                    <li>win-Win pos</li>
-                    <li>기타</li>
+                    <li 
+                        v-for="listCate in listCates" 
+                        @click="filterData(listCate,$event)" 
+                        v-bind:class="{active:listCate.value}">
+                        <span v-if="listCate.Name=='all'">전체</span>
+                        <span v-if="listCate.Name=='pro'">Win-Win pro</span>
+                        <span v-if="listCate.Name=='pos'">Win-Win pos</span>
+                        <span v-if="listCate.Name=='etc'">기타</span>
+                    </li>
                 </ul>
             </nav>
             <ul class='faq'>
-                <div v-for='(faq,i) in faqs' v-if='i < limit && i >= start'>
+                <div v-for='(filter,i) in filters' v-if='i < limit && i >= start'>
                     <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
                         <span>Q</span>
-                        <p><label>{{faq.cate}}</label>{{faq.tit}}</p>
+                        <p>
+                        <label v-if="filter.cate=='pos'">Win-Win Pos</label>
+                        <label v-else-if="filter.cate=='pro'">Win-Win Pro</label>
+                        <label v-else-if="filter.cate=='etc'">기타</label>
+                        {{filter.tit}}</p>
                     </li>
                     <li v-bind:id="'aa'+i" class='beactive'>
                         <span>A</span>
-                        <p>{{faq.desc}}</p>
+                        <p>{{filter.desc}}</p>
                     </li>
                 </div>
             </ul>
-            <listNumber  v-bind:DataLength='Math.ceil((faqs.length)/10)' v-bind:nowpage='limit-10'/>
+            
+            <listNumber  v-bind:DataLength='Math.ceil((filters.length)/10)' v-bind:nowpage='limit-10'/>
         </div>
         </section>
     </div>`,
     components:{
-        board,
-        listNumber
+        board,listNumber
     },
     created() {
         eventBus.$emit('moNav',false)
-        this.faqs = [
-            {
-                no:0,
-                cate:'win-win pro',
-                tit:'1자주하는 질문 테스트 글입니다 win-win pro',
-                desc:`자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
-                자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
-                자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
-                자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.`
-            },
-            {
-                no:1,
-                cate:'win-win pro',
-                tit:'win-win pro 자주하는 질문 테스트 글',
-                desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-
-            },
-            {
-                no:2,
-                cate:'win-win pos',
-                tit:'win-win pos 자주하는 질문 테스트 글',
-                desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:3,
-                cate:'기타',
-                tit:'기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                tit:'자주하는 질문 테스트 글입니다 win-win pro',
-                desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
-            },
-            {
-                no:4,
-                cate:'win-win pro',
-                tit:'win-win pro 자주하는 질문 테스트 글',
-                desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-
-            },
-            {
-                no:5,
-                cate:'win-win pos',
-                tit:'win-win pos 자주하는 질문 테스트 글',
-                desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:6,
-                cate:'기타',
-                tit:'기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:7,
-                cate:'win-win pro',
-                tit:'자주하는 질문 테스트 글입니다 win-win pro',
-                desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
-            },
-            {
-                no:8,
-                cate:'win-win pro',
-                tit:'win-win pro 자주하는 질문 테스트 글',
-                desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-
-            },
-            {
-                no:9,
-                cate:'win-win pos',
-                tit:'win-win pos 자주하는 질문 테스트 글',
-                desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:10,
-                cate:'기타',
-                tit:'2기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:10,
-                cate:'기타',
-                tit:'2기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            }
-        ]
+        this.getData();
     },
     mounted() {
-        eventBus.$emit('UpdateList', {
-            DataLength: Math.ceil((this.faqs.length) / 10),
-            nowpage: this.limit - 10
-        })
+        // eventBus.$emit('UpdateList', {
+        //     DataLength: Math.ceil((this.filters.length) / 10),
+        //     nowpage: this.limit - 10
+        // })
         eventBus.$on('NextPage', (Data) => {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
@@ -140,12 +66,53 @@ const faq = {
     },
     data(){
         return{
+            listCates:[
+                {Name:'all', value:true},
+                {Name:'pro', value:false},
+                {Name:'pos', value:false},
+                {Name:'etc', value:false},
+            ],
             limit:10,
             start:0,
+            mode:"all",
+            filters:"",
             faqs:""
         }
     },
     methods: {
+        getData(){
+            const BaseData = "../woosung_api/faq.data.php"
+            axios.post(BaseData,{mode:'page'})
+            .then((result)=>{
+                this.faqs = result.data.result;
+                this.filters = this.faqs;
+
+                eventBus.$emit('UpdateList', {
+                    DataLength: Math.ceil((this.filters.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            })
+        },
+        filterData(cates){
+            this.listCates[0].value = false
+            this.listCates[1].value = false
+            this.listCates[2].value = false
+            this.listCates[3].value = false
+
+            cates.value = true
+            if(cates.Name == 'all'){
+                this.filters = this.faqs;
+            }
+            else{
+                this.filters = this.faqs.filter(function(Data){
+                    return Data.cate == cates.Name
+                })
+                eventBus.$emit('UpdateList', {
+                    DataLength: Math.ceil((this.filters.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            }
+        },
         openAA(i){
             let target = document.getElementById(`aa${i}`)
             if(target.className =='beactive'){

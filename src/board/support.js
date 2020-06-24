@@ -67,7 +67,7 @@ const support = {
     methods: {
             getData(){
                         const BaseData = "../woosung_api/support.data.php"
-                        axios.get(BaseData)
+                        axios.post(BaseData,{mode:'list'})
                         .then((result)=>{
                             console.log(result)
                             this.boards = result.data.result;

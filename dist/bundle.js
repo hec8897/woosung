@@ -54477,7 +54477,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.8);\n  z-index: 999; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      text-overflow: ellipsis;\n      overflow: hidden;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #555555; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center;\n    border: 1px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #f9fafc; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li p {\n      margin-left: 50px; }\n    div.board div.faq section.section1 ul.faq li span {\n      position: absolute;\n      left: 20px;\n      top: 50%;\n      transform: translateY(-50%);\n      width: 25px;\n      height: 25px;\n      background-color: #ec6647;\n      text-align: center;\n      line-height: 25px;\n      color: white;\n      border-radius: 100%; }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.8);\n  z-index: 999; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      text-overflow: ellipsis;\n      overflow: hidden;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #555555; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center;\n    border: 1px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #d0d0d0; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li p {\n      margin-left: 50px; }\n    div.board div.faq section.section1 ul.faq li span {\n      position: absolute;\n      left: 20px;\n      top: 50%;\n      transform: translateY(-50%);\n      width: 25px;\n      height: 25px;\n      background-color: #ec6647;\n      text-align: center;\n      line-height: 25px;\n      color: white;\n      border-radius: 100%; }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -54615,7 +54615,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/slide1_b
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.8);\n  z-index: 999; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      position: relative;\n      background-size: cover; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 600px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n            height: 450px; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 45%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 3rem;\n          margin: 10px 0px;\n          margin-bottom: 30px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 2rem;\n          text-align: center;\n          color: #009c9e; }\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4.w_text {\n            color: #fff;\n            font-weight: 600; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #f9fafc;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #f9fafc; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\n@media (max-width: 767px) {\n  div.home section.section2 div.wrap {\n    width: 95%; } }\n\ndiv.home section.section2 div.youtubes {\n  text-align: center;\n  margin-top: 10px; }\n  div.home section.section2 div.youtubes div.slide_inner {\n    width: 95%;\n    max-width: 280px;\n    height: 190px;\n    display: inline-block;\n    margin-top: 20px;\n    margin-right: 10px;\n    border: 1px solid #87CEFA;\n    margin: 5px; }\n\ndiv.home section.section3 {\n  background-color: #f9fafc; }\n  div.home section.section3 div.content {\n    width: 46%;\n    display: inline-block;\n    text-align: center; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content {\n        width: 95%;\n        display: block;\n        margin: 0 auto;\n        margin-bottom: 30px; } }\n    div.home section.section3 div.content.notice ul li {\n      text-align: left;\n      font-size: 1rem;\n      margin: 10px 0px;\n      overflow: hidden;\n      height: auto; }\n      div.home section.section3 div.content.notice ul li p {\n        width: 80%;\n        height: 100%;\n        display: inline-block;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        overflow: hidden;\n        vertical-align: middle; }\n      div.home section.section3 div.content.notice ul li span {\n        position: absolute;\n        right: 0;\n        font-size: 0.875rem;\n        border-left: 1px solid #f9fafc;\n        padding-left: 10px;\n        vertical-align: middle; }\n    div.home section.section3 div.content.news2_info {\n      float: right;\n      overflow: hidden; }\n      @media (max-width: 767px) {\n        div.home section.section3 div.content.news2_info {\n          float: initial; } }\n      div.home section.section3 div.content.news2_info div.news2 {\n        height: 180px;\n        padding: 20px 0px;\n        box-sizing: border-box;\n        overflow-y: scroll; }\n        div.home section.section3 div.content.news2_info div.news2 ul li {\n          text-align: left;\n          margin-bottom: 20px; }\n          div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n            vertical-align: middle;\n            display: inline-block;\n            width: 160px;\n            height: 115px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n                max-width: 40%;\n                height: 80px; } }\n          div.home section.section3 div.content.news2_info div.news2 ul li p {\n            height: 100px;\n            vertical-align: top;\n            width: 50%;\n            margin-left: 10px;\n            display: inline-block;\n            overflow: hidden;\n            font-size: 0.875rem; }\n\ndiv.home section.section4 {\n  background-color: #f9fafc;\n  text-align: center; }\n  div.home section.section4 div.item {\n    width: calc(94%/5);\n    display: inline-block;\n    margin: 5px;\n    border: 1px solid #d0d0d0;\n    vertical-align: middle;\n    background-color: #fff; }\n    div.home section.section4 div.item img {\n      width: 100%; }\n    div.home section.section4 div.item h4 {\n      padding: 10px;\n      margin-top: 10px;\n      font-size: .875rem;\n      overflow: hidden;\n      white-space: nowrap;\n      text-overflow: ellipsis;\n      font-weight: bolder; }\n    div.home section.section4 div.item p {\n      text-align: left;\n      font-size: 0.75rem;\n      padding: 5px; }\n    div.home section.section4 div.item:nth-child(1) {\n      margin-left: 0; }\n    div.home section.section4 div.item:last-child {\n      margin-right: 0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.8);\n  z-index: 999; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      position: relative;\n      background-size: cover; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 600px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n            height: 450px; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 45%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 3rem;\n          margin: 10px 0px;\n          margin-bottom: 30px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 2rem;\n          text-align: center;\n          color: #009c9e; }\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4.w_text {\n            color: #fff;\n            font-weight: 600; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  min-height: 280px;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto;\n    cursor: pointer; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n      div.home section.section1 div.content.notice ul li p:hover {\n        color: #424242;\n        text-decoration: underline; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #f9fafc;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #f9fafc; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\n@media (max-width: 767px) {\n  div.home section.section2 div.wrap {\n    width: 95%; } }\n\ndiv.home section.section2 div.youtubes {\n  text-align: center;\n  margin-top: 10px; }\n  div.home section.section2 div.youtubes div.slide_inner {\n    width: 95%;\n    max-width: 280px;\n    height: 190px;\n    display: inline-block;\n    margin-top: 20px;\n    margin-right: 10px;\n    border: 1px solid #87CEFA;\n    margin: 5px; }\n\ndiv.home section.section3 {\n  background-color: #f9fafc; }\n  div.home section.section3 div.content {\n    width: 46%;\n    display: inline-block;\n    text-align: center; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content {\n        width: 95%;\n        display: block;\n        margin: 0 auto;\n        margin-bottom: 30px; } }\n    div.home section.section3 div.content.notice ul li {\n      text-align: left;\n      font-size: 1rem;\n      margin: 10px 0px;\n      overflow: hidden;\n      height: auto; }\n      div.home section.section3 div.content.notice ul li p {\n        width: 80%;\n        height: 100%;\n        display: inline-block;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        overflow: hidden;\n        vertical-align: middle; }\n      div.home section.section3 div.content.notice ul li span {\n        position: absolute;\n        right: 0;\n        font-size: 0.875rem;\n        border-left: 1px solid #f9fafc;\n        padding-left: 10px;\n        vertical-align: middle; }\n    div.home section.section3 div.content.news2_info {\n      float: right;\n      overflow: hidden; }\n      @media (max-width: 767px) {\n        div.home section.section3 div.content.news2_info {\n          float: initial; } }\n      div.home section.section3 div.content.news2_info div.news2 {\n        height: 180px;\n        padding: 20px 0px;\n        box-sizing: border-box;\n        overflow-y: scroll; }\n        div.home section.section3 div.content.news2_info div.news2 ul li {\n          text-align: left;\n          margin-bottom: 20px; }\n          div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n            vertical-align: middle;\n            display: inline-block;\n            width: 160px;\n            height: 115px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n                max-width: 40%;\n                height: 80px; } }\n          div.home section.section3 div.content.news2_info div.news2 ul li p {\n            height: 100px;\n            vertical-align: top;\n            width: 50%;\n            margin-left: 10px;\n            display: inline-block;\n            overflow: hidden;\n            font-size: 0.875rem; }\n\ndiv.home section.section4 {\n  background-color: #f9fafc;\n  text-align: center; }\n  div.home section.section4 div.item {\n    width: calc(94%/5);\n    display: inline-block;\n    margin: 5px;\n    border: 1px solid #d0d0d0;\n    vertical-align: middle;\n    background-color: #fff; }\n    div.home section.section4 div.item img {\n      width: 100%; }\n    div.home section.section4 div.item h4 {\n      padding: 10px;\n      margin-top: 10px;\n      font-size: .875rem;\n      overflow: hidden;\n      white-space: nowrap;\n      text-overflow: ellipsis;\n      font-weight: bolder; }\n    div.home section.section4 div.item p {\n      text-align: left;\n      font-size: 0.75rem;\n      padding: 5px; }\n    div.home section.section4 div.item:nth-child(1) {\n      margin-left: 0; }\n    div.home section.section4 div.item:last-child {\n      margin-right: 0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -71746,6 +71746,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _board__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./board */ "./src/board/board.js");
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 
@@ -71761,126 +71765,50 @@ const faq = {
             <h2>자주하는 질문</h2>
             <nav class='lnb faq_lnb'>
                 <ul>
-                    <li class='active'>전체</li>
-                    <li>Win-Win pro</li>
-                    <li>win-Win pos</li>
-                    <li>기타</li>
+                    <li 
+                        v-for="listCate in listCates" 
+                        @click="filterData(listCate,$event)" 
+                        v-bind:class="{active:listCate.value}">
+                        <span v-if="listCate.Name=='all'">전체</span>
+                        <span v-if="listCate.Name=='pro'">Win-Win pro</span>
+                        <span v-if="listCate.Name=='pos'">Win-Win pos</span>
+                        <span v-if="listCate.Name=='etc'">기타</span>
+                    </li>
                 </ul>
             </nav>
             <ul class='faq'>
-                <div v-for='(faq,i) in faqs' v-if='i < limit && i >= start'>
+                <div v-for='(filter,i) in filters' v-if='i < limit && i >= start'>
                     <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
                         <span>Q</span>
-                        <p><label>{{faq.cate}}</label>{{faq.tit}}</p>
+                        <p>
+                        <label v-if="filter.cate=='pos'">Win-Win Pos</label>
+                        <label v-else-if="filter.cate=='pro'">Win-Win Pro</label>
+                        <label v-else-if="filter.cate=='etc'">기타</label>
+                        {{filter.tit}}</p>
                     </li>
                     <li v-bind:id="'aa'+i" class='beactive'>
                         <span>A</span>
-                        <p>{{faq.desc}}</p>
+                        <p>{{filter.desc}}</p>
                     </li>
                 </div>
             </ul>
-            <listNumber  v-bind:DataLength='Math.ceil((faqs.length)/10)' v-bind:nowpage='limit-10'/>
+            
+            <listNumber  v-bind:DataLength='Math.ceil((filters.length)/10)' v-bind:nowpage='limit-10'/>
         </div>
         </section>
     </div>`,
     components:{
-        board: _board__WEBPACK_IMPORTED_MODULE_0__["default"],
-        listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_2__["default"]
+        board: _board__WEBPACK_IMPORTED_MODULE_0__["default"],listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_2__["default"]
     },
     created() {
         _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('moNav',false)
-        this.faqs = [
-            {
-                no:0,
-                cate:'win-win pro',
-                tit:'1자주하는 질문 테스트 글입니다 win-win pro',
-                desc:`자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
-                자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
-                자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.
-                자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.`
-            },
-            {
-                no:1,
-                cate:'win-win pro',
-                tit:'win-win pro 자주하는 질문 테스트 글',
-                desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-
-            },
-            {
-                no:2,
-                cate:'win-win pos',
-                tit:'win-win pos 자주하는 질문 테스트 글',
-                desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:3,
-                cate:'기타',
-                tit:'기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                tit:'자주하는 질문 테스트 글입니다 win-win pro',
-                desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
-            },
-            {
-                no:4,
-                cate:'win-win pro',
-                tit:'win-win pro 자주하는 질문 테스트 글',
-                desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-
-            },
-            {
-                no:5,
-                cate:'win-win pos',
-                tit:'win-win pos 자주하는 질문 테스트 글',
-                desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:6,
-                cate:'기타',
-                tit:'기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:7,
-                cate:'win-win pro',
-                tit:'자주하는 질문 테스트 글입니다 win-win pro',
-                desc:'자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다.,자주하는 질문 테스트 본문 입니다. '
-            },
-            {
-                no:8,
-                cate:'win-win pro',
-                tit:'win-win pro 자주하는 질문 테스트 글',
-                desc:'win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-
-            },
-            {
-                no:9,
-                cate:'win-win pos',
-                tit:'win-win pos 자주하는 질문 테스트 글',
-                desc:'win-win pos 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:10,
-                cate:'기타',
-                tit:'2기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            },
-            {
-                no:10,
-                cate:'기타',
-                tit:'2기타 자주하는 질문 테스트 글',
-                desc:'기타 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 win-win pro 자주하는 질문 테스트 글 본문'
-            }
-        ]
+        this.getData();
     },
     mounted() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
-            DataLength: Math.ceil((this.faqs.length) / 10),
-            nowpage: this.limit - 10
-        })
+        // eventBus.$emit('UpdateList', {
+        //     DataLength: Math.ceil((this.filters.length) / 10),
+        //     nowpage: this.limit - 10
+        // })
         _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$on('NextPage', (Data) => {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
@@ -71888,12 +71816,53 @@ const faq = {
     },
     data(){
         return{
+            listCates:[
+                {Name:'all', value:true},
+                {Name:'pro', value:false},
+                {Name:'pos', value:false},
+                {Name:'etc', value:false},
+            ],
             limit:10,
             start:0,
+            mode:"all",
+            filters:"",
             faqs:""
         }
     },
     methods: {
+        getData(){
+            const BaseData = "../woosung_api/faq.data.php"
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'page'})
+            .then((result)=>{
+                this.faqs = result.data.result;
+                this.filters = this.faqs;
+
+                _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
+                    DataLength: Math.ceil((this.filters.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            })
+        },
+        filterData(cates){
+            this.listCates[0].value = false
+            this.listCates[1].value = false
+            this.listCates[2].value = false
+            this.listCates[3].value = false
+
+            cates.value = true
+            if(cates.Name == 'all'){
+                this.filters = this.faqs;
+            }
+            else{
+                this.filters = this.faqs.filter(function(Data){
+                    return Data.cate == cates.Name
+                })
+                _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
+                    DataLength: Math.ceil((this.filters.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            }
+        },
         openAA(i){
             let target = document.getElementById(`aa${i}`)
             if(target.className =='beactive'){
@@ -71974,18 +71943,17 @@ const download = {
                                 </li>
 
                                 <li>
-                                   <textarea>문의하실 내용을 입력해주세요</textarea>
+                                   <textarea placeholder="문의하실 내용을 입력해주세요"/>
                                 </li>
                             </ul>
                         </div>
                         <div class='foot'>
                             <p><label for='public'>비밀글 등록 여부  </label><input type="checkbox" id='public'></p>
-                            <b-form-file 
+                            <!-- <b-form-file 
                             ref="file-input" 
                             placeholder="이미지 파일을 선택해주세요"
                             accept=".jpg, .png, .gif"
-                            class="mb-2"></b-form-file>
-                            
+                            class="mb-2"></b-form-file> -->
                         </div>
                     </div>
                 </div>
@@ -72255,7 +72223,7 @@ const support = {
     methods: {
             getData(){
                         const BaseData = "../woosung_api/support.data.php"
-                        axios__WEBPACK_IMPORTED_MODULE_2___default.a.get(BaseData)
+                        axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(BaseData,{mode:'list'})
                         .then((result)=>{
                             console.log(result)
                             this.boards = result.data.result;
@@ -72293,7 +72261,7 @@ const zoom = {
                     </div>
                     <section class='section1 zoom'>
                         <div class='wrap'>
-                              <h3>고객지원센터</h3>
+                              <h2>고객지원센터</h2>
                               <div class='zoom_table'>
                                     <div class='head'>
                                           <p>고객지원센터
@@ -72310,7 +72278,7 @@ const zoom = {
                                     <div class='desc'>
                                           <p>{{board.desc}}</p>
                                     </div>      
-                                    <div class='foot'>
+                                    <div class='foot' v-if="files!==''">
                                           <p v-for="file in files">
                                           <a v-bind:href="'../woosung_api/upload_support/'+file" download> {{file}}</a> 
                                           <b-icon icon="download"/></p>
@@ -72344,7 +72312,9 @@ const zoom = {
 
                             this.board = result.data.result[0];
                             this.mode = 'load'
-                            this.files = result.data.result[0].files.split(',');
+                            if(this.board.files!=null){
+                              this.files = this.board.files.split(',');
+                          }
                         })
                     }
                   }
@@ -73452,6 +73422,8 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 
 
 const Section1 = {
@@ -73459,18 +73431,17 @@ const Section1 = {
         <div class='wrap'>
             <div class='content notice'>
                 <h2>공지사항 
-                <span class='more'><b>더보기</b> +</span>
-                    
+                <router-link tag="span" to="/board/support" class='more'><b>더보기</b> +</router-link>
                 </h2>
                 <ul class='notices'>
-                    <li v-for='notice in notices'>
-                        <p>{{notice.tit}}</p>
+                    <li v-for='(notice,i) in notices' v-if="i<=6">
+                        <router-link tag='p' v-bind:to="'/board/zoom/'+notice.no">{{notice.title}}</router-link>
                         <span>{{notice.date}}</span>
                     </li>
                 </ul>
             </div>
             <div class='content news_info'>
-                <h2>농자재 소식
+                <h2>제품 홍보
                     <span class='more'><b>더보기</b> +</span>
                 </h2>
                 <div class='news_photo'>
@@ -73523,49 +73494,60 @@ const Section1 = {
         Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
         Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
       },
+      created() {
+          this.getData()
+      },
       data(){
           return{
               notices:[
                     {
                       idx:0,
-                      writer:"우성소프트",
-                      tit:"우성소프트에서 알려드립니다.",
+                      title:"우성소프트에서 알려드립니다.",
                       date:"2020-06-03",
                     },
                     {
                         idx:1,
-                        writer:"우성소프트",
-                        tit:"사이트가 리뉴얼 되었습니다.",
+                        title:"사이트가 리뉴얼 되었습니다.",
                         date:"2020-06-03",
                     },
                     {
                         idx:2,
-                        writer:"우성소프트",
-                        tit:"테스트 입력",
+                        title:"테스트 입력",
                         date:"2020-06-03",
                       },
                       {
                           idx:3,
                           writer:"우성소프트",
-                          tit:"우성소프트 테스트 입력",
+                          title:"우성소프트 테스트 입력",
                           date:"2020-06-03",
                       },
                       {
                         idx:4,
                         writer:"우성소프트",
-                        tit:"우성소프트에서 알려드립니다.",
+                        title:"우성소프트에서 알려드립니다.",
                         date:"2020-06-03",
                       },
                       {
                           idx:5,
                           writer:"우성소프트",
-                          tit:"우성소프트에서 알려드립니다2.",
+                          title:"우성소프트에서 알려드립니다2.",
                           date:"2020-06-03",
                       },
 
               ]
           }
-      }
+      },
+      methods: {
+        getData(){
+            
+                    const BaseData = "../woosung_api/support.data.php"
+
+                    axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(BaseData,{mode:'main'})
+                    .then((result)=>{
+                        this.notices = result.data.result;
+                    })
+                }
+        }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Section1);

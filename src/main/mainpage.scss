@@ -78,6 +78,7 @@ div.home{
     section.section1{
         div.content{
             width: 46%;
+            min-height: 280px;
             display: inline-block;
             text-align: center;
             vertical-align: top;
@@ -96,6 +97,8 @@ div.home{
                         margin: 10px 0px;
                         overflow: hidden;
                         height: auto;
+                        cursor: pointer;
+                   
                         p{
                             width: 80%;
                             height: 100%;
@@ -104,6 +107,10 @@ div.home{
                             white-space:nowrap;
                             overflow: hidden;
                             vertical-align: middle;
+                            &:hover{
+                                color: #424242;
+                                text-decoration: underline;
+                            }
 
                         }
                         span{

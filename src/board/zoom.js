@@ -8,7 +8,7 @@ const zoom = {
                     </div>
                     <section class='section1 zoom'>
                         <div class='wrap'>
-                              <h3>고객지원센터</h3>
+                              <h2>고객지원센터</h2>
                               <div class='zoom_table'>
                                     <div class='head'>
                                           <p>고객지원센터
@@ -25,7 +25,7 @@ const zoom = {
                                     <div class='desc'>
                                           <p>{{board.desc}}</p>
                                     </div>      
-                                    <div class='foot'>
+                                    <div class='foot' v-if="files!==''">
                                           <p v-for="file in files">
                                           <a v-bind:href="'../woosung_api/upload_support/'+file" download> {{file}}</a> 
                                           <b-icon icon="download"/></p>
@@ -59,7 +59,9 @@ const zoom = {
 
                             this.board = result.data.result[0];
                             this.mode = 'load'
-                            this.files = result.data.result[0].files.split(',');
+                            if(this.board.files!=null){
+                              this.files = this.board.files.split(',');
+                          }
                         })
                     }
                   }

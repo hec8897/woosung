@@ -49,18 +49,17 @@ const download = {
                                 </li>
 
                                 <li>
-                                   <textarea>문의하실 내용을 입력해주세요</textarea>
+                                   <textarea placeholder="문의하실 내용을 입력해주세요"/>
                                 </li>
                             </ul>
                         </div>
                         <div class='foot'>
                             <p><label for='public'>비밀글 등록 여부  </label><input type="checkbox" id='public'></p>
-                            <b-form-file 
+                            <!-- <b-form-file 
                             ref="file-input" 
                             placeholder="이미지 파일을 선택해주세요"
                             accept=".jpg, .png, .gif"
-                            class="mb-2"></b-form-file>
-                            
+                            class="mb-2"></b-form-file> -->
                         </div>
                     </div>
                 </div>

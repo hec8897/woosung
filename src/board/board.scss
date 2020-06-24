@@ -290,7 +290,7 @@ div.board{
                         box-sizing: border-box;
                         line-height: 50px;
                         &.active{
-                            background-color: $lightgray;
+                            background-color: #d0d0d0;
                         }
                         &:last-child{
                             border-right: 0px;
