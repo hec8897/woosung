@@ -3,6 +3,7 @@ import axios from 'axios';
 const zoom = {
     props:['idx','data'],
     template:`<div class='support'>
+                    
                     <div class='board_head'>
                           <h3>고객지원센터</h3>
                     </div>
@@ -23,7 +24,7 @@ const zoom = {
                                           <h4>{{board.title}}</h4>
                                     </div>
                                     <div class='desc'>
-                                          <p>{{board.desc}}</p>
+                                          <textarea resize="none" readonly>{{board.desc}}</textarea>
                                     </div>      
                                     <div class='foot' v-if="files!==''">
                                           <p v-for="file in files">

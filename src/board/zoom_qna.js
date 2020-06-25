@@ -19,7 +19,7 @@ const zoomQna = {
                                           <p>{{board.desc}}</p>
                                           <div class='answer'>
                                               <h3 class='b_text'>답변</h3>
-                                              <p v-if="board.recive!=null" v-html="board.recive"></p>
+                                              <textarea v-if="board.recive!=null" v-html="board.recive" resize="none" readonly></textarea>
                                               <p v-else>답변 대기 중 입니다.</p>
                                         </div>
                                     </div>  

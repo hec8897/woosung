@@ -151,6 +151,12 @@ div.board{
                 min-height: 200px;
                 color: #666;
                 border-bottom: 1px solid #d0d0d0;
+                textarea{
+                    border: 0px;
+                    width: 100%;
+                    resize: none;
+                    height: 150px;
+                }
                 p{
                     line-height: 1.9rem;
                 }

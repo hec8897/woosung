@@ -1,5 +1,6 @@
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number';
+import MoviePopup from './movie_popup'
 
 const MoviePage = {
     template:`<section class='movie wrap'>
@@ -11,15 +12,20 @@ const MoviePage = {
                     썸네일 이미지
                 </div>
                 <div class='text-box'>
-                    <h3>{{movie.title}}</h3>
+                    <h3 @click="youtubeBoxShow(i)">{{movie.title}}</h3>
                     <p>{{movie.desc}}</p>
                     <p class='date'>게시일 : {{movie.date}}</p>
                 </div>
-                <div class='youtube_box' v-bind:id="'target'+i">
+
+                <!-- <div class='youtube_box' v-bind:id="'target'+i">
                     <iframe width="100%" height="100%" v-bind:src="movie.youtubeRoot" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                </div>
+                </div> -->
             </li>
+            <MoviePopup 
+            v-bind:show="show" 
+            v-bind:data="popupData"
+            @child="parent"
+            />
         </ul>
         <listNumber v-bind:DataLength='Math.ceil((movies.length)/10)' v-bind:nowpage='limit-10'/>
     </section>`,
@@ -34,11 +40,12 @@ const MoviePage = {
         })
     },
     components:{
-        listNumber
+        listNumber,MoviePopup
     },
     data(){
         return{
             show:false,
+            popupData:"",
             start:0,
             limit:10,
             movies:[    
@@ -150,10 +157,12 @@ const MoviePage = {
         }
     },
     methods: {
+        parent(data){
+            this.show = data
+        },
         youtubeBoxShow(i){
-            const Target = document.getElementById('target'+i)
-            Target.style.display = 'block'
-
+            this.show = true
+            this.popupData = this.movies[i]
         }
     },
 }

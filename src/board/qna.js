@@ -95,7 +95,6 @@ const download = {
             axios.get(BaseData)
             .then((result)=>{
                 this.boards = result.data.result;
-                console.log(this.boards)
                 eventBus.$emit('UpdateList', {
                     DataLength: Math.ceil((this.boards.length) / 10),
                     nowpage: this.limit - 10
