@@ -201,14 +201,18 @@ div.home{
             text-align: center;
             margin-top: 10px;
             div.slide_inner{
+                cursor: pointer;
                 width: 95%;
                 max-width: 280px;
-                height: 190px;
                 display: inline-block;
                 margin-top: 20px;
                 margin-right: 10px;
-                border: 1px solid #87CEFA;
                 margin: 5px;
+                overflow: hidden;
+                @include shadowDefault();
+                img{
+                    width: 100%;
+                }
                 @media (max-width:767px) {
                     // width: 180px;
                     // width: 30%;

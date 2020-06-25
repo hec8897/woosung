@@ -7,7 +7,7 @@ const MoviePopup = {
         <iframe 
         width="100%" 
         height="100%" 
-        v-bind:src="data.youtubeRoot" 
+        v-bind:src="'https://www.youtube.com/embed/'+data.youtubeId" 
         frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>

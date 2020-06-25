@@ -54615,7 +54615,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/slide1_b
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      position: relative;\n      background-size: cover; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 600px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n            height: 450px; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 45%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 3rem;\n          margin: 10px 0px;\n          margin-bottom: 30px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 2rem;\n          text-align: center;\n          color: #009c9e; }\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4.w_text {\n            color: #fff;\n            font-weight: 600; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  min-height: 280px;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto;\n    cursor: pointer; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n      div.home section.section1 div.content.notice ul li p:hover {\n        color: #424242;\n        text-decoration: underline; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #f9fafc;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #f9fafc; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\n@media (max-width: 767px) {\n  div.home section.section2 div.wrap {\n    width: 95%; } }\n\ndiv.home section.section2 div.youtubes {\n  text-align: center;\n  margin-top: 10px; }\n  div.home section.section2 div.youtubes div.slide_inner {\n    width: 95%;\n    max-width: 280px;\n    height: 190px;\n    display: inline-block;\n    margin-top: 20px;\n    margin-right: 10px;\n    border: 1px solid #87CEFA;\n    margin: 5px; }\n\ndiv.home section.section3 {\n  background-color: #f9fafc; }\n  div.home section.section3 div.content {\n    width: 46%;\n    display: inline-block;\n    text-align: center; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content {\n        width: 95%;\n        display: block;\n        margin: 0 auto;\n        margin-bottom: 30px; } }\n    div.home section.section3 div.content.notice ul li {\n      text-align: left;\n      font-size: 1rem;\n      margin: 10px 0px;\n      overflow: hidden;\n      height: auto; }\n      div.home section.section3 div.content.notice ul li p {\n        width: 80%;\n        height: 100%;\n        display: inline-block;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        overflow: hidden;\n        vertical-align: middle; }\n      div.home section.section3 div.content.notice ul li span {\n        position: absolute;\n        right: 0;\n        font-size: 0.875rem;\n        border-left: 1px solid #f9fafc;\n        padding-left: 10px;\n        vertical-align: middle; }\n    div.home section.section3 div.content.news2_info {\n      float: right;\n      overflow: hidden; }\n      @media (max-width: 767px) {\n        div.home section.section3 div.content.news2_info {\n          float: initial; } }\n      div.home section.section3 div.content.news2_info div.news2 {\n        height: 180px;\n        padding: 20px 0px;\n        box-sizing: border-box;\n        overflow-y: scroll; }\n        div.home section.section3 div.content.news2_info div.news2 ul li {\n          text-align: left;\n          margin-bottom: 20px; }\n          div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n            vertical-align: middle;\n            display: inline-block;\n            width: 160px;\n            height: 115px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n                max-width: 40%;\n                height: 80px; } }\n          div.home section.section3 div.content.news2_info div.news2 ul li p {\n            height: 100px;\n            vertical-align: top;\n            width: 50%;\n            margin-left: 10px;\n            display: inline-block;\n            overflow: hidden;\n            font-size: 0.875rem; }\n\ndiv.home section.section4 {\n  background-color: #f9fafc;\n  text-align: center; }\n  div.home section.section4 div.item {\n    width: calc(94%/5);\n    display: inline-block;\n    margin: 5px;\n    border: 1px solid #d0d0d0;\n    vertical-align: middle;\n    background-color: #fff; }\n    div.home section.section4 div.item img {\n      width: 100%; }\n    div.home section.section4 div.item h4 {\n      padding: 10px;\n      margin-top: 10px;\n      font-size: .875rem;\n      overflow: hidden;\n      white-space: nowrap;\n      text-overflow: ellipsis;\n      font-weight: bolder; }\n    div.home section.section4 div.item p {\n      text-align: left;\n      font-size: 0.75rem;\n      padding: 5px; }\n    div.home section.section4 div.item:nth-child(1) {\n      margin-left: 0; }\n    div.home section.section4 div.item:last-child {\n      margin-right: 0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.home div.slider {\n  width: 100%;\n  margin-bottom: 50px; }\n  div.home div.slider .VueCarousel-wrapper {\n    background-color: #87CEFA; }\n    div.home div.slider .VueCarousel-wrapper div.inner {\n      width: 100%;\n      position: relative;\n      background-size: cover; }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 {\n      background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n        width: 100%;\n        height: 600px;\n        background-color: rgba(34, 34, 34, 0.3); }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n            height: 450px; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n          width: 100%;\n          position: absolute;\n          left: 50%;\n          top: 45%;\n          transform: translate(-50%, -50%); }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n          text-align: center;\n          font-weight: bold;\n          color: #fff;\n          font-size: 3rem;\n          margin: 10px 0px;\n          margin-bottom: 30px; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n              font-size: 1.75rem; } }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n          font-size: 2rem;\n          text-align: center;\n          color: #009c9e; }\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4.w_text {\n            color: #fff;\n            font-weight: 600; }\n          @media (max-width: 767px) {\n            div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n              font-size: 1.125rem; } }\n    div.home div.slider .VueCarousel-wrapper p {\n      text-align: center;\n      position: relative;\n      top: 250px;\n      font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  min-height: 280px;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    height: auto;\n    cursor: pointer; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      text-overflow: ellipsis;\n      white-space: nowrap;\n      overflow: hidden;\n      vertical-align: middle; }\n      div.home section.section1 div.content.notice ul li p:hover {\n        color: #424242;\n        text-decoration: underline; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem;\n      border-left: 1px solid #f9fafc;\n      padding-left: 10px;\n      vertical-align: middle; }\n  div.home section.section1 div.content.news_info {\n    float: right; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        float: none; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          width: 100%;\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        width: 100%;\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n          display: none; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos.none {\n              display: inline-block; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner {\n          width: 100%;\n          height: 100%; }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n            width: 100%;\n            height: 100px;\n            background-color: #f9fafc; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n                height: 120px; } }\n          div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n            height: 50px;\n            width: 100%;\n            overflow: hidden;\n            text-overflow: ellipsis;\n            margin-top: 10px;\n            text-align: left; }\n            @media (max-width: 767px) {\n              div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n                height: auto; } }\n\n@media (max-width: 767px) {\n  div.home section.section2 div.wrap {\n    width: 95%; } }\n\ndiv.home section.section2 div.youtubes {\n  text-align: center;\n  margin-top: 10px; }\n  div.home section.section2 div.youtubes div.slide_inner {\n    cursor: pointer;\n    width: 95%;\n    max-width: 280px;\n    display: inline-block;\n    margin-top: 20px;\n    margin-right: 10px;\n    margin: 5px;\n    overflow: hidden;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.home section.section2 div.youtubes div.slide_inner img {\n      width: 100%; }\n\ndiv.home section.section3 {\n  background-color: #f9fafc; }\n  div.home section.section3 div.content {\n    width: 46%;\n    display: inline-block;\n    text-align: center; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content {\n        width: 95%;\n        display: block;\n        margin: 0 auto;\n        margin-bottom: 30px; } }\n    div.home section.section3 div.content.notice ul li {\n      text-align: left;\n      font-size: 1rem;\n      margin: 10px 0px;\n      overflow: hidden;\n      height: auto; }\n      div.home section.section3 div.content.notice ul li p {\n        width: 80%;\n        height: 100%;\n        display: inline-block;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        overflow: hidden;\n        vertical-align: middle; }\n      div.home section.section3 div.content.notice ul li span {\n        position: absolute;\n        right: 0;\n        font-size: 0.875rem;\n        border-left: 1px solid #f9fafc;\n        padding-left: 10px;\n        vertical-align: middle; }\n    div.home section.section3 div.content.news2_info {\n      float: right;\n      overflow: hidden; }\n      @media (max-width: 767px) {\n        div.home section.section3 div.content.news2_info {\n          float: initial; } }\n      div.home section.section3 div.content.news2_info div.news2 {\n        height: 180px;\n        padding: 20px 0px;\n        box-sizing: border-box;\n        overflow-y: scroll; }\n        div.home section.section3 div.content.news2_info div.news2 ul li {\n          text-align: left;\n          margin-bottom: 20px; }\n          div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n            vertical-align: middle;\n            display: inline-block;\n            width: 160px;\n            height: 115px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n                max-width: 40%;\n                height: 80px; } }\n          div.home section.section3 div.content.news2_info div.news2 ul li p {\n            height: 100px;\n            vertical-align: top;\n            width: 50%;\n            margin-left: 10px;\n            display: inline-block;\n            overflow: hidden;\n            font-size: 0.875rem; }\n\ndiv.home section.section4 {\n  background-color: #f9fafc;\n  text-align: center; }\n  div.home section.section4 div.item {\n    width: calc(94%/5);\n    display: inline-block;\n    margin: 5px;\n    border: 1px solid #d0d0d0;\n    vertical-align: middle;\n    background-color: #fff; }\n    div.home section.section4 div.item img {\n      width: 100%; }\n    div.home section.section4 div.item h4 {\n      padding: 10px;\n      margin-top: 10px;\n      font-size: .875rem;\n      overflow: hidden;\n      white-space: nowrap;\n      text-overflow: ellipsis;\n      font-weight: bolder; }\n    div.home section.section4 div.item p {\n      text-align: left;\n      font-size: 0.75rem;\n      padding: 5px; }\n    div.home section.section4 div.item:nth-child(1) {\n      margin-left: 0; }\n    div.home section.section4 div.item:last-child {\n      margin-right: 0; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -73202,7 +73202,7 @@ const MoviePopup = {
         <iframe 
         width="100%" 
         height="100%" 
-        v-bind:src="data.youtubeRoot" 
+        v-bind:src="'https://www.youtube.com/embed/'+data.youtubeId" 
         frameborder="0" 
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen></iframe>
@@ -73236,6 +73236,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
 /* harmony import */ var _movie_popup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./movie_popup */ "./src/info/movie_popup.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -73246,7 +73249,7 @@ const MoviePage = {
         <ul>
             <li v-for="(movie,i) in movies" v-if='i < limit && i >= start' >
                 <div class='thumbnail' @click="youtubeBoxShow(i)">
-                    <img v-bind:src="movie.youtubeId">
+                    <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
                     썸네일 이미지
                 </div>
                 <div class='text-box'>
@@ -73267,11 +73270,21 @@ const MoviePage = {
         </ul>
         <listNumber v-bind:DataLength='Math.ceil((movies.length)/10)' v-bind:nowpage='limit-10'/>
     </section>`,
+        created() {
+            const BaseData = "../woosung_api/youtube.data.php"
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
+            .then((result)=>{
+                this.movies = result.data.result
+                this.mode = 'load'
+    
+                _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
+                    DataLength: Math.ceil((this.movies.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            })
+        },
       mounted() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
-            DataLength: Math.ceil((this.movies.length) / 10),
-            nowpage: this.limit - 9
-        })
+
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
             this.start = Data * 10;
             this.limit = (Data * 10) + 9
@@ -73286,112 +73299,7 @@ const MoviePage = {
             popupData:"",
             start:0,
             limit:10,
-            movies:[    
-                        {
-                            idx:0,
-                            youtubeId:"https://i.ytimg.com/vi/OuHfCxy_DrQ/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/GIW7eOgxuP4",
-                            title:"PLS 농약판매기록 농촌진흥청 시스템으로 전송하는 방법",
-                            desc:"우성소프트 Win-Win Pro를 이용하여 빠르고 쉽게 클릭 몇 번으로 농약판매기록을 농촌진흥청 [농약안전정보시스템]으로 전송하는 방법을 안내하는 동영상입니다.",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:1,
-                            youtubeId:"https://i.ytimg.com/vi/LgJ6E7PPSII/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/LgJ6E7PPSII",
-                            title:"사례로 배우는 올바른 농약사용법",
-                            desc:"국립농산물품질관리원 홍보 콘텐츠 내부공모전 우수작 사례로 배우는 올바른 농약사용법입니다 주제는 PLS입니다.",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:2,
-                            youtubeId:"https://i.ytimg.com/vi/fK-wwJJn4tU/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/fK-wwJJn4tU",
-                            title:"PLS 농약판매기록 농촌진흥청 시스템으로 전송하는 방법",
-                            desc:"우성소프트 Win-Win Pro를 이용하여 빠르고 쉽게 클릭 몇 번으로 농약판매기록을 농촌진흥청 [농약안전정보시스템]으로 전송하는 방법을 안내하는 동영상입니다.",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:3,
-                            youtubeId:"https://i.ytimg.com/vi/0n_IBZ_NR6Q/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            desc:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:4,
-                            youtubeId:"https://i.ytimg.com/vi/OuHfCxy_DrQ/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/OuHfCxy_DrQ",
-                            title:"연속수확작물,엽채류에 농약잔류+약흔 걱정없이 사용할 수 있는 농약이 있다?",
-                            desc:"PLS제도 시행! 잔류검사 면제 성분으로 걱정없이 사용 가능한 잔류프리! 유통/보관 작물도 오랫동안 안전하게, 수출 농산물에도 걱정 없이 사용 가능!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:3,
-                            youtubeId:"https://i.ytimg.com/vi/0n_IBZ_NR6Q/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            desc:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:4,
-                            youtubeId:"https://i.ytimg.com/vi/OuHfCxy_DrQ/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"연속수확작물,엽채류에 농약잔류+약흔 걱정없이 사용할 수 있는 농약이 있다?",
-                            desc:"PLS제도 시행! 잔류검사 면제 성분으로 걱정없이 사용 가능한 잔류프리! 유통/보관 작물도 오랫동안 안전하게, 수출 농산물에도 걱정 없이 사용 가능!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:3,
-                            youtubeId:"https://i.ytimg.com/vi/0n_IBZ_NR6Q/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            desc:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:4,
-                            youtubeId:"https://i.ytimg.com/vi/OuHfCxy_DrQ/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"연속수확작물,엽채류에 농약잔류+약흔 걱정없이 사용할 수 있는 농약이 있다?",
-                            desc:"PLS제도 시행! 잔류검사 면제 성분으로 걱정없이 사용 가능한 잔류프리! 유통/보관 작물도 오랫동안 안전하게, 수출 농산물에도 걱정 없이 사용 가능!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:3,
-                            youtubeId:"https://i.ytimg.com/vi/0n_IBZ_NR6Q/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            desc:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:4,
-                            youtubeId:"https://i.ytimg.com/vi/OuHfCxy_DrQ/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"연속수확작물,엽채류에 농약잔류+약흔 걱정없이 사용할 수 있는 농약이 있다?",
-                            desc:"PLS제도 시행! 잔류검사 면제 성분으로 걱정없이 사용 가능한 잔류프리! 유통/보관 작물도 오랫동안 안전하게, 수출 농산물에도 걱정 없이 사용 가능!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:3,
-                            youtubeId:"https://i.ytimg.com/vi/0n_IBZ_NR6Q/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            desc:"[농촌진흥청 농업기술]농약은 억울해!!",
-                            date:"2020-06-11"
-                        },
-                        {
-                            idx:4,
-                            youtubeId:"https://i.ytimg.com/vi/OuHfCxy_DrQ/0.jpg",
-                            youtubeRoot:"https://www.youtube.com/embed/0n_IBZ_NR6Q",
-                            title:"연속수확작물,엽채류에 농약잔류+약흔 걱정없이 사용할 수 있는 농약이 있다?",
-                            desc:"PLS제도 시행! 잔류검사 면제 성분으로 걱정없이 사용 가능한 잔류프리! 유통/보관 작물도 오랫동안 안전하게, 수출 농산물에도 걱정 없이 사용 가능!!",
-                            date:"2020-06-11"
-                        }
-                    ]
+            movies:""
         }
     },
     methods: {
@@ -73642,6 +73550,15 @@ const Section1 = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+/* harmony import */ var _info_movie_popup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../info/movie_popup */ "./src/info/movie_popup.js");
+
+
+
+
+
 
 
 const Section2 ={
@@ -73656,34 +73573,55 @@ const Section2 ={
                 :loop='true'
                 :per-page-custom=[[1024,4],[768,3],[480,2],[360,2]]
                 >
-                <slide>
-                    <div class='slide_inner'>1</div>
-                </slide>
-                <slide>
-                    <div class='slide_inner'>2</div>
-                </slide>
-                <slide>
-                    <div class='slide_inner'>3</div>
-                </slide>
-                <slide>
-                    <div class='slide_inner'>4</div>
+                <slide v-for="(movie,i) in movies" >
+                    <div class='slide_inner' @click="youtubeBoxShow(i)">
+                        <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
+                    </div>
                 </slide>
 
-                <slide>
-                    <div class='slide_inner'>5</div>
-                </slide>
-
-                <slide>
-                    <div class='slide_inner'>6</div>
-                </slide>
             </carousel>
+            <MoviePopup 
+            v-bind:show="show" 
+            v-bind:data="popupData"
+            @child="parent"
+            />
         </div>
         </div>
     </section>`,
        components: {
         Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
+        MoviePopup: _info_movie_popup__WEBPACK_IMPORTED_MODULE_3__["default"],
         Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
-      }
+      },
+      data(){
+        return{
+            show:false,
+            popupData:"",
+            movies:[]
+        }
+      },
+      created() {
+        const BaseData = "../woosung_api/youtube.data.php"
+        axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(BaseData)
+        .then((result)=>{
+            this.movies = result.data.result
+            this.mode = 'load'
+
+            _eventbus__WEBPACK_IMPORTED_MODULE_2__["default"].$emit('UpdateList', {
+                DataLength: Math.ceil((this.movies.length) / 10),
+                nowpage: this.limit - 10
+            })
+        })
+    },
+    methods: {
+        parent(data){
+            this.show = data
+        },
+        youtubeBoxShow(i){
+            this.show = true
+            this.popupData = this.movies[i]
+        }
+    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Section2);
