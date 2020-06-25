@@ -1,13 +1,15 @@
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number'
 import LoginPage from '../common/loginpage';
+import axios from 'axios';
+
 const download = {
     template:`<div class='qna'>
         <div class='board_head'>
             <h3>묻고 답하기</h3>
         </div>
         <LoginPage v-if="!login"/>
-        <section class='section1'>
+        <section class='section1' v-else>
             <div class='wrap'>
                 <h2>묻고 답하기</h2>
                 <nav>
@@ -19,24 +21,28 @@ const download = {
                     <thead>
                         <tr>
                             <td>접수번호</td>
-                            <td>분류</td>
-                            <td>제목</td>
-                            <td>작성일</td>
                             <td>상태</td>
+                            <td>제목</td>
+                            <td>작성자</td>
+                            <td>작성일</td>
                         </tr>
                     </thead>
                     <tbody>
                         <router-link tag='tr' v-bind:to="'zoomqna/'+board.no" v-for="(board,i) in boards" v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
-                            <td>{{board.cate}}</td>
-                            <td v-if="board.public" class='r_text'>비공개 글입니다</td>
-                            <td v-else>{{board.title}}</td>
+                          
+
                             <td>
                                 <span v-if="board.status === '답변완료'" class='b_text'>{{board.status}}</span>
                                 <span v-else-if="board.status === '확인중'" class='r_text'>{{board.status}}</span>
                                 <span v-else>{{board.status}}</span>
                             </td>
+
+                            <td v-if="board.private" class='r_text'>비공개 글입니다</td>
+                            <td v-else>{{board.title}}</td>
+                            <td>{{board.writer}}</td>
                             <td >{{board.date}}</td>
+                            
                         </router-link>
                     </tbody>
                 </table>
@@ -46,115 +52,8 @@ const download = {
     </div>`,
     created() {
         eventBus.$emit('moNav',false)
-        this.boards = [
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'접수중'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'확인중'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'답변완료'
-            },
-            {
-                no:0,
-                public:true,
-                cate:'win-win pro',
-                title:'비밀글입니다',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            }
-        ]
-        // this.login = this.$store.state.login;
+        this.getData()
+        this.login = this.$store.state.login;
     },
     mounted() {
         eventBus.$emit('UpdateList', {
@@ -190,6 +89,18 @@ const download = {
         changeMode(){
             this.boardMode == true?this.boardMode = false:this.boardMode = true
             this.writeMode == true?this.writeMode = false:this.writeMode = true
+        },
+        getData(){
+            const BaseData = "../woosung_api/qna.data.php"
+            axios.get(BaseData)
+            .then((result)=>{
+                this.boards = result.data.result;
+                console.log(this.boards)
+                eventBus.$emit('UpdateList', {
+                    DataLength: Math.ceil((this.boards.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            })
         }
         
     },

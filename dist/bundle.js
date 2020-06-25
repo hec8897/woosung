@@ -71892,6 +71892,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
 /* harmony import */ var _common_loginpage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/loginpage */ "./src/common/loginpage.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
+
+
 
 
 
@@ -71901,7 +71905,7 @@ const download = {
             <h3>묻고 답하기</h3>
         </div>
         <LoginPage v-if="!login"/>
-        <section class='section1'>
+        <section class='section1' v-else>
             <div class='wrap'>
                 <h2>묻고 답하기</h2>
                 <nav>
@@ -71913,24 +71917,28 @@ const download = {
                     <thead>
                         <tr>
                             <td>접수번호</td>
-                            <td>분류</td>
-                            <td>제목</td>
-                            <td>작성일</td>
                             <td>상태</td>
+                            <td>제목</td>
+                            <td>작성자</td>
+                            <td>작성일</td>
                         </tr>
                     </thead>
                     <tbody>
                         <router-link tag='tr' v-bind:to="'zoomqna/'+board.no" v-for="(board,i) in boards" v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
-                            <td>{{board.cate}}</td>
-                            <td v-if="board.public" class='r_text'>비공개 글입니다</td>
-                            <td v-else>{{board.title}}</td>
+                          
+
                             <td>
                                 <span v-if="board.status === '답변완료'" class='b_text'>{{board.status}}</span>
                                 <span v-else-if="board.status === '확인중'" class='r_text'>{{board.status}}</span>
                                 <span v-else>{{board.status}}</span>
                             </td>
+
+                            <td v-if="board.private" class='r_text'>비공개 글입니다</td>
+                            <td v-else>{{board.title}}</td>
+                            <td>{{board.writer}}</td>
                             <td >{{board.date}}</td>
+                            
                         </router-link>
                     </tbody>
                 </table>
@@ -71940,115 +71948,8 @@ const download = {
     </div>`,
     created() {
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
-        this.boards = [
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'접수중'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'확인중'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'답변완료'
-            },
-            {
-                no:0,
-                public:true,
-                cate:'win-win pro',
-                title:'비밀글입니다',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            },
-            {
-                no:0,
-                cate:'win-win pro',
-                title:'장애 신고 (708 에러)',
-                date:'20200408',
-                status:'문의 확인'
-            }
-        ]
-        // this.login = this.$store.state.login;
+        this.getData()
+        this.login = this.$store.state.login;
     },
     mounted() {
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
@@ -72084,6 +71985,18 @@ const download = {
         changeMode(){
             this.boardMode == true?this.boardMode = false:this.boardMode = true
             this.writeMode == true?this.writeMode = false:this.writeMode = true
+        },
+        getData(){
+            const BaseData = "../woosung_api/qna.data.php"
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
+            .then((result)=>{
+                this.boards = result.data.result;
+                console.log(this.boards)
+                _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
+                    DataLength: Math.ceil((this.boards.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            })
         }
         
     },
@@ -72104,6 +72017,9 @@ const download = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../router */ "./src/router.js");
+
+
 
 const qnaWrite = {
     template:`<div class='qna'>
@@ -72120,16 +72036,16 @@ const qnaWrite = {
                             <div class='type'>
                                 <span>문의 유형</span>
                                 <label for='type1'>장애신고</label>
-                                <input type="checkbox" id='type1' v-model="InsertData.error">
+                                <input type="checkbox" id='type1' v-model="error">
 
                                 <label for='type2'>Win-Win Pro</label>
-                                <input type="checkbox" id='type2' v-model="InsertData.pro">
+                                <input type="checkbox" id='type2' v-model="pro">
 
                                 <label for='type3'>Win-Win Pos</label>
-                                <input type="checkbox" id='type3' v-model="InsertData.pos">
+                                <input type="checkbox" id='type3' v-model="pos">
 
                                 <label for='type4'>기타</label>
-                                <input type="checkbox" id='type4' v-model="InsertData.etc">
+                                <input type="checkbox" id='type4' v-model="etc">
                             </div>
                         </div>
                         <div class='consult_board'>
@@ -72153,19 +72069,18 @@ const qnaWrite = {
                             </ul>
                         </div>
                         <div class='foot'>
-                            <p><label for='public'>비밀글 등록 여부  </label><input type="checkbox" v-model="InsertData.private" id='public'></p>
-                            <!-- <b-form-file 
-                            ref="file-input" 
-                            placeholder="이미지 파일을 선택해주세요"
-                            accept=".jpg, .png, .gif"
-                            class="mb-2"></b-form-file> -->
+                            <p>
+                                <label for='public'>비밀글 등록 여부  </label>
+                                <input type="checkbox" v-model="private" id='public'>
+                                <input type='password' v-if="private" placeholder="비밀글 패스워드" v-model="InsertData.password"/>
+                            </p>
                         </div>
                         <p class='btn'>
                         <b-button variant="success" @click='PostData'>
-                        <!-- <div v-if="mode == 'delete'" class="text-center">
+                        <div v-if="mode == 'insert'" class="text-center">
                             <b-spinner label="Spinning" ></b-spinner>
-                        </div> -->
-                            <span>등록</span>
+                        </div>
+                        <span v-else>등록</span>
                         </b-button>
                         </p>
                     </div>
@@ -72174,28 +72089,65 @@ const qnaWrite = {
     </div>`,
     data(){
         return{
-            InsertData:{
-                mode:"insert",
+                mode:'load',
                 error:false,
                 pro:false,
                 pos:false,
                 etc:false,
+                private:false,
+
+            InsertData:{
+                mode:"insert",
                 contact:"",
                 tit:"",
                 write:"",
                 desc:"",
-                private:""
+                private:false,
+                password:""
             }
         }
     },
-    methods: {
+    methods: { 
         PostData(){
+            this.mode = 'insert';
             const BaseData = "../woosung_api/qna.create.php";
 
-            axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,this.InsertData)
-            .then((result)=>{
-                console.log(result)
-            })
+            let cate = new Array();
+
+            this.error == true?cate.push("장애 문의"):false;
+            this.pro == true?cate.push("Win-Win Pro"):false;
+            this.pos == true?cate.push("Win-Win Pos"):false;
+            this.etc == true?cate.push("기타"):false;
+
+            this.private == true?this.InsertData.private = true:this.InsertData.private = false;
+            this.InsertData.cate = cate.toString()
+
+            if(this.InsertData.tit == ""){
+                alert('제목을 입력해주세요');
+                this.mode = 'load'
+
+            }
+            else if(this.InsertData.desc == ""){
+                alert('본문을 입력해주세요');
+                this.mode = 'load'
+
+            }
+            else if(this.private == true){
+                if(this.InsertData.password == ""){
+                    alert('패스워드를 입력하세요')
+                    this.mode = 'load'
+                }
+                else{
+                    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,this.InsertData)
+                    .then((result)=>{
+                        this.mode = 'load'
+                        if(result.data.phpResult == 'ok'){
+                            alert('접수되었습니다.')
+                            _router__WEBPACK_IMPORTED_MODULE_1__["default"].go(-1)
+                        }
+                    })
+                }
+            } 
         }
     },
 }
@@ -72395,7 +72347,11 @@ const zoom = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
 const zoomQna = {
+    props:['idx'],
     template:`<div class='qna'>
     <div class='board_head'>
         <h3>묻고 답하기</h3>
@@ -72407,42 +72363,50 @@ const zoomQna = {
                                     <div class='head'>
                                           <p>묻고 답하기<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{board.date}}</span></p>
                                           <h4>{{board.tit}}</h4>
-                                          <p>작성자: 우성 소프트</p>
+                                          <p>작성자: {{board.writer}}</p>
                                     </div>
+                                    
                                     <div class='desc'>
                                           <p>{{board.desc}}</p>
                                           <div class='answer'>
                                               <h3 class='b_text'>답변</h3>
-                                              <p v-if="board.answer!=null" v-html="board.answer"></p>
+                                              <p v-if="board.recive!=null" v-html="board.recive"></p>
                                               <p v-else>답변 대기 중 입니다.</p>
                                         </div>
                                     </div>  
                                    
-                                    <div class='foot'>
-                                          <p v-if='board.file!=null'><span>첨부파일:</span><a href="javascript:void()" download><span>{{board.file}}</span><b-icon icon="download"/></a></p>
-                                          <p v-else><span>첨부 파일 없음</span></p>
-                                    </div>
                               </div>
                               <router-link tag='div'  to="/board/qna" class='btn'>목록</router-link>
                               <div class='btn red'>삭제</div>
                         </div>
                     </section>
                 </div>`,
-              data(){
+            created() {
+                  this.getData(this.idx)
+            },            
+            data(){
                     return{
                         board:{
-                                  public:true,
                                   no:0,
-                                  cate:'win-win pro',
-                                  tit:"장애 신고 (708 에러)",
-                                  desc:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, quam eius! Quisquam accusantium corporis laudantium illo, consectetur corrupti veritatis fuga laboriosam ratione totam pariatur odio magni distinctio modi tempore! Culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, quam eius! Quisquam accusantium corporis laudantium illo, consectetur corrupti veritatis fuga laboriosam ratione totam pariatur odio magni distinctio modi tempore! Culpa.",
-                                  answer:"안녕하십니까 우성소프트 입니다.</br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, quam eius! Quisquam accusantium corporis laudantium illo, consectetur corrupti veritatis fuga laboriosam ratione totam pariatur odio magni distinctio modi tempore! Culpa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, quam eius! Quisquam accusantium corporis laudantium illo, consectetur corrupti veritatis fuga laboriosam ratione totam pariatur odio magni distinctio modi tempore! Culpa.",
-                                  status:"접수중",
-                                //   file:'에러이미지.jpg',
-                                  file:null,
-                                  date:'2020.06.08'
+                                  cate:'',
+                                  tit:"",
+                                  desc:"",
+                                  recive:"",
+                                  status:"",
+                                  date:''
                               }
-                    }
+                        }
+                  },
+              methods: {
+                  getData(idx){
+                      const BaseData = "../woosung_api/qna.data.php"
+                      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{idx})
+                      .then((result)=>{
+                          this.board = result.data.result[0];
+                          this.mode = 'load'
+                          console.log(result)
+                      })
+                  }
               }
 }
 

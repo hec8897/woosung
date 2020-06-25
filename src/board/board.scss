@@ -402,11 +402,15 @@ div.board{
                             width: 20%;
                             @media (max-width:767px) {
                                 width: 40%;
-                                
                             }
                         }
                         &:nth-child(3){
                             width: 50%;
+                        }
+                        &:last-child{
+                            // @media (max-width:767px) {
+                            //     display:table-cell;
+                            // }
                         }
                     }
             }

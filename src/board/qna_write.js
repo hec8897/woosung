@@ -1,4 +1,6 @@
 import axios from 'axios';
+import router from '../router'
+
 const qnaWrite = {
     template:`<div class='qna'>
     <div class='board_head'>
@@ -14,16 +16,16 @@ const qnaWrite = {
                             <div class='type'>
                                 <span>문의 유형</span>
                                 <label for='type1'>장애신고</label>
-                                <input type="checkbox" id='type1' v-model="InsertData.error">
+                                <input type="checkbox" id='type1' v-model="error">
 
                                 <label for='type2'>Win-Win Pro</label>
-                                <input type="checkbox" id='type2' v-model="InsertData.pro">
+                                <input type="checkbox" id='type2' v-model="pro">
 
                                 <label for='type3'>Win-Win Pos</label>
-                                <input type="checkbox" id='type3' v-model="InsertData.pos">
+                                <input type="checkbox" id='type3' v-model="pos">
 
                                 <label for='type4'>기타</label>
-                                <input type="checkbox" id='type4' v-model="InsertData.etc">
+                                <input type="checkbox" id='type4' v-model="etc">
                             </div>
                         </div>
                         <div class='consult_board'>
@@ -47,19 +49,18 @@ const qnaWrite = {
                             </ul>
                         </div>
                         <div class='foot'>
-                            <p><label for='public'>비밀글 등록 여부  </label><input type="checkbox" v-model="InsertData.private" id='public'></p>
-                            <!-- <b-form-file 
-                            ref="file-input" 
-                            placeholder="이미지 파일을 선택해주세요"
-                            accept=".jpg, .png, .gif"
-                            class="mb-2"></b-form-file> -->
+                            <p>
+                                <label for='public'>비밀글 등록 여부  </label>
+                                <input type="checkbox" v-model="private" id='public'>
+                                <input type='password' v-if="private" placeholder="비밀글 패스워드" v-model="InsertData.password"/>
+                            </p>
                         </div>
                         <p class='btn'>
                         <b-button variant="success" @click='PostData'>
-                        <!-- <div v-if="mode == 'delete'" class="text-center">
+                        <div v-if="mode == 'insert'" class="text-center">
                             <b-spinner label="Spinning" ></b-spinner>
-                        </div> -->
-                            <span>등록</span>
+                        </div>
+                        <span v-else>등록</span>
                         </b-button>
                         </p>
                     </div>
@@ -68,28 +69,65 @@ const qnaWrite = {
     </div>`,
     data(){
         return{
-            InsertData:{
-                mode:"insert",
+                mode:'load',
                 error:false,
                 pro:false,
                 pos:false,
                 etc:false,
+                private:false,
+
+            InsertData:{
+                mode:"insert",
                 contact:"",
                 tit:"",
                 write:"",
                 desc:"",
-                private:""
+                private:false,
+                password:""
             }
         }
     },
-    methods: {
+    methods: { 
         PostData(){
+            this.mode = 'insert';
             const BaseData = "../woosung_api/qna.create.php";
 
-            axios.post(BaseData,this.InsertData)
-            .then((result)=>{
-                console.log(result)
-            })
+            let cate = new Array();
+
+            this.error == true?cate.push("장애 문의"):false;
+            this.pro == true?cate.push("Win-Win Pro"):false;
+            this.pos == true?cate.push("Win-Win Pos"):false;
+            this.etc == true?cate.push("기타"):false;
+
+            this.private == true?this.InsertData.private = true:this.InsertData.private = false;
+            this.InsertData.cate = cate.toString()
+
+            if(this.InsertData.tit == ""){
+                alert('제목을 입력해주세요');
+                this.mode = 'load'
+
+            }
+            else if(this.InsertData.desc == ""){
+                alert('본문을 입력해주세요');
+                this.mode = 'load'
+
+            }
+            else if(this.private == true){
+                if(this.InsertData.password == ""){
+                    alert('패스워드를 입력하세요')
+                    this.mode = 'load'
+                }
+                else{
+                    axios.post(BaseData,this.InsertData)
+                    .then((result)=>{
+                        this.mode = 'load'
+                        if(result.data.phpResult == 'ok'){
+                            alert('접수되었습니다.')
+                            router.go(-1)
+                        }
+                    })
+                }
+            } 
         }
     },
 }
