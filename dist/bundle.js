@@ -72562,11 +72562,11 @@ const Header = {
                     <router-link to='/information' tag='span'>정보 공유</router-link>
                     <div class='hidden_menu'>
                         <!-- <router-link to='/information/info1' tag='p'>병충해 알림</router-link>     -->
-                        <router-link to='/information/info2' tag='p'>농자재 소식</router-link>    
                         <router-link to='/information/info3' tag='p'>정보 동영상</router-link>    
+                        <router-link to='/information/info2' tag='p'>농업계 소식</router-link>    
+                        <p onclick="alert('서비스 준비중입니다.')">농자재 소식</p>
                         <p onclick="alert('서비스 준비중입니다.')">병충해 알림</p>
-                        <p onclick="alert('서비스 준비중입니다.')">농업계 소식</p>
-                        <!-- <router-link to='/information/info4' tag='p'>농업계 소식</router-link>     -->
+                        <!-- <router-link to='/information/info4' tag='p'>농업계 소식</router-link>        -->
                     </div>
                 </li>
                 <li>
@@ -72888,10 +72888,10 @@ const MoNav = {
                     <router-link to='/information' tag='span'>정보 공유</router-link>
                     <div class='hidden_menu'>
                         <!-- <router-link to='/information/info1' tag='p'>병충해 알림</router-link>     -->
-                        <router-link to='/information/info2' tag='p'>농자재 소식</router-link>    
                         <router-link to='/information/info3' tag='p'>정보 동영상</router-link>    
+                        <router-link to='/information/info2' tag='p'>농업계 소식</router-link>    
+                        <p onclick="alert('서비스 준비중입니다.')">농자재 소식</p>
                         <p onclick="alert('서비스 준비중입니다.')">병충해 알림</p>
-                        <p onclick="alert('서비스 준비중입니다.')">농업계 소식</p>
                         <!-- <router-link to='/information/info4' tag='p'>농업계 소식</router-link>        -->
                     </div>
                 </li>
