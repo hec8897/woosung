@@ -1,7 +1,7 @@
 const section4 = {
     template:`<section class='section4'>
                 <div class='wrap'>
-                    <h2>농자재 소식<span class='more'><b>더보기</b> +</span></h2>
+                    <h2>농업계 소식<span class='more'><b>더보기</b> +</span></h2>
                     <div class='items'>
                         <div class='item'>
                             <img src="http://www.newsam.co.kr/data/photos/20200624/art_15917670555023_8c3dba.jpg"/>

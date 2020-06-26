@@ -1,17 +1,20 @@
-const MoviePopup = {
+const farmPopup = {
     props:['show','data'],
     template:`<div class='popup' v-if="show" @click="closePopup">
-                <div class='youtube_popup'>
-                    <iframe 
+                <div class='farm_popup'>
+                    <iframe
                         width="100%" 
                         height="100%" 
-                        v-bind:src="'https://www.youtube.com/embed/'+data.youtubeId" 
+                        src="https://www.naver.com" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen>
-                    </iframe>
+                    ></iframe> 
                 </div>
             </div>`,
+    updated() {
+        console.log(this.data)
+    },
     methods: {
         closePopup(){
             this.$emit("child",false)
@@ -20,4 +23,4 @@ const MoviePopup = {
     },
 }
 
-export default MoviePopup;
+export default farmPopup;

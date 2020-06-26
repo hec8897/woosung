@@ -15,7 +15,7 @@ const Section1 = {
                 </ul>
             </div>
             <div class='content news_info'>
-                <h2>제품 홍보
+                <h2>농자재 정보
                     <span class='more'><b>더보기</b> +</span>
                 </h2>
                 <div class='news_photo'>
@@ -73,42 +73,7 @@ const Section1 = {
       },
       data(){
           return{
-              notices:[
-                    {
-                      idx:0,
-                      title:"우성소프트에서 알려드립니다.",
-                      date:"2020-06-03",
-                    },
-                    {
-                        idx:1,
-                        title:"사이트가 리뉴얼 되었습니다.",
-                        date:"2020-06-03",
-                    },
-                    {
-                        idx:2,
-                        title:"테스트 입력",
-                        date:"2020-06-03",
-                      },
-                      {
-                          idx:3,
-                          writer:"우성소프트",
-                          title:"우성소프트 테스트 입력",
-                          date:"2020-06-03",
-                      },
-                      {
-                        idx:4,
-                        writer:"우성소프트",
-                        title:"우성소프트에서 알려드립니다.",
-                        date:"2020-06-03",
-                      },
-                      {
-                          idx:5,
-                          writer:"우성소프트",
-                          title:"우성소프트에서 알려드립니다2.",
-                          date:"2020-06-03",
-                      },
-
-              ]
+              notices:""
           }
       },
       methods: {

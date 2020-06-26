@@ -3,8 +3,6 @@ import axios from 'axios';
 import eventBus from '../eventbus';
 import MoviePopup from '../info/movie_popup'
 
-
-
 const Section2 ={
     template:`<section class='section2'>
         <div class='wrap'>
@@ -22,7 +20,6 @@ const Section2 ={
                         <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
                     </div>
                 </slide>
-
             </carousel>
             <MoviePopup 
             v-bind:show="show" 

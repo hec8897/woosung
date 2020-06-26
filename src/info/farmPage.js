@@ -1,17 +1,15 @@
 import eventBus from '../eventbus';
-import listNumber from '../common/list-number';
+import listNumber from '../common/list-number'
+import FarmPopup from './farm_popup';
+
 const farmPage = {
     template:`<section class='farm '>
-        <!-- <div class='popup'>
-            <div class='inner'>
-                <iframe src="https://newsam.co.kr/news/article.html?no=31748" frameborder="0" width="100%"></iframe>
-            </div>
-        </div> -->
+
 
         <h2>농자재 소식</h2>
         <div class='content wrap'>
             <ul class='content_main'>
-                <li v-for = "(content,i) in contents" v-if='i < limit && i >= start'>
+                <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
                     <div class='img'>
                         <img v-bind:src="content.img">
                     </div>
@@ -23,6 +21,11 @@ const farmPage = {
                         <p class='date'>작성일: {{content.date}}</p>
                     </div>
                 </li>
+                <FarmPopup
+                    v-bind:show="show" 
+                    v-bind:data="popupData"
+                    @child="parent"
+                />
             </ul>
             <listNumber v-bind:DataLength='Math.ceil((contents.length)/10)' v-bind:nowpage='limit-10'/>
         </div>
@@ -38,12 +41,14 @@ const farmPage = {
         })
     },
     components:{
-        listNumber
+        listNumber,FarmPopup
     },
     data(){
         return{
+            show:false,
             start:0,
             limit:9,
+            popupData:"",
             contents:[
                 {
                     no:0,
@@ -132,7 +137,16 @@ const farmPage = {
 
             ]
         }
-    }
+    },
+    methods: {
+        parent(data){
+            this.show = data
+        },
+        popupBoxShow(i){
+            this.show = true
+            this.popupData = this.contents[i]
+        }
+    },
 }
 
 export default farmPage;

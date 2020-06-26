@@ -185,7 +185,7 @@ div.info{
 }
 
 div.popup{
-    div.youtube_popup{
+    div.youtube_popup,div.farm_popup{
         width: 100%;
         max-width: 1024px;
         height: 60vh;
@@ -197,6 +197,10 @@ div.popup{
         @media (max-width:1024px) {
             max-width: 90%;
         }
+    }
+    div.farm_popup{
+        width: 80%;
+        height: 80vh;
     }
 
 }
