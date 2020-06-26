@@ -54,6 +54,8 @@ div.info{
                     margin: 5px;
                     vertical-align: middle;
                     transition: .1s ease-in;
+                    border:1px solid #d0d0d0;
+
                     @media (max-width:767px) {
                         margin: 0px;
                         width: 98%;
@@ -67,7 +69,7 @@ div.info{
                     div.img{
                         height: 270px;
                         overflow: hidden;
-                        background-color: $MainColor;
+                        // background-color: $MainColor;
                         img{
                             width: 100%;
                         }
@@ -201,6 +203,11 @@ div.popup{
     div.farm_popup{
         width: 80%;
         height: 80vh;
+        @media (max-width:767px) {
+            width: 95%;
+            height: 80%;
+            
+        }
     }
 
 }

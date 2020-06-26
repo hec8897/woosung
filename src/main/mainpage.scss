@@ -298,6 +298,7 @@ div.home{
                                 display: inline-block;
                                 overflow: hidden;
                                 font-size: 0.875rem;
+                          
                             }
                         }
                     }
@@ -310,28 +311,46 @@ div.home{
         background-color: $lightgray;
         text-align: center;
         div.item{
+            cursor: pointer;
             width: calc(94%/5);
             display: inline-block;
             margin: 5px;
             border: 1px solid #d0d0d0;
             vertical-align: middle;
             background-color: #fff;
+            -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+            -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+            box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);
+            transition: .1s;
+            &:hover{
+                margin-top: -10px;
+            }
+            &>div{
+                height: 150px;
+                overflow: hidden;
+                background-color: $lightgray;
+            }
             img{
                 width: 100%;
             }
             h4{
-                padding: 10px;
-                margin-top: 10px;
+                padding: 5px 5px;
                 font-size: .875rem;
                 overflow: hidden;
                 white-space: nowrap;
                 text-overflow: ellipsis;
-                font-weight: bolder;
+                font-weight: bold;
+                margin: 0;
             }
             p{
                 text-align: left;
                 font-size: 0.75rem;
-                padding: 5px;
+                padding: 15px 5px;
+                text-overflow: ellipsis;
+                white-space: nowrap; 
+                overflow: hidden;
+                
+
             }
             &:nth-child(1){
                 margin-left: 0;

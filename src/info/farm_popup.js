@@ -5,16 +5,14 @@ const farmPopup = {
                     <iframe
                         width="100%" 
                         height="100%" 
-                        src="http://www.newsam.co.kr/news/article.html?no=31842" 
+                        v-bind:src="data.link" 
                         frameborder="0" 
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                        top:
                         allowfullscreen>
                     ></iframe> 
                 </div>
             </div>`,
-    updated() {
-        console.log(this.data)
-    },
     methods: {
         closePopup(){
             this.$emit("child",false)
