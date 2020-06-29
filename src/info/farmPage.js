@@ -29,6 +29,7 @@ const farmPage = {
                 />
             </ul>
             <listNumber v-bind:DataLength='Math.ceil((contents.length)/10)' v-bind:nowpage='limit-10'/>
+            
         </div>
     </section>`,
          created() {

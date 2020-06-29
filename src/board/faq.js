@@ -29,16 +29,13 @@ const faq = {
             <ul class='faq'>
                 <div v-for='(filter,i) in filters' v-if='i < limit && i >= start'>
                     <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
-                        <span>Q</span>
                         <p>
                         <label v-if="filter.cate=='pos'">Win-Win Pos</label>
                         <label v-else-if="filter.cate=='pro'">Win-Win Pro</label>
                         <label v-else-if="filter.cate=='etc'">기타</label>
                         {{filter.tit}}</p>
                     </li>
-                    <li v-bind:id="'aa'+i" class='beactive'>
-                        <span>A</span>
-                        <p>{{filter.desc}}</p>
+                    <li v-bind:id="'aa'+i" class='beactive' v-html="filter.desc">
                     </li>
                 </div>
             </ul>
