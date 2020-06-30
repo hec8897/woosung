@@ -4,7 +4,7 @@ const Footer = {
     template:`<footer>
                     <div class='logos wrap'>
                         <Carousel 
-                        :per-page='5' 
+                        :per-page-custom=[[1200,5],[1024,4],[767,3]]
                         :loop="true"
                         :autoplay='true'
                         :autoplayTimeout="3500">
