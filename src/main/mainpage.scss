@@ -361,5 +361,59 @@ div.home{
         }
 
     }
+    div.footer_banner{
+        background-image: url(../../image/main_footer.jpg);
+        background-position: center;
+        background-size: cover;
+        @media (max-width:1024px) {
+            height: 400px;
+        }
+
+        div.wrap{
+            height: 100%;
+            box-sizing: border-box;
+            position: relative;
+            &>div{
+                padding: 100px 0px;
+                text-align: center;
+
+            }
+            h3{
+                color: #444;
+                font-size: 1.5rem;
+                line-height: 2.2rem;
+                @media (max-width:1024px) {
+                    font-size: 1.25rem;
+                    text-align: center;
+
+                    
+                }
+                b{
+                    font-weight: bold;
+                }
+            }
+            div.btn{
+                border: 2px solid #222;
+                color: #222;
+                border-radius: 0;
+                font-size: 0.875rem;
+                &:hover{
+                    border: 2px solid #fff;
+                    background-color: #fff;
+                    color: #222;
+                }
+            }
+            img{
+                width: 150px;
+                margin-top: 20px;
+                @media (max-width:1024px) {
+                    width: 120px;
+                }
+
+            }
+            
+        }
+       
+    }
 
 }
