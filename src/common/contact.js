@@ -1,10 +1,11 @@
+import axios from 'axios'
 const contactPopup = {
     template:`<div class='popup'>
         <div class='contact_box'>
             <h2>상담 신청</h2>
-            <input type='text' v-model="insert.writer" placeholder="업체명"/>
-            <input type='text' v-model="insert.desc" placeholder="사업주"/>
-            <input type='text' v-model="insert.contact" placeholder="연락처"/>
+            <input type='text' v-model="InsertData.write" placeholder="업체명"/>
+            <input type='text' v-model="InsertData.desc" placeholder="사업주"/>
+            <input type='text' v-model="InsertData.contact" placeholder="연락처"/>
             <div class="p_box">
                 <p>우성소프트 개인정보를 중요시 하며 정보통신망 이용촉진 및 정보보호에 관한 법률을 준수하고 있습니다.</p>
                 <ol>
@@ -33,7 +34,7 @@ const contactPopup = {
                 <label for="checkbox_1">개인정보수집 및 이용에 동의합니다.</label>
             </div>
             <div class='btns'>
-                <div class='btn'>상담신청하기</div>
+                <div class='btn' @click="postData">상담신청하기</div>
                 <div class='btn' @click="popupclose">닫기</div>
             </div>
         </div>
@@ -41,10 +42,16 @@ const contactPopup = {
     data(){
         return{
             checked:false,
-            insert:{
-                writer:"",
+            InsertData:{
+                mode:"insert",
+                cate:"conatct",
+                write:"",
                 contact:"",
                 desc:"",
+                status:"상담 신청",
+                tit:"홈페이지 상담 신청",
+                private:1,
+                password:'woosung'
             }
         }
     },
@@ -53,7 +60,28 @@ const contactPopup = {
             this.$emit("child",false)
         },
         postData(){
-            
+            if(this.checked == false){
+                alert('개인정보 수집 및 이용에 동의해주세요')
+            }
+            else if(this.InsertData.write == ""){
+                alert('사업장 이름을 입력해주세요')
+            }
+            else if(this.InsertData.contact == ""){
+                alert('연락처를 입력해주세요')
+            }
+            else{
+                
+                const BaseData = "../woosung_api/qna.create.php";
+                
+                axios.post(BaseData,this.InsertData)
+                .then((result)=>{
+                    if(result.data.phpResult == 'ok'){
+                        alert('접수되었습니다.')
+                        this.$emit("child",false)
+                    }
+                })
+            }
+
         }
     },
 }

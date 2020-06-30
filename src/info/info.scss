@@ -212,15 +212,13 @@ div.popup{
     div.contact_box{
         width: 30%;
         background-color: #fff;
-        padding: 50px;
+        padding: 50px 20px;
         box-sizing: border-box;
-        @media (max-width:1024px) {
+        @media (max-width:1200px) {
             width: 80%;
-            padding: 50px 20px;
-        }
-        @media (max-width:747px) {
+            max-width: 400px;
             width: 90%;
-            
+            padding: 50px 20px;
         }
         input{
             width: 100%;
