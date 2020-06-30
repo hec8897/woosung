@@ -316,11 +316,10 @@ div.board{
                     box-sizing: border-box;
                     cursor: pointer;
                     img{
-                        width: auto;
+                        width: 100%;
                         display: block;
                         height: auto;
                         @media (max-width:1024px) {
-                            width: 100%;
                             
                         }
                     }

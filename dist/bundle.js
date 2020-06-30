@@ -54477,7 +54477,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      text-overflow: ellipsis;\n      overflow: hidden;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #555555; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc textarea {\n      border: 0px;\n      width: 100%;\n      resize: none;\n      height: 150px; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center;\n    border: 1px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #d0d0d0; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666;\n  overflow: hidden; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li img {\n      width: auto;\n      display: block;\n      height: auto; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li img {\n          width: 100%; } }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n\ndiv.board div.qna section.section1 p.btn {\n  width: 100%;\n  text-align: center; }\n  div.board div.qna section.section1 p.btn button {\n    margin-top: 20px;\n    padding: 5px 35px; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      text-overflow: ellipsis;\n      overflow: hidden;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #555555; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc textarea {\n      border: 0px;\n      width: 100%;\n      resize: none;\n      height: 150px; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.faq section.section1 nav.faq_lnb {\n  margin: 30px auto; }\n  div.board div.faq section.section1 nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center;\n    border: 1px solid #666; }\n    div.board div.faq section.section1 nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-right: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq section.section1 nav.faq_lnb ul li.active {\n        background-color: #d0d0d0; }\n      div.board div.faq section.section1 nav.faq_lnb ul li:last-child {\n        border-right: 0px; }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666;\n  overflow: hidden; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li img {\n      width: 100%;\n      display: block;\n      height: auto; }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n\ndiv.board div.qna section.section1 p.btn {\n  width: 100%;\n  text-align: center; }\n  div.board div.qna section.section1 p.btn button {\n    margin-top: 20px;\n    padding: 5px 35px; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -71901,8 +71901,8 @@ const download = {
         <div class='board_head'>
             <h3>묻고 답하기</h3>
         </div>
-        <LoginPage v-if="!login"/>
-        <section class='section1' v-else>
+        <!-- <LoginPage v-if="!login"/> -->
+        <section class='section1'>
             <div class='wrap'>
                 <h2>묻고 답하기</h2>
                 <nav>
@@ -71925,11 +71925,7 @@ const download = {
                             <td>{{i+1}}</td>
                           
 
-                            <td>
-                                <span v-if="board.status === '답변완료'" class='b_text'>{{board.status}}</span>
-                                <span v-else-if="board.status === '확인중'" class='r_text'>{{board.status}}</span>
-                                <span v-else>{{board.status}}</span>
-                            </td>
+                            <td>{{board.status}}</td>
 
                             <td v-if="board.private" class='r_text'>비공개 글입니다</td>
                             <td v-else>{{board.title}}</td>
@@ -71946,13 +71942,10 @@ const download = {
     created() {
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
         this.getData()
-        this.login = this.$store.state.login;
+        // this.login = this.$store.state.login;
     },
     mounted() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
-            DataLength: Math.ceil((this.boards.length) / 10),
-            nowpage: this.limit - 10
-        })
+     
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
@@ -71985,7 +71978,7 @@ const download = {
         },
         getData(){
             const BaseData = "../woosung_api/qna.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'main'})
             .then((result)=>{
                 this.boards = result.data.result;
                 _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
@@ -72346,6 +72339,8 @@ const zoom = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _common_password_qna__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/password_qna */ "./src/common/password_qna.js");
+
 
 const zoomQna = {
     props:['idx'],
@@ -72353,16 +72348,20 @@ const zoomQna = {
     <div class='board_head'>
         <h3>묻고 답하기</h3>
     </div>
-
     <section class='section1 zoom'>
-                        <div class='wrap'>
+                        <passwordQna 
+                            v-if="board.private == '1'" 
+                            v-bind:password='board.password'
+                            @child="parent"
+                        />
+                        <div class='wrap' v-else>
+                                <h2>묻고 답하기</h2>   
                               <div class='zoom_table'>
                                     <div class='head'>
                                           <p>묻고 답하기<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{board.date}}</span></p>
-                                          <h4>{{board.tit}}</h4>
+                                          <h4>{{board.title}}</h4>
                                           <p>작성자: {{board.writer}}</p>
                                     </div>
-                                    
                                     <div class='desc'>
                                           <p>{{board.desc}}</p>
                                           <div class='answer'>
@@ -72371,13 +72370,15 @@ const zoomQna = {
                                               <p v-else>답변 대기 중 입니다.</p>
                                         </div>
                                     </div>  
-                                   
                               </div>
                               <router-link tag='div'  to="/board/qna" class='btn'>목록</router-link>
                               <div class='btn red'>삭제</div>
                         </div>
                     </section>
                 </div>`,
+            components:{
+                passwordQna: _common_password_qna__WEBPACK_IMPORTED_MODULE_1__["default"]
+            },
             created() {
                   this.getData(this.idx)
             },            
@@ -72401,9 +72402,12 @@ const zoomQna = {
                       .then((result)=>{
                           this.board = result.data.result[0];
                           this.mode = 'load'
-                          console.log(result)
+                          console.log(result.data.result[0])
                       })
-                  }
+                  },
+                  parent(){
+                    this.board.private = 0
+                },
               }
 }
 
@@ -72937,6 +72941,55 @@ var update = api(content, options);
 
 
 module.exports = content.locals || {};
+
+/***/ }),
+
+/***/ "./src/common/password_qna.js":
+/*!************************************!*\
+  !*** ./src/common/password_qna.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _login_page_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./login_page.scss */ "./src/common/login_page.scss");
+/* harmony import */ var _login_page_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_login_page_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+const passwordPopup = {
+    props:['password'],
+    template:`<section class='login_page wrap'>
+                    <h2>패스워드 입력</h2>
+                    <div class='login_inputs'>
+                        <ul>
+                            <li>
+                                <input type='password' placeholder="비밀번호를 입력하세요" v-model="inputPassword">
+                            </li>
+                            <li>
+                                <div class='btn' @click="login">로그인</div>
+                            </li>
+                        </ul>
+                    </div>
+              </section>`,
+              data(){
+                return{
+                    inputPassword:''
+                }
+              },
+              methods: {
+                login(){
+                    if(this.inputPassword === this.password){
+                        this.$emit("child",true)
+                    }
+                    else{
+                        alert('패스워드가 다릅니다.')
+                    }
+                }
+               
+              },
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (passwordPopup);
 
 /***/ }),
 

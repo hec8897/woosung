@@ -8,8 +8,8 @@ const download = {
         <div class='board_head'>
             <h3>묻고 답하기</h3>
         </div>
-        <LoginPage v-if="!login"/>
-        <section class='section1' v-else>
+        <!-- <LoginPage v-if="!login"/> -->
+        <section class='section1'>
             <div class='wrap'>
                 <h2>묻고 답하기</h2>
                 <nav>
@@ -32,11 +32,7 @@ const download = {
                             <td>{{i+1}}</td>
                           
 
-                            <td>
-                                <span v-if="board.status === '답변완료'" class='b_text'>{{board.status}}</span>
-                                <span v-else-if="board.status === '확인중'" class='r_text'>{{board.status}}</span>
-                                <span v-else>{{board.status}}</span>
-                            </td>
+                            <td>{{board.status}}</td>
 
                             <td v-if="board.private" class='r_text'>비공개 글입니다</td>
                             <td v-else>{{board.title}}</td>
@@ -53,13 +49,10 @@ const download = {
     created() {
         eventBus.$emit('moNav',false)
         this.getData()
-        this.login = this.$store.state.login;
+        // this.login = this.$store.state.login;
     },
     mounted() {
-        eventBus.$emit('UpdateList', {
-            DataLength: Math.ceil((this.boards.length) / 10),
-            nowpage: this.limit - 10
-        })
+     
         eventBus.$on('NextPage', (Data) => {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
@@ -92,7 +85,7 @@ const download = {
         },
         getData(){
             const BaseData = "../woosung_api/qna.data.php"
-            axios.get(BaseData)
+            axios.post(BaseData,{mode:'main'})
             .then((result)=>{
                 this.boards = result.data.result;
                 eventBus.$emit('UpdateList', {
