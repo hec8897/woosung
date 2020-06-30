@@ -308,6 +308,7 @@ div.board{
                 width: 100%;
                 border-bottom: 2px solid #666;
                 border-top: 2px solid #666;
+                overflow: hidden;
                 li{
                     width: 100%;
                     padding: 25px 10px;
@@ -315,21 +316,17 @@ div.board{
                     box-sizing: border-box;
                     cursor: pointer;
                     img{
-                        width: 100%;
+                        width: auto;
+                        display: block;
+                        height: auto;
+                        @media (max-width:1024px) {
+                            width: 100%;
+                            
+                        }
                     }
                 
                     span{
-                        position: absolute;
-                        left: 20px;
-                        top: 50%;
-                        transform: translateY(-50%);
-                        width: 25px;
-                        height: 25px;
-                        background-color: rgb(236, 102, 71);
-                        text-align: center;
-                        line-height: 25px;
-                        color: white;
-                        border-radius: 100%;;
+                      
                     }
                     label{
                         display: inline-block;
