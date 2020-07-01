@@ -5,11 +5,11 @@ const section4 = {
                 <div class='wrap'>
                     <h2>농업계 소식<span class='more'><b>더보기</b> +</span></h2>
                     <div class='items' >
-                    <carousel 
+                        <carousel 
                         :loop='true'
-                        :per-page-custom=[[1024,4],[768,3],[480,2],[360,2]]
+                        :per-page-custom=[[1024,4],[768,3],[540,2],[340,1]]
                         >
-                        <slide class='item' v-for="(content,i) in contents" v-if="i<5"  @click="popupBoxShow(i)">
+                        <slide v-for="(content,i) in contents" v-if="i<5"  @click="popupBoxShow(i)">
                             <div class='slide_inner'>
                                 <div>
                                     <img v-bind:src="content.img"/>
@@ -20,14 +20,13 @@ const section4 = {
                                 </div>
                             </div>
                         </slide>
-
+                        
                         </carousel>
                         <FarmPopup
                             v-bind:show="show" 
                             v-bind:data="popupData"
                             @child="parent"
                         />
-             
                     </div>
                 </div>
     </section>`,

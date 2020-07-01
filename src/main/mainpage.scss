@@ -310,14 +310,8 @@ div.home{
     section.section4{
         background-color: $lightgray;
         text-align: center;
-        div.item{
-            cursor: pointer;
-            display: inline-block;
-            vertical-align: middle;
-  
-            transition: .1s;
-            &:hover{
-                margin-top: -10px;
+            div.VueCarousel-pagination{
+                display: none;
             }
             div.slide_inner{
                 cursor: pointer;
@@ -329,13 +323,17 @@ div.home{
                 margin: 5px;
                 overflow: hidden;
                 border: 1px solid #d0d0d0;
+                box-sizing: border-box;
+                @include shadowDefault();
+             
 
                 &>div:nth-child(1){
                     height: 150px;
                     overflow: hidden;
                 }
                 &>div:nth-child(2){
-                    padding-top: 15px;
+                    padding:15px 15px;
+
                 }
             }
             img{
@@ -366,7 +364,6 @@ div.home{
             &:last-child{
                 margin-right: 0;
             }
-        }
 
     }
     div.footer_banner{

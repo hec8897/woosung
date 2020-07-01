@@ -34,8 +34,8 @@ const contactPopup = {
                 <label for="checkbox_1">개인정보수집 및 이용에 동의합니다.</label>
             </div>
             <div class='btns'>
-                <div class='btn' @click="postData">상담신청하기</div>
-                <div class='btn' @click="popupclose">닫기</div>
+                <div class='btn t_blue' @click="postData">상담신청하기</div>
+                <div class='btn t_red' @click="popupclose">닫기</div>
             </div>
         </div>
     </div>`,

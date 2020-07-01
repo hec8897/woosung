@@ -220,6 +220,11 @@ div.popup{
             width: 90%;
             padding: 50px 20px;
         }
+        @media (max-width:767px) {
+            padding: 30px 20px;
+            height: 90vh;
+        }
+
         input{
             width: 100%;
             margin-bottom: 10px;
@@ -268,6 +273,14 @@ div.popup{
                 width: 100%;
                 margin-bottom: 10px;
                 margin-top: 0px;
+                &.t_red{
+                    background-color: $redPoint;
+                    color: white;
+                }
+                &.t_blue{
+                    background-color: $PointColor;
+        color: white;
+                }
             }
         }
     }
