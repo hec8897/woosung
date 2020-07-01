@@ -7,17 +7,24 @@ div.product {
             width: 100%;
             height: 500px;
             // background-color: $lightgray;
-            background-image: url(../../image/product/product_banner_bg.jpg);
+     
             
         }
     }
     div.pos{
-        div.head_banner {
+      div.head_banner {
             width: 100%;
             height: 500px;
             // background-color: $lightgray;
-            background-image: url(../../image/product/product_banner_bg.jpg);
-            
+            background-image: url(../../image/product/pos_banner_bg.jpg);
+            padding-top: 130px;
+            box-sizing: border-box;
+            div.text_area{
+                display: inline-block;
+                vertical-align: top;
+                margin-top: 20px;
+                margin-left: 50px;
+            }
         }
     }
     section.section1 {

@@ -3,7 +3,16 @@ import '../../image/product/pos_s1_icon2.png';
 
 const pos = {
     template:`<div class='pos'>
-                <div class='head_banner'></div>
+                <div class='head_banner'>
+                    <div class='wrap'>
+                     <img src="image/product/pos.png"/>
+                     <div class='text_area'>
+                         <h3>국내 최초 농약 유통 포스 프로그램</h3>
+                         <h2>Win-Win 포스</h2>
+                         <p>복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
+                     </div>
+                    </div>
+                </div>
                 <section class='section1 pos_section'>
             <div class='wrap'>
                 <div class='icon_box icon_box1' v-bind:class="{active:S1B}">
