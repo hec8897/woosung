@@ -54465,7 +54465,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/me
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "div.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 50px;\n  background-position: center; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n  @media (max-width: 1024px) {\n    div.about div.about_head {\n      background-position: right; } }\n\ndiv.about div.about_contant section {\n  padding: 75px 0px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section {\n      padding: 50px 0px; } }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 75px; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.obj {\n      width: 75%;\n      height: 600px;\n      bottom: -200px; } }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.wrap div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n    @media (max-width: 767px) {\n      div.about div.about_contant div.wrap div.text_contant h4 {\n        font-size: 18px; }\n        div.about div.about_contant div.wrap div.text_contant h4.tit {\n          text-align: center; } }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n    @media (max-width: 767px) {\n      div.about div.about_contant section.section1 div.caption {\n        display: none; } }\n\n@media (max-width: 767px) {\n  div.about div.about_contant section.section2 {\n    padding-top: 0; } }\n\ndiv.about div.about_contant section.section2 div.text_contant {\n  width: 40%;\n  margin-left: 10%; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n\ndiv.about div.about_contant section.section2 div.caption {\n  width: 45%;\n  max-width: 450px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.caption {\n      display: none; } }\n\ndiv.about div.about_contant section.section3 {\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%; }\n  div.about div.about_contant section div.fig img {\n    width: 100%; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 50px;\n  background-position: center; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n  @media (max-width: 1024px) {\n    div.about div.about_head {\n      background-position: right; } }\n\ndiv.about div.about_contant section {\n  padding: 75px 0px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section {\n      padding: 50px 0px; } }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 75px; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.obj {\n      width: 75%;\n      height: 600px;\n      bottom: -200px; } }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.wrap div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n    @media (max-width: 767px) {\n      div.about div.about_contant div.wrap div.text_contant h4 {\n        font-size: 18px; }\n        div.about div.about_contant div.wrap div.text_contant h4.tit {\n          text-align: center; } }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n    @media (max-width: 767px) {\n      div.about div.about_contant section.section1 div.caption {\n        display: none; } }\n\n@media (max-width: 767px) {\n  div.about div.about_contant section.section2 {\n    padding-top: 0; } }\n\ndiv.about div.about_contant section.section2 div.text_contant {\n  width: 40%;\n  margin-left: 10%; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n\ndiv.about div.about_contant section.section2 div.caption {\n  width: 45%;\n  max-width: 450px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.caption {\n      display: none; } }\n\ndiv.about div.about_contant section.section3 {\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%; }\n  div.about div.about_contant section div.fig img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section5 {\n  padding-bottom: 0;\n  position: relative; }\n  div.about div.about_contant section.section5 div#map {\n    height: 500px;\n    background-color: #d0d0d0;\n    z-index: 80; }\n  div.about div.about_contant section.section5 div.map_btns {\n    text-align: center;\n    position: absolute;\n    bottom: 30px;\n    z-index: 90;\n    left: 50%;\n    transform: translateX(-50%); }\n    div.about div.about_contant section.section5 div.map_btns a.map_btn {\n      cursor: pointer;\n      width: 220px;\n      font-size: 14px;\n      padding: 15px 0px;\n      background-color: #4682B4;\n      display: inline-block;\n      margin: 5px;\n      color: #fff;\n      transition: .1s ease-in-out; }\n      div.about div.about_contant section.section5 div.map_btns a.map_btn:hover {\n        background-color: #568ebd; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -71549,6 +71549,8 @@ const About = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _kakao_map__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./kakao_map */ "./src/about/kakao_map.js");
+
 const CeoAbout = {
     template:`
         <div class='about_contant'>
@@ -71607,25 +71609,81 @@ const CeoAbout = {
                         <img src='image/about/fig1.png'>
                     </div>
                 </section>
-
-
                 <section class='section4'>
                     <h2>회사 연혁</h2>
                     <div class='fig wrap'>
                         <img src='image/about/fig2.png'>
                     </div>
                 </section>
-
-                <!-- <h2>찾아 오시는길</h2>
-
-                <section class='section5'>지도 미정</section> -->
-
-
-
-        </div>`
+                <kakaoMap/>
+        </div>`,
+        components:{
+            kakaoMap: _kakao_map__WEBPACK_IMPORTED_MODULE_0__["default"]
+        }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (CeoAbout);
+
+/***/ }),
+
+/***/ "./src/about/kakao_map.js":
+/*!********************************!*\
+  !*** ./src/about/kakao_map.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const kakaoMap = {
+    template:`    <section class='section5'>
+    <h2>찾아 오시는길</h2>
+    <div class='map_btns'>
+        <a target="blank" v-bind:href="'https://map.kakao.com/link/to/'+location.Name+','+location.x+ ','+ location.y" class='map_btn'>길찾기</a>
+        <a target="blank" v-bind:href="'https://map.kakao.com/link/search/'+location.Name" class='map_btn'>지도 자세히 보기</a>
+    </div>
+    <div id='map'></div>
+  
+</section>`,
+data(){
+    return{
+        location:{
+            Name:'JH장흥빌딩',
+            x:37.560316,
+            y:126.831367
+        },
+    }
+},
+mounted() {
+    if (window.kakao && window.kakao.maps) {
+        this.initMap();
+    } else {
+        const script = document.createElement('script');
+        /* global kakao */
+        script.onload = () => kakao.maps.load(this.initMap);
+        script.src = 'http://dapi.kakao.com/v2/maps/sdk.js?autoload=false&appkey=99cedbcfb8d92960e9d9d10a1a575129';
+        document.head.appendChild(script);
+    }
+
+},
+methods: {
+    initMap(){
+        var container = document.getElementById('map');
+        var options = {
+            center: new kakao.maps.LatLng(this.location.x, this.location.y),
+            level: 3
+        };
+        var map = new kakao.maps.Map(container, options);
+        var markerPosition = new kakao.maps.LatLng(this.location.x,this.location.y);
+        var marker = new kakao.maps.Marker({
+            position: markerPosition
+        });
+        marker.setMap(map);
+    }
+},
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (kakaoMap);
 
 /***/ }),
 

@@ -1,3 +1,4 @@
+import kakaoMap from './kakao_map'
 const CeoAbout = {
     template:`
         <div class='about_contant'>
@@ -56,22 +57,17 @@ const CeoAbout = {
                         <img src='image/about/fig1.png'>
                     </div>
                 </section>
-
-
                 <section class='section4'>
                     <h2>회사 연혁</h2>
                     <div class='fig wrap'>
                         <img src='image/about/fig2.png'>
                     </div>
                 </section>
-
-                <!-- <h2>찾아 오시는길</h2>
-
-                <section class='section5'>지도 미정</section> -->
-
-
-
-        </div>`
+                <kakaoMap/>
+        </div>`,
+        components:{
+            kakaoMap
+        }
 }
 
 export default CeoAbout;
