@@ -28,6 +28,7 @@ const Footer = {
                             <router-link to='/product' tag="li">제품소개</router-link>
                             <router-link to='/information' tag="li">정보공유</router-link>
                             <router-link to='/board' tag="li">고객지원센터</router-link>
+                            <li><a href="pdf/개인정보처리방침.pdf" target='blank'>개인정보처리방침</a></li>
                             <li>팜카페</li>
                         </ul>
                         <p><span>대표:</span> 이태권 <span>주소:</span> 서울 특별시 강서구 마곡 중앙6로 40 718호</p>

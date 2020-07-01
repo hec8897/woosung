@@ -362,6 +362,14 @@ div.board{
                         }
 
                     }
+                    div.close_btn{
+                        display: block;
+                        background-color: #20a6f2;
+                        color: #fff;
+                        &:hover{
+                            background-color: darken($color: #20a6f2, $amount: 10%);
+                        }
+                    }
                 }
             }
         }

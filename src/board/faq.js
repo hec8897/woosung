@@ -35,7 +35,12 @@ const faq = {
                         <label v-else-if="filter.cate=='etc'">기타</label>
                         {{filter.tit}}</p>
                     </li>
-                    <li v-bind:id="'aa'+i" class='beactive' v-html="filter.desc">
+                    <li v-bind:id="'aa'+i" class='beactive' >
+                        <div v-html="filter.desc"></div>
+                        <div class='btn close_btn' v-on:click="openAA(i)">
+                            <b-icon icon="caret-up-fill"></b-icon>
+                            닫기
+                        </div>
                     </li>
                 </div>
             </ul>
