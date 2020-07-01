@@ -1,0 +1,26 @@
+@import '../define.scss';
+div.top_widget{
+    cursor: pointer;
+    background-color: $MainColor;
+    position: fixed;
+    right: 1%;
+    bottom: 5%;
+    z-index: 999;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: .1s ease-in-out;
+    &:hover{
+        background-color: darken($color: $MainColor, $amount: 10%);
+    }
+    svg{
+        font-size: 25px;
+        vertical-align: bottom;
+        color: #fff;
+    }
+    p{
+        font-size: 0.75rem;
+        font-weight: bold;
+        color: #fff;
+    }
+}

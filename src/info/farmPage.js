@@ -7,7 +7,7 @@ const farmPage = {
     template:`<section class='farm '>
 
 
-        <h2>농자재 소식</h2>
+        <h2>농업계 소식</h2>
         <div class='content wrap'>
             <ul class='content_main'>
                 <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
@@ -36,7 +36,6 @@ const farmPage = {
             const BaseData = "../woosung_api/farm.data.php"
             axios.get(BaseData)
             .then((result)=>{
-                console.log(result)
                 this.contents = result.data.result
                 this.mode = 'load'
                 eventBus.$emit('UpdateList', {
@@ -46,6 +45,7 @@ const farmPage = {
             })
         },
     mounted() {
+        eventBus.$emit('moNav',false)
        
         eventBus.$on('NextPage', (Data) => {
             this.start = Data * 10;

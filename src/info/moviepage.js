@@ -31,6 +31,7 @@ const MoviePage = {
         <listNumber v-bind:DataLength='Math.ceil((movies.length)/10)' v-bind:nowpage='limit-10'/>
     </section>`,
         created() {
+            eventBus.$emit('moNav',false)
             const BaseData = "../woosung_api/youtube.data.php"
             axios.get(BaseData)
             .then((result)=>{
@@ -42,6 +43,8 @@ const MoviePage = {
                     nowpage: this.limit - 10
                 })
             })
+            
+        
         },
       mounted() {
 
