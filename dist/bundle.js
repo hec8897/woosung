@@ -54532,7 +54532,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "footer {\n  border-top: 1px solid #d0d0d0; }\n  footer div.logos {\n    width: 100%;\n    height: 80px;\n    line-height: 80px; }\n    footer div.logos div {\n      text-align: center; }\n      footer div.logos div img {\n        width: 50%; }\n  footer div.foot {\n    height: 300px;\n    background-color: #424242; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nfooter {\n  border-top: 1px solid #d0d0d0; }\n  footer div.logos {\n    width: 100%;\n    height: 80px;\n    line-height: 80px; }\n    footer div.logos div {\n      text-align: center; }\n      footer div.logos div img {\n        width: 50%; }\n  footer div.foot {\n    background-color: #424242;\n    text-align: center;\n    padding: 80px 0px; }\n    footer div.foot img.logo {\n      width: 140px; }\n      @media (max-width: 767px) {\n        footer div.foot img.logo {\n          width: 120px; } }\n    footer div.foot ul li {\n      cursor: pointer;\n      display: inline-block;\n      margin: 30px 20px;\n      color: #fff;\n      font-size: 0.875rem; }\n      @media (max-width: 767px) {\n        footer div.foot ul li {\n          margin: 30px 5px; } }\n    footer div.foot p {\n      color: #fff;\n      font-size: 0.75rem;\n      letter-spacing: .5px; }\n      footer div.foot p span {\n        color: #f9fafc; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -72656,7 +72656,18 @@ const Footer = {
                         </Carousel>
 
                     </div>
-                    <div class='foot'></div>
+                    <div class='foot'>
+                        <img src='image/logo_w.png' class='logo'>
+                        <ul>
+                            <router-link to='/about' tag="li">회사소개</router-link>
+                            <router-link to='/product' tag="li">제품소개</router-link>
+                            <router-link to='/information' tag="li">정보공유</router-link>
+                            <router-link to='/board' tag="li">고객지원센터</router-link>
+                            <li>팜카페</li>
+                        </ul>
+                        <p><span>대표:</span> 이태권 <span>주소:</span> 서울 특별시 강서구 마곡 중앙6로 40 718호</p>
+                        <p><span>전화번호:</span> 1544-6301 <span>이메일:</span> woosungsoft@naver.com</p>
+                    </div>
                 </footer>`,
        components: {
         Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
@@ -73939,7 +73950,6 @@ const section4 = {
             const BaseData = "../woosung_api/farm.data.php"
             axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(BaseData)
             .then((result)=>{
-                console.log(result)
                 this.contents = result.data.result
                 this.mode = 'load'
             })
@@ -74534,7 +74544,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                 {
                     path:'',
                     component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
-                },
+                }
             ]
         },
         {
@@ -74544,7 +74554,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
             children:[
                 {
                     path:'',
-                    component:_product_pro__WEBPACK_IMPORTED_MODULE_5__["default"]
+                    component:_product_pro__WEBPACK_IMPORTED_MODULE_5__["default"],
                 },
                 {
                     path:'pro',
@@ -74588,8 +74598,8 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
         },
         {
             path:'/board',
-            component:_board_boardpage__WEBPACK_IMPORTED_MODULE_7__["default"],
             name:'board',
+            component:_board_boardpage__WEBPACK_IMPORTED_MODULE_7__["default"],
             children:[
                 {
                     path:'',

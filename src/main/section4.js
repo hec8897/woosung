@@ -44,7 +44,6 @@ const section4 = {
             const BaseData = "../woosung_api/farm.data.php"
             axios.get(BaseData)
             .then((result)=>{
-                console.log(result)
                 this.contents = result.data.result
                 this.mode = 'load'
             })

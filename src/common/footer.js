@@ -21,7 +21,18 @@ const Footer = {
                         </Carousel>
 
                     </div>
-                    <div class='foot'></div>
+                    <div class='foot'>
+                        <img src='image/logo_w.png' class='logo'>
+                        <ul>
+                            <router-link to='/about' tag="li">회사소개</router-link>
+                            <router-link to='/product' tag="li">제품소개</router-link>
+                            <router-link to='/information' tag="li">정보공유</router-link>
+                            <router-link to='/board' tag="li">고객지원센터</router-link>
+                            <li>팜카페</li>
+                        </ul>
+                        <p><span>대표:</span> 이태권 <span>주소:</span> 서울 특별시 강서구 마곡 중앙6로 40 718호</p>
+                        <p><span>전화번호:</span> 1544-6301 <span>이메일:</span> woosungsoft@naver.com</p>
+                    </div>
                 </footer>`,
        components: {
         Carousel,

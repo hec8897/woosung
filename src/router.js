@@ -32,7 +32,7 @@ const router = new VueRouter({
                 {
                     path:'',
                     component:CeoAbout
-                },
+                }
             ]
         },
         {
@@ -42,7 +42,7 @@ const router = new VueRouter({
             children:[
                 {
                     path:'',
-                    component:Pro
+                    component:Pro,
                 },
                 {
                     path:'pro',
@@ -86,8 +86,8 @@ const router = new VueRouter({
         },
         {
             path:'/board',
-            component:boardPage,
             name:'board',
+            component:boardPage,
             children:[
                 {
                     path:'',
