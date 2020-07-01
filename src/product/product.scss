@@ -6,25 +6,59 @@ div.product {
         div.head_banner {
             width: 100%;
             height: 500px;
-            // background-color: $lightgray;
-     
-            
+            background-image: url(../../image/product/pos_banner_bg.jpg);
         }
     }
-    div.pos{
       div.head_banner {
             width: 100%;
             height: 500px;
             // background-color: $lightgray;
+            overflow: hidden;
             background-image: url(../../image/product/pos_banner_bg.jpg);
-            padding-top: 130px;
+            padding-top: 140px;
             box-sizing: border-box;
+            img{
+                max-width: 350px;
+
+                @media (max-width:1024px) {
+                    width: 30%;
+                }
+
+                @media (max-width:767px) {
+                    width: 100%;
+                    position: absolute;
+                    opacity: 0.5;
+                }
+                
+            }
             div.text_area{
                 display: inline-block;
                 vertical-align: top;
                 margin-top: 20px;
                 margin-left: 50px;
-            }
+                @media (max-width:767px) {
+                    width: 100%;
+                    margin: 0;
+                    background-color: rgba($color: #fff, $alpha: 0.5);
+                    text-align: center;
+                    padding: 50px 0px;
+                }
+
+                h3{
+                    font-size: 1.556rem;
+                    color: #444;
+                    span{
+                        text-decoration: underline;
+                    }
+                }
+                h2{
+                    color: #444;
+                    font-weight: bold;
+                    font-size: 2.556rem;
+                }
+                p{
+                    margin-top: 50px;
+                }
         }
     }
     section.section1 {
@@ -366,18 +400,18 @@ div.product {
 
 
                     &.img1 {
-                        background-image: url(../../image/product/pro_s3_img1.jpg);
-                        ;
+                        background-image: url(../../image/product/pro_s3_img4.jpg);
                     }
 
                     &.img2 {
-                        background-image: url(../../image/product/pro_s3_img3.jpg);
-                        ;
+                        background-image: url(../../image/product/pro_s3_img1.jpg);
                     }
 
                     &.img3 {
+                        background-image: url(../../image/product/pro_s3_img3.jpg);
+                    }
+                    &.img4 {
                         background-image: url(../../image/product/pro_s3_img2.jpg);
-                        ;
                     }
                 }
 

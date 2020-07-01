@@ -5,13 +5,12 @@ const pro = {
     template:`<div class='pro'>
         <div class='head_banner'>
             <div class='wrap'>
-                <div class='img'>
-                    <img src="image/product/pro.png">
-                </div>
-                <div class='text'>
-                    <h4>작물 유통 프로그램의 기준!!</h4>
-                    <h3>우성 소프트 Win-Win Pro</h3>
-                </div>
+               <img src="image/product/pro.png"/>
+                     <div class='text_area'>
+                         <h3>작물 유통 프로그램의 기준!!</h3>
+                         <h2>Win-Win 프로</h2>
+                         <p>복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
+                     </div>
             </div>
         </div>
         <section class='section1 pro_section'>
@@ -110,7 +109,7 @@ const pro = {
             <div class='wrap'>
                 <h2><strong>Win-Win Pro</strong>는 </br>농자재 유통관리에 최적화된 서비스를 제공합니다.</h2>
                 <div class="content content1">
-                        <h3>품목, 재고 관리</h3>
+                        <h3>고객, 거래처 관리</h3>
                     <div class='img img1'></div>
                     <ul class='text'>
                         <li><span></span> 농업경영업체 등록 자동확인, 부가세-과세, 영세, 면세 구분, 주민등록번호 체크 기능</li>
@@ -121,7 +120,7 @@ const pro = {
                     </ul>
                 </div>
                 <div class="content right">
-                    <h3>매입, 매출 장부 관리</h3>
+                    <h3>품목, 재고 관리</h3>
                 <div class='img img2'></div>
 
                     <ul class='text left'>
@@ -134,7 +133,7 @@ const pro = {
 
                 </div>
                 <div class="content left">
-                    <h3>데이터 분석 작업</h3>
+                    <h3>매입, 매출 장부 관리</h3>
 
                 <div class='img img3'></div>
                     <ul class='text'>
@@ -143,6 +142,18 @@ const pro = {
                         <li><span></span>농어민 판매대장, 독성별 판매대장, 농약혼용표 관리</li>
                         <li><span></span>단일품목별 판매현황, 푼목별 판매량 및 판매금액 집계</li>
                         <li><span></span>견적서 양식, 납품확인서(농협납품확인서 포함) 양식 제공</li>
+                    </ul>
+                </div>
+                <div class="content left">
+                    <h3>데이터 분석 작업</h3>
+
+                <div class='img img4'></div>
+                    <ul class='text'>
+                        <li><span></span>일별, 월별 매입, 매출 현황 분석</li>
+                        <li><span></span>고객별, 지역별 판매 분석, 연도별 매출액 분석, 품목별 매입/매출 분석 작업</li>
+                        <li><span></span>농어민 판매대장, 독성별 판매대장, 농약혼용표 관리</li>
+                        <li><span></span>강력한 데이터 추출 기능 (주민등록번호만 있는 고객 추출, 농업경영체 등록된 고객 추출 등)</li>
+                        <li><span></span>판매이익금 계산 기능</li>
                     </ul>
                 </div>
             </div>
