@@ -370,7 +370,7 @@ div.home{
     }
     div.footer_banner{
         background-image: url(../../image/main_footer.jpg);
-        background-position: center;
+        background-position: top;
         background-size: cover;
 
         div.wrap{
@@ -383,7 +383,7 @@ div.home{
 
             }
             h3{
-                color: #444;
+                color: #222;
                 font-size: 1.5rem;
                 line-height: 2.2rem;
                 @media (max-width:1024px) {
@@ -397,10 +397,11 @@ div.home{
                 }
             }
             div.btn{
-                border: 2px solid #222;
+                border: 2px solid #444;
                 color: #222;
                 border-radius: 0;
                 font-size: 0.875rem;
+                font-weight: bold;
                 &:hover{
                     border: 2px solid #fff;
                     background-color: #fff;
