@@ -213,10 +213,7 @@ div.home{
                 img{
                     width: 100%;
                 }
-                @media (max-width:767px) {
-                    // width: 180px;
-                    // width: 30%;
-                }
+              
             }
         }
     }
@@ -325,7 +322,12 @@ div.home{
                 border: 1px solid #d0d0d0;
                 box-sizing: border-box;
                 @include shadowDefault();
-             
+                @media (max-width:767px) {
+                    // width: 180px;
+                    max-width: 320px;
+
+                    // width: 30%;
+                }
 
                 &>div:nth-child(1){
                     height: 150px;

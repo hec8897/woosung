@@ -9,7 +9,7 @@ div.product {
             background-image: url(../../image/product/pos_banner_bg.jpg);
         }
     }
-      div.head_banner {
+    div.head_banner {
             width: 100%;
             height: 500px;
             // background-color: $lightgray;
@@ -91,14 +91,11 @@ div.product {
             }
 
             @media (max-width:767px) {
-                width: 44%;
-                max-width: 44%;
-                margin: 10px;
+                width: 95%;
+                max-width: 95%;
+                margin: 5px auto;
             }
 
-            @media (max-width:480px) {
-                margin: 5px;
-            }
 
             &.active {
                 animation: fadeup .4s ease-in-out;
@@ -127,12 +124,15 @@ div.product {
                     top: 30%;
 
                     img {
-                        width: 40%;
+                        width: 20%;
                     }
                 }
 
                 @media (max-width:480px) {
-                    top: 20%;
+                    top: 30%;
+                    img {
+                        width: 30%;
+                    }
                 }
 
 
@@ -153,15 +153,21 @@ div.product {
                 p {
                     font-size: 0.75rem;
                     margin: 5px 0px;
+                    @media (max-width:767px) {
+                        display: inline;
+                        font-size: 0.875rem;
+                    }
+
                 }
 
                 @media (max-width:767px) {
-                    top: 55%;
+                    width: 80%;
+                    top: 65%;
                     color: white;
                 }
 
                 @media (max-width:480px) {
-                    top: 35%;
+                    top: 55%;
                 }
 
 
@@ -368,7 +374,9 @@ div.product {
                 }
             }
            
-
+            .VueCarousel-pagination{
+                display: none   ;
+            }
              .VueCarousel-navigation-button[data-v-453ad8cd]{
                 position: absolute;
                 width: 50px;

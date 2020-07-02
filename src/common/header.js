@@ -8,8 +8,8 @@ const Header = {
         <moNav v-bind:show='moNav'/>
         <div class='wrap'>
             <router-link to='/' tag='h1'>
-            <img v-bind:src='logo' class='default'>
-            <img v-bind:src='logo_b' class='black'>
+                <img v-bind:src='logo' class='default'>
+                <img v-bind:src='logo_b' class='black'>
             </router-link>
             <ul>
                 <li>

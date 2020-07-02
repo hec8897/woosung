@@ -15,7 +15,7 @@ header{
             display: inline-block;
             vertical-align: middle;
             cursor: pointer;
-            z-index: 900;
+            z-index: 990;
             position: relative;
             img{
                 width: 100%;
@@ -37,7 +37,7 @@ header{
         }
         ul{
             position: absolute;
-            z-index: 990;
+            z-index: 900;
             width: 100%;
             left: 50%;
             top: 50%;

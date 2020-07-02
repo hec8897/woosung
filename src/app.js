@@ -6,6 +6,7 @@ import AppFooter from './common/footer'
 import router from './router'
 import VueCarousel from 'vue-carousel';
 import topWidget from './widget/top'
+import widgets from './widget/widgets'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import {store} from './store'
 Vue.use(BootstrapVue)
@@ -18,12 +19,14 @@ new Vue({
     template:`<div>
         <AppHeader/>
         <router-view/>
+        <widgets/>
         <topWidget/>
         <AppFooter/>
     </div>`,
     components:{
         AppHeader,
         AppFooter,
-        topWidget
+        topWidget,
+        widgets
     }
 }).$mount('#app')
