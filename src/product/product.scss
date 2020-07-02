@@ -265,7 +265,7 @@ div.product {
 
                 div.s2_box {
                     display: inline-block;
-                    width: 32%;
+                    width: 28%;
                     height: 350px;
                     margin: 20px 0.5%;
                     box-sizing: border-box;
@@ -293,28 +293,31 @@ div.product {
                         }
                     }
 
-
                     div.inner {
                         cursor: pointer;
                         width: 100%;
                         height: 100%;
                         background-color: rgba($color: #222, $alpha: 0.8);
-                        position: absolute;
-                        left: 50%;
-                        top: 50%;
-                        transform: translate(-50%, -50%);
+                        position: relative;
                         transition: .3s ease-in-out;
                         padding: 50px;
                         box-sizing: border-box;
                         color: #f0f0f0;
                         h4{
                             font-size: 1.56rem;
-                            margin-top:20px;
+                            margin-top:10px;
+                            @media (max-width:1200px) {
+                                font-size: 1.25rem;
+                            }
+
                         }
                         img{
-                            width: 20%;
+                            width: 23%;
                             display: block;
-                            margin: 20px auto;
+                            position: absolute;
+                            left: 50%;
+                            top: 45%;
+                            transform: translate(-50%, -50%);
                         }
 
                         @media (max-width:1024px) {
@@ -322,11 +325,21 @@ div.product {
                         }
 
                         p {
-                            width: 100%;
+                            word-break: keep-all;
+                            width: 80%;
                             font-size: 0.875rem;
                             line-height: 1.5rem;
+                            position: absolute;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            bottom: 15%;
+                            @media (max-width:1200px) {
+                                font-size: 0.75rem;
+
+                            }
                         }
                     }
+                  
 
                     &:hover div.inner {
                         // width: 0%;
@@ -354,6 +367,38 @@ div.product {
                     }
                 }
             }
+           
+
+             .VueCarousel-navigation-button[data-v-453ad8cd]{
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                background-color: #fff;
+                border-radius: 100%;
+                // background-color: rgba(255,255,255,1);
+                top: -250px;
+                @media (max-width:767px) {
+                    top: -180px;
+                }
+
+                &.VueCarousel-navigation-next{
+                    width: 50px;
+                    right: 5%;
+                    @media (max-width:767px) {
+                        right: 15%;
+                    }
+                }
+                &.VueCarousel-navigation-prev[data-v-453ad8cd]{
+                
+                    left: 5%;
+                    @media (max-width:767px) {
+                        left: 15%;
+                    }
+                }
+
+
+            }
+             
         }
 
         section.section3 {
