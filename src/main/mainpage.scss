@@ -178,6 +178,7 @@ div.home{
                             }
                             h4{
                                 margin: 10px 0px;
+                                text-align: center;
                             }
                             p{
                                 height: 50px;
@@ -185,6 +186,8 @@ div.home{
                                 overflow: hidden;   
                                 text-align: left;
                                 font-size: 0.75rem;
+                                text-align: center;
+
                                 @media (max-width:767px) {
                                     height: auto;
                                 }

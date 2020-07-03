@@ -18,12 +18,12 @@ const MainSlider = {
                             </div>
                 </div>
             </slide>
-            <slide>
+            <!--<slide>
                 <p>Slide 2 Content</p>
             </slide>
             <slide>
                 <p>Slide 3 Content</p>
-            </slide>
+            </slide>-->
             </carousel>
     </div>`,
     components: {
