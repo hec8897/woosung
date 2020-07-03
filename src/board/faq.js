@@ -107,6 +107,12 @@ const faq = {
             faqs:""
         }
     },
+    updated() {
+        eventBus.$emit('UpdateList', {
+            DataLength: Math.ceil((this.filters.length) / 10),
+            nowpage: this.limit - 10
+        })
+    },
     methods: {
         ActiveMidCate(cate){
             this.ActiveCate = cate
@@ -129,13 +135,9 @@ const faq = {
             .then((result)=>{
                 this.faqs = result.data.result;
                 this.filters = this.faqs;
-
-                eventBus.$emit('UpdateList', {
-                    DataLength: Math.ceil((this.filters.length) / 10),
-                    nowpage: this.limit - 10
-                })
             })
         },
+       
         filterData(cates){
             this.ActiveCate = '전체'
             this.midCates = null;
@@ -162,10 +164,6 @@ const faq = {
             else{
                 this.filters = this.faqs.filter(function(Data){
                     return Data.cate == cates.Name
-                })
-                eventBus.$emit('UpdateList', {
-                    DataLength: Math.ceil((this.filters.length) / 10),
-                    nowpage: this.limit - 10
                 })
             }
         },

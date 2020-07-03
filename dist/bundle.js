@@ -54667,7 +54667,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/info/hea
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.info div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n  div.info div.head_banner h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.info section div.popup div.inner {\n  width: 700px;\n  height: 700px;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%); }\n  div.info section div.popup div.inner iframe {\n    width: 100%;\n    height: 80%;\n    overflow-x: hidden; }\n\ndiv.info section h2 {\n  text-align: center; }\n\ndiv.info section.farm ul.content_main {\n  margin-top: 100px;\n  text-align: center; }\n  div.info section.farm ul.content_main li {\n    cursor: pointer;\n    display: inline-block;\n    width: 100%;\n    max-width: 385px;\n    height: 400px;\n    background-color: #f9fafc;\n    margin: 5px;\n    vertical-align: middle;\n    transition: .1s ease-in;\n    border: 1px solid #d0d0d0; }\n    @media (max-width: 767px) {\n      div.info section.farm ul.content_main li {\n        margin: 0px;\n        width: 98%;\n        margin-bottom: 10px; } }\n    div.info section.farm ul.content_main li:hover {\n      transform: translateY(-3px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.info section.farm ul.content_main li div.img {\n      height: 270px;\n      overflow: hidden; }\n      div.info section.farm ul.content_main li div.img img {\n        width: 100%; }\n    div.info section.farm ul.content_main li div.text {\n      height: 130px;\n      overflow: hidden;\n      padding: 15px;\n      text-align: left; }\n    div.info section.farm ul.content_main li h4 {\n      box-sizing: border-box;\n      font-weight: bold;\n      margin: 10px 0px;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n    div.info section.farm ul.content_main li p {\n      font-size: 0.875rem;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n    div.info section.farm ul.content_main li p.date {\n      font-size: 0.75rem;\n      color: #999;\n      margin-top: 5px; }\n\ndiv.info section.movie ul.nav {\n  margin: 5px 0px; }\n  div.info section.movie ul.nav li {\n    cursor: pointer;\n    display: inline-block;\n    margin-right: 15px; }\n    div.info section.movie ul.nav li.active {\n      font-weight: bold; }\n\n@media (max-width: 767px) {\n  div.info section.movie ul.content {\n    margin-top: 50px; } }\n\ndiv.info section.movie ul.content li {\n  border-bottom: 1px solid #d0d0d0;\n  padding: 20px 0px; }\n  @media (max-width: 767px) {\n    div.info section.movie ul.content li {\n      text-align: center; } }\n  div.info section.movie ul.content li:nth-child(1) {\n    border-top: 1px solid #d0d0d0; }\n  div.info section.movie ul.content li > div {\n    vertical-align: middle; }\n  div.info section.movie ul.content li div.thumbnail {\n    width: 320px;\n    height: 200px;\n    background-color: #f9fafc;\n    display: inline-block;\n    overflow: hidden;\n    border-radius: 3px;\n    cursor: pointer; }\n    div.info section.movie ul.content li div.thumbnail img {\n      margin-top: -20px;\n      width: 100%; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.thumbnail {\n        display: block;\n        margin: 0 auto; } }\n  div.info section.movie ul.content li div.text-box {\n    max-width: 60%;\n    margin-left: 2%;\n    display: inline-block; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.text-box {\n        max-width: 90%;\n        margin: 0;\n        margin-top: 20px;\n        text-align: left; } }\n    div.info section.movie ul.content li div.text-box h3 {\n      font-size: 1.25rem;\n      margin-bottom: 20px;\n      cursor: pointer; }\n      div.info section.movie ul.content li div.text-box h3:hover {\n        text-decoration: underline; }\n    div.info section.movie ul.content li div.text-box p {\n      font-size: 0.875rem; }\n    div.info section.movie ul.content li div.text-box p.date {\n      margin-top: 20px; }\n  div.info section.movie ul.content li div.youtube_box {\n    width: 70%;\n    height: 500px;\n    background-color: #d0d0d0;\n    margin: 20px auto;\n    display: none; }\n    @media (max-width: 767px) {\n      div.info section.movie ul.content li div.youtube_box {\n        width: 90%;\n        height: 250px; } }\n\ndiv.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n  width: 100%;\n  max-width: 1024px;\n  height: 60vh;\n  background-color: #fff;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 999; }\n  @media (max-width: 1024px) {\n    div.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n      max-width: 90%; } }\n\ndiv.popup div.farm_popup {\n  width: 80%;\n  height: 80vh; }\n  @media (max-width: 767px) {\n    div.popup div.farm_popup {\n      width: 95%;\n      height: 80%; } }\n\ndiv.popup div.contact_box {\n  width: 30%;\n  background-color: #fff;\n  padding: 50px 20px;\n  box-sizing: border-box; }\n  @media (max-width: 1200px) {\n    div.popup div.contact_box {\n      width: 90%;\n      max-width: 500px;\n      padding: 30px 20px;\n      height: 90vh; } }\n  @media (max-width: 1024px) {\n    div.popup div.contact_box {\n      padding: 30px 20px;\n      height: 90vh; } }\n  div.popup div.contact_box input {\n    width: 100%;\n    margin-bottom: 10px; }\n    div.popup div.contact_box input::placeholder {\n      font-size: 0.75rem; }\n  div.popup div.contact_box div.p_box {\n    width: 100%;\n    height: 150px;\n    border: 2px solid #d9d9d9;\n    background: #f9f9f9;\n    padding: 20px;\n    box-sizing: border-box;\n    overflow: hidden;\n    overflow-y: scroll; }\n    div.popup div.contact_box div.p_box p {\n      font-size: 14px;\n      margin-bottom: 10px; }\n    div.popup div.contact_box div.p_box ol {\n      list-style: decimal;\n      margin-left: 10px; }\n      div.popup div.contact_box div.p_box ol li {\n        font-size: 14px;\n        line-height: 20px;\n        margin-bottom: 10px; }\n  div.popup div.contact_box div.checkbox {\n    margin-top: 20px; }\n    div.popup div.contact_box div.checkbox input {\n      width: 20px;\n      height: 20px;\n      display: inline;\n      vertical-align: middle; }\n    div.popup div.contact_box div.checkbox label {\n      cursor: pointer; }\n  div.popup div.contact_box div.btns {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    width: 90%;\n    transform: translateX(-50%); }\n    div.popup div.contact_box div.btns div.btn {\n      width: 100%;\n      margin-bottom: 10px;\n      margin-top: 0px; }\n      div.popup div.contact_box div.btns div.btn.t_red {\n        background-color: #d90125;\n        color: white; }\n      div.popup div.contact_box div.btns div.btn.t_blue {\n        background-color: #4682B4;\n        color: white; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.info div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n  div.info div.head_banner h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.info section div.popup div.inner {\n  width: 700px;\n  height: 700px;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%); }\n  div.info section div.popup div.inner iframe {\n    width: 100%;\n    height: 80%;\n    overflow-x: hidden; }\n\ndiv.info section h2 {\n  text-align: center;\n  margin-bottom: 30px; }\n\ndiv.info section.farm ul.content_main {\n  margin-top: 100px;\n  text-align: center; }\n  div.info section.farm ul.content_main li {\n    cursor: pointer;\n    display: inline-block;\n    width: 100%;\n    max-width: 385px;\n    height: 400px;\n    background-color: #f9fafc;\n    margin: 5px;\n    vertical-align: middle;\n    transition: .1s ease-in;\n    border: 1px solid #d0d0d0; }\n    @media (max-width: 767px) {\n      div.info section.farm ul.content_main li {\n        margin: 0px;\n        width: 98%;\n        margin-bottom: 10px; } }\n    div.info section.farm ul.content_main li:hover {\n      transform: translateY(-3px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.info section.farm ul.content_main li div.img {\n      height: 270px;\n      overflow: hidden; }\n      div.info section.farm ul.content_main li div.img img {\n        width: 100%; }\n    div.info section.farm ul.content_main li div.text {\n      height: 130px;\n      overflow: hidden;\n      padding: 15px;\n      text-align: left; }\n    div.info section.farm ul.content_main li h4 {\n      box-sizing: border-box;\n      font-weight: bold;\n      margin: 10px 0px;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n    div.info section.farm ul.content_main li p {\n      font-size: 0.875rem;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n    div.info section.farm ul.content_main li p.date {\n      font-size: 0.75rem;\n      color: #999;\n      margin-top: 5px; }\n\ndiv.info section.movie h2 {\n  text-align: left; }\n\ndiv.info section.movie ul.nav {\n  margin: 5px 0px; }\n  div.info section.movie ul.nav li {\n    cursor: pointer;\n    display: inline-block;\n    margin-right: 15px; }\n    div.info section.movie ul.nav li.active {\n      font-weight: bold; }\n\n@media (max-width: 767px) {\n  div.info section.movie ul.content {\n    margin-top: 50px; } }\n\ndiv.info section.movie ul.content li {\n  border-bottom: 1px solid #d0d0d0;\n  padding: 20px 0px; }\n  @media (max-width: 767px) {\n    div.info section.movie ul.content li {\n      text-align: center; } }\n  div.info section.movie ul.content li:nth-child(1) {\n    border-top: 1px solid #d0d0d0; }\n  div.info section.movie ul.content li > div {\n    vertical-align: middle; }\n  div.info section.movie ul.content li.none {\n    padding: 50px 0px; }\n  div.info section.movie ul.content li div.thumbnail {\n    width: 320px;\n    height: 200px;\n    background-color: #f9fafc;\n    display: inline-block;\n    overflow: hidden;\n    border-radius: 3px;\n    cursor: pointer; }\n    div.info section.movie ul.content li div.thumbnail img {\n      margin-top: -20px;\n      width: 100%; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.thumbnail {\n        display: block;\n        margin: 0 auto; } }\n  div.info section.movie ul.content li div.text-box {\n    max-width: 60%;\n    margin-left: 2%;\n    display: inline-block; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.text-box {\n        max-width: 90%;\n        margin: 0;\n        margin-top: 20px;\n        text-align: left; } }\n    div.info section.movie ul.content li div.text-box h3 {\n      font-size: 1.25rem;\n      margin-bottom: 20px;\n      cursor: pointer; }\n      div.info section.movie ul.content li div.text-box h3:hover {\n        text-decoration: underline; }\n    div.info section.movie ul.content li div.text-box p {\n      font-size: 0.875rem; }\n    div.info section.movie ul.content li div.text-box p.date {\n      margin-top: 20px; }\n  div.info section.movie ul.content li div.youtube_box {\n    width: 70%;\n    height: 500px;\n    background-color: #d0d0d0;\n    margin: 20px auto;\n    display: none; }\n    @media (max-width: 767px) {\n      div.info section.movie ul.content li div.youtube_box {\n        width: 90%;\n        height: 250px; } }\n\ndiv.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n  width: 100%;\n  max-width: 1024px;\n  height: 60vh;\n  background-color: #fff;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 999; }\n  @media (max-width: 1024px) {\n    div.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n      max-width: 90%; } }\n\ndiv.popup div.farm_popup {\n  width: 80%;\n  height: 80vh; }\n  @media (max-width: 767px) {\n    div.popup div.farm_popup {\n      width: 95%;\n      height: 80%; } }\n\ndiv.popup div.contact_box {\n  width: 30%;\n  background-color: #fff;\n  padding: 50px 20px;\n  box-sizing: border-box; }\n  @media (max-width: 1200px) {\n    div.popup div.contact_box {\n      width: 90%;\n      max-width: 500px;\n      padding: 30px 20px;\n      height: 90vh; } }\n  @media (max-width: 1024px) {\n    div.popup div.contact_box {\n      padding: 30px 20px;\n      height: 90vh; } }\n  div.popup div.contact_box input {\n    width: 100%;\n    margin-bottom: 10px; }\n    div.popup div.contact_box input::placeholder {\n      font-size: 0.75rem; }\n  div.popup div.contact_box div.p_box {\n    width: 100%;\n    height: 150px;\n    border: 2px solid #d9d9d9;\n    background: #f9f9f9;\n    padding: 20px;\n    box-sizing: border-box;\n    overflow: hidden;\n    overflow-y: scroll; }\n    div.popup div.contact_box div.p_box p {\n      font-size: 14px;\n      margin-bottom: 10px; }\n    div.popup div.contact_box div.p_box ol {\n      list-style: decimal;\n      margin-left: 10px; }\n      div.popup div.contact_box div.p_box ol li {\n        font-size: 14px;\n        line-height: 20px;\n        margin-bottom: 10px; }\n  div.popup div.contact_box div.checkbox {\n    margin-top: 20px; }\n    div.popup div.contact_box div.checkbox input {\n      width: 20px;\n      height: 20px;\n      display: inline;\n      vertical-align: middle; }\n    div.popup div.contact_box div.checkbox label {\n      cursor: pointer; }\n  div.popup div.contact_box div.btns {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    width: 90%;\n    transform: translateX(-50%); }\n    div.popup div.contact_box div.btns div.btn {\n      width: 100%;\n      margin-bottom: 10px;\n      margin-top: 0px; }\n      div.popup div.contact_box div.btns div.btn.t_red {\n        background-color: #d90125;\n        color: white; }\n      div.popup div.contact_box div.btns div.btn.t_blue {\n        background-color: #4682B4;\n        color: white; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -72018,6 +72018,12 @@ const faq = {
             faqs:""
         }
     },
+    updated() {
+        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
+            DataLength: Math.ceil((this.filters.length) / 10),
+            nowpage: this.limit - 10
+        })
+    },
     methods: {
         ActiveMidCate(cate){
             this.ActiveCate = cate
@@ -72040,13 +72046,9 @@ const faq = {
             .then((result)=>{
                 this.faqs = result.data.result;
                 this.filters = this.faqs;
-
-                _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
-                    DataLength: Math.ceil((this.filters.length) / 10),
-                    nowpage: this.limit - 10
-                })
             })
         },
+       
         filterData(cates){
             this.ActiveCate = '전체'
             this.midCates = null;
@@ -72073,10 +72075,6 @@ const faq = {
             else{
                 this.filters = this.faqs.filter(function(Data){
                     return Data.cate == cates.Name
-                })
-                _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
-                    DataLength: Math.ceil((this.filters.length) / 10),
-                    nowpage: this.limit - 10
                 })
             }
         },
@@ -73363,10 +73361,8 @@ __webpack_require__.r(__webpack_exports__);
 
 const farmPage = {
     template:`<section class='farm '>
-
-
-        <h2>농업계 소식</h2>
         <div class='content wrap'>
+            <h2>농업계 소식</h2>
             <ul class='content_main'>
                 <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
                     <div class='img'>
@@ -73635,30 +73631,37 @@ const MoviePage = {
     template:`<section class='movie wrap'>
         <h2>정보 동영상</h2>
         <ul class='nav'>
-            <li class='active'>전체</li>
-            <li v-for="midCate in midCates">{{midCate}}</li>
+            <li 
+             v-bind:class="{active:mode=='전체'}"
+             @click="CateFilter('전체')">전체</li>
+            <li
+             v-for="midCate in midCates" 
+             @click="CateFilter(midCate)"
+             v-bind:class="{active:mode==midCate}"
+             >{{midCate}}</li>
         </ul>
+
         <ul class='content'>
-            <li v-for="(movie,i) in movies" v-if='i < limit && i >= start' >
+            <li v-if="filters[0]==undefined" class='none'>
+                <p>등록된 영상이 없습니다.</p>
+            </li>
+
+            <li v-for="(filter,i) in filters" v-if='i < limit && i >= start' >
                 <div class='thumbnail' @click="youtubeBoxShow(i)">
-                    <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
+                    <img v-bind:src="'https://i.ytimg.com/vi/'+filter.youtubeId+'/0.jpg'">
                     썸네일 이미지
                 </div>
                 <div class='text-box'>
-                    <h3 @click="youtubeBoxShow(i)">{{movie.title}}</h3>
-                    <p>{{movie.desc}}</p>
-                    <p class='date'>게시일 : {{movie.date}}</p>
+                    <h3 @click="youtubeBoxShow(i)">{{filter.title}}</h3>
+                    <p>{{filter.desc}}</p>
+                    <p class='date'>게시일 : {{filter.date}}</p>
                 </div>
-
-                <!-- <div class='youtube_box' v-bind:id="'target'+i">
-                    <iframe width="100%" height="100%" v-bind:src="movie.youtubeRoot" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div> -->
             </li>
+
             <MoviePopup 
-            v-bind:show="show" 
-            v-bind:data="popupData"
-            @child="parent"
-            />
+                v-bind:show="show" 
+                v-bind:data="popupData"
+                @child="parent"/>
         </ul>
         <listNumber v-bind:DataLength='Math.ceil((movies.length)/10)' v-bind:nowpage='limit-10'/>
     </section>`,
@@ -73668,15 +73671,16 @@ const MoviePage = {
             axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
             .then((result)=>{
                 this.movies = result.data.result
-                this.mode = 'load'
-    
-                _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
-                    DataLength: Math.ceil((this.movies.length) / 10),
-                    nowpage: this.limit - 10
-                })
+                this.mode = '전체'
+                this.filters = this.movies;
+              
             })
-            
-        
+        },
+        updated(){
+            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
+                DataLength: Math.ceil((this.filters.length) / 10),
+                nowpage: this.limit - 10
+            })
         },
       mounted() {
 
@@ -73690,10 +73694,12 @@ const MoviePage = {
     },
     data(){
         return{
+            mode:'전체',
             midCates:[
-                '우성소프트','농약정보','농약관련','농진청','유용한 정보'
+                '우성소프트','농사 정보','농약 정보','농진청 유튜브','유용한 정보'
             ],
             show:false,
+            filters:"",
             popupData:"",
             start:0,
             limit:10,
@@ -73707,6 +73713,20 @@ const MoviePage = {
         youtubeBoxShow(i){
             this.show = true
             this.popupData = this.movies[i]
+        },
+        CateFilter(value){
+            
+            if(value == '전체'){
+                this.mode = '전체'
+                this.filters = this.movies
+            }
+            else{
+                this.mode = value
+                this.filters = this.movies.filter(function(Data){
+                    return Data.cate == value
+                })
+            }
+
         }
     },
 }

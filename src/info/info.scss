@@ -39,6 +39,7 @@ div.info{
 
         h2{
             text-align: center;
+            margin-bottom: 30px;
         }
         &.farm{
             ul.content_main{
@@ -105,6 +106,9 @@ div.info{
             }
         }
         &.movie{
+            h2{
+                text-align: left;
+            }
             ul.nav{
                 margin: 5px 0px;
                 li{
@@ -133,6 +137,9 @@ div.info{
                     &>div{
                         vertical-align: middle;
                         
+                    }
+                    &.none{
+                        padding: 50px 0px;
                     }
                     div.thumbnail{
                         width: 320px;

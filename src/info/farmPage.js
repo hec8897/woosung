@@ -5,10 +5,8 @@ import axios from 'axios';
 
 const farmPage = {
     template:`<section class='farm '>
-
-
-        <h2>농업계 소식</h2>
         <div class='content wrap'>
+            <h2>농업계 소식</h2>
             <ul class='content_main'>
                 <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
                     <div class='img'>
