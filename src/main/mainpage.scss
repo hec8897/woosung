@@ -149,6 +149,9 @@ div.home{
                         padding: 5px;
                         box-sizing: border-box;
                         vertical-align: middle;
+                        img{
+                            width: 100%;
+                        }
 
                         &.none{
                             display: none;
@@ -166,18 +169,22 @@ div.home{
                                 width: 100%;
                                 height: 100px;
                                 background-color: $lightgray;
+                                overflow: hidden;
+                                border: 1px solid #d0d0d0;
                                 @media (max-width:767px) {
                                     height: 120px;
                                 }
                               
                             }
+                            h4{
+                                margin: 10px 0px;
+                            }
                             p{
                                 height: 50px;
                                 width: 100%;
                                 overflow: hidden;   
-                                text-overflow: ellipsis;
-                                margin-top: 10px;
                                 text-align: left;
+                                font-size: 0.75rem;
                                 @media (max-width:767px) {
                                     height: auto;
                                 }

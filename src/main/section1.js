@@ -26,39 +26,52 @@ const Section1 = {
                     <slide>
                          <div class='photos'>
                             <div class='inner'>
-                                <div class='photo'>123</div>
-                                <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                                <p class='date'>2020.06.01</p>
+                            <div class='photo'>
+                                    <img src="image/material/sample1.jpg">
+                                </div>
+                                <h4>팜한농 "헤드라인"</h4>
+                                <p>장마철에 강한 신제품 탄저병약</p>
                             </div>
                         </div>
                     </slide>
                     <slide>
                     <div class='photos'>
                             <div class='inner'>
-                                <div class='photo'>123</div>
-                                <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                                <p class='date'>2020.06.01</p>
+                                <div class='photo'>
+                                    <img src="image/material/sample2.jpg">
+                                </div>
+                                <h4>동방아그로 "폭격기"</h4>
+                                <p>페림존.헥사코나졸 액상수화제</p>
                             </div>
                         </div>
                     </slide>
+                    
                     <slide>
                     <div class='photos'>
                             <div class='inner'>
-                                <div class='photo'>123</div>
-                                <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                                <p class='date'>2020.06.01</p>
+                            <div class='photo'>
+                                    <img src="image/material/sample3.jpg">
+                                </div>
+                                <h4>신젠타 "뉴택"</h4>
+                                <p>높은 함량의 수도종합살균제</p>
                             </div>
                         </div>
                     </slide>
+
                     <slide>
                     <div class='photos'>
                             <div class='inner'>
-                                <div class='photo'>123</div>
-                                <p>농자재 소식 농자재 소식 농자재 소식 </p>
-                                <p class='date'>2020.06.01</p>
+                                <div class='photo'>
+                                    <img src="image/material/sample3.jpg">
+                                </div>
+                                <h4>신젠타 "뉴택"</h4>
+                                <p>높은 함량의 수도종합살균제</p>
                             </div>
                         </div>
                     </slide>
+                    
+     
+               
                     </Carousel>
                 </div>
             </div>

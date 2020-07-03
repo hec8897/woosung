@@ -26,9 +26,9 @@ const faq = {
             </nav>
         <section class='section1'>
         <div class='wrap'>
-            <h2 v-if="this.mode =='all'">전체</h2>
-            <h2 v-if="this.mode =='pro'">Win-Win Pro</h2>
-            <h2 v-if="this.mode =='pos'">Win-Win Pos</h2>
+            <h2 v-if="this.mode =='all'">우성소프트 자주 묻는 질문</h2>
+            <h2 v-if="this.mode =='pro'">우성 윈윈 프로<span>Win-Win Pro</span></h2>
+            <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
             <h2 v-if="this.mode =='etc'">기타</h2>
 
             <ul class='mid_cate'>
@@ -103,7 +103,7 @@ const faq = {
             limit:10,
             start:0,
             mode:"all",
-            filters:[0],
+            filters:[],
             faqs:""
         }
     },
@@ -122,8 +122,6 @@ const faq = {
                     return Data.cate == mode && Data.midCate == cate
                 })
             }
-
-            console.log(this.filters[0])
         },
         getData(){
             const BaseData = "../woosung_api/faq.data.php"

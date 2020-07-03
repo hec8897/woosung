@@ -15,6 +15,7 @@ import infopage from './info/infopage'
 import info1 from './info/insectPage'
 import info2 from './info/farmPage'
 import info3 from './info/moviepage'
+import info4 from './info/material';
 import qnaWrite from './board/qna_write';
 
 const router = new VueRouter({
@@ -35,6 +36,7 @@ const router = new VueRouter({
                 }
             ]
         },
+      
         {
             path:'/product',
             component:Product,
@@ -80,7 +82,7 @@ const router = new VueRouter({
                 },
                 {
                     path:'info4',
-                    component:info1,
+                    component:info4,
                 }
             ]
         },
@@ -120,6 +122,10 @@ const router = new VueRouter({
                     component:zoom
                 }
             ]
+        },
+        {
+         path:'/material',
+
         }
     ]
 })
