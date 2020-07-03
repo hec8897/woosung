@@ -1,5 +1,8 @@
 const material = {
-    template:`<div class='material wrap'>123</div>`,
+    template:`<section class='material wrap'>
+                    <h2>농자재 정보</h2>
+
+              </section>`,
     data(){
         return{
             boards:[

@@ -105,8 +105,19 @@ div.info{
             }
         }
         &.movie{
-            ul{
-                margin-top: 100px;
+            ul.nav{
+                margin: 5px 0px;
+                li{
+                    cursor: pointer;
+                    display: inline-block;
+                    margin-right: 15px;
+                    &.active{
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            ul.content{
                 @media (max-width:767px) {
                     margin-top: 50px;
                 }
@@ -182,6 +193,9 @@ div.info{
                     }
                 }
             }
+        }
+        &.material{
+
         }
     }
 }

@@ -6,7 +6,11 @@ import axios from 'axios';
 const MoviePage = {
     template:`<section class='movie wrap'>
         <h2>정보 동영상</h2>
-        <ul>
+        <ul class='nav'>
+            <li class='active'>전체</li>
+            <li v-for="midCate in midCates">{{midCate}}</li>
+        </ul>
+        <ul class='content'>
             <li v-for="(movie,i) in movies" v-if='i < limit && i >= start' >
                 <div class='thumbnail' @click="youtubeBoxShow(i)">
                     <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
@@ -58,6 +62,9 @@ const MoviePage = {
     },
     data(){
         return{
+            midCates:[
+                '우성소프트','농약정보','농약관련','농진청','유용한 정보'
+            ],
             show:false,
             popupData:"",
             start:0,

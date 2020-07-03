@@ -167,12 +167,14 @@ div.home{
                             height: 100%;
                             div.photo{
                                 width: 100%;
-                                height: 100px;
+                                min-height: 100px;
+                                height: auto;
                                 background-color: $lightgray;
                                 overflow: hidden;
                                 border: 1px solid #d0d0d0;
                                 @media (max-width:767px) {
                                     height: 120px;
+                                    height: auto;
                                 }
                               
                             }
