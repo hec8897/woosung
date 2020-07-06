@@ -9,12 +9,16 @@ const MoviePage = {
         <ul class='nav'>
             <li 
              v-bind:class="{active:mode=='전체'}"
-             @click="CateFilter('전체')">전체</li>
+             @click="CateFilter('전체')">
+            <b-icon icon="film"></b-icon>
+             전체</li>
             <li
              v-for="midCate in midCates" 
              @click="CateFilter(midCate)"
              v-bind:class="{active:mode==midCate}"
-             >{{midCate}}</li>
+             >
+            <b-icon icon="hash"></b-icon>
+             {{midCate}}</li>
         </ul>
 
         <ul class='content'>
