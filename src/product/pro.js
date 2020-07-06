@@ -96,7 +96,7 @@ const pro = {
                     :navigationEnabled="true"
                     :navigationPrevLabel="prevBtn"
                     :navigationNextLabel="nextBtn"
-                    :per-page-custom=[[767,3],[350,1]]
+                    :per-page-custom=[[1200,3],[1024,2][350,1]]
                     paginationColor="#ffffff"
                     >
                         <Slide v-for="(s2Desc,i) in s2Descs" >
@@ -193,7 +193,7 @@ const pro = {
                 {
                     no:3,
                     title:"클라우드 환경",
-                    desc:"농자재 전문 판매 프로그램으로 수기식 장부 입력형식을 채택하여 누구나 쉽게 사용할 수 있습니다. 현장에 꼭 필요한 기능을 담아 사용하기에 편리합니다.",
+                    desc:"별도의 백업작업이 필요없이 작업 내용이 자동으로 저장되며 3중 보안으로 보다 안전하게 데이터를 보관할 수 있습니다.",
                     icon:"pro_s2_icon3.png"
 
                 },

@@ -296,6 +296,8 @@ div.product {
                     @for $i from 0 through 8 {
                         &.s2_box#{$i} {
                             background-image: url("../../image/product/pro_capture#{$i}.png");
+                            background-size: cover;
+                            background-color: #d0d0d0;
                         }
                     }
 
