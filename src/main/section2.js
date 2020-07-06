@@ -43,7 +43,7 @@ const Section2 ={
       },
       created() {
         const BaseData = "../woosung_api/youtube.data.php"
-        axios.get(BaseData)
+        axios.post(BaseData,{mode:'page'})
         .then((result)=>{
             this.movies = result.data.result
             this.mode = 'load'

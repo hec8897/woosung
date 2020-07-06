@@ -9,25 +9,28 @@ const faq = {
         <div class='board_head'>
             <h3>자주하는 질문(FAQ)</h3>
         </div>
+
         <nav class='lnb faq_lnb'>
             <div class='wrap'>
                 <ul>
                     <li 
                         v-for="listCate in listCates" 
                         @click="filterData(listCate,$event)" 
-                        v-bind:class="{active:listCate.value}">
+                        v-bind:class="{active:listCate.value}"
+                        >
                         <span v-if="listCate.Name=='all'">전체</span>
                         <span v-if="listCate.Name=='pro'">Win-Win pro</span>
                         <span v-if="listCate.Name=='pos'">Win-Win pos</span>
                         <span v-if="listCate.Name=='etc'">기타</span>
                     </li>
                 </ul>
-                </div>
-            </nav>
+            </div>
+        </nav>
+
         <section class='section1'>
         <div class='wrap'>
             <h2 v-if="this.mode =='all'">우성소프트 자주 묻는 질문</h2>
-            <h2 v-if="this.mode =='pro'">우성 윈윈 프로<span>Win-Win Pro</span></h2>
+            <h2 v-if="this.mode =='pro'">우성 윈윈 PRO<span>Win-Win Pro</span></h2>
             <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
             <h2 v-if="this.mode =='etc'">기타</h2>
 

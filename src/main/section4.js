@@ -41,7 +41,7 @@ const section4 = {
         },
         created() {
             const BaseData = "../woosung_api/farm.data.php"
-            axios.get(BaseData)
+            axios.post(BaseData,{mode:'main'})
             .then((result)=>{
                 this.contents = result.data.result
                 this.mode = 'load'

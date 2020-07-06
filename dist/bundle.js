@@ -54592,7 +54592,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nfooter {\n  border-top: 1px solid #d0d0d0; }\n  @media (max-width: 1200px) {\n    footer {\n      padding-bottom: 50px; } }\n  footer div.logos {\n    width: 100%;\n    height: 80px;\n    line-height: 80px; }\n    footer div.logos div {\n      text-align: center; }\n      footer div.logos div img {\n        width: 50%; }\n  footer div.foot {\n    background-color: #424242;\n    text-align: center;\n    padding: 80px 0px; }\n    footer div.foot img.logo {\n      width: 140px; }\n      @media (max-width: 767px) {\n        footer div.foot img.logo {\n          width: 120px; } }\n    footer div.foot ul {\n      margin: 30px 20px; }\n      @media (max-width: 767px) {\n        footer div.foot ul {\n          margin: 30px 5px;\n          text-align: center; } }\n      footer div.foot ul li {\n        cursor: pointer;\n        display: inline-block;\n        color: #fff;\n        font-size: 0.875rem;\n        margin: 0px 5px; }\n        footer div.foot ul li a {\n          color: #fff; }\n    footer div.foot p {\n      color: #fff;\n      font-size: 0.75rem;\n      letter-spacing: .5px; }\n      footer div.foot p span {\n        color: #f9fafc; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #222; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nfooter {\n  border-top: 1px solid #d0d0d0; }\n  @media (max-width: 1200px) {\n    footer {\n      padding-bottom: 50px; } }\n  footer div.logos {\n    width: 100%;\n    height: 100px;\n    line-height: 100px; }\n    footer div.logos div {\n      text-align: center; }\n      footer div.logos div img {\n        width: 50%;\n        max-width: 110px; }\n  footer div.foot {\n    background-color: #424242;\n    text-align: center;\n    padding: 80px 0px; }\n    footer div.foot img.logo {\n      width: 140px; }\n      @media (max-width: 767px) {\n        footer div.foot img.logo {\n          width: 120px; } }\n    footer div.foot ul {\n      margin: 30px 20px; }\n      @media (max-width: 767px) {\n        footer div.foot ul {\n          margin: 30px 5px;\n          text-align: center; } }\n      footer div.foot ul li {\n        cursor: pointer;\n        display: inline-block;\n        color: #fff;\n        font-size: 0.875rem;\n        margin: 0px 5px; }\n        footer div.foot ul li a {\n          color: #fff; }\n    footer div.foot p {\n      color: #fff;\n      font-size: 0.75rem;\n      letter-spacing: .5px; }\n      footer div.foot p span {\n        color: #f9fafc; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -71920,25 +71920,28 @@ const faq = {
         <div class='board_head'>
             <h3>자주하는 질문(FAQ)</h3>
         </div>
+
         <nav class='lnb faq_lnb'>
             <div class='wrap'>
                 <ul>
                     <li 
                         v-for="listCate in listCates" 
                         @click="filterData(listCate,$event)" 
-                        v-bind:class="{active:listCate.value}">
+                        v-bind:class="{active:listCate.value}"
+                        >
                         <span v-if="listCate.Name=='all'">전체</span>
                         <span v-if="listCate.Name=='pro'">Win-Win pro</span>
                         <span v-if="listCate.Name=='pos'">Win-Win pos</span>
                         <span v-if="listCate.Name=='etc'">기타</span>
                     </li>
                 </ul>
-                </div>
-            </nav>
+            </div>
+        </nav>
+
         <section class='section1'>
         <div class='wrap'>
             <h2 v-if="this.mode =='all'">우성소프트 자주 묻는 질문</h2>
-            <h2 v-if="this.mode =='pro'">우성 윈윈 프로<span>Win-Win Pro</span></h2>
+            <h2 v-if="this.mode =='pro'">우성 윈윈 PRO<span>Win-Win Pro</span></h2>
             <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
             <h2 v-if="this.mode =='etc'">기타</h2>
 
@@ -72788,16 +72791,14 @@ const Footer = {
                         :loop="true"
                         :autoplay='true'
                         :autoplayTimeout="3500">
-                            <Slide><div><img src='image/footer/logo1.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo2.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo3.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo4.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo5.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo6.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo7.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo8.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo9.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo10.png'></div></Slide>
+                            <Slide v-for="footerSite in footerSites">
+                                <div>
+                                    <a :href="footerSite.url" target='blank'>
+                                        <img :src='footerSite.logo'>
+                                    </a>
+                                </div>
+                            </Slide>
+                  
                         </Carousel>
 
                     </div>
@@ -72819,6 +72820,78 @@ const Footer = {
         Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
         Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
       },
+      data(){
+          return{
+              footerSites:[
+                  {
+                      idx:0,
+                      name:'포유 인포택',
+                      url:'http://foryou.inetpia.re.kr/',
+                      logo:'image/footer/logo11.png'
+                  },
+                  {
+                    idx:1,
+                    name:'경농',
+                    url:'http://www.knco.co.kr/',
+                    logo:'image/footer/logo1.png'
+                },
+                {
+                    idx:2,
+                    name:'농협 캐미컬',
+                    url:'http://www.nhchemical.com/',
+                    logo:'image/footer/logo2.png'
+                },
+                {
+                    idx:3,
+                    name:'동방아그로',
+                    url:'http://www.dongbangagro.co.kr/',
+                    logo:'image/footer/logo3.png'
+                },
+                {
+                    idx:4,
+                    name:'bayer',
+                    url:'https://www.bayer.com/',
+                    logo:'image/footer/logo4.png'
+                },
+                {
+                    idx:5,
+                    name:'성보화학',
+                    url:'http://www.sbcc.kr/',
+                    logo:'image/footer/logo5.png'
+                },
+                {
+                    idx:6,
+                    name:'syngenta',
+                    url:'https://www.syngenta.com/',
+                    logo:'image/footer/logo6.png'
+                },
+                {
+                    idx:7,
+                    name:'인바이오',
+                    url:'http://www.enbio.co.kr/',
+                    logo:'image/footer/logo7.png'
+                },
+                {
+                    idx:8,
+                    name:'팜한농',
+                    url:'https://www.farmhannong.com/',
+                    logo:'image/footer/logo8.png'
+                },
+                {
+                    idx:9,
+                    name:'한국삼공',
+                    url:'http://www.30agro.co.kr/',
+                    logo:'image/footer/logo9.png'
+                },
+                {
+                    idx:10,
+                    name:'한얼사이언스',
+                    url:'http://www.hescience.co.kr/',
+                    logo:'image/footer/logo10.png'
+                }
+              ]
+          }
+      }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -73388,7 +73461,7 @@ const farmPage = {
     </section>`,
          created() {
             const BaseData = "../woosung_api/farm.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'main'})
             .then((result)=>{
                 this.contents = result.data.result
                 this.mode = 'load'
@@ -73668,7 +73741,7 @@ const MoviePage = {
         created() {
             _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
             const BaseData = "../woosung_api/youtube.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'page'})
             .then((result)=>{
                 this.movies = result.data.result
                 this.mode = '전체'
@@ -74020,7 +74093,7 @@ const Section2 ={
       },
       created() {
         const BaseData = "../woosung_api/youtube.data.php"
-        axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(BaseData)
+        axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(BaseData,{mode:'page'})
         .then((result)=>{
             this.movies = result.data.result
             this.mode = 'load'
@@ -74160,7 +74233,7 @@ const section4 = {
         },
         created() {
             const BaseData = "../woosung_api/farm.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(BaseData)
+            axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{mode:'main'})
             .then((result)=>{
                 this.contents = result.data.result
                 this.mode = 'load'
@@ -74431,7 +74504,7 @@ const pro = {
                <img src="image/product/pro.png"/>
                      <div class='text_area'>
                          <h3>작물 유통 프로그램의 기준!!</h3>
-                         <h2>Win-Win 프로</h2>
+                         <h2>Win-Win PRO</h2>
                          <p>복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
                      </div>
             </div>

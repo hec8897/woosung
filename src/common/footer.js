@@ -8,16 +8,14 @@ const Footer = {
                         :loop="true"
                         :autoplay='true'
                         :autoplayTimeout="3500">
-                            <Slide><div><img src='image/footer/logo1.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo2.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo3.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo4.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo5.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo6.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo7.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo8.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo9.png'></div></Slide>
-                            <Slide><div><img src='image/footer/logo10.png'></div></Slide>
+                            <Slide v-for="footerSite in footerSites">
+                                <div>
+                                    <a :href="footerSite.url" target='blank'>
+                                        <img :src='footerSite.logo'>
+                                    </a>
+                                </div>
+                            </Slide>
+                  
                         </Carousel>
 
                     </div>
@@ -39,6 +37,78 @@ const Footer = {
         Carousel,
         Slide
       },
+      data(){
+          return{
+              footerSites:[
+                  {
+                      idx:0,
+                      name:'포유 인포택',
+                      url:'http://foryou.inetpia.re.kr/',
+                      logo:'image/footer/logo11.png'
+                  },
+                  {
+                    idx:1,
+                    name:'경농',
+                    url:'http://www.knco.co.kr/',
+                    logo:'image/footer/logo1.png'
+                },
+                {
+                    idx:2,
+                    name:'농협 캐미컬',
+                    url:'http://www.nhchemical.com/',
+                    logo:'image/footer/logo2.png'
+                },
+                {
+                    idx:3,
+                    name:'동방아그로',
+                    url:'http://www.dongbangagro.co.kr/',
+                    logo:'image/footer/logo3.png'
+                },
+                {
+                    idx:4,
+                    name:'bayer',
+                    url:'https://www.bayer.com/',
+                    logo:'image/footer/logo4.png'
+                },
+                {
+                    idx:5,
+                    name:'성보화학',
+                    url:'http://www.sbcc.kr/',
+                    logo:'image/footer/logo5.png'
+                },
+                {
+                    idx:6,
+                    name:'syngenta',
+                    url:'https://www.syngenta.com/',
+                    logo:'image/footer/logo6.png'
+                },
+                {
+                    idx:7,
+                    name:'인바이오',
+                    url:'http://www.enbio.co.kr/',
+                    logo:'image/footer/logo7.png'
+                },
+                {
+                    idx:8,
+                    name:'팜한농',
+                    url:'https://www.farmhannong.com/',
+                    logo:'image/footer/logo8.png'
+                },
+                {
+                    idx:9,
+                    name:'한국삼공',
+                    url:'http://www.30agro.co.kr/',
+                    logo:'image/footer/logo9.png'
+                },
+                {
+                    idx:10,
+                    name:'한얼사이언스',
+                    url:'http://www.hescience.co.kr/',
+                    logo:'image/footer/logo10.png'
+                }
+              ]
+          }
+      }
 }
 
 export default Footer;
