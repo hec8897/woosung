@@ -16,7 +16,7 @@ const Section1 = {
             </div>
             <div class='content news_info'>
                 <h2>농자재 정보
-                    <span class='more'><b>더보기</b> +</span>
+                    <!-- <span class='more'><b>더보기</b> +</span> -->
                 </h2>
                 <div class='news_photo'>
                     <Carousel 

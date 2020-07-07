@@ -23,6 +23,16 @@ new Vue({
         <topWidget/>
         <AppFooter/>
     </div>`,
+    data(){
+        return{
+            show:false
+        }
+    },
+    mounted(){
+        setTimeout(() => {
+            this.show = true
+        }, 100);
+    },
     components:{
         AppHeader,
         AppFooter,

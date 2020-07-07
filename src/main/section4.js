@@ -3,7 +3,7 @@ import FarmPopup from '../info/farm_popup';
 const section4 = {
     template:`<section class='section4'>
                 <div class='wrap'>
-                    <h2>농업계 소식<span class='more'><b>더보기</b> +</span></h2>
+                    <h2>농업계 소식<router-link tag='span' class='more' to='/information/info2'><b>더보기</b> +</router-link></h2>
                     <div class='items' >
                         <carousel 
                         :loop='true'

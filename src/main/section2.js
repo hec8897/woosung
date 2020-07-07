@@ -8,7 +8,7 @@ const Section2 ={
         <div class='wrap'>
             <h2>
                 정보 동영상
-                <span class='more'><b>더보기</b> +</span>
+                <router-link tag='span' to='/information/info3' class='more'><b>더보기</b> +</router-link>
             </h2>
             <div class='youtubes'>
                 <carousel 
