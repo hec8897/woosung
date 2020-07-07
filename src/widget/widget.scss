@@ -38,6 +38,11 @@ div.widget{
     padding: 10px;
     z-index: 900;
     @include shadowDefault();
+    img{
+        margin: 0 auto;
+        margin-bottom: 10px;
+        display: block;
+    }
     
     @media (max-width:1200px) {
         top: 87%;
@@ -77,5 +82,12 @@ div.widget{
     div.phone{
         margin-bottom: 0;
         border: 0;
+   
+        p{
+            margin-top: 5px;
+            @media (max-width:1200px) {
+                display: inline;
+            }
+        }
     }
 }

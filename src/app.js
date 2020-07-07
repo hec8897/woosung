@@ -1,5 +1,4 @@
 import '@babel/polyfill'
-
 import './common.scss'
 import AppHeader from './common/header'
 import AppFooter from './common/footer'
@@ -9,6 +8,9 @@ import topWidget from './widget/top'
 import widgets from './widget/widgets'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import {store} from './store'
+import contactPopup from './common/contact'
+import EventBus from './eventbus'
+
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 
@@ -17,27 +19,38 @@ new Vue({
     router,
     store,
     template:`<div>
-        <AppHeader/>
-        <router-view/>
-        <widgets/>
-        <topWidget/>
-        <AppFooter/>
-    </div>`,
+                    <AppHeader/>
+                    <router-view/>
+
+                    <widgets/>
+                    <topWidget/>
+                    <contactPopup 
+                        v-if="show"
+                        @child="parent"/>
+                    <AppFooter/>
+                </div>`,
     data(){
         return{
             show:false
         }
     },
-    mounted(){
-        setTimeout(() => {
-            this.show = true
-        }, 100);
+    created(){
+        EventBus.$on('consultPopup',(Data)=>{
+            this.show = Data
+        })
     },
     components:{
         AppHeader,
         AppFooter,
         topWidget,
-        widgets
+        widgets,
+        contactPopup
+
+    },
+    methods: {
+        parent(data){
+            this.show = data
+        },
     },
 
 }).$mount('#app')

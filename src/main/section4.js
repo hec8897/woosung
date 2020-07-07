@@ -10,7 +10,9 @@ const section4 = {
                         :per-page-custom=[[1024,4],[768,3],[540,2],[340,1]]
                         >
                         <slide v-for="(content,i) in contents" v-if="i<5">
-                            <div class='slide_inner' @click="popupBoxShow(i)">
+                            <div 
+                                class='slide_inner'
+                                @click="popupBoxShow(i)">
                                 <div>
                                     <img v-bind:src="content.img"/>
                                 </div>

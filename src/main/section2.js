@@ -16,7 +16,8 @@ const Section2 ={
                 :per-page-custom=[[1024,4],[768,3],[480,2],[360,2]]
                 >
                 <slide v-for="(movie,i) in movies" >
-                    <div class='slide_inner' @click="youtubeBoxShow(i)">
+                    <div class='slide_inner' 
+                    @click="youtubeBoxShow(i)">
                         <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
                     </div>
                 </slide>

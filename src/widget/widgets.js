@@ -1,3 +1,4 @@
+import EventBus from '../eventbus'
 const widget = {
  template:`<div class='widget'>
      <div class='kakao'>
@@ -12,12 +13,24 @@ const widget = {
          <img src="image/consulting.png"/>
          <p>원격 지원</p></a>
      </div>
+     <div class='teamviewer' @click="openPopup">
+         <img src="image/consult.png"/>
+         <p>상담신청</p>
+     </div>
 
      <div class='phone'>
-         <a href="tel:1544-6301" ><img src="image/phone.png"/>
-         <p>1544-6301</p></a>
+             <img src="image/phone.png"/>
+             <div>
+                 <p><a href="tel:02-6959-8161" >02-6959-8161</a></p>
+                 <p><a href="tel:1544-6301">1544-6301</a></p>
+            </div>
      </div>
- </div>`   
+ </div>`,
+ methods: {
+     openPopup(){
+         EventBus.$emit('consultPopup',true)
+     }
+ },   
 }
 
 export default widget

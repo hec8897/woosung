@@ -409,15 +409,18 @@ div.home{
                 }
             }
             div.btn{
-                border: 2px solid #444;
+                border: 0px;
                 color: #444;
                 border-radius: 0;
                 font-size: 0.875rem;
                 font-weight: bold;
+                background-color: #fff;
+                color: #666;
+                transition: .1s ease-in-out;
+                @include shadowDefault();
+
                 &:hover{
-                    border: 2px solid #fff;
-                    background-color: #fff;
-                    color: #444;
+                    transform: translateY(-3px);
                 }
             }
             img{
