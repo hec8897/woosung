@@ -6,18 +6,17 @@ import axios from 'axios';
 const MoviePage = {
     template:`<section class='movie wrap'>
         <h2>정보 동영상</h2>
+
         <ul class='nav'>
             <li 
              v-bind:class="{active:mode=='전체'}"
              @click="CateFilter('전체')">
-            <b-icon icon="film"></b-icon>
              전체</li>
             <li
              v-for="midCate in midCates" 
              @click="CateFilter(midCate)"
              v-bind:class="{active:mode==midCate}"
              >
-            <b-icon icon="hash"></b-icon>
              {{midCate}}</li>
         </ul>
 
