@@ -28,5 +28,6 @@ new Vue({
         AppFooter,
         topWidget,
         widgets
-    }
+    },
+
 }).$mount('#app')

@@ -41,8 +41,8 @@ const Header = {
                         <router-link to='/board/support' tag='p'>고객지원센터</router-link>    
                     </div>
                 </li>
-                <li>
-                    팜 카페
+                <li onclick="alert('서비스준비중입니다.')">
+                    <span>팜 카페</span>
                 </li>
             </ul>
             <!-- <div class='login_btn'>로그인</div> -->

@@ -111,7 +111,7 @@ div.info{
             }
             ul.nav{
                 margin: 5px 0px;
-                margin-bottom: 50px;
+                margin-bottom: 30px;
                 border-bottom: 1px solid #d0d0d0;
 
                 
@@ -130,16 +130,6 @@ div.info{
                         top: 1px;
                         @media (max-width:1024px) {
                             border: 0px;
-                            
-                        }
-
-                        &::after{
-                            display: block;
-                            content: '';
-                            width: 100%;
-                            height: 2px;
-                            background-color: white;
-
                         }
                     }
                 }

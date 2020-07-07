@@ -1,4 +1,4 @@
-$black:#222;
+$black:#444;
 $white:#fff;
 $PointColor:#4682B4;
 $redPoint:#d90125;
@@ -78,7 +78,7 @@ div.btn{
     display: inline-block;
     font-size: 0.75rem;
     transition: .1s ease-in;
-    color: #222;
+    color: #444;
     &:hover{
         background-color: $PointColor;
         color: white;

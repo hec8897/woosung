@@ -53,7 +53,7 @@ div.board{
                 }
                 &:nth-child(2){
                     width: 10%;
-                    color: lighten($color: #222, $amount: 20%);
+                    color: lighten($color: #444, $amount: 20%);
                     @media (max-width:767px) {
                         width: 35%;
                         font-size: 0.875rem;
@@ -310,14 +310,25 @@ div.board{
             }
 
             ul.mid_cate{
-                margin-bottom: 5px;
+                margin: 5px 0px;
+                margin-bottom: 30px;
+                border-bottom: 1px solid #d0d0d0;
                 li{
                     cursor: pointer;
                     display: inline-block;
-                    margin-right: 15px;
-                    margin-bottom: 5px;
+                    transition: 0.1s ease-in-out;
+                    padding: 10px 20px 0px 20px;
+                    transition: .1s ease-in-out;
                     &.active{
                         font-weight: bold;
+                        border: 1px solid #d0d0d0;
+                        border-radius: 5px 5px 0px 0px;
+                        border-bottom: 2px solid #fff;
+                        position: relative;
+                        top: 1px;
+                        @media (max-width:1024px) {
+                            border: 0px;
+                        }
                     }
                 }
             }

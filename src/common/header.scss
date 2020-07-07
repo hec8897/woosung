@@ -49,10 +49,15 @@ header{
                 font-size: 1.125rem;
                 cursor:  pointer;
                 color: white;
+         
+                span.router-link-active{
+                    font-weight: bold;
+                }
                 // .router-link-active{
                 //     color: $MainColor;
                 //     font-weight: bold;
                 // }
+           
                 &::before{
                     display: block;
                     position: relative;
@@ -78,6 +83,10 @@ header{
                         white-space: nowrap;
                         font-size: 0.875rem;
                         margin-bottom: 10px;
+                        &.router-link-exact-active.router-link-active{
+                            font-weight: bold;
+                        }
+                        
                         &:hover{
                             color: $PointColor;
                         }
@@ -89,7 +98,7 @@ header{
                 @media (max-width:1200px) {
                     font-size: 1rem;
                 }
-                @media (max-width:767px) {
+                @media (max-width:1024px) {
                     display: none;
                 }
               
@@ -118,22 +127,20 @@ header{
             cursor: pointer;
             width: 30px;
             height: 30px;
-            display: inline-block;
+            display: none;
             position: absolute;
             right: 0;
             top: 40%;
             transform: translateY(-50%);
-            visibility: hidden;
-            @media (max-width:767px) {
-            visibility: initial;
-
+            @media (max-width:1024px) {
+                display: inline-block;
             }
 
             div{
                 width: 100%;
                 height: 3px;
                 margin: 5px 0px;
-                background-color: #222;
+                background-color: #444;
                 transition: 0.1s ease-in;
 
                 &:last-child{
@@ -157,7 +164,7 @@ header{
                     opacity: 0.0;
                 }     
                 &:last-child{
-                    background-color: #222;
+                    background-color: #444;
                     transform: rotate(-46deg) translateY(-12.5px);
                     width: 100%;
                 }
@@ -188,7 +195,7 @@ header{
         display: none;
     }
     &:hover div.wrap ul li{
-        color: #222;
+        color: #444;
     }
 
     &:hover div.hidden_menu{

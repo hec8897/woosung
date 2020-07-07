@@ -34,7 +34,7 @@ const faq = {
             <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
             <h2 v-if="this.mode =='etc'">기타</h2>
 
-            <ul class='mid_cate'>
+            <ul class='mid_cate' v-if="this.mode !='all'">
                 <li 
                     v-for="midCate in midCates" 
                     @click="ActiveMidCate(midCate)"
