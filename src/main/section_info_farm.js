@@ -7,19 +7,16 @@ const sectionImfoFarm = {
                     <div class='items' >
                         <carousel 
                         :loop='true'
-                        :per-page-custom=[[1024,4],[768,3],[540,2],[340,1]]
+                        :per-page-custom=[[1024,4],[768,3],[540,2]]
                         >
-                        <slide v-for="(content,i) in contents" v-if="i<5">
-                            <div 
-                                class='slide_inner'
-                                @click="popupBoxShow(i)">
+                        <slide v-for="(content,i) in contents" v-if="i<5" >
+                            <div class='slide_inner' @click="popupBoxShow(i)">                                
                                 <div>
                                     <img v-bind:src="content.img"/>
                                 </div>
                                 <div>
                                     <h4>{{content.title}}</h4>
-                                    <p>{{content.desc}}</p>
-                                </div>
+                                    </div>
                             </div>
                         </slide>
                         </carousel>

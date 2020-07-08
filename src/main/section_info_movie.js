@@ -16,17 +16,23 @@ const SectionInfoMovie ={
                 :per-page-custom=[[1024,4],[768,3],[480,2],[360,2]]
                 >
                 <slide v-for="(movie,i) in movies" >
-                    <div class='slide_inner' 
-                    @click="youtubeBoxShow(i)">
+                    <div class='slide_inner'>
                         <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
+                        <div class='hover' @click="youtubeBoxShow(i)">
+                            <img src="image/youtube.png"/>
+                            <h3>{{movie.title}}</h3>
+                        </div>
                     </div>
                 </slide>
+
             </carousel>
+
             <MoviePopup 
             v-bind:show="show" 
             v-bind:data="popupData"
             @child="parent"
             />
+            
         </div>
         </div>
     </section>`,

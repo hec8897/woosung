@@ -71,6 +71,12 @@ span.more {
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
+@mixin textOverFlow() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 div.btn{
     margin: 20px 0px;
     padding: 8px 30px;

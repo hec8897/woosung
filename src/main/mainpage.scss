@@ -2,14 +2,13 @@
 div.home{
     div.slider{
         width: 100%;
-        margin-bottom: 50px;
         .VueCarousel-wrapper{
             background-color: #87CEFA;
+
             div.inner{
                 width: 100%;
                 position: relative;
                 background-size: cover;
-
             }
             div.inner_1{
                 background-image: url(../../image/slide1_bg.png);
@@ -50,9 +49,7 @@ div.home{
                         @media (max-width:767px) {
                             font-size: 1.125rem;
                         }
-
                     }
-
                 }
             }
             p{
@@ -67,21 +64,23 @@ div.home{
             margin-top: -100px;
         }
     }
-    h2{
-        border-bottom: 1px solid #d0d0d0;
-        padding-bottom: 15px;
-        vertical-align: middle;
-        text-align: left;
 
-   
+    section{
+        h2{
+            border-bottom: 1px solid #d0d0d0;
+            padding-bottom: 15px;
+            vertical-align: middle;
+            text-align: left;
+        }
     }
+    
     section.section1{
         div.content{
             width: 46%;
-            min-height: 280px;
             display: inline-block;
             text-align: center;
             vertical-align: top;
+
             @media (max-width:1024px) {
                 width: 95%;
                 display: block;;
@@ -96,56 +95,42 @@ div.home{
                         font-size: 1rem;
                         margin: 10px 0px;
                         overflow: hidden;
-                        height: auto;
                         cursor: pointer;
-                   
                         p{
                             width: 80%;
                             height: 100%;
                             display: inline-block;
-                            text-overflow: ellipsis;
-                            white-space:nowrap;
-                            overflow: hidden;
                             vertical-align: middle;
+                            @include textOverFlow();
                             &:hover{
-                                color: #424242;
                                 text-decoration: underline;
                             }
-
                         }
                         span{
                             position: absolute;
                             right: 0;
                             font-size: 0.875rem;
-                            border-left: 1px solid $lightgray;;
-                            padding-left: 10px;
-                            vertical-align: middle;
                         }
 
                     }
                 }
             }
             &.news_info{
-                float: right;
+                margin-left: 5%;;
                 @media (max-width:1024px) {
-                    float: none;
+                    margin: 0 auto;
                 }
-
-
                 div.news_photo{
                     margin-top: 15px;
                     text-align: left;
                     overflow: hidden;
-                        @media (max-width:1200px) {
-                            width: 100%;
-                            text-align: center;
-                        }
-                        .VueCarousel-pagination{
-                            display: none;
-                        }
+                    @media (max-width:1200px) {
+                        text-align: center;
+                    }
+                    .VueCarousel-pagination{
+                        display: none;
+                    }
                     div.photos{
-                        width: 100%;
-                        // display: inline-block;
                         padding: 5px;
                         box-sizing: border-box;
                         vertical-align: middle;
@@ -153,18 +138,8 @@ div.home{
                             width: 100%;
                         }
 
-                        &.none{
-                            display: none;
-                            @media (max-width:767px) {
-                                display: inline-block;
-                                
-                            }
-                        }
-                   
 
                         div.inner{
-                            width: 100%;
-                            height: 100%;
                             div.photo{
                                 width: 100%;
                                 min-height: 100px;
@@ -173,10 +148,8 @@ div.home{
                                 overflow: hidden;
                                 border: 1px solid #d0d0d0;
                                 @media (max-width:767px) {
-                                    height: 120px;
                                     height: auto;
                                 }
-                              
                             }
                             h4{
                                 margin: 10px 0px;
@@ -184,12 +157,10 @@ div.home{
                             }
                             p{
                                 height: 50px;
-                                width: 100%;
                                 overflow: hidden;   
                                 text-align: left;
                                 font-size: 0.75rem;
                                 text-align: center;
-
                                 @media (max-width:767px) {
                                     height: auto;
                                 }
@@ -203,6 +174,7 @@ div.home{
         }
 
     }
+
     section.section2{
         div.wrap{
             @media (max-width:767px) {
@@ -211,24 +183,48 @@ div.home{
         }
         div.youtubes{
             text-align: center;
-            margin-top: 10px;
             div.slide_inner{
                 cursor: pointer;
-                width: 95%;
-                max-width: 280px;
-                display: inline-block;
-                margin-top: 20px;
-                margin-right: 10px;
-                margin: 5px;
-                overflow: hidden;
+                margin: 10px;
                 @include shadowDefault();
                 img{
                     width: 100%;
+                }
+                div.hover{
+                    top: 0;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(255,255,255,0.7);
+                    z-index: 90;
+                    opacity: 0.0;
+                    transition: .15s ease-in-out;
+                    &:hover{
+                        opacity: 1.0;
+
+                    }
+                    img{
+                        width: 100px;
+                        position: absolute;
+                        top: 45%;
+                        left: 50%;
+                        transform: translate(-50%,-50%);
+                    }
+                    h3{
+                        width: 90%;
+                        position: absolute;
+                        bottom: 10%;
+                        font-size: 0.875rem;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        font-weight: bold;
+                    }
                 }
               
             }
         }
     }
+
     section.section3{
         background-color: $lightgray;
 
@@ -316,6 +312,7 @@ div.home{
             }
         }
     }
+
     section.section4{
         background-color: $lightgray;
         text-align: center;
@@ -324,75 +321,52 @@ div.home{
             }
             div.slide_inner{
                 cursor: pointer;
-                width: 95%;
-                max-width: 280px;
-                display: inline-block;
-                margin-top: 20px;
-                margin-right: 10px;
-                margin: 5px;
+                margin: 10px;
                 overflow: hidden;
-                border: 1px solid #d0d0d0;
                 box-sizing: border-box;
-                @include shadowDefault();
-                @media (max-width:767px) {
-                    // width: 180px;
-                    max-width: 320px;
+                border-radius: 3px;
+                transition: .1s ease-in-out;
+                border: 1px solid #d0d0d0;
 
-                    // width: 30%;
+                &:hover{
+                    transform: translateY(-5px);
+                    @include shadowDefault();
+
                 }
 
                 &>div:nth-child(1){
                     height: 150px;
                     overflow: hidden;
+                    img{
+                        width: 100%;
+                    }
                 }
                 &>div:nth-child(2){
-                    padding:15px 15px;
-
+                    padding:20px 15px;
+                    min-height: 50px;
+                    background-color: rgba(0,0,0,.03);
+                    border-top: 1px solid #d0d0d0;
+                    
+                    h4{
+                        font-size: 0.875rem;
+                        text-align: left;
+                        margin:0;
+                        line-height: 1.25rem;
+                    }
                 }
-            }
-            img{
-                width: 100%;
-            }
-            h4{
-                padding: 5px 5px;
-                font-size: .875rem;
-                overflow: hidden;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                font-weight: bold;
-                margin: 0;
-            }
-            p{
-                text-align: left;
-                font-size: 0.75rem;
-                padding: 15px 5px;
-                text-overflow: ellipsis;
-                white-space: nowrap; 
-                overflow: hidden;
-                
-
-            }
-            &:nth-child(1){
-                margin-left: 0;
-            }
-            &:last-child{
-                margin-right: 0;
             }
 
     }
+
     div.footer_banner{
         background-image: url(../../image/main_footer.jpg);
         background-position: top;
         background-size: cover;
 
         div.wrap{
-            height: 100%;
-            box-sizing: border-box;
-            position: relative;
             &>div{
                 padding: 100px 0px;
                 text-align: center;
-
             }
             h3{
                 color: #444;
@@ -401,8 +375,6 @@ div.home{
                 @media (max-width:1024px) {
                     font-size: 1.25rem;
                     text-align: center;
-
-                    
                 }
                 b{
                     font-weight: bold;
@@ -418,20 +390,10 @@ div.home{
                 color: #666;
                 transition: .1s ease-in-out;
                 @include shadowDefault();
-
                 &:hover{
                     transform: translateY(-3px);
                 }
             }
-            img{
-                width: 150px;
-                margin-top: 20px;
-                @media (max-width:1024px) {
-                    width: 120px;
-                }
-
-            }
-            
         }
        
     }
