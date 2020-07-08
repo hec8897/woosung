@@ -10,6 +10,7 @@ div.home{
                 position: relative;
                 background-size: cover;
             }
+
             div.inner_1{
                 background-image: url(../../image/slide1_bg.png);
                 div.slide_content{
@@ -27,6 +28,7 @@ div.home{
                         top: 45%;
                         transform: translate(-50%,-50%);
                     }
+
                     h3{
                         text-align: center;
                         font-weight: bold;;
@@ -343,7 +345,7 @@ div.home{
                 }
                 &>div:nth-child(2){
                     padding:20px 15px;
-                    min-height: 50px;
+                    min-height: 100px;
                     background-color: rgba(0,0,0,.03);
                     border-top: 1px solid #d0d0d0;
                     

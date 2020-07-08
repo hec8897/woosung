@@ -61,6 +61,8 @@ div.widget{
         margin-bottom: 10px;
         border-bottom: 1px dashed #666;
         padding: 10px 0px;
+        vertical-align: top;
+    
         @media (max-width:1200px) {
             display: inline-block;
             width: 32%;
@@ -68,6 +70,9 @@ div.widget{
             border: 0px;
             margin-bottom: 5px;
             padding: 5px 0px;
+            &:nth-child(2){
+                display: none;
+            }
         }
 
         img{
@@ -82,11 +87,14 @@ div.widget{
     div.phone{
         margin-bottom: 0;
         border: 0;
+        img{
+            width: 30px;
+        }
    
         p{
-            margin-top: 5px;
+            margin-top: 3px;
             @media (max-width:1200px) {
-                display: inline;
+                // display: inline;
             }
         }
     }
