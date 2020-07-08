@@ -3,7 +3,7 @@ import axios from 'axios';
 import eventBus from '../eventbus';
 import MoviePopup from '../info/movie_popup'
 
-const Section2 ={
+const SectionInfoMovie ={
     template:`<section class='section2'>
         <div class='wrap'>
             <h2>
@@ -66,4 +66,4 @@ const Section2 ={
     },
 }
 
-export default Section2;
+export default SectionInfoMovie;

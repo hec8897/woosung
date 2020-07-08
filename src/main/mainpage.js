@@ -1,17 +1,16 @@
 import Slider from './slider'
-import Section1 from './section1'
-import Section2 from './section2'
-import Section3 from './section3'
-import Section4 from './section4'
+import SectionInfoMain from './section-info-main'
+import SectionInfoMovie from './section_info_movie'
+import sectionImfoFarm from './section_info_farm'
 import EventBus from '../eventbus';
 import './mainpage.scss';
 
 const MainPage = {
     template:`<div class='home'>
                 <Slider/>
-                <Section1 />
-                <Section4 />
-                <Section2 />
+                <SectionInfoMain />
+                <sectionImfoFarm />
+                <SectionInfoMovie />
                 <div class='footer_banner'>
                 <div class='wrap'>
                     <div>
@@ -20,17 +19,15 @@ const MainPage = {
                         <div class='btn' @click='openPopup'>
                             간단 상담 신청
                         </div>
-                        <!-- <img src="image/logo.png"> -->
                     </div>
                 </div>
                 </div>
             </div>`,
     components:{
         Slider,
-        Section1,
-        Section2,
-        Section3,
-        Section4,
+        SectionInfoMain,
+        SectionInfoMovie,
+        sectionImfoFarm,
     },
     created() {
         EventBus.$emit('moNav',false)

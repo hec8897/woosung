@@ -73837,6 +73837,127 @@ const MoviePage = {
 
 /***/ }),
 
+/***/ "./src/main/main-material.js":
+/*!***********************************!*\
+  !*** ./src/main/main-material.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const MainMateral = {
+    template:`   <div class='content news_info'>
+    <h2>농자재 정보
+        <!-- <span class='more'><b>더보기</b> +</span> -->
+    </h2>
+    <div class='news_photo'>
+        <Carousel 
+        :navigationEnabled="false"
+        :per-page-custom=[[1024,3],[768,2]]
+        >
+        <slide>
+             <div class='photos'>
+                <a href="https://www.farmhannong.com/kor/pr/news/view.do?pageIndex=1&f=&seq=6585&rtnParm=%2526f%253D%2526q%253D&q=" target="blank"> 
+                    <div class='inner'>
+                        <div class='photo'>
+                            <img src="image/material/sample1.jpg">
+                        </div>
+                        <h4>팜한농 "헤드라인"</h4>
+                        <p>장마철에 강한 신제품 탄저병약</p>
+                    </div>
+                </a>
+            </div>
+        </slide>
+        <slide>
+        <div class='photos'>
+                <a href="http://www.sbcc.kr/front/kor/product/product_view.do" target="blank"> 
+                    <div class='inner'>
+                        <div class='photo'>
+                            <img src="image/material/sample2.jpg">
+                        </div>
+                        <h4>성보화학 "페리맥스"</h4>
+                        <p>	달팽이 전문 유기농업자재</p>
+                    
+                    </div>
+                </a>
+            </div>
+        </slide>
+        
+        <slide>
+        <div class='photos'>
+        <a href="http://knconews.com/?p=1144" target="blank"> 
+
+                <div class='inner'>
+                <div class='photo'>
+                        <img src="image/material/sample3.jpg">
+                    </div>
+                    <h4>중기스타</h4>
+                    <p>항성 잡초에 확실한 효과가 있는 신물질 제초제</p>
+                </div>
+            </div>
+        </slide>
+
+        </Carousel>
+    </div>
+</div>`,
+components:{
+    Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
+    Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"],
+}
+
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (MainMateral);
+
+/***/ }),
+
+/***/ "./src/main/main-notice.js":
+/*!*********************************!*\
+  !*** ./src/main/main-notice.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const MainNotice = {
+    template:`    <div class='content notice'>
+                    <h2>공지사항 <router-link tag="span" to="/board/support" class='more'><b>더보기</b> +</router-link></h2>
+                        <ul class='notices'>
+                            <li v-for='(notice,i) in notices' v-if="i<=6">
+                                <router-link tag='p' v-bind:to="'/board/zoom/'+notice.no">{{notice.title}}</router-link>
+                                <span>{{notice.date}}</span>
+                            </li>
+                        </ul>
+                    </div>`,
+                    data(){
+                        return{
+                            notices:""
+                        }
+                    },
+                    created() {
+                        const BaseData = "../woosung_api/support.data.php"
+
+                        axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{mode:'main'})
+                        .then((result)=>{
+                            this.notices = result.data.result;
+                        })
+                    },
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (MainNotice);
+
+/***/ }),
+
 /***/ "./src/main/mainpage.js":
 /*!******************************!*\
   !*** ./src/main/mainpage.js ***!
@@ -73847,14 +73968,12 @@ const MoviePage = {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _slider__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./slider */ "./src/main/slider.js");
-/* harmony import */ var _section1__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./section1 */ "./src/main/section1.js");
-/* harmony import */ var _section2__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./section2 */ "./src/main/section2.js");
-/* harmony import */ var _section3__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./section3 */ "./src/main/section3.js");
-/* harmony import */ var _section4__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./section4 */ "./src/main/section4.js");
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
-/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./mainpage.scss */ "./src/main/mainpage.scss");
-/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_mainpage_scss__WEBPACK_IMPORTED_MODULE_6__);
-
+/* harmony import */ var _section_info_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./section-info-main */ "./src/main/section-info-main.js");
+/* harmony import */ var _section_info_movie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./section_info_movie */ "./src/main/section_info_movie.js");
+/* harmony import */ var _section_info_farm__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./section_info_farm */ "./src/main/section_info_farm.js");
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mainpage.scss */ "./src/main/mainpage.scss");
+/* harmony import */ var _mainpage_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_mainpage_scss__WEBPACK_IMPORTED_MODULE_5__);
 
 
 
@@ -73865,9 +73984,9 @@ __webpack_require__.r(__webpack_exports__);
 const MainPage = {
     template:`<div class='home'>
                 <Slider/>
-                <Section1 />
-                <Section4 />
-                <Section2 />
+                <SectionInfoMain />
+                <sectionImfoFarm />
+                <SectionInfoMovie />
                 <div class='footer_banner'>
                 <div class='wrap'>
                     <div>
@@ -73876,21 +73995,19 @@ const MainPage = {
                         <div class='btn' @click='openPopup'>
                             간단 상담 신청
                         </div>
-                        <!-- <img src="image/logo.png"> -->
                     </div>
                 </div>
                 </div>
             </div>`,
     components:{
         Slider: _slider__WEBPACK_IMPORTED_MODULE_0__["default"],
-        Section1: _section1__WEBPACK_IMPORTED_MODULE_1__["default"],
-        Section2: _section2__WEBPACK_IMPORTED_MODULE_2__["default"],
-        Section3: _section3__WEBPACK_IMPORTED_MODULE_3__["default"],
-        Section4: _section4__WEBPACK_IMPORTED_MODULE_4__["default"],
+        SectionInfoMain: _section_info_main__WEBPACK_IMPORTED_MODULE_1__["default"],
+        SectionInfoMovie: _section_info_movie__WEBPACK_IMPORTED_MODULE_2__["default"],
+        sectionImfoFarm: _section_info_farm__WEBPACK_IMPORTED_MODULE_3__["default"],
     },
     created() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_5__["default"].$emit('moNav',false)
-        _eventbus__WEBPACK_IMPORTED_MODULE_5__["default"].$on('consultPopup',(Data)=>{
+        _eventbus__WEBPACK_IMPORTED_MODULE_4__["default"].$emit('moNav',false)
+        _eventbus__WEBPACK_IMPORTED_MODULE_4__["default"].$on('consultPopup',(Data)=>{
             this.show = Data
         })
     },
@@ -73899,7 +74016,7 @@ const MainPage = {
             this.show = data
         },
         openPopup(){
-            _eventbus__WEBPACK_IMPORTED_MODULE_5__["default"].$emit('consultPopup',true)
+            _eventbus__WEBPACK_IMPORTED_MODULE_4__["default"].$emit('consultPopup',true)
         }
     },
 }
@@ -73937,124 +74054,118 @@ module.exports = content.locals || {};
 
 /***/ }),
 
-/***/ "./src/main/section1.js":
-/*!******************************!*\
-  !*** ./src/main/section1.js ***!
-  \******************************/
+/***/ "./src/main/section-info-main.js":
+/*!***************************************!*\
+  !*** ./src/main/section-info-main.js ***!
+  \***************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
-/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _main_notice__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./main-notice */ "./src/main/main-notice.js");
+/* harmony import */ var _main_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main-material */ "./src/main/main-material.js");
 
 
-const Section1 = {
+const SectionInfoMain = {
     template:`<section class='section1'>
-        <div class='wrap'>
-            <div class='content notice'>
-                <h2>공지사항 
-                <router-link tag="span" to="/board/support" class='more'><b>더보기</b> +</router-link>
-                </h2>
-                <ul class='notices'>
-                    <li v-for='(notice,i) in notices' v-if="i<=6">
-                        <router-link tag='p' v-bind:to="'/board/zoom/'+notice.no">{{notice.title}}</router-link>
-                        <span>{{notice.date}}</span>
-                    </li>
-                </ul>
-            </div>
-            <div class='content news_info'>
-                <h2>농자재 정보
-                    <!-- <span class='more'><b>더보기</b> +</span> -->
-                </h2>
-                <div class='news_photo'>
-                    <Carousel 
-                    :navigationEnabled="false"
-                    :per-page-custom=[[1024,3],[768,2]]
-                    >
-                    <slide>
-                         <div class='photos'>
-                            <a href="https://www.farmhannong.com/kor/pr/news/view.do?pageIndex=1&f=&seq=6585&rtnParm=%2526f%253D%2526q%253D&q=" target="blank"> 
-                                <div class='inner'>
-                                    <div class='photo'>
-                                        <img src="image/material/sample1.jpg">
-                                    </div>
-                                    <h4>팜한농 "헤드라인"</h4>
-                                    <p>장마철에 강한 신제품 탄저병약</p>
-                                </div>
-                            </a>
-                        </div>
-                    </slide>
-                    <slide>
-                    <div class='photos'>
-                            <a href="http://www.sbcc.kr/front/kor/product/product_view.do" target="blank"> 
-                                <div class='inner'>
-                                    <div class='photo'>
-                                        <img src="image/material/sample2.jpg">
-                                    </div>
-                                    <h4>성보화학 "페리맥스"</h4>
-                                    <p>	달팽이 전문 유기농업자재</p>
-                                
-                                </div>
-                            </a>
-                        </div>
-                    </slide>
-                    
-                    <slide>
-                    <div class='photos'>
-                    <a href="http://knconews.com/?p=1144" target="blank"> 
-
-                            <div class='inner'>
-                            <div class='photo'>
-                                    <img src="image/material/sample3.jpg">
-                                </div>
-                                <h4>중기스타</h4>
-                                <p>항성 잡초에 확실한 효과가 있는 신물질 제초제</p>
-                            </div>
-                        </div>
-                    </slide>
-
-                    </Carousel>
-                </div>
-            </div>
-        </div>
-    </section>`,
-       components: {
-        Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
-        Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
-      },
-      created() {
-          this.getData()
-      },
-      data(){
-          return{
-              notices:""
-          }
-      },
-      methods: {
-        getData(){
-            
-                    const BaseData = "../woosung_api/support.data.php"
-
-                    axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(BaseData,{mode:'main'})
-                    .then((result)=>{
-                        this.notices = result.data.result;
-                    })
-                }
-        }
+                    <div class='wrap'>
+                        <MainNotice/>
+                        <MainMaterial/>
+                    </div>
+               </section>`,
+    components: {
+        MainNotice: _main_notice__WEBPACK_IMPORTED_MODULE_0__["default"],
+        MainMaterial: _main_material__WEBPACK_IMPORTED_MODULE_1__["default"]
+    }
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Section1);
+/* harmony default export */ __webpack_exports__["default"] = (SectionInfoMain);
 
 /***/ }),
 
-/***/ "./src/main/section2.js":
-/*!******************************!*\
-  !*** ./src/main/section2.js ***!
-  \******************************/
+/***/ "./src/main/section_info_farm.js":
+/*!***************************************!*\
+  !*** ./src/main/section_info_farm.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _info_farm_popup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../info/farm_popup */ "./src/info/farm_popup.js");
+
+
+const sectionImfoFarm = {
+    template:`<section class='section4'>
+                <div class='wrap'>
+                    <h2>농업계 소식<router-link tag='span' class='more' to='/information/info2'><b>더보기</b> +</router-link></h2>
+                    <div class='items' >
+                        <carousel 
+                        :loop='true'
+                        :per-page-custom=[[1024,4],[768,3],[540,2],[340,1]]
+                        >
+                        <slide v-for="(content,i) in contents" v-if="i<5">
+                            <div 
+                                class='slide_inner'
+                                @click="popupBoxShow(i)">
+                                <div>
+                                    <img v-bind:src="content.img"/>
+                                </div>
+                                <div>
+                                    <h4>{{content.title}}</h4>
+                                    <p>{{content.desc}}</p>
+                                </div>
+                            </div>
+                        </slide>
+                        </carousel>
+                        <FarmPopup
+                            v-bind:show="show" 
+                            v-bind:data="popupData"
+                            @child="parent"
+                        />
+                    </div>
+                </div>
+    </section>`,
+    components:{
+       FarmPopup: _info_farm_popup__WEBPACK_IMPORTED_MODULE_1__["default"]
+        },
+        data(){
+            return{
+                show:false,
+                popupData:"",
+                contents:""
+            }
+        },
+        created() {
+            const BaseData = "../woosung_api/farm.data.php"
+            axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{mode:'main'})
+            .then((result)=>{
+                this.contents = result.data.result
+                this.mode = 'load'
+            })
+        },
+        methods: {
+            parent(data){
+                this.show = data
+            },
+            popupBoxShow(i){
+                this.show = true
+                this.popupData = this.contents[i]
+            }
+        }
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (sectionImfoFarm);
+
+/***/ }),
+
+/***/ "./src/main/section_info_movie.js":
+/*!****************************************!*\
+  !*** ./src/main/section_info_movie.js ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74071,7 +74182,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-const Section2 ={
+const SectionInfoMovie ={
     template:`<section class='section2'>
         <div class='wrap'>
             <h2>
@@ -74134,144 +74245,7 @@ const Section2 ={
     },
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (Section2);
-
-/***/ }),
-
-/***/ "./src/main/section3.js":
-/*!******************************!*\
-  !*** ./src/main/section3.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-const Section3 = {
-    template:`<section class='section3'>
-        <div class='wrap'>
-            <div class='content notice'>
-                <h2>팜카페 
-                                    <span class='more'><b>더보기</b> +</span>
-
-                </h2>
-                <ul class='notices'>
-                    <li>
-                        <p>공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1
-                        공지사항1</p>
-                        <span>2020.06.22</span>
-                    </li>
-                    <li>공지사항2<span>2020.06.22</span></li>
-                    <li>공지사항3<span>2020.06.22</span></li>
-                    <li>공지사항4<span>2020.06.22</span></li>
-                    <li>공지사항5<span>2020.06.22</span></li>
-                </ul>
-            </div>
-            <div class='content news2_info'>
-                <h2>농업계 소식
-                                    <span class='more'><b>더보기</b> +</span>
-
-                </h2>
-                <div class='news2'>
-                    <ul>
-                        <li><div class='photo'></div>
-                        <p>농자재 소식농자재 소식농자재 소식농자재 소식농자재 소식농자재 소식농자재 소식농자재 소식농자재 소식농자재 소식</p>
-                        </li>
-                        <li><div class='photo'></div><p>123</p></li>
-                        <li><div class='photo'></div><p>123123123</p></li>
-                        <li><div class='photo'></div><p>123123123</p></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>`
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Section3);
-
-/***/ }),
-
-/***/ "./src/main/section4.js":
-/*!******************************!*\
-  !*** ./src/main/section4.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _info_farm_popup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../info/farm_popup */ "./src/info/farm_popup.js");
-
-
-const section4 = {
-    template:`<section class='section4'>
-                <div class='wrap'>
-                    <h2>농업계 소식<router-link tag='span' class='more' to='/information/info2'><b>더보기</b> +</router-link></h2>
-                    <div class='items' >
-                        <carousel 
-                        :loop='true'
-                        :per-page-custom=[[1024,4],[768,3],[540,2],[340,1]]
-                        >
-                        <slide v-for="(content,i) in contents" v-if="i<5">
-                            <div 
-                                class='slide_inner'
-                                @click="popupBoxShow(i)">
-                                <div>
-                                    <img v-bind:src="content.img"/>
-                                </div>
-                                <div>
-                                    <h4>{{content.title}}</h4>
-                                    <p>{{content.desc}}</p>
-                                </div>
-                            </div>
-                        </slide>
-                        </carousel>
-                        <FarmPopup
-                            v-bind:show="show" 
-                            v-bind:data="popupData"
-                            @child="parent"
-                        />
-                    </div>
-                </div>
-    </section>`,
-    components:{
-       FarmPopup: _info_farm_popup__WEBPACK_IMPORTED_MODULE_1__["default"]
-        },
-        data(){
-            return{
-                show:false,
-                popupData:"",
-                contents:""
-            }
-        },
-        created() {
-            const BaseData = "../woosung_api/farm.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{mode:'main'})
-            .then((result)=>{
-                this.contents = result.data.result
-                this.mode = 'load'
-            })
-        },
-        methods: {
-            parent(data){
-                this.show = data
-            },
-            popupBoxShow(i){
-                this.show = true
-                this.popupData = this.contents[i]
-            }
-        }
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (section4);
+/* harmony default export */ __webpack_exports__["default"] = (SectionInfoMovie);
 
 /***/ }),
 

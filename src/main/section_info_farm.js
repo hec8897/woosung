@@ -1,6 +1,6 @@
 import axios from 'axios';
 import FarmPopup from '../info/farm_popup';
-const section4 = {
+const sectionImfoFarm = {
     template:`<section class='section4'>
                 <div class='wrap'>
                     <h2>농업계 소식<router-link tag='span' class='more' to='/information/info2'><b>더보기</b> +</router-link></h2>
@@ -60,4 +60,4 @@ const section4 = {
         }
 }
 
-export default section4;
+export default sectionImfoFarm;
