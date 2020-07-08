@@ -185,45 +185,54 @@ div.home{
         }
         div.youtubes{
             text-align: center;
-            div.slide_inner{
-                cursor: pointer;
-                margin: 10px;
-                @include shadowDefault();
-                img{
-                    width: 100%;
-                }
-                div.hover{
-                    top: 0;
-                    position: absolute;
-                    width: 100%;
-                    height: 100%;
-                    background-color: rgba(255,255,255,0.7);
+                .VueCarousel-navigation{
                     z-index: 90;
-                    opacity: 0.0;
-                    transition: .15s ease-in-out;
-                    &:hover{
-                        opacity: 1.0;
-
-                    }
-                    img{
-                        width: 100px;
-                        position: absolute;
-                        top: 45%;
-                        left: 50%;
-                        transform: translate(-50%,-50%);
-                    }
-                    h3{
-                        width: 90%;
-                        position: absolute;
-                        bottom: 10%;
-                        font-size: 0.875rem;
-                        left: 50%;
-                        transform: translateX(-50%);
-                        font-weight: bold;
-                    }
+                    top: 55px;
                 }
-              
-            }
+                .VueCarousel-navigation-next{
+                    right: 25%;
+                }
+                .VueCarousel-navigation-prev{
+                    left: 25%;
+                }
+                div.slide_inner{
+                    cursor: pointer;
+                    margin: 10px;
+                    @include shadowDefault();
+                    img{
+                        width: 100%;
+                    }
+                    div.hover{
+                        top: 0;
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        background-color: rgba(255,255,255,0.7);
+                        z-index: 90;
+                        opacity: 0.0;
+                        transition: .15s ease-in-out;
+                        &:hover{
+                            opacity: 1.0;
+                        }
+                        img{
+                            width: 100px;
+                            position: absolute;
+                            top: 45%;
+                            left: 50%;
+                            transform: translate(-50%,-50%);
+                        }
+                        h3{
+                            width: 90%;
+                            position: absolute;
+                            bottom: 10%;
+                            font-size: 0.875rem;
+                            left: 50%;
+                            transform: translateX(-50%);
+                            font-weight: bold;
+                        }
+                    }
+                
+                }
         }
     }
 
@@ -318,9 +327,11 @@ div.home{
     section.section4{
         background-color: $lightgray;
         text-align: center;
-            div.VueCarousel-pagination{
-                display: none;
+            .VueCarousel-navigation{
+                z-index: 90;
+                top: 55px;
             }
+           
             div.slide_inner{
                 cursor: pointer;
                 margin: 10px;
@@ -359,7 +370,20 @@ div.home{
             }
 
     }
-
+    .VueCarousel-navigation-button{
+        border: 1px solid #d0d0d0;
+        background-color: #fff;
+        &:hover{
+            background-color: lightsteelblue;
+        }
+    }
+    .VueCarousel-navigation-next{
+        right: 25%;
+        border: 1px solid #d0d0d0;
+    }
+    .VueCarousel-navigation-prev{
+        left: 25%;
+    }
     div.footer_banner{
         background-image: url(../../image/main_footer.jpg);
         background-position: top;
@@ -384,13 +408,13 @@ div.home{
             }
             div.btn{
                 border: 0px;
-                color: #444;
+                color: #222;
                 border-radius: 0;
-                font-size: 0.875rem;
+                font-size: 1.125rem;
                 font-weight: bold;
-                background-color: #fff;
-                color: #666;
+                background-color: lightskyblue;
                 transition: .1s ease-in-out;
+                padding: 20px 60px;
                 @include shadowDefault();
                 &:hover{
                     transform: translateY(-3px);
