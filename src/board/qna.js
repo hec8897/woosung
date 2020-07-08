@@ -47,9 +47,7 @@ const download = {
         </section>
     </div>`,
     created() {
-        eventBus.$emit('moNav',false)
         this.getData()
-        // this.login = this.$store.state.login;
     },
     mounted() {
      

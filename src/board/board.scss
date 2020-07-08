@@ -22,8 +22,8 @@ div.board{
         table-layout: fixed;
         thead{
             background-color: #f9fafc;
-                td{
-                    border-top: 2px solid #444;
+            td{
+                border-top: 2px solid #444;
             }
         }
         tbody{
@@ -41,16 +41,13 @@ div.board{
                 font-size: 0.75rem;
                 border-bottom: 1px solid #d0d0d0;
                 padding: 20px 5px;
-                text-overflow:ellipsis; 
-                overflow:hidden; 
-                white-space:nowrap;
-
-
+                @include textOverFlow();
+                
                 &:nth-child(1){
                     width: 8%;
                     text-align: center;
-
                 }
+
                 &:nth-child(2){
                     width: 10%;
                     color: lighten($color: #444, $amount: 20%);

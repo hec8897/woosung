@@ -2029,19 +2029,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./image/product/pos_s1_icon2.png":
-/*!****************************************!*\
-  !*** ./image/product/pos_s1_icon2.png ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/pos_s1_icon2.png");
-
-/***/ }),
-
 /***/ "./image/product/pro_capture0.png":
 /*!****************************************!*\
   !*** ./image/product/pro_capture0.png ***!
@@ -3025,35 +3012,6 @@ try {
   Function("r", "regeneratorRuntime = r")(runtime);
 }
 
-
-/***/ }),
-
-/***/ "./node_modules/bootstrap-vue/dist/bootstrap-vue-icons.min.css":
-/*!*********************************************************************!*\
-  !*** ./node_modules/bootstrap-vue/dist/bootstrap-vue-icons.min.css ***!
-  \*********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../css-loader/dist/cjs.js!./bootstrap-vue-icons.min.css */ "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap-vue/dist/bootstrap-vue-icons.min.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
 
 /***/ }),
 
@@ -54493,24 +54451,6 @@ module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/cor
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap-vue/dist/bootstrap-vue-icons.min.css":
-/*!***********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/bootstrap-vue/dist/bootstrap-vue-icons.min.css ***!
-  \***********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "/*!\n * BootstrapVue Icons Custom CSS (https://bootstrap-vue.org)\n */.bv-no-focus-ring:focus{outline:0}@media (max-width:575.98px){.bv-d-xs-down-none{display:none!important}}@media (max-width:767.98px){.bv-d-sm-down-none{display:none!important}}@media (max-width:991.98px){.bv-d-md-down-none{display:none!important}}@media (max-width:1199.98px){.bv-d-lg-down-none{display:none!important}}.bv-d-xl-down-none{display:none!important}.b-icon.bi{display:inline-block;overflow:visible;vertical-align:-.15em}.b-icon.b-icon-animation-cylon,.b-icon.b-iconstack .b-icon-animation-cylon>g{-webkit-transform-origin:center;transform-origin:center;-webkit-animation:.75s infinite ease-in-out alternate b-icon-animation-cylon;animation:.75s infinite ease-in-out alternate b-icon-animation-cylon}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-cylon,.b-icon.b-iconstack .b-icon-animation-cylon>g{-webkit-animation:none;animation:none}}.b-icon.b-icon-animation-cylon-vertical,.b-icon.b-iconstack .b-icon-animation-cylon-vertical>g{-webkit-transform-origin:center;transform-origin:center;-webkit-animation:.75s infinite ease-in-out alternate b-icon-animation-cylon-vertical;animation:.75s infinite ease-in-out alternate b-icon-animation-cylon-vertical}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-cylon-vertical,.b-icon.b-iconstack .b-icon-animation-cylon-vertical>g{-webkit-animation:none;animation:none}}.b-icon.b-icon-animation-fade,.b-icon.b-iconstack .b-icon-animation-fade>g{-webkit-transform-origin:center;transform-origin:center;-webkit-animation:.75s infinite ease-in-out alternate b-icon-animation-fade;animation:.75s infinite ease-in-out alternate b-icon-animation-fade}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-fade,.b-icon.b-iconstack .b-icon-animation-fade>g{-webkit-animation:none;animation:none}}.b-icon.b-icon-animation-spin,.b-icon.b-iconstack .b-icon-animation-spin>g{-webkit-transform-origin:center;transform-origin:center;-webkit-animation:2s infinite linear normal b-icon-animation-spin;animation:2s infinite linear normal b-icon-animation-spin}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-spin,.b-icon.b-iconstack .b-icon-animation-spin>g{-webkit-animation:none;animation:none}}.b-icon.b-icon-animation-spin-reverse,.b-icon.b-iconstack .b-icon-animation-spin-reverse>g{-webkit-transform-origin:center;transform-origin:center;animation:2s infinite linear reverse b-icon-animation-spin}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-spin-reverse,.b-icon.b-iconstack .b-icon-animation-spin-reverse>g{-webkit-animation:none;animation:none}}.b-icon.b-icon-animation-spin-pulse,.b-icon.b-iconstack .b-icon-animation-spin-pulse>g{-webkit-transform-origin:center;transform-origin:center;-webkit-animation:1s infinite steps(8) normal b-icon-animation-spin;animation:1s infinite steps(8) normal b-icon-animation-spin}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-spin-pulse,.b-icon.b-iconstack .b-icon-animation-spin-pulse>g{-webkit-animation:none;animation:none}}.b-icon.b-icon-animation-spin-reverse-pulse,.b-icon.b-iconstack .b-icon-animation-spin-reverse-pulse>g{-webkit-transform-origin:center;transform-origin:center;animation:1s infinite steps(8) reverse b-icon-animation-spin}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-spin-reverse-pulse,.b-icon.b-iconstack .b-icon-animation-spin-reverse-pulse>g{-webkit-animation:none;animation:none}}.b-icon.b-icon-animation-throb,.b-icon.b-iconstack .b-icon-animation-throb>g{-webkit-transform-origin:center;transform-origin:center;-webkit-animation:.75s infinite ease-in-out alternate b-icon-animation-throb;animation:.75s infinite ease-in-out alternate b-icon-animation-throb}@media (prefers-reduced-motion:reduce){.b-icon.b-icon-animation-throb,.b-icon.b-iconstack .b-icon-animation-throb>g{-webkit-animation:none;animation:none}}@-webkit-keyframes b-icon-animation-cylon{0%{-webkit-transform:translateX(-25%);transform:translateX(-25%)}100%{-webkit-transform:translateX(25%);transform:translateX(25%)}}@keyframes b-icon-animation-cylon{0%{-webkit-transform:translateX(-25%);transform:translateX(-25%)}100%{-webkit-transform:translateX(25%);transform:translateX(25%)}}@-webkit-keyframes b-icon-animation-cylon-vertical{0%{-webkit-transform:translateY(25%);transform:translateY(25%)}100%{-webkit-transform:translateY(-25%);transform:translateY(-25%)}}@keyframes b-icon-animation-cylon-vertical{0%{-webkit-transform:translateY(25%);transform:translateY(25%)}100%{-webkit-transform:translateY(-25%);transform:translateY(-25%)}}@-webkit-keyframes b-icon-animation-fade{0%{opacity:.1}100%{opacity:1}}@keyframes b-icon-animation-fade{0%{opacity:.1}100%{opacity:1}}@-webkit-keyframes b-icon-animation-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes b-icon-animation-spin{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@-webkit-keyframes b-icon-animation-throb{0%{opacity:.5;-webkit-transform:scale(.5);transform:scale(.5)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}@keyframes b-icon-animation-throb{0%{opacity:.5;-webkit-transform:scale(.5);transform:scale(.5)}100%{opacity:1;-webkit-transform:scale(1);transform:scale(1)}}.btn .b-icon.bi,.dropdown-item .b-icon.bi,.dropdown-toggle .b-icon.bi,.input-group-text .b-icon.bi,.nav-link .b-icon.bi{font-size:125%;vertical-align:text-bottom}", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/about/about.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/about/about.scss ***!
@@ -54550,7 +54490,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      text-overflow: ellipsis;\n      overflow: hidden;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #777777; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc textarea {\n      border: 0px;\n      width: 100%;\n      resize: none;\n      height: 150px; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq nav.faq_lnb {\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center; }\n    div.board div.faq nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-left: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq nav.faq_lnb ul li.active {\n        background-color: #d0d0d0; }\n      div.board div.faq nav.faq_lnb ul li:last-child {\n        border-right: 1px solid #d0d0d0; }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  margin-bottom: 30px; }\n  div.board div.faq section.section1 h2 span {\n    font-size: 0.875rem;\n    color: #d0d0d0;\n    margin-left: 20px; }\n\ndiv.board div.faq section.section1 ul.mid_cate {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq section.section1 ul.mid_cate li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.board div.faq section.section1 ul.mid_cate li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.mid_cate li.active {\n          border: 0px; } }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666;\n  overflow: hidden; }\n  div.board div.faq section.section1 ul.faq div.none p {\n    padding: 50px 20px; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li img {\n      width: 100%;\n      display: block;\n      height: auto; }\n    div.board div.faq section.section1 ul.faq li span {\n      display: inline-block;\n      color: #999;\n      width: 100px; }\n    div.board div.faq section.section1 ul.faq li b {\n      font-weight: normal; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li b {\n          display: block; } }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n    div.board div.faq section.section1 ul.faq li div.close_btn {\n      display: block;\n      background-color: #20a6f2;\n      color: #fff; }\n      div.board div.faq section.section1 ul.faq li div.close_btn:hover {\n        background-color: #0c8bd3; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n\ndiv.board div.qna section.section1 p.btn {\n  width: 100%;\n  text-align: center; }\n  div.board div.qna section.section1 p.btn button {\n    margin-top: 20px;\n    padding: 5px 35px; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #777777; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc textarea {\n      border: 0px;\n      width: 100%;\n      resize: none;\n      height: 150px; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq nav.faq_lnb {\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center; }\n    div.board div.faq nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-left: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq nav.faq_lnb ul li.active {\n        background-color: #d0d0d0; }\n      div.board div.faq nav.faq_lnb ul li:last-child {\n        border-right: 1px solid #d0d0d0; }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  margin-bottom: 30px; }\n  div.board div.faq section.section1 h2 span {\n    font-size: 0.875rem;\n    color: #d0d0d0;\n    margin-left: 20px; }\n\ndiv.board div.faq section.section1 ul.mid_cate {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq section.section1 ul.mid_cate li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.board div.faq section.section1 ul.mid_cate li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.mid_cate li.active {\n          border: 0px; } }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666;\n  overflow: hidden; }\n  div.board div.faq section.section1 ul.faq div.none p {\n    padding: 50px 20px; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li img {\n      width: 100%;\n      display: block;\n      height: auto; }\n    div.board div.faq section.section1 ul.faq li span {\n      display: inline-block;\n      color: #999;\n      width: 100px; }\n    div.board div.faq section.section1 ul.faq li b {\n      font-weight: normal; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li b {\n          display: block; } }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n    div.board div.faq section.section1 ul.faq li div.close_btn {\n      display: block;\n      background-color: #20a6f2;\n      color: #fff; }\n      div.board div.faq section.section1 ul.faq li div.close_btn:hover {\n        background-color: #0c8bd3; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n\ndiv.board div.qna section.section1 p.btn {\n  width: 100%;\n  text-align: center; }\n  div.board div.qna section.section1 p.btn button {\n    margin-top: 20px;\n    padding: 5px 35px; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -54667,7 +54607,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/info/hea
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.info div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n  div.info div.head_banner h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.info section div.popup div.inner {\n  width: 700px;\n  height: 700px;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%); }\n  div.info section div.popup div.inner iframe {\n    width: 100%;\n    height: 80%;\n    overflow-x: hidden; }\n\ndiv.info section h2 {\n  text-align: center;\n  margin-bottom: 30px; }\n\ndiv.info section.farm ul.content_main {\n  margin-top: 100px;\n  text-align: center; }\n  div.info section.farm ul.content_main li {\n    cursor: pointer;\n    display: inline-block;\n    width: 100%;\n    max-width: 385px;\n    height: 400px;\n    background-color: #f9fafc;\n    margin: 5px;\n    vertical-align: middle;\n    transition: .1s ease-in;\n    border: 1px solid #d0d0d0; }\n    @media (max-width: 767px) {\n      div.info section.farm ul.content_main li {\n        margin: 0px;\n        width: 98%;\n        margin-bottom: 10px; } }\n    div.info section.farm ul.content_main li:hover {\n      transform: translateY(-3px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.info section.farm ul.content_main li div.img {\n      height: 270px;\n      overflow: hidden; }\n      div.info section.farm ul.content_main li div.img img {\n        width: 100%; }\n    div.info section.farm ul.content_main li div.text {\n      height: 130px;\n      overflow: hidden;\n      padding: 15px;\n      text-align: left; }\n    div.info section.farm ul.content_main li h4 {\n      box-sizing: border-box;\n      font-weight: bold;\n      margin: 10px 0px;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n    div.info section.farm ul.content_main li p {\n      font-size: 0.875rem;\n      white-space: nowrap;\n      overflow: hidden;\n      text-overflow: ellipsis; }\n    div.info section.farm ul.content_main li p.date {\n      font-size: 0.75rem;\n      color: #999;\n      margin-top: 5px; }\n\ndiv.info section.movie h2 {\n  text-align: left; }\n\ndiv.info section.movie ul.nav {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.info section.movie ul.nav li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.info section.movie ul.nav li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.info section.movie ul.nav li.active {\n          border: 0px; } }\n\n@media (max-width: 767px) {\n  div.info section.movie ul.content {\n    margin-top: 50px; } }\n\ndiv.info section.movie ul.content li {\n  border-bottom: 1px solid #d0d0d0;\n  padding: 20px 0px; }\n  @media (max-width: 767px) {\n    div.info section.movie ul.content li {\n      text-align: center; } }\n  div.info section.movie ul.content li:nth-child(1) {\n    border-top: 1px solid #d0d0d0; }\n  div.info section.movie ul.content li > div {\n    vertical-align: middle; }\n  div.info section.movie ul.content li.none {\n    padding: 50px 0px; }\n  div.info section.movie ul.content li div.thumbnail {\n    width: 320px;\n    height: 200px;\n    background-color: #f9fafc;\n    display: inline-block;\n    overflow: hidden;\n    border-radius: 3px;\n    cursor: pointer; }\n    div.info section.movie ul.content li div.thumbnail img {\n      margin-top: -20px;\n      width: 100%; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.thumbnail {\n        display: block;\n        margin: 0 auto; } }\n  div.info section.movie ul.content li div.text-box {\n    max-width: 60%;\n    margin-left: 2%;\n    display: inline-block; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.text-box {\n        max-width: 90%;\n        margin: 0;\n        margin-top: 20px;\n        text-align: left; } }\n    div.info section.movie ul.content li div.text-box h3 {\n      font-size: 1.25rem;\n      margin-bottom: 20px;\n      cursor: pointer; }\n      div.info section.movie ul.content li div.text-box h3:hover {\n        text-decoration: underline; }\n    div.info section.movie ul.content li div.text-box p {\n      font-size: 0.875rem; }\n    div.info section.movie ul.content li div.text-box p.date {\n      margin-top: 20px; }\n  div.info section.movie ul.content li div.youtube_box {\n    width: 70%;\n    height: 500px;\n    background-color: #d0d0d0;\n    margin: 20px auto;\n    display: none; }\n    @media (max-width: 767px) {\n      div.info section.movie ul.content li div.youtube_box {\n        width: 90%;\n        height: 250px; } }\n\ndiv.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n  width: 100%;\n  max-width: 1024px;\n  height: 60vh;\n  background-color: #fff;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 999; }\n  @media (max-width: 1024px) {\n    div.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n      max-width: 90%; } }\n\ndiv.popup div.farm_popup {\n  width: 80%;\n  height: 80vh; }\n  @media (max-width: 767px) {\n    div.popup div.farm_popup {\n      width: 95%;\n      height: 80%; } }\n\ndiv.popup div.contact_box {\n  width: 30%;\n  background-color: #fff;\n  padding: 50px 20px;\n  box-sizing: border-box; }\n  @media (max-width: 1200px) {\n    div.popup div.contact_box {\n      width: 90%;\n      max-width: 500px;\n      padding: 30px 20px;\n      height: 90vh; } }\n  @media (max-width: 1024px) {\n    div.popup div.contact_box {\n      padding: 30px 20px;\n      height: 90vh; } }\n  div.popup div.contact_box input {\n    width: 100%;\n    margin-bottom: 10px; }\n    div.popup div.contact_box input::placeholder {\n      font-size: 0.75rem; }\n  div.popup div.contact_box div.p_box {\n    width: 100%;\n    height: 150px;\n    border: 2px solid #d9d9d9;\n    background: #f9f9f9;\n    padding: 20px;\n    box-sizing: border-box;\n    overflow: hidden;\n    overflow-y: scroll; }\n    div.popup div.contact_box div.p_box p {\n      font-size: 14px;\n      margin-bottom: 10px; }\n    div.popup div.contact_box div.p_box ol {\n      list-style: decimal;\n      margin-left: 10px; }\n      div.popup div.contact_box div.p_box ol li {\n        font-size: 14px;\n        line-height: 20px;\n        margin-bottom: 10px; }\n  div.popup div.contact_box div.checkbox {\n    margin-top: 20px; }\n    div.popup div.contact_box div.checkbox input {\n      width: 20px;\n      height: 20px;\n      display: inline;\n      vertical-align: middle; }\n    div.popup div.contact_box div.checkbox label {\n      cursor: pointer; }\n  div.popup div.contact_box div.btns {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    width: 90%;\n    transform: translateX(-50%); }\n    div.popup div.contact_box div.btns div.btn {\n      width: 100%;\n      margin-bottom: 10px;\n      margin-top: 0px; }\n      div.popup div.contact_box div.btns div.btn.t_red {\n        background-color: #d90125;\n        color: white; }\n      div.popup div.contact_box div.btns div.btn.t_blue {\n        background-color: #4682B4;\n        color: white; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.info div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n  div.info div.head_banner h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    font-weight: bold;\n    color: #444;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.info section h2 {\n  text-align: center;\n  margin-bottom: 30px; }\n\ndiv.info section.farm ul.content_main {\n  margin-top: 100px;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.info section.farm ul.content_main {\n      margin-top: 50px; } }\n  div.info section.farm ul.content_main li {\n    cursor: pointer;\n    display: inline-block;\n    width: 100%;\n    max-width: 385px;\n    height: 400px;\n    background-color: #f9fafc;\n    margin: 5px;\n    vertical-align: middle;\n    transition: .1s ease-in;\n    border: 1px solid #d0d0d0; }\n    div.info section.farm ul.content_main li:hover {\n      transform: translateY(-3px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    @media (max-width: 1024px) {\n      div.info section.farm ul.content_main li {\n        width: 47%;\n        margin-bottom: 10px;\n        height: 300px; } }\n    div.info section.farm ul.content_main li div.img {\n      height: 270px;\n      overflow: hidden; }\n      div.info section.farm ul.content_main li div.img img {\n        width: 100%; }\n      @media (max-width: 1024px) {\n        div.info section.farm ul.content_main li div.img {\n          height: 180px; } }\n    div.info section.farm ul.content_main li div.text {\n      height: 130px;\n      overflow: hidden;\n      padding: 15px;\n      text-align: left; }\n    div.info section.farm ul.content_main li h4 {\n      box-sizing: border-box;\n      font-weight: bold;\n      margin: 10px 0px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n    div.info section.farm ul.content_main li p {\n      font-size: 0.875rem;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n    div.info section.farm ul.content_main li p.date {\n      font-size: 0.75rem;\n      color: #999;\n      margin-top: 5px; }\n\ndiv.info section.movie h2 {\n  text-align: left; }\n\ndiv.info section.movie ul.nav {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.info section.movie ul.nav li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.info section.movie ul.nav li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.info section.movie ul.nav li.active {\n          border: 0px; } }\n\n@media (max-width: 767px) {\n  div.info section.movie ul.content {\n    margin-top: 50px; } }\n\ndiv.info section.movie ul.content li {\n  border-bottom: 1px solid #d0d0d0;\n  padding: 20px 0px; }\n  @media (max-width: 767px) {\n    div.info section.movie ul.content li {\n      text-align: center; } }\n  div.info section.movie ul.content li:nth-child(1) {\n    border-top: 1px solid #d0d0d0; }\n  div.info section.movie ul.content li > div {\n    vertical-align: middle; }\n  div.info section.movie ul.content li.none {\n    padding: 50px 0px; }\n  div.info section.movie ul.content li div.thumbnail {\n    width: 320px;\n    height: 200px;\n    background-color: #f9fafc;\n    display: inline-block;\n    overflow: hidden;\n    border-radius: 3px;\n    cursor: pointer; }\n    div.info section.movie ul.content li div.thumbnail img {\n      margin-top: -20px;\n      width: 100%; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.thumbnail {\n        display: block;\n        margin: 0 auto; } }\n  div.info section.movie ul.content li div.text-box {\n    max-width: 60%;\n    margin-left: 2%;\n    display: inline-block; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.text-box {\n        max-width: 90%;\n        margin: 0;\n        margin-top: 20px;\n        text-align: left; } }\n    div.info section.movie ul.content li div.text-box h3 {\n      font-size: 1.25rem;\n      margin-bottom: 20px;\n      cursor: pointer; }\n      div.info section.movie ul.content li div.text-box h3:hover {\n        text-decoration: underline; }\n    div.info section.movie ul.content li div.text-box p {\n      font-size: 0.875rem; }\n    div.info section.movie ul.content li div.text-box p.date {\n      margin-top: 20px; }\n  div.info section.movie ul.content li div.youtube_box {\n    width: 70%;\n    height: 500px;\n    background-color: #d0d0d0;\n    margin: 20px auto;\n    display: none; }\n    @media (max-width: 767px) {\n      div.info section.movie ul.content li div.youtube_box {\n        width: 90%;\n        height: 250px; } }\n\ndiv.popup div.inner {\n  width: 700px;\n  height: 700px;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%); }\n  div.popup div.inner iframe {\n    width: 100%;\n    height: 80%;\n    overflow-x: hidden; }\n\ndiv.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n  width: 100%;\n  max-width: 1024px;\n  height: 60vh;\n  background-color: #fff;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 999; }\n  @media (max-width: 1024px) {\n    div.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n      max-width: 90%; } }\n\ndiv.popup div.farm_popup {\n  width: 80%;\n  height: 80vh; }\n  @media (max-width: 767px) {\n    div.popup div.farm_popup {\n      width: 95%;\n      height: 80%; } }\n\ndiv.popup div.contact_box {\n  width: 30%;\n  background-color: #fff;\n  padding: 50px 20px;\n  box-sizing: border-box; }\n  @media (max-width: 1200px) {\n    div.popup div.contact_box {\n      width: 90%;\n      max-width: 500px;\n      padding: 30px 20px;\n      height: 90vh; } }\n  @media (max-width: 1024px) {\n    div.popup div.contact_box {\n      padding: 30px 20px;\n      height: 90vh; } }\n  div.popup div.contact_box input {\n    width: 100%;\n    margin-bottom: 10px; }\n    div.popup div.contact_box input::placeholder {\n      font-size: 0.75rem; }\n  div.popup div.contact_box div.p_box {\n    width: 100%;\n    height: 150px;\n    border: 2px solid #d9d9d9;\n    background: #f9f9f9;\n    padding: 20px;\n    box-sizing: border-box;\n    overflow: hidden;\n    overflow-y: scroll; }\n    div.popup div.contact_box div.p_box p {\n      font-size: 14px;\n      margin-bottom: 10px; }\n    div.popup div.contact_box div.p_box ol {\n      list-style: decimal;\n      margin-left: 10px; }\n      div.popup div.contact_box div.p_box ol li {\n        font-size: 14px;\n        line-height: 20px;\n        margin-bottom: 10px; }\n  div.popup div.contact_box div.checkbox {\n    margin-top: 20px; }\n    div.popup div.contact_box div.checkbox input {\n      width: 20px;\n      height: 20px;\n      display: inline;\n      vertical-align: middle; }\n    div.popup div.contact_box div.checkbox label {\n      cursor: pointer; }\n  div.popup div.contact_box div.btns {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    width: 90%;\n    transform: translateX(-50%); }\n    div.popup div.contact_box div.btns div.btn {\n      width: 100%;\n      margin-bottom: 10px;\n      margin-top: 0px; }\n      div.popup div.contact_box div.btns div.btn.t_red {\n        background-color: #d90125;\n        color: white; }\n      div.popup div.contact_box div.btns div.btn.t_blue {\n        background-color: #4682B4;\n        color: white; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -71604,7 +71544,6 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./about.scss */ "./src/about/about.scss");
 /* harmony import */ var _about_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_about_scss__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 
 
 const About = {
@@ -72012,7 +71951,6 @@ const faq = {
         board: _board__WEBPACK_IMPORTED_MODULE_0__["default"],listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_2__["default"]
     },
     created() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('moNav',false)
         this.getData();
     },
     mounted() {
@@ -72185,9 +72123,7 @@ const download = {
         </section>
     </div>`,
     created() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
         this.getData()
-        // this.login = this.$store.state.login;
     },
     mounted() {
      
@@ -72454,7 +72390,6 @@ const support = {
     },
 
     created() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
         this.getData()
     },
 
@@ -73458,72 +73393,83 @@ __webpack_require__.r(__webpack_exports__);
 
 const farmPage = {
     template:`<section class='farm '>
-        <div class='content wrap'>
-            <h2>농업계 소식</h2>
-            <ul class='content_main'>
-                <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
-                    <div class='img'>
-                        <img v-bind:src="content.img">
+                    <div class='content wrap'>
+                        <h2>농업계 소식</h2>
+
+                        <ul class='content_main'>
+                            <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
+                                <div class='img'>
+                                    <img v-bind:src="content.img">
+                                </div>
+                                <div class='text'>
+                                    <h4>{{content.title}}</h4>
+                                    <p>{{content.desc}}</p>
+                                    <p class='date'>작성일: {{content.date}}</p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <FarmPopup
+                                v-bind:show="show" 
+                                v-bind:data="popupData"
+                                @child="parent"
+                        />
+                            
+                        <listNumber 
+                            v-bind:DataLength='Math.ceil((contents.length)/10)' 
+                            v-bind:nowpage='limit-10'
+                        />
                     </div>
-                    <div class='text'>
-                        <h4>{{content.title}}</h4>
-                        <p>
-                            {{content.desc}}
-                        </p>
-                        <p class='date'>작성일: {{content.date}}</p>
-                    </div>
-                </li>
-                <FarmPopup
-                    v-bind:show="show" 
-                    v-bind:data="popupData"
-                    @child="parent"
-                />
-            </ul>
-            <listNumber v-bind:DataLength='Math.ceil((contents.length)/10)' v-bind:nowpage='limit-10'/>
-            
-        </div>
-    </section>`,
-         created() {
+                </section>`,
+        components:{
+            listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_1__["default"],FarmPopup: _farm_popup__WEBPACK_IMPORTED_MODULE_2__["default"]
+        },
+        data(){
+            return{
+                show:false,
+                start:0,
+                limit:9,
+                popupData:"",
+                contents:""
+            }
+        },
+        created() {
+
             const BaseData = "../woosung_api/farm.data.php"
             axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'main'})
             .then((result)=>{
                 this.contents = result.data.result
                 this.mode = 'load'
-                _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
-                   DataLength: Math.ceil((this.contents.length) / 10),
-                   nowpage: this.limit - 10
-                })
+
+             
             })
+
         },
-    mounted() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
-       
-        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
-            this.start = Data * 10;
-            this.limit = (Data * 10) + 9
-        })
-    },
-    components:{
-        listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_1__["default"],FarmPopup: _farm_popup__WEBPACK_IMPORTED_MODULE_2__["default"]
-    },
-    data(){
-        return{
-            show:false,
-            start:0,
-            limit:9,
-            popupData:"",
-            contents:""
+        mounted() {
+
+            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
+                this.start = Data * 10;
+                this.limit = (Data * 10) + 9
+            })
+
+        },
+        updated() {
+
+            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
+                DataLength: Math.ceil((this.contents.length) / 10),
+                nowpage: this.limit - 10
+             })
+
+        },
+        methods: {
+            parent(data){
+                this.show = data
+            },
+            popupBoxShow(i){
+                this.show = true
+                this.popupData = this.contents[i]
+            },
         }
-    },
-    methods: {
-        parent(data){
-            this.show = data
-        },
-        popupBoxShow(i){
-            this.show = true
-            this.popupData = this.contents[i]
-        },
-    }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (farmPage);
@@ -73632,7 +73578,6 @@ const infoPage = {
 __webpack_require__.r(__webpack_exports__);
 const insectPage = {
     template:`<div class='insect wrap'>
-            123
     </div>`
 }
 
@@ -73726,47 +73671,70 @@ __webpack_require__.r(__webpack_exports__);
 
 const MoviePage = {
     template:`<section class='movie wrap'>
-        <h2>정보 동영상</h2>
+                <h2>정보 동영상</h2>
 
-        <ul class='nav'>
-            <li 
-             v-bind:class="{active:mode=='전체'}"
-             @click="CateFilter('전체')">
-             전체</li>
-            <li
-             v-for="midCate in midCates" 
-             @click="CateFilter(midCate)"
-             v-bind:class="{active:mode==midCate}"
-             >
-             {{midCate}}</li>
-        </ul>
+                <ul class='nav'>
 
-        <ul class='content'>
-            <li v-if="filters[0]==undefined" class='none'>
-                <p>등록된 영상이 없습니다.</p>
-            </li>
+                    <li 
+                        v-bind:class="{active:mode=='전체'}"
+                        @click="CateFilter('전체')">
+                        전체
+                    </li>
 
-            <li v-for="(filter,i) in filters" v-if='i < limit && i >= start' >
-                <div class='thumbnail' @click="youtubeBoxShow(i)">
-                    <img v-bind:src="'https://i.ytimg.com/vi/'+filter.youtubeId+'/0.jpg'">
-                    썸네일 이미지
-                </div>
-                <div class='text-box'>
-                    <h3 @click="youtubeBoxShow(i)">{{filter.title}}</h3>
-                    <p>{{filter.desc}}</p>
-                    <p class='date'>게시일 : {{filter.date}}</p>
-                </div>
-            </li>
+                    <li
+                        v-for="midCate in midCates" 
+                        @click="CateFilter(midCate)"
+                        v-bind:class="{active:mode==midCate}">
+                        {{midCate}}
+                    </li>
 
-            <MoviePopup 
-                v-bind:show="show" 
-                v-bind:data="popupData"
-                @child="parent"/>
-        </ul>
-        <listNumber v-bind:DataLength='Math.ceil((movies.length)/10)' v-bind:nowpage='limit-10'/>
-    </section>`,
+                </ul>
+
+                <ul class='content'>
+
+                    <li v-if="filters[0]==undefined" class='none'>
+                        <p>등록된 영상이 없습니다.</p>
+                    </li>
+
+                    <li v-for="(filter,i) in filters" v-if='i < limit && i >= start' >
+                        <div class='thumbnail' @click="youtubeBoxShow(i)">
+                            <img v-bind:src="'https://i.ytimg.com/vi/'+filter.youtubeId+'/0.jpg'">
+                            썸네일 이미지
+                        </div>
+                        <div class='text-box'>
+                            <h3 @click="youtubeBoxShow(i)">{{filter.title}}</h3>
+                            <p>{{filter.desc}}</p>
+                            <p class='date'>게시일 : {{filter.date}}</p>
+                        </div>
+                    </li>
+            
+             
+                </ul>
+
+                <MoviePopup 
+                    v-bind:show="show" 
+                    v-bind:data="popupData"
+                    @child="parent"/>
+
+                <listNumber v-bind:DataLength='Math.ceil((movies.length)/10)' v-bind:nowpage='limit-10'/>
+            </section>`,
+        components:{
+            listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_1__["default"],MoviePopup: _movie_popup__WEBPACK_IMPORTED_MODULE_2__["default"]
+        },
+         data(){
+            return{
+                mode:'전체',
+                show:false,
+                midCates:['우성소프트','농사 정보','농약 정보','농진청 유튜브','유용한 정보'],
+                filters:"",
+                movies:"",
+                popupData:"",
+                start:0,
+                limit:10
+            }
+        },
         created() {
-            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('moNav',false)
+            
             const BaseData = "../woosung_api/youtube.data.php"
             axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'page'})
             .then((result)=>{
@@ -73782,53 +73750,37 @@ const MoviePage = {
                 nowpage: this.limit - 10
             })
         },
-      mounted() {
+        mounted() {
 
-        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
-            this.start = Data * 10;
-            this.limit = (Data * 10) + 9
-        })
-    },
-    components:{
-        listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_1__["default"],MoviePopup: _movie_popup__WEBPACK_IMPORTED_MODULE_2__["default"]
-    },
-    data(){
-        return{
-            mode:'전체',
-            midCates:[
-                '우성소프트','농사 정보','농약 정보','농진청 유튜브','유용한 정보'
-            ],
-            show:false,
-            filters:"",
-            popupData:"",
-            start:0,
-            limit:10,
-            movies:""
-        }
-    },
-    methods: {
-        parent(data){
-            this.show = data
+            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
+                this.start = Data * 10;
+                this.limit = (Data * 10) + 9
+            })
         },
-        youtubeBoxShow(i){
-            this.show = true
-            this.popupData = this.movies[i]
-        },
-        CateFilter(value){
-            
-            if(value == '전체'){
-                this.mode = '전체'
-                this.filters = this.movies
-            }
-            else{
-                this.mode = value
-                this.filters = this.movies.filter(function(Data){
-                    return Data.cate == value
-                })
-            }
+   
+        methods: {
+            parent(data){
+                this.show = data
+            },
+            youtubeBoxShow(i){
+                this.show = true
+                this.popupData = this.movies[i]
+            },
+            CateFilter(value){
+                
+                if(value == '전체'){
+                    this.mode = '전체'
+                    this.filters = this.movies
+                }
+                else{
+                    this.mode = value
+                    this.filters = this.movies.filter(function(Data){
+                        return Data.cate == value
+                    })
+                }
 
+            }
         }
-    },
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (MoviePage);
@@ -74329,11 +74281,6 @@ const MainSlider = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
-/* harmony import */ var _image_product_pos_s1_icon2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../image/product/pos_s1_icon2.png */ "./image/product/pos_s1_icon2.png");
-
-
-
 const pos = {
     template:`<div class='pos'>
                 <div class='head_banner'>
@@ -74465,18 +74412,9 @@ const pos = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! bootstrap-vue */ "./node_modules/bootstrap-vue/esm/index.js");
-/* harmony import */ var bootstrap_vue_dist_bootstrap_vue_icons_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap-vue/dist/bootstrap-vue-icons.min.css */ "./node_modules/bootstrap-vue/dist/bootstrap-vue-icons.min.css");
-/* harmony import */ var bootstrap_vue_dist_bootstrap_vue_icons_min_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(bootstrap_vue_dist_bootstrap_vue_icons_min_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
-/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
+/* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
 
-
-
-
-
-Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_0__["BootstrapVueIcons"])
 
 const pro = {
     template:`<div class='pro'>
@@ -74584,8 +74522,8 @@ const pro = {
         </section>
     </div>`,
     components: {
-      Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_2__["Carousel"],
-      Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_2__["Slide"]
+      Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
+      Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"]
     },
     data(){
         return{

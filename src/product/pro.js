@@ -1,9 +1,4 @@
-import { BootstrapVueIcons } from 'bootstrap-vue'
-import 'bootstrap-vue/dist/bootstrap-vue-icons.min.css'
-
 import { Carousel, Slide } from 'vue-carousel';
-import EventBus from '../eventbus';
-Vue.use(BootstrapVueIcons)
 
 const pro = {
     template:`<div class='pro'>

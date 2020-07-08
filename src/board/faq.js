@@ -77,7 +77,6 @@ const faq = {
         board,listNumber
     },
     created() {
-        eventBus.$emit('moNav',false)
         this.getData();
     },
     mounted() {

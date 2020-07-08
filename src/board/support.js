@@ -50,7 +50,6 @@ const support = {
     },
 
     created() {
-        eventBus.$emit('moNav',false)
         this.getData()
     },
 
