@@ -17,6 +17,7 @@ import info2 from './info/farmPage'
 import info3 from './info/moviepage'
 import info4 from './info/material';
 import qnaWrite from './board/qna_write';
+import EventBus from './eventbus'
 
 const router = new VueRouter({
     routes: [
@@ -129,6 +130,7 @@ const router = new VueRouter({
         }
     ],
     scrollBehavior (to, from, savedPosition) {
+        EventBus.$emit('moNav',false)
         return { x: 0, y: 0 }
       }
     

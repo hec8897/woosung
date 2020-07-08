@@ -30,7 +30,6 @@ const MainPage = {
         sectionImfoFarm,
     },
     created() {
-        EventBus.$emit('moNav',false)
         EventBus.$on('consultPopup',(Data)=>{
             this.show = Data
         })
