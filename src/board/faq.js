@@ -25,7 +25,6 @@ const faq = {
                 </ul>
             </div>
         </nav>
-
         <faqBoard v-bind:mode = 'mode'/>
     </div>`,
     data(){
