@@ -71916,7 +71916,7 @@ const faq = {
             }
             console.log(cates)
             cates.value = true
-            this.filterCate = cates
+            this.filterCate = cates.Name
 
 
             _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('filter',cates)

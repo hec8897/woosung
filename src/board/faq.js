@@ -65,7 +65,7 @@ const faq = {
             }
             console.log(cates)
             cates.value = true
-            this.filterCate = cates
+            this.filterCate = cates.Name
 
 
             eventBus.$emit('filter',cates)
