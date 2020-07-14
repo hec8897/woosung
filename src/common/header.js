@@ -54,8 +54,7 @@ const Header = {
             </div>
         </div>
         <div class='slide_down'>
-            <div class='wrap'>
-            </div>            
+      
         </div>
     </header>`,
     components:{

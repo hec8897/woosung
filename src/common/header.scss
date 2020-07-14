@@ -45,7 +45,7 @@ header{
             transform: translate(-50%,-50%);
             li{
                 display: inline-block;
-                margin: 0px 25px;
+                margin: 0px 15px;
                 font-size: 1.125rem;
                 cursor:  pointer;
                 color: white;
@@ -77,7 +77,7 @@ header{
                     text-align: center;
                     top: 100px;
                     z-index: 999;
-                    // visibility: hidden;
+                    visibility: hidden;
                     opacity: 0.0;
                     transition: 0.1s ease-in;
                     p{
@@ -190,6 +190,10 @@ header{
     &:hover div.slide_down{
         height: 300px;
     }
+    &:hover div.hidden_menu{
+        visibility: visible;
+    }
+
     &:hover div.wrap h1 img.black{
         display: inline;
     }

@@ -18,7 +18,7 @@ const SectionInfoMovie ={
                 :loop='true'
                 :per-page-custom=[[1024,4],[768,3],[480,2],[360,2]]
                 >
-                <slide v-for="(movie,i) in movies" >
+                <slide v-for="(movie,i) in movies" v-if="i<10">
                     <div class='slide_inner'>
                         <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
                         <div class='hover' @click="youtubeBoxShow(i)">
