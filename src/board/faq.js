@@ -3,6 +3,7 @@ import faqBoard from './faq_board'
 
 //모드 변경필요
 const faq = {
+    props:['mode'],
     template:`<div class='faq'>
         <div class='board_head'>
             <h3>자주하는 질문(FAQ)</h3>
@@ -13,7 +14,7 @@ const faq = {
                 <ul>
                     <li 
                         v-for="listCate in listCates" 
-                        @click="filterData(listCate,$event)" 
+                        @click="filterData(listCate)" 
                         v-bind:class="{active:listCate.value}"
                         >
                         <span v-if="listCate.Name=='all'">전체</span>
@@ -29,7 +30,6 @@ const faq = {
     </div>`,
     data(){
         return{
-            mode:"all",
             listCates:[
                 {Name:'all', value:true},
                 {Name:'pro', value:false},
@@ -44,15 +44,17 @@ const faq = {
     components:{
         faqBoard
     },
+    beforeCreate() {
+        this.filterData(this.mode)
+    },
   
     mounted() {
-    
         eventBus.$on('NextPage', (Data) => {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
         })
     },
-    
+
     methods: {
         filterData(cates){
             this.mode = cates.Name

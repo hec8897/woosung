@@ -71854,6 +71854,7 @@ __webpack_require__.r(__webpack_exports__);
 
 //모드 변경필요
 const faq = {
+    props:['mode'],
     template:`<div class='faq'>
         <div class='board_head'>
             <h3>자주하는 질문(FAQ)</h3>
@@ -71864,7 +71865,7 @@ const faq = {
                 <ul>
                     <li 
                         v-for="listCate in listCates" 
-                        @click="filterData(listCate,$event)" 
+                        @click="filterData(listCate)" 
                         v-bind:class="{active:listCate.value}"
                         >
                         <span v-if="listCate.Name=='all'">전체</span>
@@ -71880,7 +71881,6 @@ const faq = {
     </div>`,
     data(){
         return{
-            mode:"all",
             listCates:[
                 {Name:'all', value:true},
                 {Name:'pro', value:false},
@@ -71895,15 +71895,17 @@ const faq = {
     components:{
         faqBoard: _faq_board__WEBPACK_IMPORTED_MODULE_1__["default"]
     },
+    beforeCreate() {
+        this.filterData(this.mode)
+    },
   
     mounted() {
-    
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
         })
     },
-    
+
     methods: {
         filterData(cates){
             this.mode = cates.Name
@@ -72011,6 +72013,7 @@ const faqBoard = {
         }
     },
     created() {
+        console.log(this.mode)
         this.getData();
     },
     mounted() {
@@ -72969,7 +72972,7 @@ const Header = {
                 <li>
                     <router-link to='/board' tag='span'>고객 지원 센터</router-link>
                     <div class='hidden_menu'>
-                        <router-link to='/board/faq' tag='p'>자주하는 질문</router-link>    
+                        <router-link to='/board/faq/all' tag='p'>자주하는 질문</router-link>    
                         <router-link to='/board/qna' tag='p'>묻고 답하기</router-link>    
                         <router-link to='/board/support' tag='p'>고객지원센터</router-link>    
                     </div>
@@ -74851,8 +74854,9 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                     component:_board_faq__WEBPACK_IMPORTED_MODULE_8__["default"]
                 },
                 {
-                    path:'faq',
-                    component:_board_faq__WEBPACK_IMPORTED_MODULE_8__["default"]
+                    path:'faq/:mode',
+                    component:_board_faq__WEBPACK_IMPORTED_MODULE_8__["default"],
+                    props:true
                 },
                 {
                     path:'qna',

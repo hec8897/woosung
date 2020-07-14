@@ -97,8 +97,9 @@ const router = new VueRouter({
                     component:faq
                 },
                 {
-                    path:'faq',
-                    component:faq
+                    path:'faq/:mode',
+                    component:faq,
+                    props:true
                 },
                 {
                     path:'qna',
