@@ -21,11 +21,13 @@ const SectionInfoMovie ={
                 <slide v-for="(movie,i) in movies" v-if="i<10">
                     <div class='slide_inner'>
                         <img v-bind:src="'https://i.ytimg.com/vi/'+movie.youtubeId+'/0.jpg'">
-                        <div class='hover' @click="youtubeBoxShow(i)">
-                            <img src="image/youtube.png"/>
-                            <h3>{{movie.title}}</h3>
+                        <div class='hover' >
+                            <img src="image/youtube.png" @click="youtubeBoxShow(i)"/>
                         </div>
                     </div>
+                            <h3>{{movie.title}}</h3>
+                    
+
                 </slide>
 
             </carousel>
