@@ -87,7 +87,7 @@ const pos = {
                 </div>
                 <div class='content content2'>
                     <img src='image/product/pos_s3_img2.png'>
-                    <h3>개인정보이용 동의서 전사서명</h3>
+                    <h3>농약안전정보시스템 전송 기능 탑재</h3>
                     <p>그동안 매출장부에 일일이 타이핑해서 입력하느라 힘드셨죠?</p>
                     <p>전송 버튼 한번이면 자동으로 농약 농약 판매기록이 안전정보시스템으로 전송!</p>
                 </div>

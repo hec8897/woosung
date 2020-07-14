@@ -72,23 +72,40 @@ header{
                 }
               
                 div{
+                    background-color: #fff;
                     position: absolute;
-                    width: 100%;
                     text-align: center;
-                    top: 100px;
+                    top: 50px;
+                    left: 50%;
+                    transform: translateX(-50%);
                     z-index: 999;
                     visibility: hidden;
-                    opacity: 0.0;
                     transition: 0.1s ease-in;
+                    padding: 10px 30px;
+                    box-sizing: border-box;
+                    border-radius: 3px;
+                    opacity: 0.0;
+                    @include shadowDefault();
+                    &::before{
+                        content: '';
+                        top: -7px;
+                        background-color: #fff;
+                        display: block;
+                        position: absolute;
+                        width: 14px;
+                        height: 14px;
+                        left: 50%;
+                        transform: translateX(-50%) rotate(-45deg);
+                    }
                     p{
                         white-space: nowrap;
                         font-size: 0.875rem;
-                        margin-bottom: 10px;
+                        margin: 10px 0px;
+                        font-weight: normal;
+                        color: #444;
                         &.router-link-exact-active.router-link-active{
                             color: $PointColor;
-
                         }
-                        
                         &:hover{
                             color: $MainColor;
                         }
@@ -103,7 +120,11 @@ header{
                 @media (max-width:1024px) {
                     display: none;
                 }
-              
+                &:hover div.hidden_menu{
+                    visibility: visible;
+                    opacity: 1.0;
+
+                }
             }
             
         }
@@ -188,24 +209,12 @@ header{
 
     }
     &:hover div.slide_down{
-        height: 300px;
     }
-    &:hover div.hidden_menu{
-        visibility: visible;
-    }
+  
 
-    &:hover div.wrap h1 img.black{
-        display: inline;
-    }
-    &:hover div.wrap h1 img.default{
-        display: none;
-    }
-    &:hover div.wrap ul li{
-        color: #444;
-    }
+
 
     &:hover div.hidden_menu{
         // visibility: initial;
-        opacity: 1.0;
     }
 }

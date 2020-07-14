@@ -54550,7 +54550,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(0, 0, 0, 0.3); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    z-index: 990;\n    position: relative; }\n    header div.wrap h1 img {\n      width: 100%;\n      transition: 0.1s ease-in; }\n      header div.wrap h1 img.default {\n        display: inline; }\n      header div.wrap h1 img.black {\n        display: none; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    z-index: 900;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 15px;\n      font-size: 1.125rem;\n      cursor: pointer;\n      color: white;\n      font-weight: bold; }\n      header div.wrap ul li span.router-link-active {\n        color: #4682B4; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        position: absolute;\n        width: 100%;\n        text-align: center;\n        top: 100px;\n        z-index: 999;\n        visibility: hidden;\n        opacity: 0.0;\n        transition: 0.1s ease-in; }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin-bottom: 10px; }\n          header div.wrap ul li div p.router-link-exact-active.router-link-active {\n            color: #4682B4; }\n          header div.wrap ul li div p:hover {\n            color: #87CEFA; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 1024px) {\n        header div.wrap ul li {\n          display: none; } }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: none;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%); }\n    @media (max-width: 1024px) {\n      header div.wrap div.mo_menu {\n        display: inline-block; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #444;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #444;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n  header:hover div.slide_down {\n    height: 300px; }\n  header:hover div.hidden_menu {\n    visibility: visible; }\n  header:hover div.wrap h1 img.black {\n    display: inline; }\n  header:hover div.wrap h1 img.default {\n    display: none; }\n  header:hover div.wrap ul li {\n    color: #444; }\n  header:hover div.hidden_menu {\n    opacity: 1.0; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(0, 0, 0, 0.3); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    z-index: 990;\n    position: relative; }\n    header div.wrap h1 img {\n      width: 100%;\n      transition: 0.1s ease-in; }\n      header div.wrap h1 img.default {\n        display: inline; }\n      header div.wrap h1 img.black {\n        display: none; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    z-index: 900;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 15px;\n      font-size: 1.125rem;\n      cursor: pointer;\n      color: white;\n      font-weight: bold; }\n      header div.wrap ul li span.router-link-active {\n        color: #4682B4; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        background-color: #fff;\n        position: absolute;\n        text-align: center;\n        top: 50px;\n        left: 50%;\n        transform: translateX(-50%);\n        z-index: 999;\n        visibility: hidden;\n        transition: 0.1s ease-in;\n        padding: 10px 30px;\n        box-sizing: border-box;\n        border-radius: 3px;\n        opacity: 0.0;\n        -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n        box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n        header div.wrap ul li div::before {\n          content: '';\n          top: -7px;\n          background-color: #fff;\n          display: block;\n          position: absolute;\n          width: 14px;\n          height: 14px;\n          left: 50%;\n          transform: translateX(-50%) rotate(-45deg); }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin: 10px 0px;\n          font-weight: normal;\n          color: #444; }\n          header div.wrap ul li div p.router-link-exact-active.router-link-active {\n            color: #4682B4; }\n          header div.wrap ul li div p:hover {\n            color: #87CEFA; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 1024px) {\n        header div.wrap ul li {\n          display: none; } }\n      header div.wrap ul li:hover div.hidden_menu {\n        visibility: visible;\n        opacity: 1.0; }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: none;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%); }\n    @media (max-width: 1024px) {\n      header div.wrap div.mo_menu {\n        display: inline-block; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #444;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #444;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -71787,26 +71787,6 @@ new Vue({
 
 /***/ }),
 
-/***/ "./src/board/board.js":
-/*!****************************!*\
-  !*** ./src/board/board.js ***!
-  \****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-const board = {
-    props:['mode'],
-    template:`<div class='board'>
-                {{mode}}
-              <div>`
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (board);
-
-/***/ }),
-
 /***/ "./src/board/board.scss":
 /*!******************************!*\
   !*** ./src/board/board.scss ***!
@@ -71867,13 +71847,8 @@ const boardPage = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _board__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./board */ "./src/board/board.js");
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
-/* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-
-
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+/* harmony import */ var _faq_board__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./faq_board */ "./src/board/faq_board.js");
 
 
 
@@ -71901,74 +71876,125 @@ const faq = {
             </div>
         </nav>
 
-        <section class='section1'>
-        <div class='wrap'>
-            <h2 v-if="this.mode =='all'">우성소프트 자주 묻는 질문</h2>
-            <h2 v-if="this.mode =='pro'">우성 윈윈 PRO<span>Win-Win Pro</span></h2>
-            <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
-            <h2 v-if="this.mode =='etc'">기타</h2>
-
-            <ul class='mid_cate' v-if="this.mode !='all'">
-                <li 
-                    v-for="midCate in midCates" 
-                    @click="ActiveMidCate(midCate)"
-                    v-bind:class="{active:ActiveCate == midCate}"
-                    v-text="midCate"
-                    >
-            </li>
-            </ul>
-
-            <ul class='faq'>
-                <div v-if="filters[0]==undefined" class='none'>
-                    <p>등록된 글이 없습니다.</p>
-                </div>
-
-                <div v-for='(filter,i) in filters' v-if='i < limit && i >= start'>
-                    <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
-                        <p>
-                            <label v-if="filter.cate=='pos'">Win-Win Pos</label>
-                            <label v-else-if="filter.cate=='pro'">Win-Win Pro</label>
-                            <label v-else-if="filter.cate=='etc'">기타</label>
-                            <span>{{filter.midCate}}</span>
-                            <b>{{filter.tit}}</b>
-                        </p>
-                    </li>
-                    <li v-bind:id="'aa'+i" class='beactive' >
-                        <div v-html="filter.desc"></div>
-                        <div class='btn close_btn' v-on:click="openAA(i)">
-                            <b-icon icon="caret-up-fill"></b-icon>
-                            닫기
-                        </div>
-                    </li>
-                </div>
-            </ul>
-            
-            <listNumber  v-bind:DataLength='Math.ceil((filters.length)/10)' v-bind:nowpage='limit-10'/>
-        </div>
-        </section>
+        <faqBoard v-bind:mode = 'mode'/>
     </div>`,
-    components:{
-        board: _board__WEBPACK_IMPORTED_MODULE_0__["default"],listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_2__["default"]
-    },
-    created() {
-        this.getData();
-    },
-    mounted() {
-    
-        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$on('NextPage', (Data) => {
-            this.start = Data * 10;
-            this.limit = (Data * 10) + 10
-        })
-    },
     data(){
         return{
+            mode:"all",
             listCates:[
                 {Name:'all', value:true},
                 {Name:'pro', value:false},
                 {Name:'pos', value:false},
                 {Name:'etc', value:false},
             ],
+            filters:[],
             midCates:'',
+            ActiveCate:'전체',
+        }
+    },
+    components:{
+        faqBoard: _faq_board__WEBPACK_IMPORTED_MODULE_1__["default"]
+    },
+  
+    mounted() {
+    
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
+            this.start = Data * 10;
+            this.limit = (Data * 10) + 10
+        })
+    },
+    
+    methods: {
+        filterData(cates){
+            this.mode = cates.Name
+            this.ActiveCate = '전체'
+
+            for(let i = 0; i<this.listCates.length; i++){
+                this.listCates[i].value = false
+            }
+         
+            cates.value = true
+            this.mode = cates.Name;
+
+            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('filter',cates)
+        },
+    },
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (faq);
+
+/***/ }),
+
+/***/ "./src/board/faq_board.js":
+/*!********************************!*\
+  !*** ./src/board/faq_board.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+/* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+const faqBoard = {
+    props:['mode'],
+    template:`      <section class='section1'>
+    <div class='wrap'>
+        <h2 v-if="this.mode =='all'">우성소프트 자주 묻는 질문</h2>
+        <h2 v-if="this.mode =='pro'">우성 윈윈 PRO<span>Win-Win Pro</span></h2>
+        <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
+        <h2 v-if="this.mode =='etc'">기타</h2>
+
+        <ul class='mid_cate' v-if="this.mode !='all'">
+            <li 
+                v-for="midCate in midCates" 
+                @click="ActiveMidCate(midCate)"
+                v-bind:class="{active:ActiveCate == midCate}"
+                v-text="midCate"
+                >
+        </li>
+        </ul>
+
+        <ul class='faq'>
+            <div v-if="filters[0]==undefined" class='none'>
+                <p>등록된 글이 없습니다.</p>
+            </div>
+
+            <div v-for='(filter,i) in filters' v-if='i < limit && i >= start'>
+                <li v-bind:id="'qa'+i" v-on:click="openAA(i)">
+                    <p>
+                        <label v-if="filter.cate=='pos'">Win-Win Pos</label>
+                        <label v-else-if="filter.cate=='pro'">Win-Win Pro</label>
+                        <label v-else-if="filter.cate=='etc'">기타</label>
+                        <span>{{filter.midCate}}</span>
+                        <b>{{filter.tit}}</b>
+                    </p>
+                </li>
+                <li v-bind:id="'aa'+i" class='beactive' >
+                    <div v-html="filter.desc"></div>
+                    <div class='btn close_btn' v-on:click="openAA(i)">
+                        <b-icon icon="caret-up-fill"></b-icon>
+                        닫기
+                    </div>
+                </li>
+            </div>
+        </ul>
+        
+        <listNumber  v-bind:DataLength='Math.ceil((filters.length)/10)' v-bind:nowpage='limit-10'/>
+    </div>
+    </section>`,
+       components:{
+       listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_1__["default"]
+    },
+ 
+    data(){
+        return{
             ActiveCate:'전체',
             MidCate:{
                 show:false,
@@ -71976,20 +72002,65 @@ const faq = {
                 pos:["전체","고객관리", "고객자료"," 농진청전송", "매출장", "문자전송", "품목관리","품목자료","기타"],
                 etc:["전체","고객관리", "고객자료"," 농진청전송", "매출장", "문자전송", "품목관리","품목자료","기타"]
             },
+            midCates:'',
+
             limit:10,
             start:0,
-            mode:"all",
             filters:[],
             faqs:""
         }
     },
+    created() {
+        this.getData();
+    },
+    mounted() {
+        
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('filter',(Data)=>{
+            this.filters = this.faqs;
+            this.ActiveCate = '전체'
+            if(Data.Name == 'all'){
+                this.filters = this.faqs;
+            }
+            else{
+                this.filters = this.faqs.filter(function(faq){
+                    return faq.cate == Data.Name
+                })
+            }
+        })
+
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
+            this.start = Data * 10;
+            this.limit = (Data * 10) + 10
+        })
+    },
+
     updated() {
-        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('UpdateList', {
+        if(this.mode == 'pro'){
+            this.midCates = this.MidCate.pro
+        }
+        else if(this.mode == 'pos'){
+            this.midCates = this.MidCate.pos
+        }
+        else if(this.mode == 'etc'){
+            this.midCates = this.MidCate.etc
+        }
+
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
             DataLength: Math.ceil((this.filters.length) / 10),
             nowpage: this.limit - 10
         })
     },
     methods: {
+        
+        getData(){
+            const BaseData = "../woosung_api/faq.data.php"
+            axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(BaseData,{mode:'page'})
+            .then((result)=>{
+                this.faqs = result.data.result;
+                this.filters = this.faqs;
+            })
+        },
+       
         ActiveMidCate(cate){
             this.ActiveCate = cate
             let mode = this.mode;
@@ -72005,44 +72076,6 @@ const faq = {
                 })
             }
         },
-        getData(){
-            const BaseData = "../woosung_api/faq.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'page'})
-            .then((result)=>{
-                this.faqs = result.data.result;
-                this.filters = this.faqs;
-            })
-        },
-       
-        filterData(cates){
-            this.ActiveCate = '전체'
-            this.midCates = null;
-
-            if(cates.Name == 'pro'){
-                this.midCates = this.MidCate.pro
-            }
-            else if(cates.Name == 'pos'){
-                this.midCates = this.MidCate.pos
-            }
-            else if(cates.Name == 'etc'){
-                this.midCates = this.MidCate.etc
-            }
-
-            this.listCates[0].value = false
-            this.listCates[1].value = false
-            this.listCates[2].value = false
-            this.listCates[3].value = false
-            cates.value = true
-            this.mode = cates.Name
-            if(cates.Name == 'all'){
-                this.filters = this.faqs;
-            }
-            else{
-                this.filters = this.faqs.filter(function(Data){
-                    return Data.cate == cates.Name
-                })
-            }
-        },
         openAA(i){
             let target = document.getElementById(`aa${i}`)
             if(target.className =='beactive'){
@@ -72052,11 +72085,10 @@ const faq = {
                 target.className = 'beactive'
             }
         }
-
     },
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (faq);
+/* harmony default export */ __webpack_exports__["default"] = (faqBoard);
 
 /***/ }),
 
@@ -74394,7 +74426,7 @@ const pos = {
                 </div>
                 <div class='content content2'>
                     <img src='image/product/pos_s3_img2.png'>
-                    <h3>개인정보이용 동의서 전사서명</h3>
+                    <h3>농약안전정보시스템 전송 기능 탑재</h3>
                     <p>그동안 매출장부에 일일이 타이핑해서 입력하느라 힘드셨죠?</p>
                     <p>전송 버튼 한번이면 자동으로 농약 농약 판매기록이 안전정보시스템으로 전송!</p>
                 </div>
