@@ -19,7 +19,9 @@ const Header = {
                     <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
                         <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
+                        <router-link to='/board/faq/pro' tag='p' class='mini'>자주하는 질문</router-link>    
                         <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
+                        <router-link to='/board/faq/pos' tag='p' class='mini'>자주하는 질문</router-link>    
                     </div>
                 </li>
                 <li>

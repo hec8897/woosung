@@ -54550,7 +54550,7 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(0, 0, 0, 0.3); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    z-index: 990;\n    position: relative; }\n    header div.wrap h1 img {\n      width: 100%;\n      transition: 0.1s ease-in; }\n      header div.wrap h1 img.default {\n        display: inline; }\n      header div.wrap h1 img.black {\n        display: none; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    z-index: 900;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 15px;\n      font-size: 1.125rem;\n      cursor: pointer;\n      color: white;\n      font-weight: bold; }\n      header div.wrap ul li span.router-link-active {\n        color: #4682B4; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        background-color: #fff;\n        position: absolute;\n        text-align: center;\n        top: 50px;\n        left: 50%;\n        transform: translateX(-50%);\n        z-index: 999;\n        visibility: hidden;\n        transition: 0.1s ease-in;\n        padding: 10px 30px;\n        box-sizing: border-box;\n        border-radius: 3px;\n        opacity: 0.0;\n        -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n        box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n        header div.wrap ul li div::before {\n          content: '';\n          top: -7px;\n          background-color: #fff;\n          display: block;\n          position: absolute;\n          width: 14px;\n          height: 14px;\n          left: 50%;\n          transform: translateX(-50%) rotate(-45deg); }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin: 10px 0px;\n          font-weight: normal;\n          color: #444; }\n          header div.wrap ul li div p.router-link-exact-active.router-link-active {\n            color: #4682B4; }\n          header div.wrap ul li div p:hover {\n            color: #87CEFA; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 1024px) {\n        header div.wrap ul li {\n          display: none; } }\n      header div.wrap ul li:hover div.hidden_menu {\n        visibility: visible;\n        opacity: 1.0; }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: none;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%); }\n    @media (max-width: 1024px) {\n      header div.wrap div.mo_menu {\n        display: inline-block; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #444;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #444;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\nheader {\n  padding: 30px 0px;\n  position: fixed;\n  width: 100%;\n  z-index: 999;\n  top: 0px;\n  background-color: rgba(0, 0, 0, 0.3); }\n  @media (max-width: 767px) {\n    header {\n      padding: 20px 0px; } }\n  header div.wrap h1 {\n    width: 150px;\n    display: inline-block;\n    vertical-align: middle;\n    cursor: pointer;\n    z-index: 990;\n    position: relative; }\n    header div.wrap h1 img {\n      width: 100%;\n      transition: 0.1s ease-in; }\n      header div.wrap h1 img.default {\n        display: inline; }\n      header div.wrap h1 img.black {\n        display: none; }\n    @media (max-width: 1024px) {\n      header div.wrap h1 {\n        width: 130px; } }\n    @media (max-width: 767px) {\n      header div.wrap h1 {\n        width: 100px; } }\n  header div.wrap ul {\n    position: absolute;\n    z-index: 900;\n    width: 100%;\n    left: 50%;\n    top: 50%;\n    text-align: center;\n    transform: translate(-50%, -50%); }\n    header div.wrap ul li {\n      display: inline-block;\n      margin: 0px 15px;\n      font-size: 1.125rem;\n      cursor: pointer;\n      color: white;\n      font-weight: bold; }\n      header div.wrap ul li span.router-link-active {\n        color: #4682B4; }\n      header div.wrap ul li::before {\n        display: block;\n        position: relative;\n        bottom: -35px;\n        content: '';\n        width: 0%;\n        height: 2px;\n        background-color: #4682B4;\n        transition: .1s ease-in;\n        margin: 0 auto; }\n      header div.wrap ul li div {\n        background-color: #fff;\n        position: absolute;\n        text-align: center;\n        top: 50px;\n        left: 50%;\n        transform: translateX(-50%);\n        z-index: 999;\n        visibility: hidden;\n        transition: 0.1s ease-in;\n        padding: 10px 30px;\n        box-sizing: border-box;\n        border-radius: 3px;\n        opacity: 0.0;\n        -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n        box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n        header div.wrap ul li div::before {\n          content: '';\n          top: -7px;\n          background-color: #fff;\n          display: block;\n          position: absolute;\n          width: 14px;\n          height: 14px;\n          left: 50%;\n          transform: translateX(-50%) rotate(-45deg); }\n        header div.wrap ul li div p {\n          white-space: nowrap;\n          font-size: 0.875rem;\n          margin: 10px 0px;\n          font-weight: normal;\n          color: #444; }\n          header div.wrap ul li div p.router-link-exact-active.router-link-active {\n            color: #4682B4; }\n          header div.wrap ul li div p:hover {\n            color: #87CEFA; }\n          header div.wrap ul li div p.mini {\n            font-size: 0.75rem; }\n      header div.wrap ul li:hover::before {\n        width: 100%; }\n      @media (max-width: 1200px) {\n        header div.wrap ul li {\n          font-size: 1rem; } }\n      @media (max-width: 1024px) {\n        header div.wrap ul li {\n          display: none; } }\n      header div.wrap ul li:hover div.hidden_menu {\n        visibility: visible;\n        opacity: 1.0; }\n  header div.wrap div.login_btn {\n    cursor: pointer;\n    display: inline-block;\n    position: absolute;\n    right: 0;\n    top: 50%;\n    transform: translateY(-50%);\n    padding: 10px 30px;\n    border-radius: 3px;\n    background-color: #4682B4;\n    color: white; }\n    @media (max-width: 1024px) {\n      header div.wrap div.login_btn {\n        visibility: hidden; } }\n    header div.wrap div.login_btn:hover {\n      background-color: rgba(70, 130, 180, 0.9); }\n  header div.wrap div.mo_menu {\n    cursor: pointer;\n    width: 30px;\n    height: 30px;\n    display: none;\n    position: absolute;\n    right: 0;\n    top: 40%;\n    transform: translateY(-50%); }\n    @media (max-width: 1024px) {\n      header div.wrap div.mo_menu {\n        display: inline-block; } }\n    header div.wrap div.mo_menu div {\n      width: 100%;\n      height: 3px;\n      margin: 5px 0px;\n      background-color: #444;\n      transition: 0.1s ease-in; }\n      header div.wrap div.mo_menu div:last-child {\n        width: 50%;\n        background-color: #4682B4;\n        position: absolute;\n        right: 0;\n        margin-top: 0; }\n    header div.wrap div.mo_menu:hover div:nth-child(2) {\n      width: 60%; }\n    header div.wrap div.mo_menu.active div:nth-child(1) {\n      transform: rotate(46deg) translateY(12px); }\n    header div.wrap div.mo_menu.active div:nth-child(2) {\n      opacity: 0.0; }\n    header div.wrap div.mo_menu.active div:last-child {\n      background-color: #444;\n      transform: rotate(-46deg) translateY(-12.5px);\n      width: 100%; }\n  header div.slide_down {\n    position: fixed;\n    width: 100%;\n    height: 00px;\n    background-color: white;\n    transition: .2s ease-in;\n    z-index: -1;\n    top: 0; }\n    @media (max-width: 1024px) {\n      header div.slide_down {\n        display: none; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -71862,7 +71862,7 @@ const faq = {
 
         <nav class='lnb faq_lnb'>
             <div class='wrap'>
-                <ul>
+                <ul v-if="mode == 'all'">
                     <li 
                         v-for="listCate in listCates" 
                         @click="filterData(listCate)" 
@@ -71876,7 +71876,7 @@ const faq = {
                 </ul>
             </div>
         </nav>
-        <faqBoard v-bind:mode = 'mode'/>
+        <faqBoard v-bind:mode = 'filterCate'/>
     </div>`,
     data(){
         return{
@@ -71886,6 +71886,7 @@ const faq = {
                 {Name:'pos', value:false},
                 {Name:'etc', value:false},
             ],
+            filterCate:'all',
             filters:[],
             midCates:'',
             ActiveCate:'전체',
@@ -71894,10 +71895,10 @@ const faq = {
     components:{
         faqBoard: _faq_board__WEBPACK_IMPORTED_MODULE_1__["default"]
     },
-    beforeCreate() {
-        this.filterData(this.mode)
+    created() {
+        console.log(this.mode)
     },
-  
+ 
     mounted() {
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
             this.start = Data * 10;
@@ -71906,16 +71907,17 @@ const faq = {
     },
 
     methods: {
+        //여기 수정
         filterData(cates){
-            this.mode = cates.Name
             this.ActiveCate = '전체'
 
             for(let i = 0; i<this.listCates.length; i++){
                 this.listCates[i].value = false
             }
-         
+            console.log(cates)
             cates.value = true
-            this.mode = cates.Name;
+            this.filterCate = cates
+
 
             _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('filter',cates)
         },
@@ -72012,7 +72014,6 @@ const faqBoard = {
         }
     },
     created() {
-        console.log(this.mode)
         this.getData();
     },
     mounted() {
@@ -72954,7 +72955,9 @@ const Header = {
                     <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
                         <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
+                        <router-link to='/board/faq/pro' tag='p' class='mini'>자주하는 질문</router-link>    
                         <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
+                        <router-link to='/board/faq/pos' tag='p' class='mini'>자주하는 질문</router-link>    
                     </div>
                 </li>
                 <li>

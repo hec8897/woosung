@@ -109,7 +109,11 @@ header{
                         &:hover{
                             color: $MainColor;
                         }
+                        &.mini{
+                            font-size: 0.75rem;
+                        }
                     }
+                  
                 }
                 &:hover::before{
                     width: 100%;

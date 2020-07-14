@@ -11,7 +11,7 @@ const faq = {
 
         <nav class='lnb faq_lnb'>
             <div class='wrap'>
-                <ul>
+                <ul v-if="mode == 'all'">
                     <li 
                         v-for="listCate in listCates" 
                         @click="filterData(listCate)" 
@@ -25,7 +25,7 @@ const faq = {
                 </ul>
             </div>
         </nav>
-        <faqBoard v-bind:mode = 'mode'/>
+        <faqBoard v-bind:mode = 'filterCate'/>
     </div>`,
     data(){
         return{
@@ -35,6 +35,7 @@ const faq = {
                 {Name:'pos', value:false},
                 {Name:'etc', value:false},
             ],
+            filterCate:'all',
             filters:[],
             midCates:'',
             ActiveCate:'전체',
@@ -43,10 +44,10 @@ const faq = {
     components:{
         faqBoard
     },
-    beforeCreate() {
-        this.filterData(this.mode)
+    created() {
+        console.log(this.mode)
     },
-  
+ 
     mounted() {
         eventBus.$on('NextPage', (Data) => {
             this.start = Data * 10;
@@ -55,16 +56,17 @@ const faq = {
     },
 
     methods: {
+        //여기 수정
         filterData(cates){
-            this.mode = cates.Name
             this.ActiveCate = '전체'
 
             for(let i = 0; i<this.listCates.length; i++){
                 this.listCates[i].value = false
             }
-         
+            console.log(cates)
             cates.value = true
-            this.mode = cates.Name;
+            this.filterCate = cates
+
 
             eventBus.$emit('filter',cates)
         },

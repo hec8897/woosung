@@ -71,7 +71,6 @@ const faqBoard = {
         }
     },
     created() {
-        console.log(this.mode)
         this.getData();
     },
     mounted() {
