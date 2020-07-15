@@ -72499,9 +72499,7 @@ const zoom = {
                                           </p>
                                           <h4>{{board.title}}</h4>
                                     </div>
-                                    <div class='desc'>
-                                          <textarea resize="none" readonly>{{board.desc}}</textarea>
-                                    </div>      
+                                    <div class='desc' v-html="board.desc"></div>      
                                     <div class='foot' v-if="files!==''">
                                           <p v-for="file in files">
                                           <a v-bind:href="'../woosung_api/upload_support/'+file" download> {{file}}</a> 
