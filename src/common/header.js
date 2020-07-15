@@ -19,7 +19,9 @@ const Header = {
                     <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
                         <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
+                        <router-link to='/board/faq/pro' tag='p' class='mini'>자주하는 질문</router-link>    
                         <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
+                        <router-link to='/board/faq/pos' tag='p' class='mini'>자주하는 질문</router-link>    
                     </div>
                 </li>
                 <li>
@@ -34,7 +36,7 @@ const Header = {
                     </div>
                 </li>
                 <li>
-                    <router-link to='/board' tag='span'>고객 지원 센터</router-link>
+                    <router-link to='/board/faq/all' tag='span'>고객 지원 센터</router-link>
                     <div class='hidden_menu'>
                         <router-link to='/board/faq/all' tag='p'>자주하는 질문</router-link>    
                         <router-link to='/board/qna' tag='p'>묻고 답하기</router-link>    
