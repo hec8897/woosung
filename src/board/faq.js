@@ -25,7 +25,9 @@ const faq = {
                 </ul>
             </div>
         </nav>
-        <faqBoard v-bind:mode = 'filterCate'/>
+        <faqBoard v-bind:mode='filterCate' v-if="this.mode=='all'"/>
+        <faqBoard mode='pro' v-else-if="this.mode=='pro'"/>
+        <faqBoard mode='pos' v-else-if="this.mode=='pos'"/>
     </div>`,
     data(){
         return{
@@ -43,9 +45,6 @@ const faq = {
     },
     components:{
         faqBoard
-    },
-    created() {
-        console.log(this.mode)
     },
  
     mounted() {

@@ -71876,7 +71876,9 @@ const faq = {
                 </ul>
             </div>
         </nav>
-        <faqBoard v-bind:mode = 'filterCate'/>
+        <faqBoard v-bind:mode='filterCate' v-if="this.mode=='all'"/>
+        <faqBoard mode='pro' v-else-if="this.mode=='pro'"/>
+        <faqBoard mode='pos' v-else-if="this.mode=='pos'"/>
     </div>`,
     data(){
         return{
@@ -71894,9 +71896,6 @@ const faq = {
     },
     components:{
         faqBoard: _faq_board__WEBPACK_IMPORTED_MODULE_1__["default"]
-    },
-    created() {
-        console.log(this.mode)
     },
  
     mounted() {
@@ -71954,7 +71953,7 @@ const faqBoard = {
         <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
         <h2 v-if="this.mode =='etc'">기타</h2>
 
-        <ul class='mid_cate' v-if="this.mode !='all'">
+        <ul class='mid_cate' v-if="this.mode!='all'">
             <li 
                 v-for="midCate in midCates" 
                 @click="ActiveMidCate(midCate)"
@@ -72017,6 +72016,7 @@ const faqBoard = {
         this.getData();
     },
     mounted() {
+        console.log('mode'+this.mode)
         
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('filter',(Data)=>{
             this.filters = this.faqs;
@@ -72035,6 +72035,7 @@ const faqBoard = {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
         })
+
     },
 
     updated() {
@@ -72052,6 +72053,8 @@ const faqBoard = {
             DataLength: Math.ceil((this.filters.length) / 10),
             nowpage: this.limit - 10
         })
+
+
     },
     methods: {
         

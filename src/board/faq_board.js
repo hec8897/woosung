@@ -11,7 +11,7 @@ const faqBoard = {
         <h2 v-if="this.mode =='pos'">우성 윈윈 포스<span>Win-Win Pos</span></h2>
         <h2 v-if="this.mode =='etc'">기타</h2>
 
-        <ul class='mid_cate' v-if="this.mode !='all'">
+        <ul class='mid_cate' v-if="this.mode!='all'">
             <li 
                 v-for="midCate in midCates" 
                 @click="ActiveMidCate(midCate)"
@@ -74,6 +74,7 @@ const faqBoard = {
         this.getData();
     },
     mounted() {
+        console.log('mode'+this.mode)
         
         eventBus.$on('filter',(Data)=>{
             this.filters = this.faqs;
@@ -92,6 +93,7 @@ const faqBoard = {
             this.start = Data * 10;
             this.limit = (Data * 10) + 10
         })
+
     },
 
     updated() {
@@ -109,6 +111,8 @@ const faqBoard = {
             DataLength: Math.ceil((this.filters.length) / 10),
             nowpage: this.limit - 10
         })
+
+
     },
     methods: {
         
