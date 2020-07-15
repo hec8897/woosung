@@ -25,9 +25,11 @@ const faq = {
                 </ul>
             </div>
         </nav>
+        
         <faqBoard v-bind:mode='filterCate' v-if="this.mode=='all'"/>
         <faqBoard mode='pro' v-else-if="this.mode=='pro'"/>
         <faqBoard mode='pos' v-else-if="this.mode=='pos'"/>
+
     </div>`,
     data(){
         return{
