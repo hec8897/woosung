@@ -79,7 +79,7 @@ const Footer = {
                 {
                     idx:6,
                     name:'syngenta',
-                    url:'https://www.syngenta.com/',
+                    url:'https://www.syngenta.co.kr/',
                     logo:'image/footer/logo6.png'
                 },
                 {
