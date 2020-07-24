@@ -1,4 +1,4 @@
-import '@babel/polyfill'
+import 'babel-polyfill';
 import './common.scss'
 import AppHeader from './common/header'
 import AppFooter from './common/footer'
