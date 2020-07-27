@@ -3,7 +3,7 @@ import listNumber from '../common/list-number'
 import axios from 'axios'
 
 const faqBoard = {
-    props:['mode'],
+    props:['mode','idx'],
     template:`      <section class='section1'>
     <div class='wrap'>
         <h2 v-if="this.mode =='all'">우성소프트 자주 묻는 질문</h2>
@@ -45,7 +45,6 @@ const faqBoard = {
                 </li>
             </div>
         </ul>
-        
         <listNumber  v-bind:DataLength='Math.ceil((filters.length)/10)' v-bind:nowpage='limit-10'/>
     </div>
     </section>`,
@@ -74,7 +73,6 @@ const faqBoard = {
         this.getData();
     },
     mounted() {
-        console.log('mode'+this.mode)
         
         eventBus.$on('filter',(Data)=>{
             this.filters = this.faqs;

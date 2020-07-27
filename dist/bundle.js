@@ -72863,7 +72863,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const faqBoard = {
-    props:['mode'],
+    props:['mode','idx'],
     template:`      <section class='section1'>
     <div class='wrap'>
         <h2 v-if="this.mode =='all'">우성소프트 자주 묻는 질문</h2>
@@ -72905,7 +72905,6 @@ const faqBoard = {
                 </li>
             </div>
         </ul>
-        
         <listNumber  v-bind:DataLength='Math.ceil((filters.length)/10)' v-bind:nowpage='limit-10'/>
     </div>
     </section>`,
@@ -72934,7 +72933,6 @@ const faqBoard = {
         this.getData();
     },
     mounted() {
-        console.log('mode'+this.mode)
         
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('filter',(Data)=>{
             this.filters = this.faqs;
@@ -73877,7 +73875,7 @@ const Header = {
                         <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
                         <router-link to='/product/plus' tag='p'>Win-Win Pro<sup>+</sup></router-link>    
                         <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
-                        <router-link to='/board/faq/pos' tag='p' class='mini'>자주하는 질문</router-link>    
+                        <router-link to='/board/faq/all' tag='p' class='mini'>자주하는 질문</router-link>    
                     </div>
                 </li>
                 <li>
@@ -74204,7 +74202,7 @@ const MoNav = {
                             <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
                             <router-link to='/product/plus' tag='p'>Win-Win Pro<sup>+</sup></router-link>    
                             <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
-                            <router-link to='/board/faq/pos' tag='p' class='mini'>자주하는 질문</router-link>    
+                            <router-link to='/board/faq/all' tag='p' class='mini'>자주하는 질문</router-link>    
                         </div>
                     </li>
                     <li>
@@ -75975,7 +75973,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                     component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"]
                 },
                 {
-                    path:'faq/:mode',
+                    path:'faq/:mode/:idx',
                     component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"],
                     props:true
                 },
