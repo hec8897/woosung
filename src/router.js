@@ -103,7 +103,7 @@ const router = new VueRouter({
                     component:faq
                 },
                 {
-                    path:'faq/:mode/:idx',
+                    path:'faq/:mode',
                     component:faq,
                     props:true
                 },

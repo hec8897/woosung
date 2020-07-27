@@ -73719,7 +73719,7 @@ const Footer = {
                             <router-link to='/about' tag="li">회사소개</router-link>
                             <router-link to='/product' tag="li">제품소개</router-link>
                             <router-link to='/information' tag="li">정보공유</router-link>
-                            <router-link to='/board' tag="li">고객지원센터</router-link>
+                            <router-link to='/board/faq/all' tag="li">고객지원센터</router-link>
                             <li><a href="pdf/개인정보처리방침.pdf" target='blank'>개인정보처리방침</a></li>
                             <li>팜카페</li>
                         </ul>
@@ -75973,7 +75973,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                     component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"]
                 },
                 {
-                    path:'faq/:mode/:idx',
+                    path:'faq/:mode',
                     component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"],
                     props:true
                 },
