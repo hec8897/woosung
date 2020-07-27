@@ -11,12 +11,14 @@ div.product {
             img{
                 max-width: 350px;
                     @media (max-width:1024px) {
-                        width: 30%;
-                    }
-                    @media (max-width:767px) {
                         width: 100%;
                         position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
                         opacity: 0.5;
+                    }
+                    @media (max-width:767px) {
+                     
                     }
                 }
                 div.text_area{
@@ -24,7 +26,7 @@ div.product {
                     vertical-align: top;
                     margin-top: 20px;
                     margin-left: 50px;
-                    @media (max-width:767px) {
+                    @media (max-width:1024px) {
                         width: 100%;
                         margin: 0;
                         background-color: rgba($color: #fff, $alpha: 0.5);
@@ -180,101 +182,148 @@ div.product {
             }
         }
     }
+    section.section2.slide {
+        div.s2_boxs {
+            div.s2_box {
+                height: 450px;
+                box-sizing: border-box;
+                background-size: cover;
+                background-position: center;
+                margin: 10px;
+                text-align: center;
+                background-size: cover;
+                background-color: #d0d0d0;
+                @include shadowDefault();
 
-    div.pro {
-        section.section2 {
-            div.s2_boxs {
-                div.s2_box {
-                    height: 450px;
-                    box-sizing: border-box;
-                    background-size: cover;
-                    background-position: center;
-                    margin: 10px;
-                    text-align: center;
-                    background-size: cover;
-                    background-color: #d0d0d0;
-                    @include shadowDefault();
-
-                    @for $i from 0 through 8 {
-                        &.s2_box#{$i} {
-                            background-image: url("../../image/product/pro_capture#{$i}.png");
-                        }
+                @for $i from 0 through 10 {
+                    &.s2_box#{$i} {
+                        background-image: url("../../image/product/pro_capture#{$i}.png");
                     }
+                }
+
+                @media (max-width:1024px) {
+                    height: 300px;
+                }
+             
+                div.inner {
+                    height: 100%;
+                    position: relative;
+                    transition: .3s ease-in-out;
+                    padding: 50px;
+                    box-sizing: border-box;
+                    color: #f0f0f0;
+                    background-color: rgba($color: #444, $alpha: 0.8);
 
                     @media (max-width:1024px) {
-                        height: 300px;
-                    }
-                 
-                    div.inner {
-                        height: 100%;
-                        position: relative;
-                        transition: .3s ease-in-out;
-                        padding: 50px;
-                        box-sizing: border-box;
-                        color: #f0f0f0;
-                        background-color: rgba($color: #444, $alpha: 0.8);
-
-                        @media (max-width:1024px) {
-                            padding: 30px;
-                        }
-
-                        h4{
-                            font-size: 1.56rem;
-                            margin-top:10px;
-                            @media (max-width:1200px) {
-                                font-size: 1.25rem;
-                            }
-
-                        }
-                        img{
-                            width: 23%;
-                            display: block;
-                            position: absolute;
-                            left: 50%;
-                            top: 45%;
-                            transform: translate(-50%, -50%);
-                        }
-
-                        p {
-                            word-break: keep-all;
-                            width: 80%;
-                            font-size: 0.875rem;
-                            line-height: 1.5rem;
-                            position: absolute;
-                            left: 50%;
-                            transform: translateX(-50%);
-                            bottom: 15%;
-                            @media (max-width:1200px) {
-                                font-size: 0.75rem;
-                            }
-                        }
-                    }
-                    &:hover div.inner {
-                        opacity: 0.0;
+                        padding: 30px;
                     }
 
+                    h4{
+                        font-size: 1.56rem;
+                        margin-top:10px;
+                        @media (max-width:1200px) {
+                            font-size: 1.25rem;
+                        }
+
+                    }
+                    img{
+                        width: 23%;
+                        display: block;
+                        position: absolute;
+                        left: 50%;
+                        top: 45%;
+                        transform: translate(-50%, -50%);
+                    }
+
+                    p {
+                        word-break: keep-all;
+                        width: 80%;
+                        font-size: 0.875rem;
+                        line-height: 1.5rem;
+                        position: absolute;
+                        left: 50%;
+                        transform: translateX(-50%);
+                        bottom: 15%;
+                        @media (max-width:1200px) {
+                            font-size: 0.75rem;
+                        }
+                    }
                 }
+                &:hover div.inner {
+                    opacity: 0.0;
+                }
+
             }
-            .VueCarousel-navigation{
-                top: 50px;
-                z-index: 90;
-            }
-            .VueCarousel-navigation-button{
-                border: 1px solid #d0d0d0;
-                background-color: #fff;
-                &:hover{
-                    background-color: lightsteelblue;
-                }
-                }
-                .VueCarousel-navigation-next{
-                    right: 20%;
-                }
-                .VueCarousel-navigation-prev{
-                    left: 20%;
-                }
-      
         }
+        .VueCarousel-navigation{
+            top: 50px;
+            z-index: 90;
+        }
+        .VueCarousel-navigation-button{
+            border: 1px solid #d0d0d0;
+            background-color: #fff;
+            &:hover{
+                background-color: lightsteelblue;
+            }
+            }
+            .VueCarousel-navigation-next{
+                right: 20%;
+            }
+            .VueCarousel-navigation-prev{
+                left: 20%;
+            }
+  
+    }
+    section.card_two{
+        background-color: lighten($color: $MainColor, $amount: 21%);
+        text-align: center;
+        h2{
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 100px;
+            @media (max-width:767px) {
+                margin-bottom: 50px;
+            }
+            &.bot{
+                margin-top: 100px;
+                margin-bottom: 0;
+                @media (max-width:767px) {
+                    margin-top: 40px;
+                }
+            }
+        }
+        div.content{
+            width: 47%;
+            display: inline-block;
+            background-color: $white;
+            margin: 10px;
+            padding: 60px 20px;
+            box-sizing: border-box;
+            vertical-align: middle;
+            box-sizing: border-box;
+            min-height: 500px;
+            @include shadowDefault();
 
+
+            img{
+                width: 60%;
+                margin-bottom: 50px;
+            }
+            h3{
+                margin: 20px 0px;
+            }
+
+            @media (max-width:767px) {
+                width: 90%;
+                min-height: 400px;
+                margin: 0;
+                margin-bottom: 20px;
+            }
+
+        }
+    }
+
+    div.pro {
         section.section3 {
             h2 {
                 font-weight: bold;
@@ -458,53 +507,28 @@ div.product {
                 }
             }
         }
+    
+    }
+
+    div.plus{
+        section.section1{
+            background-color: #fff;
+            padding-bottom: 100px;
+            h2{
+                text-align: left;
+                font-weight: bold;
+                margin-bottom: 20px;;
+            }
+            p{
+                text-align: left;
+            }
+        }
         section.section3{
-            background-color: lighten($color: $MainColor, $amount: 21%);
-            text-align: center;
             h2{
                 text-align: center;
                 font-weight: bold;
-                margin-bottom: 100px;
-                @media (max-width:767px) {
-                    margin-bottom: 50px;
-                }
-                &.bot{
-                    margin-top: 100px;
-                    margin-bottom: 0;
-                    @media (max-width:767px) {
-                        margin-top: 40px;
-                    }
-                }
-            }
-            div.content{
-                width: 47%;
-                display: inline-block;
-                background-color: $white;
-                margin: 10px;
-                padding: 60px 20px;
-                box-sizing: border-box;
-                vertical-align: middle;
-                box-sizing: border-box;
-                min-height: 500px;
-                @include shadowDefault();
-
-
-                img{
-                    width: 60%;
-                    margin-bottom: 50px;
-                }
-                h3{
-                    margin: 20px 0px;
-                }
-
-                @media (max-width:767px) {
-                    width: 90%;
-                    min-height: 400px;
-                    margin: 0;
-                    margin-bottom: 20px;
-                }
-
             }
         }
+        
     }
 }

@@ -74,8 +74,7 @@ header{
               
                 div{
                     position: absolute;
-                    width: 100%;
-                    text-align: center;
+                    width: 120%;
                     top: 85px;
                     z-index: 999;
                     visibility: hidden;
@@ -83,11 +82,7 @@ header{
                     transition: 0.1s ease-in;
                     left: 50%;
                     transform: translateX(-50%);
-
-
                     p{
-
-                        white-space: nowrap;
                         font-size: 0.875rem;
                         margin-bottom: 10px;
                          height: 100%;

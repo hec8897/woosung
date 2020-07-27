@@ -5,6 +5,8 @@ import CeoAbout from './about/ceo_about'
 import Product from './product/productpage'
 import Pro from './product/pro'
 import Pos from './product/pos'
+import Plus from './product/Plus'
+
 import boardPage from './board/boardpage';
 import faq from './board/faq';
 import qna from './board/qna';
@@ -50,6 +52,10 @@ const router = new VueRouter({
                 {
                     path:'pro',
                     component:Pro
+                },
+                {
+                    path:'plus',
+                    component:Plus
                 },
                 {
                     path:'pos',

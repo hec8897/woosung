@@ -75,12 +75,12 @@ const pos = {
                         </div>
                     </div>
                 </section>
-        <section class='section3'>
+        <section class='section3 card_two'>
             <div class='wrap'>
                 <h2><strong>Win-Win Pos</strong> 만의 차별화 된 기능!</h2>
                 <div class='content content1'>
                     <img src='image/product/pos_s3_img1.png'>
-                    <h3>개인정보이용 동의서 전사서명</h3>
+                    <h3>개인정보이용 동의서 전자서명</h3>
                     <p>동의 출력한다고 A4용지, 토너(잉크) 소모할 필요없이</p>
                     <p>서명패드에 서명만 하면 개인정보이용 동의서 서명란에 자동입력!</p>
                 </div>
