@@ -75291,7 +75291,7 @@ const Plus = {
                 <img src="image/product/plus.png"/>
                 <div class='text_area'>
                     <h3>편리함에 편리함을 더하여</h3>
-                    <h2>Win-Win PRO<sup>+</sup></h2>
+                    <h2>Win-Win Pro<sup>+</sup></h2>
                     <p>Win-Win Pro 편리기능을 그대로 사용하면서<br> 결제 기능과 각자 계약증빙서명 자료를 편리하게!</p>
                 </div>
             </div>
