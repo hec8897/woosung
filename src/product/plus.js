@@ -7,13 +7,13 @@ const Plus = {
                 <img src="image/product/plus.png"/>
                 <div class='text_area'>
                     <h3>편리함에 편리함을 더하여</h3>
-                    <h2>Win-Win Pro<sup>+</sup></h2>
+                    <h2>Win-Win Pro 결제연동</h2>
                     <p>Win-Win Pro 편리기능을 그대로 사용하면서<br> 결제 기능과 각자 계약증빙서명 자료를 편리하게!</p>
                 </div>
             </div>
         </div>
         <section class='section1 wrap'>
-        <h2>Win-Win Pro<sup>+</sup>는</h2>
+        <h2>Win-Win Pro 결제연동은</h2>
         <p>Win-Win Pro의 편리기능을 그대로 사용하면서 전용단말기와 
         전자서명 사인패드를 추가하여 결제 연동기능과 개인정보 활용 동의서, 
         각종 계약증빙서명자료를 종이 출력없이 전자 서명으로 판매현장에서 간단하고
@@ -48,22 +48,22 @@ const Plus = {
                 <img src='image/figure.jpg'>
             </figure>
             <div class='list_item'>
-            <h3>Win-Win Pro<sup>+</sup> 제품 구성</h3>
+            <h3>Win-Win Pro 결제 연동 제품 구성</h3>
             <ul>
-                <li><b>A</b> Win-Win Pro<sup>+</sup>전용 결제 단말기</li>
+                <li><b>A</b> Win-Win Pro 결제 연동 전용 단말기</li>
                 <li><b>B</b> 전원 케이블</li>
                 <li><b>C</b> 사용 설명서</li>
                 <li><b>D</b> USB to PC 연동 케이블</li>
                 <li><b>E</b> 서명 패드</li>
             </ul>
-            <p>Win-Win Pro<sup>+</sup>의 기능은 Win-Win Pro<sup>+</sup>전용 결제 단말기와 싸인패드에서만 작동됩니다.  </p>
+            <p>Win-Win Pro 결제 연동의 기능은 전용 결제 단말기와 싸인패드에서만 작동됩니다.  </p>
             </div>
             
 
         </section>
         <section class='section4 card_two'>
             <div class='wrap'>
-                <h2><strong>Win-Win Pro<sup>+</sup></strong> 만의 차별화 된 기능!</h2>
+                <h2><strong>Win-Win Pro 결제 연동</strong> 만의 차별화 된 기능!</h2>
                
                 <div class='content content2'>
                     <img src='image/product/pos_s3_img2.png'>
@@ -78,7 +78,7 @@ const Plus = {
                     <p>동의 출력한다고 A4용지, 토너(잉크) 소모할 필요없이</p>
                     <p>서명패드에 서명만 하면 개인정보이용 동의서 서명란에 자동입력!</p>
                 </div>
-                <h2 class='bot'><strong>Win-Win Pro<sup>+</sup>는 농자재 유통관리에 최적화 된 서비스를 제공합니다.</h2>
+                <h2 class='bot'>Win-Win Pro 결제 연동은 농자재 유통관리에 최적화 된 서비스를 제공합니다.</h2>
             </div>
         </section>
 

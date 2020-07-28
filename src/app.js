@@ -26,7 +26,8 @@ new Vue({
                     <topWidget/>
                     <contactPopup 
                         v-if="show"
-                        @child="parent"/>
+                        @child="parent"
+                        />
                     <AppFooter/>
                 </div>`,
     data(){
