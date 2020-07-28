@@ -44,7 +44,22 @@ const Plus = {
                 </div>
         </section>
         <section class='section3 wrap'>
-            <h2>제품 구성</h2>
+            <figure>
+                <img src='image/figure.jpg'>
+            </figure>
+            <div class='list_item'>
+            <h3>Win-Win Pro<sup>+</sup> 제품 구성</h3>
+            <ul>
+                <li><b>A</b> Win-Win Pro<sup>+</sup>전용 결제 단말기</li>
+                <li><b>B</b> 전원 케이블</li>
+                <li><b>C</b> 사용 설명서</li>
+                <li><b>D</b> USB to PC 연동 케이블</li>
+                <li><b>E</b> 서명 패드</li>
+            </ul>
+            <p>Win-Win Pro<sup>+</sup>의 기능은 Win-Win Pro<sup>+</sup>전용 결제 단말기와 싸인패드에서만 작동됩니다.  </p>
+            </div>
+            
+
         </section>
         <section class='section4 card_two'>
             <div class='wrap'>
