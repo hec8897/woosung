@@ -14,8 +14,8 @@ const MoNav = {
                         <div class='sub_menu'>
                             <router-link to='/product/pro' tag='p'>Win-Win Pro</router-link>    
                             <router-link to='/product/plus' tag='p'>Win-Win Pro<sup>+</sup></router-link>    
-                            <router-link to='/product/pos' tag='p'>Win-Win Pos</router-link>    
-                            <router-link to='/board/faq/all' tag='p' class='mini'>자주하는 질문</router-link>    
+                            <router-link to='/product/pos' tag='p'>Win-Win 포스</router-link>    
+                            <router-link to='/board/qna' tag='p' class='mini'>제품 QnA</router-link>    
                         </div>
                     </li>
                     <li>
