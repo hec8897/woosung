@@ -68,7 +68,7 @@ const Footer = {
                 {
                     idx:4,
                     name:'bayer',
-                    url:'https://www.bayer.com/',
+                    url:'https://www.bayer.co.kr/',
                     logo:'image/footer/logo4.png'
                 },
                 {

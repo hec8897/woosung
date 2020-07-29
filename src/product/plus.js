@@ -1,4 +1,5 @@
 import { Carousel, Slide } from 'vue-carousel';
+import ConsultSection from './consult'
 
 const Plus = {
     template:`<div class='plus'>
@@ -81,11 +82,13 @@ const Plus = {
                 <h2 class='bot'>Win-Win Pro 결제 연동은 농자재 유통관리에 최적화 된 서비스를 제공합니다.</h2>
             </div>
         </section>
+        <ConsultSection />
 
     </div>`,
        components: {
         Carousel,
-        Slide
+        Slide,
+        ConsultSection
       },
     data(){
         return{

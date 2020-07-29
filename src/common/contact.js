@@ -3,8 +3,11 @@ const contactPopup = {
     template:`<div class='popup'>
         <div class='contact_box'>
             <h2>상담 신청</h2>
-            <input type='text' v-model="InsertData.write" placeholder="업체명"/>
-            <input type='text' v-model="InsertData.desc" placeholder="사업주"/>
+            <input type='text' v-model="InsertData.write" placeholder="신청자"/>
+            <select v-model="InsertData.desc">
+                    <option value="" disabled selected>상담 내용</option>
+                    <option v-for="cate in cates" :value="cate"> {{cate}}</option>
+                </select>
             <input type='text' v-model="InsertData.contact" placeholder="연락처"/>
             <div class="p_box">
                 <p>우성소프트 개인정보를 중요시 하며 정보통신망 이용촉진 및 정보보호에 관한 법률을 준수하고 있습니다.</p>
@@ -42,6 +45,7 @@ const contactPopup = {
     data(){
         return{
             checked:false,
+            cates:['Win-Win Pro','결제 연동','Win-Win Pos','기타'],
             InsertData:{
                 mode:"insert",
                 cate:"conatct",
@@ -49,7 +53,7 @@ const contactPopup = {
                 contact:"",
                 desc:"",
                 status:"상담 신청",
-                tit:"홈페이지 상담 신청",
+                tit:"위젯 온라인 상담 신청",
                 private:1,
                 password:'woosung'
             }
@@ -81,7 +85,6 @@ const contactPopup = {
                     }
                 })
             }
-
         }
     },
 }

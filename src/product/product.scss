@@ -656,3 +656,42 @@ div.product {
 
     }
 }
+section.consult_section{
+    h2{
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 50px;
+    }
+    div.consult{
+        border-top: 2px solid #222;
+        border-bottom: 1px solid #d0d0d0;
+        text-align: center;
+        padding: 30px 0;
+
+        input[type=text],input[type=number],select{
+            width: 32%;
+            height: 40px;
+            margin: 0px 0.5%;
+            display:inline-block;
+        }
+        p{
+            text-align: left;
+            padding-left:0.5%;
+            margin: 10px 0px;
+            input{
+                display: inline-block;
+                vertical-align: top;
+                width: 20px;
+                height: 20px;
+            }
+            label{
+                cursor: pointer;
+            }
+        }
+    }
+    div.btn{
+        padding: 15px 50px;
+        background-color: $PointColor;
+        color: #fff;
+    }
+}
