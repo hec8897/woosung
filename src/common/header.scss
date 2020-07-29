@@ -45,7 +45,7 @@ header{
             transform: translate(-50%,-50%);
             li{
                 display: inline-block;
-                margin: 0px 15px;
+                margin: 0px 20px;
                 font-size: 1.125rem;
                 cursor:  pointer;
                 color: white;
@@ -88,9 +88,7 @@ header{
                          height: 100%;
                         &.router-link-exact-active.router-link-active{
                             color: $PointColor;
-
                         }
-                        
                         &:hover{
                             color: $MainColor;
                         }
@@ -100,7 +98,6 @@ header{
                         }
                     }
                 }
-
                 &:hover::before{
                     width: 100%;
                 }
