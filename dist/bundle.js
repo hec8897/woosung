@@ -75299,7 +75299,7 @@ const Plus = {
                 <div class='text_area'>
                     <h3>편리함에 편리함을 더하여</h3>
                     <h2>Win-Win Pro 결제연동</h2>
-                    <p>Win-Win Pro 편리한 기능을 그대로 사용하면서<br> 결제연동 기능과 각종 증빙관련 서명관리를 편리하게!</p>
+                    <p>Win-Win Pro 편리한 기능을 그대로 사용하면서 </br>결제연동 기능과 각종 증빙관련 서명관리를 전자기록으로 더욱 편리하게!</p>
                 </div>
             </div>
         </div>
