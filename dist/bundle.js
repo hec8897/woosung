@@ -73635,7 +73635,7 @@ const contactPopup = {
     data(){
         return{
             checked:false,
-            cates:['Win-Win Pro','결제 연동','Win-Win Pos','기타'],
+            cates:['Win-Win Pro','결제 연동','Win-Win 포스','기타'],
             InsertData:{
                 mode:"insert",
                 cate:"conatct",
@@ -75528,7 +75528,7 @@ const ConsultSection = {
     data(){
         return{
             checked:false,
-            cates:['Win-Win Pro','결제 연동','Win-Win Pos','기타'],
+            cates:['Win-Win Pro','결제 연동','Win-Win 포스','기타'],
             // localLists:['서울,경기,인천','대전','세종','부산','울산','대구','광주','제주','강원','충남','충북','경북','경남','전남','전북'],
             InsertData:{
                 mode:"insert",

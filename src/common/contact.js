@@ -45,7 +45,7 @@ const contactPopup = {
     data(){
         return{
             checked:false,
-            cates:['Win-Win Pro','결제 연동','Win-Win Pos','기타'],
+            cates:['Win-Win Pro','결제 연동','Win-Win 포스','기타'],
             InsertData:{
                 mode:"insert",
                 cate:"conatct",
