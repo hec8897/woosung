@@ -1,3 +1,4 @@
+
 const pos = {
     template:`<div class='pos'>
                 <div class='head_banner'>

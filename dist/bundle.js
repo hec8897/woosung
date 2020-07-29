@@ -75286,8 +75286,6 @@ const MainSlider = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _consult__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./consult */ "./src/product/consult.js");
-
 
 
 const Plus = {
@@ -75371,13 +75369,11 @@ const Plus = {
                 <h2 class='bot'>Win-Win Pro 결제 연동은 농자재 유통관리에 최적화 된 서비스를 제공합니다.</h2>
             </div>
         </section>
-        <ConsultSection />
 
     </div>`,
        components: {
         Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
         Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"],
-        ConsultSection: _consult__WEBPACK_IMPORTED_MODULE_1__["default"]
       },
     data(){
         return{
@@ -75585,6 +75581,7 @@ const ConsultSection = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+
 const pos = {
     template:`<div class='pos'>
                 <div class='head_banner'>
@@ -75957,12 +75954,18 @@ module.exports = content.locals || {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./product.scss */ "./src/product/product.scss");
 /* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_product_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _consult__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./consult */ "./src/product/consult.js");
+
 
 
 const product = {
     template:`<div class='product'>
                 <router-view></router-view>
+                <ConsultSection />
             </div>`,
+    components:{
+            ConsultSection: _consult__WEBPACK_IMPORTED_MODULE_1__["default"]
+        }
  
 }
 
