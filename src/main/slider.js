@@ -40,7 +40,6 @@ const MainSlider = {
                     <h2>Win-Win Pro</h2>
                     <p>복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
                     <router-link tag='div' to='/product/pro' class='btn'>자세히 보기</router-link>
-
                 </div>
             </div>
                 </div>
