@@ -41,6 +41,7 @@ div.info{
                     vertical-align: middle;
                     transition: .1s ease-in;
                     border:1px solid #d0d0d0;
+                    
                     &:hover{
                         transform: translateY(-3px);
                         @include shadowDefault();
