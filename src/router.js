@@ -18,6 +18,7 @@ import info1 from './info/insectPage'
 import info2 from './info/farmPage' 
 import info3 from './info/moviepage'
 import info4 from './info/material';
+import materialView from './info/material_view';
 import qnaWrite from './board/qna_write';
 import EventBus from './eventbus'
 
@@ -90,7 +91,15 @@ const router = new VueRouter({
                 {
                     path:'info4',
                     component:info4,
+                    name:'material',
+                },
+                {
+                    path:'info4/zoom/:idx',
+                    props:true,
+                    component:materialView
+
                 }
+
             ]
         },
         {

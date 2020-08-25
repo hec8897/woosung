@@ -24,7 +24,6 @@ div.info{
             text-align: center;
             margin-bottom: 30px;
         }
-        &.farm{
             ul.content_main{
                 margin-top: 100px;
                 text-align: center;
@@ -57,7 +56,8 @@ div.info{
                         height: 270px;
                         overflow: hidden;
                         img{
-                            width: 100%;
+                            width: auto;
+                            max-height: 250px;
                         }
                         @media (max-width:1024px) {
                             height: 180px;
@@ -87,6 +87,34 @@ div.info{
                  
                 }
 
+            }
+        &.material_view{
+            div.head{
+                margin-bottom: 20px;
+                text-align: center;
+                img{
+                    max-height: 350px;
+                }
+            }
+            div.desc{
+                img{
+                    max-width: 100%;
+                    display: block;
+                    margin: 0 auto;
+                }
+                *{
+                    text-align: inherit;
+                }
+            }
+            div.file{
+                text-align: center;
+                font-weight: bold;
+                a{
+                    margin-right: 5px;
+                    &:hover{
+                        text-decoration: underline;
+                    }
+                }
             }
         }
         &.movie{

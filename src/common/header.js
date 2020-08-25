@@ -15,6 +15,7 @@ const Header = {
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
                 </li>
+
                 <li>
                     <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
@@ -30,9 +31,8 @@ const Header = {
                         <!-- <router-link to='/information/info1' tag='p'>병충해 알림</router-link>     -->
                         <router-link to='/information/info3' tag='p'>정보 동영상</router-link>    
                         <router-link to='/information/info2' tag='p'>농업계 소식</router-link>    
-                        <p onclick="alert('서비스 준비중입니다.')">농자재 소식</p>
+                        <router-link to='/information/info4' tag='p'>농자재 정보</router-link>       
                         <p onclick="alert('서비스 준비중입니다.')">병해충 정보</p>
-                        <!-- <router-link to='/information/info4' tag='p'>농업계 소식</router-link>        -->
                     </div>
                 </li>
                 <li>

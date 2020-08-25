@@ -186,8 +186,11 @@ div.home{
                         padding: 5px;
                         box-sizing: border-box;
                         vertical-align: middle;
+                        text-align: center;
                         img{
-                            width: 100%;
+                        margin-top: 5px;
+                            width: auto;
+                            max-height: 90px;
                         }
 
 
@@ -216,6 +219,9 @@ div.home{
                                 @media (max-width:767px) {
                                     height: auto;
                                 }
+                            }
+                            b{
+                                font-style: 0.6rem;
                             }
                    
                         }

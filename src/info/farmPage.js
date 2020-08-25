@@ -4,7 +4,7 @@ import FarmPopup from './farm_popup';
 import axios from 'axios';
 
 const farmPage = {
-    template:`<section class='farm '>
+    template:`<section class='farm'>
                     <div class='content wrap'>
                         <h2>농업계 소식</h2>
 

@@ -86,34 +86,34 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "../node_modules/axios/index.js":
-/*!**************************************!*\
-  !*** ../node_modules/axios/index.js ***!
-  \**************************************/
+/***/ "../../node_modules/axios/index.js":
+/*!********************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/index.js ***!
+  \********************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! ./lib/axios */ "../node_modules/axios/lib/axios.js");
+module.exports = __webpack_require__(/*! ./lib/axios */ "../../node_modules/axios/lib/axios.js");
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/adapters/xhr.js":
-/*!*************************************************!*\
-  !*** ../node_modules/axios/lib/adapters/xhr.js ***!
-  \*************************************************/
+/***/ "../../node_modules/axios/lib/adapters/xhr.js":
+/*!*******************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/adapters/xhr.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
-var settle = __webpack_require__(/*! ./../core/settle */ "../node_modules/axios/lib/core/settle.js");
-var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ "../node_modules/axios/lib/helpers/buildURL.js");
-var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ "../node_modules/axios/lib/core/buildFullPath.js");
-var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ "../node_modules/axios/lib/helpers/parseHeaders.js");
-var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ "../node_modules/axios/lib/helpers/isURLSameOrigin.js");
-var createError = __webpack_require__(/*! ../core/createError */ "../node_modules/axios/lib/core/createError.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
+var settle = __webpack_require__(/*! ./../core/settle */ "../../node_modules/axios/lib/core/settle.js");
+var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ "../../node_modules/axios/lib/helpers/buildURL.js");
+var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ "../../node_modules/axios/lib/core/buildFullPath.js");
+var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ "../../node_modules/axios/lib/helpers/parseHeaders.js");
+var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ "../../node_modules/axios/lib/helpers/isURLSameOrigin.js");
+var createError = __webpack_require__(/*! ../core/createError */ "../../node_modules/axios/lib/core/createError.js");
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -210,7 +210,7 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
-      var cookies = __webpack_require__(/*! ./../helpers/cookies */ "../node_modules/axios/lib/helpers/cookies.js");
+      var cookies = __webpack_require__(/*! ./../helpers/cookies */ "../../node_modules/axios/lib/helpers/cookies.js");
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(fullPath)) && config.xsrfCookieName ?
@@ -289,21 +289,21 @@ module.exports = function xhrAdapter(config) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/axios.js":
-/*!******************************************!*\
-  !*** ../node_modules/axios/lib/axios.js ***!
-  \******************************************/
+/***/ "../../node_modules/axios/lib/axios.js":
+/*!************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/axios.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./utils */ "../node_modules/axios/lib/utils.js");
-var bind = __webpack_require__(/*! ./helpers/bind */ "../node_modules/axios/lib/helpers/bind.js");
-var Axios = __webpack_require__(/*! ./core/Axios */ "../node_modules/axios/lib/core/Axios.js");
-var mergeConfig = __webpack_require__(/*! ./core/mergeConfig */ "../node_modules/axios/lib/core/mergeConfig.js");
-var defaults = __webpack_require__(/*! ./defaults */ "../node_modules/axios/lib/defaults.js");
+var utils = __webpack_require__(/*! ./utils */ "../../node_modules/axios/lib/utils.js");
+var bind = __webpack_require__(/*! ./helpers/bind */ "../../node_modules/axios/lib/helpers/bind.js");
+var Axios = __webpack_require__(/*! ./core/Axios */ "../../node_modules/axios/lib/core/Axios.js");
+var mergeConfig = __webpack_require__(/*! ./core/mergeConfig */ "../../node_modules/axios/lib/core/mergeConfig.js");
+var defaults = __webpack_require__(/*! ./defaults */ "../../node_modules/axios/lib/defaults.js");
 
 /**
  * Create an instance of Axios
@@ -336,15 +336,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
-axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ "../node_modules/axios/lib/cancel/Cancel.js");
-axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ "../node_modules/axios/lib/cancel/CancelToken.js");
-axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ "../node_modules/axios/lib/cancel/isCancel.js");
+axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ "../../node_modules/axios/lib/cancel/Cancel.js");
+axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ "../../node_modules/axios/lib/cancel/CancelToken.js");
+axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ "../../node_modules/axios/lib/cancel/isCancel.js");
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
-axios.spread = __webpack_require__(/*! ./helpers/spread */ "../node_modules/axios/lib/helpers/spread.js");
+axios.spread = __webpack_require__(/*! ./helpers/spread */ "../../node_modules/axios/lib/helpers/spread.js");
 
 module.exports = axios;
 
@@ -354,10 +354,10 @@ module.exports.default = axios;
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/cancel/Cancel.js":
-/*!**************************************************!*\
-  !*** ../node_modules/axios/lib/cancel/Cancel.js ***!
-  \**************************************************/
+/***/ "../../node_modules/axios/lib/cancel/Cancel.js":
+/*!********************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/cancel/Cancel.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -385,17 +385,17 @@ module.exports = Cancel;
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/cancel/CancelToken.js":
-/*!*******************************************************!*\
-  !*** ../node_modules/axios/lib/cancel/CancelToken.js ***!
-  \*******************************************************/
+/***/ "../../node_modules/axios/lib/cancel/CancelToken.js":
+/*!*************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/cancel/CancelToken.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var Cancel = __webpack_require__(/*! ./Cancel */ "../node_modules/axios/lib/cancel/Cancel.js");
+var Cancel = __webpack_require__(/*! ./Cancel */ "../../node_modules/axios/lib/cancel/Cancel.js");
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -454,10 +454,10 @@ module.exports = CancelToken;
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/cancel/isCancel.js":
-/*!****************************************************!*\
-  !*** ../node_modules/axios/lib/cancel/isCancel.js ***!
-  \****************************************************/
+/***/ "../../node_modules/axios/lib/cancel/isCancel.js":
+/*!**********************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/cancel/isCancel.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -471,21 +471,21 @@ module.exports = function isCancel(value) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/Axios.js":
-/*!***********************************************!*\
-  !*** ../node_modules/axios/lib/core/Axios.js ***!
-  \***********************************************/
+/***/ "../../node_modules/axios/lib/core/Axios.js":
+/*!*****************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/Axios.js ***!
+  \*****************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
-var buildURL = __webpack_require__(/*! ../helpers/buildURL */ "../node_modules/axios/lib/helpers/buildURL.js");
-var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ "../node_modules/axios/lib/core/InterceptorManager.js");
-var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ "../node_modules/axios/lib/core/dispatchRequest.js");
-var mergeConfig = __webpack_require__(/*! ./mergeConfig */ "../node_modules/axios/lib/core/mergeConfig.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
+var buildURL = __webpack_require__(/*! ../helpers/buildURL */ "../../node_modules/axios/lib/helpers/buildURL.js");
+var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ "../../node_modules/axios/lib/core/InterceptorManager.js");
+var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ "../../node_modules/axios/lib/core/dispatchRequest.js");
+var mergeConfig = __webpack_require__(/*! ./mergeConfig */ "../../node_modules/axios/lib/core/mergeConfig.js");
 
 /**
  * Create a new instance of Axios
@@ -577,17 +577,17 @@ module.exports = Axios;
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/InterceptorManager.js":
-/*!************************************************************!*\
-  !*** ../node_modules/axios/lib/core/InterceptorManager.js ***!
-  \************************************************************/
+/***/ "../../node_modules/axios/lib/core/InterceptorManager.js":
+/*!******************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/InterceptorManager.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
 
 function InterceptorManager() {
   this.handlers = [];
@@ -641,18 +641,18 @@ module.exports = InterceptorManager;
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/buildFullPath.js":
-/*!*******************************************************!*\
-  !*** ../node_modules/axios/lib/core/buildFullPath.js ***!
-  \*******************************************************/
+/***/ "../../node_modules/axios/lib/core/buildFullPath.js":
+/*!*************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/buildFullPath.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ "../node_modules/axios/lib/helpers/isAbsoluteURL.js");
-var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ "../node_modules/axios/lib/helpers/combineURLs.js");
+var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ "../../node_modules/axios/lib/helpers/isAbsoluteURL.js");
+var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ "../../node_modules/axios/lib/helpers/combineURLs.js");
 
 /**
  * Creates a new URL by combining the baseURL with the requestedURL,
@@ -673,17 +673,17 @@ module.exports = function buildFullPath(baseURL, requestedURL) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/createError.js":
-/*!*****************************************************!*\
-  !*** ../node_modules/axios/lib/core/createError.js ***!
-  \*****************************************************/
+/***/ "../../node_modules/axios/lib/core/createError.js":
+/*!***********************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/createError.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var enhanceError = __webpack_require__(/*! ./enhanceError */ "../node_modules/axios/lib/core/enhanceError.js");
+var enhanceError = __webpack_require__(/*! ./enhanceError */ "../../node_modules/axios/lib/core/enhanceError.js");
 
 /**
  * Create an Error with the specified message, config, error code, request and response.
@@ -703,20 +703,20 @@ module.exports = function createError(message, config, code, request, response) 
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/dispatchRequest.js":
-/*!*********************************************************!*\
-  !*** ../node_modules/axios/lib/core/dispatchRequest.js ***!
-  \*********************************************************/
+/***/ "../../node_modules/axios/lib/core/dispatchRequest.js":
+/*!***************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/dispatchRequest.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
-var transformData = __webpack_require__(/*! ./transformData */ "../node_modules/axios/lib/core/transformData.js");
-var isCancel = __webpack_require__(/*! ../cancel/isCancel */ "../node_modules/axios/lib/cancel/isCancel.js");
-var defaults = __webpack_require__(/*! ../defaults */ "../node_modules/axios/lib/defaults.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
+var transformData = __webpack_require__(/*! ./transformData */ "../../node_modules/axios/lib/core/transformData.js");
+var isCancel = __webpack_require__(/*! ../cancel/isCancel */ "../../node_modules/axios/lib/cancel/isCancel.js");
+var defaults = __webpack_require__(/*! ../defaults */ "../../node_modules/axios/lib/defaults.js");
 
 /**
  * Throws a `Cancel` if cancellation has been requested.
@@ -794,10 +794,10 @@ module.exports = function dispatchRequest(config) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/enhanceError.js":
-/*!******************************************************!*\
-  !*** ../node_modules/axios/lib/core/enhanceError.js ***!
-  \******************************************************/
+/***/ "../../node_modules/axios/lib/core/enhanceError.js":
+/*!************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/enhanceError.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -848,17 +848,17 @@ module.exports = function enhanceError(error, config, code, request, response) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/mergeConfig.js":
-/*!*****************************************************!*\
-  !*** ../node_modules/axios/lib/core/mergeConfig.js ***!
-  \*****************************************************/
+/***/ "../../node_modules/axios/lib/core/mergeConfig.js":
+/*!***********************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/mergeConfig.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ../utils */ "../../node_modules/axios/lib/utils.js");
 
 /**
  * Config-specific merge-function which creates a new config-object
@@ -933,17 +933,17 @@ module.exports = function mergeConfig(config1, config2) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/settle.js":
-/*!************************************************!*\
-  !*** ../node_modules/axios/lib/core/settle.js ***!
-  \************************************************/
+/***/ "../../node_modules/axios/lib/core/settle.js":
+/*!******************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/settle.js ***!
+  \******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var createError = __webpack_require__(/*! ./createError */ "../node_modules/axios/lib/core/createError.js");
+var createError = __webpack_require__(/*! ./createError */ "../../node_modules/axios/lib/core/createError.js");
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -970,17 +970,17 @@ module.exports = function settle(resolve, reject, response) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/core/transformData.js":
-/*!*******************************************************!*\
-  !*** ../node_modules/axios/lib/core/transformData.js ***!
-  \*******************************************************/
+/***/ "../../node_modules/axios/lib/core/transformData.js":
+/*!*************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/core/transformData.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
 
 /**
  * Transform the data for a request or a response
@@ -1002,18 +1002,18 @@ module.exports = function transformData(data, headers, fns) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/defaults.js":
-/*!*********************************************!*\
-  !*** ../node_modules/axios/lib/defaults.js ***!
-  \*********************************************/
+/***/ "../../node_modules/axios/lib/defaults.js":
+/*!***************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/defaults.js ***!
+  \***************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
-var utils = __webpack_require__(/*! ./utils */ "../node_modules/axios/lib/utils.js");
-var normalizeHeaderName = __webpack_require__(/*! ./helpers/normalizeHeaderName */ "../node_modules/axios/lib/helpers/normalizeHeaderName.js");
+var utils = __webpack_require__(/*! ./utils */ "../../node_modules/axios/lib/utils.js");
+var normalizeHeaderName = __webpack_require__(/*! ./helpers/normalizeHeaderName */ "../../node_modules/axios/lib/helpers/normalizeHeaderName.js");
 
 var DEFAULT_CONTENT_TYPE = {
   'Content-Type': 'application/x-www-form-urlencoded'
@@ -1029,10 +1029,10 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
-    adapter = __webpack_require__(/*! ./adapters/xhr */ "../node_modules/axios/lib/adapters/xhr.js");
+    adapter = __webpack_require__(/*! ./adapters/xhr */ "../../node_modules/axios/lib/adapters/xhr.js");
   } else if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
     // For node use HTTP adapter
-    adapter = __webpack_require__(/*! ./adapters/http */ "../node_modules/axios/lib/adapters/xhr.js");
+    adapter = __webpack_require__(/*! ./adapters/http */ "../../node_modules/axios/lib/adapters/xhr.js");
   }
   return adapter;
 }
@@ -1108,14 +1108,14 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../woosung/node_modules/process/browser.js */ "./node_modules/process/browser.js")))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../woosung/woosung/node_modules/process/browser.js */ "./node_modules/process/browser.js")))
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/bind.js":
-/*!*************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/bind.js ***!
-  \*************************************************/
+/***/ "../../node_modules/axios/lib/helpers/bind.js":
+/*!*******************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/bind.js ***!
+  \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1135,17 +1135,17 @@ module.exports = function bind(fn, thisArg) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/buildURL.js":
-/*!*****************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/buildURL.js ***!
-  \*****************************************************/
+/***/ "../../node_modules/axios/lib/helpers/buildURL.js":
+/*!***********************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/buildURL.js ***!
+  \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
 
 function encode(val) {
   return encodeURIComponent(val).
@@ -1218,10 +1218,10 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/combineURLs.js":
-/*!********************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/combineURLs.js ***!
-  \********************************************************/
+/***/ "../../node_modules/axios/lib/helpers/combineURLs.js":
+/*!**************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/combineURLs.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1244,17 +1244,17 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/cookies.js":
-/*!****************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/cookies.js ***!
-  \****************************************************/
+/***/ "../../node_modules/axios/lib/helpers/cookies.js":
+/*!**********************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/cookies.js ***!
+  \**********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -1309,10 +1309,10 @@ module.exports = (
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/isAbsoluteURL.js":
-/*!**********************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
-  \**********************************************************/
+/***/ "../../node_modules/axios/lib/helpers/isAbsoluteURL.js":
+/*!****************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1335,17 +1335,17 @@ module.exports = function isAbsoluteURL(url) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/isURLSameOrigin.js":
-/*!************************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
-  \************************************************************/
+/***/ "../../node_modules/axios/lib/helpers/isURLSameOrigin.js":
+/*!******************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
 
 module.exports = (
   utils.isStandardBrowserEnv() ?
@@ -1415,17 +1415,17 @@ module.exports = (
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/normalizeHeaderName.js":
-/*!****************************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
-  \****************************************************************/
+/***/ "../../node_modules/axios/lib/helpers/normalizeHeaderName.js":
+/*!**********************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ../utils */ "../../node_modules/axios/lib/utils.js");
 
 module.exports = function normalizeHeaderName(headers, normalizedName) {
   utils.forEach(headers, function processHeader(value, name) {
@@ -1439,17 +1439,17 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/parseHeaders.js":
-/*!*********************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/parseHeaders.js ***!
-  \*********************************************************/
+/***/ "../../node_modules/axios/lib/helpers/parseHeaders.js":
+/*!***************************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var utils = __webpack_require__(/*! ./../utils */ "../node_modules/axios/lib/utils.js");
+var utils = __webpack_require__(/*! ./../utils */ "../../node_modules/axios/lib/utils.js");
 
 // Headers whose duplicates are ignored by node
 // c.f. https://nodejs.org/api/http.html#http_message_headers
@@ -1504,10 +1504,10 @@ module.exports = function parseHeaders(headers) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/helpers/spread.js":
-/*!***************************************************!*\
-  !*** ../node_modules/axios/lib/helpers/spread.js ***!
-  \***************************************************/
+/***/ "../../node_modules/axios/lib/helpers/spread.js":
+/*!*********************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/helpers/spread.js ***!
+  \*********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1543,17 +1543,17 @@ module.exports = function spread(callback) {
 
 /***/ }),
 
-/***/ "../node_modules/axios/lib/utils.js":
-/*!******************************************!*\
-  !*** ../node_modules/axios/lib/utils.js ***!
-  \******************************************/
+/***/ "../../node_modules/axios/lib/utils.js":
+/*!************************************************************************************!*\
+  !*** C:/Bitnami/wampstack-7.3.16-3/apache2/htdocs/node_modules/axios/lib/utils.js ***!
+  \************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var bind = __webpack_require__(/*! ./helpers/bind */ "../node_modules/axios/lib/helpers/bind.js");
+var bind = __webpack_require__(/*! ./helpers/bind */ "../../node_modules/axios/lib/helpers/bind.js");
 
 /*global toString:true*/
 
@@ -55517,7 +55517,7 @@ var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/info/hea
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.info div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n  div.info div.head_banner h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    font-weight: bold;\n    color: #444;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.info section h2 {\n  text-align: center;\n  margin-bottom: 30px; }\n\ndiv.info section.farm ul.content_main {\n  margin-top: 100px;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.info section.farm ul.content_main {\n      margin-top: 50px; } }\n  div.info section.farm ul.content_main li {\n    cursor: pointer;\n    display: inline-block;\n    width: 100%;\n    max-width: 385px;\n    height: 400px;\n    background-color: #f9fafc;\n    margin: 5px;\n    vertical-align: middle;\n    transition: .1s ease-in;\n    border: 1px solid #d0d0d0; }\n    div.info section.farm ul.content_main li:hover {\n      transform: translateY(-3px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    @media (max-width: 1024px) {\n      div.info section.farm ul.content_main li {\n        width: 47%;\n        margin-bottom: 10px;\n        height: 300px; } }\n    div.info section.farm ul.content_main li div.img {\n      height: 270px;\n      overflow: hidden; }\n      div.info section.farm ul.content_main li div.img img {\n        width: 100%; }\n      @media (max-width: 1024px) {\n        div.info section.farm ul.content_main li div.img {\n          height: 180px; } }\n    div.info section.farm ul.content_main li div.text {\n      height: 130px;\n      overflow: hidden;\n      padding: 15px;\n      text-align: left; }\n    div.info section.farm ul.content_main li h4 {\n      box-sizing: border-box;\n      font-weight: bold;\n      margin: 10px 0px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n    div.info section.farm ul.content_main li p {\n      font-size: 0.875rem;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n    div.info section.farm ul.content_main li p.date {\n      font-size: 0.75rem;\n      color: #999;\n      margin-top: 5px; }\n\ndiv.info section.movie h2 {\n  text-align: left; }\n\ndiv.info section.movie ul.nav {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.info section.movie ul.nav li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.info section.movie ul.nav li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.info section.movie ul.nav li.active {\n          border: 0px; } }\n\n@media (max-width: 767px) {\n  div.info section.movie ul.content {\n    margin-top: 50px; } }\n\ndiv.info section.movie ul.content li {\n  border-bottom: 1px solid #d0d0d0;\n  padding: 20px 0px; }\n  @media (max-width: 767px) {\n    div.info section.movie ul.content li {\n      text-align: center; } }\n  div.info section.movie ul.content li:nth-child(1) {\n    border-top: 1px solid #d0d0d0; }\n  div.info section.movie ul.content li > div {\n    vertical-align: middle; }\n  div.info section.movie ul.content li.none {\n    padding: 50px 0px; }\n  div.info section.movie ul.content li div.thumbnail {\n    width: 320px;\n    height: 200px;\n    background-color: #f9fafc;\n    display: inline-block;\n    overflow: hidden;\n    border-radius: 3px;\n    cursor: pointer; }\n    div.info section.movie ul.content li div.thumbnail img {\n      margin-top: -20px;\n      width: 100%; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.thumbnail {\n        display: block;\n        margin: 0 auto; } }\n  div.info section.movie ul.content li div.text-box {\n    max-width: 60%;\n    margin-left: 2%;\n    display: inline-block; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.text-box {\n        max-width: 90%;\n        margin: 0;\n        margin-top: 20px;\n        text-align: left; } }\n    div.info section.movie ul.content li div.text-box h3 {\n      font-size: 1.25rem;\n      margin-bottom: 20px;\n      cursor: pointer; }\n      div.info section.movie ul.content li div.text-box h3:hover {\n        text-decoration: underline; }\n    div.info section.movie ul.content li div.text-box p {\n      font-size: 0.875rem; }\n    div.info section.movie ul.content li div.text-box p.date {\n      margin-top: 20px; }\n  div.info section.movie ul.content li div.youtube_box {\n    width: 70%;\n    height: 500px;\n    background-color: #d0d0d0;\n    margin: 20px auto;\n    display: none; }\n    @media (max-width: 767px) {\n      div.info section.movie ul.content li div.youtube_box {\n        width: 90%;\n        height: 250px; } }\n\ndiv.popup div.inner {\n  width: 700px;\n  height: 700px;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%); }\n  div.popup div.inner iframe {\n    width: 100%;\n    height: 80%;\n    overflow-x: hidden; }\n\ndiv.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n  width: 100%;\n  max-width: 1024px;\n  height: 60vh;\n  background-color: #fff;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 999; }\n  @media (max-width: 1024px) {\n    div.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n      max-width: 90%; } }\n\ndiv.popup div.farm_popup {\n  width: 80%;\n  height: 80vh; }\n  @media (max-width: 767px) {\n    div.popup div.farm_popup {\n      width: 95%;\n      height: 80%; } }\n\ndiv.popup div.contact_box {\n  width: 30%;\n  background-color: #fff;\n  padding: 50px 20px;\n  box-sizing: border-box; }\n  @media (max-width: 1200px) {\n    div.popup div.contact_box {\n      width: 90%;\n      max-width: 500px;\n      padding: 30px 20px;\n      height: 90vh; } }\n  @media (max-width: 1024px) {\n    div.popup div.contact_box {\n      padding: 30px 20px;\n      height: 90vh; } }\n  div.popup div.contact_box input, div.popup div.contact_box select {\n    width: 100%;\n    margin-bottom: 10px;\n    font-size: 0.75rem; }\n    div.popup div.contact_box input::placeholder, div.popup div.contact_box select::placeholder {\n      font-size: 0.75rem; }\n  div.popup div.contact_box div.checkbox {\n    margin-top: 20px; }\n    div.popup div.contact_box div.checkbox input {\n      width: 20px;\n      height: 20px;\n      display: inline;\n      vertical-align: middle; }\n    div.popup div.contact_box div.checkbox label {\n      cursor: pointer; }\n  div.popup div.contact_box div.btns {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    width: 90%;\n    transform: translateX(-50%); }\n    div.popup div.contact_box div.btns div.btn {\n      width: 100%;\n      margin-bottom: 10px;\n      margin-top: 0px; }\n      div.popup div.contact_box div.btns div.btn.t_red {\n        background-color: #d90125;\n        color: white; }\n      div.popup div.contact_box div.btns div.btn.t_blue {\n        background-color: #4682B4;\n        color: white; }\n\ndiv.p_box {\n  width: 100%;\n  height: 150px;\n  border: 2px solid #d9d9d9;\n  background: #f9f9f9;\n  padding: 20px;\n  box-sizing: border-box;\n  overflow: hidden;\n  overflow-y: scroll; }\n  div.p_box p {\n    font-size: 14px;\n    margin-bottom: 10px; }\n  div.p_box ol {\n    list-style: decimal;\n    margin-left: 10px;\n    text-align: left; }\n    div.p_box ol li {\n      font-size: 14px;\n      line-height: 20px;\n      margin-bottom: 10px; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.info div.head_banner {\n  width: 100%;\n  height: 500px;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n  div.info div.head_banner h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    font-weight: bold;\n    color: #444;\n    text-align: center;\n    letter-spacing: 2px; }\n\ndiv.info section h2 {\n  text-align: center;\n  margin-bottom: 30px; }\n\ndiv.info section ul.content_main {\n  margin-top: 100px;\n  text-align: center; }\n  @media (max-width: 767px) {\n    div.info section ul.content_main {\n      margin-top: 50px; } }\n  div.info section ul.content_main li {\n    cursor: pointer;\n    display: inline-block;\n    width: 100%;\n    max-width: 385px;\n    height: 400px;\n    background-color: #f9fafc;\n    margin: 5px;\n    vertical-align: middle;\n    transition: .1s ease-in;\n    border: 1px solid #d0d0d0; }\n    div.info section ul.content_main li:hover {\n      transform: translateY(-3px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    @media (max-width: 1024px) {\n      div.info section ul.content_main li {\n        width: 47%;\n        margin-bottom: 10px;\n        height: 300px; } }\n    div.info section ul.content_main li div.img {\n      height: 270px;\n      overflow: hidden; }\n      div.info section ul.content_main li div.img img {\n        width: auto;\n        max-height: 250px; }\n      @media (max-width: 1024px) {\n        div.info section ul.content_main li div.img {\n          height: 180px; } }\n    div.info section ul.content_main li div.text {\n      height: 130px;\n      overflow: hidden;\n      padding: 15px;\n      text-align: left; }\n    div.info section ul.content_main li h4 {\n      box-sizing: border-box;\n      font-weight: bold;\n      margin: 10px 0px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n    div.info section ul.content_main li p {\n      font-size: 0.875rem;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n    div.info section ul.content_main li p.date {\n      font-size: 0.75rem;\n      color: #999;\n      margin-top: 5px; }\n\ndiv.info section.material_view div.head {\n  margin-bottom: 20px;\n  text-align: center; }\n  div.info section.material_view div.head img {\n    max-height: 350px; }\n\ndiv.info section.material_view div.desc img {\n  max-width: 100%;\n  display: block;\n  margin: 0 auto; }\n\ndiv.info section.material_view div.desc * {\n  text-align: inherit; }\n\ndiv.info section.material_view div.file {\n  text-align: center;\n  font-weight: bold; }\n  div.info section.material_view div.file a {\n    margin-right: 5px; }\n    div.info section.material_view div.file a:hover {\n      text-decoration: underline; }\n\ndiv.info section.movie h2 {\n  text-align: left; }\n\ndiv.info section.movie ul.nav {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.info section.movie ul.nav li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.info section.movie ul.nav li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.info section.movie ul.nav li.active {\n          border: 0px; } }\n\n@media (max-width: 767px) {\n  div.info section.movie ul.content {\n    margin-top: 50px; } }\n\ndiv.info section.movie ul.content li {\n  border-bottom: 1px solid #d0d0d0;\n  padding: 20px 0px; }\n  @media (max-width: 767px) {\n    div.info section.movie ul.content li {\n      text-align: center; } }\n  div.info section.movie ul.content li:nth-child(1) {\n    border-top: 1px solid #d0d0d0; }\n  div.info section.movie ul.content li > div {\n    vertical-align: middle; }\n  div.info section.movie ul.content li.none {\n    padding: 50px 0px; }\n  div.info section.movie ul.content li div.thumbnail {\n    width: 320px;\n    height: 200px;\n    background-color: #f9fafc;\n    display: inline-block;\n    overflow: hidden;\n    border-radius: 3px;\n    cursor: pointer; }\n    div.info section.movie ul.content li div.thumbnail img {\n      margin-top: -20px;\n      width: 100%; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.thumbnail {\n        display: block;\n        margin: 0 auto; } }\n  div.info section.movie ul.content li div.text-box {\n    max-width: 60%;\n    margin-left: 2%;\n    display: inline-block; }\n    @media (max-width: 1024px) {\n      div.info section.movie ul.content li div.text-box {\n        max-width: 90%;\n        margin: 0;\n        margin-top: 20px;\n        text-align: left; } }\n    div.info section.movie ul.content li div.text-box h3 {\n      font-size: 1.25rem;\n      margin-bottom: 20px;\n      cursor: pointer; }\n      div.info section.movie ul.content li div.text-box h3:hover {\n        text-decoration: underline; }\n    div.info section.movie ul.content li div.text-box p {\n      font-size: 0.875rem; }\n    div.info section.movie ul.content li div.text-box p.date {\n      margin-top: 20px; }\n  div.info section.movie ul.content li div.youtube_box {\n    width: 70%;\n    height: 500px;\n    background-color: #d0d0d0;\n    margin: 20px auto;\n    display: none; }\n    @media (max-width: 767px) {\n      div.info section.movie ul.content li div.youtube_box {\n        width: 90%;\n        height: 250px; } }\n\ndiv.popup div.inner {\n  width: 700px;\n  height: 700px;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%); }\n  div.popup div.inner iframe {\n    width: 100%;\n    height: 80%;\n    overflow-x: hidden; }\n\ndiv.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n  width: 100%;\n  max-width: 1024px;\n  height: 60vh;\n  background-color: #fff;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  z-index: 999; }\n  @media (max-width: 1024px) {\n    div.popup div.youtube_popup, div.popup div.farm_popup, div.popup div.contact_box {\n      max-width: 90%; } }\n\ndiv.popup div.farm_popup {\n  width: 80%;\n  height: 80vh; }\n  @media (max-width: 767px) {\n    div.popup div.farm_popup {\n      width: 95%;\n      height: 80%; } }\n\ndiv.popup div.contact_box {\n  width: 30%;\n  background-color: #fff;\n  padding: 50px 20px;\n  box-sizing: border-box; }\n  @media (max-width: 1200px) {\n    div.popup div.contact_box {\n      width: 90%;\n      max-width: 500px;\n      padding: 30px 20px;\n      height: 90vh; } }\n  @media (max-width: 1024px) {\n    div.popup div.contact_box {\n      padding: 30px 20px;\n      height: 90vh; } }\n  div.popup div.contact_box input, div.popup div.contact_box select {\n    width: 100%;\n    margin-bottom: 10px;\n    font-size: 0.75rem; }\n    div.popup div.contact_box input::placeholder, div.popup div.contact_box select::placeholder {\n      font-size: 0.75rem; }\n  div.popup div.contact_box div.checkbox {\n    margin-top: 20px; }\n    div.popup div.contact_box div.checkbox input {\n      width: 20px;\n      height: 20px;\n      display: inline;\n      vertical-align: middle; }\n    div.popup div.contact_box div.checkbox label {\n      cursor: pointer; }\n  div.popup div.contact_box div.btns {\n    position: absolute;\n    bottom: 10px;\n    left: 50%;\n    width: 90%;\n    transform: translateX(-50%); }\n    div.popup div.contact_box div.btns div.btn {\n      width: 100%;\n      margin-bottom: 10px;\n      margin-top: 0px; }\n      div.popup div.contact_box div.btns div.btn.t_red {\n        background-color: #d90125;\n        color: white; }\n      div.popup div.contact_box div.btns div.btn.t_blue {\n        background-color: #4682B4;\n        color: white; }\n\ndiv.p_box {\n  width: 100%;\n  height: 150px;\n  border: 2px solid #d9d9d9;\n  background: #f9f9f9;\n  padding: 20px;\n  box-sizing: border-box;\n  overflow: hidden;\n  overflow-y: scroll; }\n  div.p_box p {\n    font-size: 14px;\n    margin-bottom: 10px; }\n  div.p_box ol {\n    list-style: decimal;\n    margin-left: 10px;\n    text-align: left; }\n    div.p_box ol li {\n      font-size: 14px;\n      line-height: 20px;\n      margin-bottom: 10px; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -55542,7 +55542,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.home div.slider {\n  width: 100%; }\n  div.home div.slider .VueCarousel-wrapper div.inner {\n    width: 100%;\n    position: relative;\n    background-size: cover;\n    height: 500px; }\n  div.home div.slider .VueCarousel-wrapper div.inner_1 {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n      width: 100%;\n      height: 100%;\n      background-color: rgba(68, 68, 68, 0.3); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n        width: 100%;\n        height: 100%; }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n        text-align: center;\n        font-weight: bold;\n        color: #fff;\n        font-size: 3rem;\n        margin: 10px 0px;\n        margin-bottom: 30px; }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n            font-size: 1.75rem; } }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n        font-size: 2rem;\n        text-align: center;\n        color: #009c9e; }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4.w_text {\n          color: #fff;\n          font-weight: 600;\n          padding-top: 160px; }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n            font-size: 1.125rem; } }\n  div.home div.slider .VueCarousel-wrapper div.inner_2 {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size: cover;\n    padding-top: 140px; }\n    div.home div.slider .VueCarousel-wrapper div.inner_2 div.btn {\n      background-color: #4682B4;\n      color: #fff; }\n    div.home div.slider .VueCarousel-wrapper div.inner_2 img {\n      max-width: 350px; }\n      @media (max-width: 1024px) {\n        div.home div.slider .VueCarousel-wrapper div.inner_2 img {\n          width: 30%; } }\n      @media (max-width: 767px) {\n        div.home div.slider .VueCarousel-wrapper div.inner_2 img {\n          width: 100%;\n          position: absolute;\n          opacity: 0.5; } }\n    div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area {\n      display: inline-block;\n      vertical-align: top;\n      margin-top: 20px;\n      margin-left: 50px; }\n      @media (max-width: 767px) {\n        div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area {\n          width: 100%;\n          margin: 0;\n          background-color: rgba(255, 255, 255, 0.5);\n          text-align: center;\n          padding: 50px 0px; } }\n      div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area h3 {\n        font-size: 1.556rem;\n        color: #444; }\n        div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area h3 span {\n          text-decoration: underline; }\n      div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area h2 {\n        color: #444;\n        font-weight: bold;\n        font-size: 2.556rem; }\n      div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area p {\n        margin-top: 40px;\n        color: IndianRed;\n        font-weight: bold;\n        font-size: 1.35rem;\n        top: 0; }\n  div.home div.slider .VueCarousel-wrapper p {\n    text-align: center;\n    position: relative;\n    top: 250px;\n    font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home section h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    cursor: pointer; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      vertical-align: middle;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n      div.home section.section1 div.content.notice ul li p:hover {\n        text-decoration: underline; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem; }\n  div.home section.section1 div.content.news_info {\n    margin-left: 5%; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        margin: 0 auto; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos img {\n          width: 100%; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n          width: 100%;\n          min-height: 100px;\n          height: auto;\n          background-color: #f9fafc;\n          overflow: hidden;\n          border: 1px solid #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n              height: auto; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner h4 {\n          margin: 10px 0px;\n          text-align: center; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n          height: 50px;\n          overflow: hidden;\n          text-align: left;\n          font-size: 0.75rem;\n          text-align: center; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n              height: auto; } }\n\n@media (max-width: 767px) {\n  div.home section.section2 div.wrap {\n    width: 95%; } }\n\ndiv.home section.section2 div.youtubes {\n  text-align: center; }\n  div.home section.section2 div.youtubes .VueCarousel-navigation {\n    z-index: 90;\n    top: 55px; }\n  div.home section.section2 div.youtubes .VueCarousel-navigation-next {\n    right: 25%; }\n  div.home section.section2 div.youtubes .VueCarousel-navigation-prev {\n    left: 25%; }\n  div.home section.section2 div.youtubes div.slide_inner {\n    cursor: pointer;\n    margin: 10px;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.home section.section2 div.youtubes div.slide_inner img {\n      width: 100%; }\n    div.home section.section2 div.youtubes div.slide_inner div.hover {\n      top: 0;\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      background-color: rgba(255, 255, 255, 0.2);\n      z-index: 90;\n      transition: .15s ease-in-out; }\n      div.home section.section2 div.youtubes div.slide_inner div.hover img {\n        width: 100px;\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n        transition: 0.1s ease-in-out; }\n      div.home section.section2 div.youtubes div.slide_inner div.hover:hover img {\n        width: 110px; }\n  div.home section.section2 div.youtubes h3 {\n    width: 90%;\n    margin: 0 auto;\n    font-size: 0.875rem;\n    font-weight: bold;\n    text-align: center; }\n\ndiv.home section.section3 {\n  background-color: #f9fafc; }\n  div.home section.section3 div.content {\n    width: 46%;\n    display: inline-block;\n    text-align: center; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content {\n        width: 95%;\n        display: block;\n        margin: 0 auto;\n        margin-bottom: 30px; } }\n    div.home section.section3 div.content.notice ul li {\n      text-align: left;\n      font-size: 1rem;\n      margin: 10px 0px;\n      overflow: hidden;\n      height: auto; }\n      div.home section.section3 div.content.notice ul li p {\n        width: 80%;\n        height: 100%;\n        display: inline-block;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        overflow: hidden;\n        vertical-align: middle; }\n      div.home section.section3 div.content.notice ul li span {\n        position: absolute;\n        right: 0;\n        font-size: 0.875rem;\n        border-left: 1px solid #f9fafc;\n        padding-left: 10px;\n        vertical-align: middle; }\n    div.home section.section3 div.content.news2_info {\n      float: right;\n      overflow: hidden; }\n      @media (max-width: 767px) {\n        div.home section.section3 div.content.news2_info {\n          float: initial; } }\n      div.home section.section3 div.content.news2_info div.news2 {\n        height: 180px;\n        padding: 20px 0px;\n        box-sizing: border-box;\n        overflow-y: scroll; }\n        div.home section.section3 div.content.news2_info div.news2 ul li {\n          text-align: left;\n          margin-bottom: 20px; }\n          div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n            vertical-align: middle;\n            display: inline-block;\n            width: 160px;\n            height: 115px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n                max-width: 40%;\n                height: 80px; } }\n          div.home section.section3 div.content.news2_info div.news2 ul li p {\n            height: 100px;\n            vertical-align: top;\n            width: 50%;\n            margin-left: 10px;\n            display: inline-block;\n            overflow: hidden;\n            font-size: 0.875rem; }\n\ndiv.home section.section4 {\n  background-color: #f9fafc;\n  text-align: center; }\n  div.home section.section4 .VueCarousel-navigation {\n    z-index: 90;\n    top: 55px; }\n  div.home section.section4 div.slide_inner {\n    cursor: pointer;\n    margin: 10px;\n    overflow: hidden;\n    box-sizing: border-box;\n    border-radius: 3px;\n    transition: .1s ease-in-out;\n    border: 1px solid #d0d0d0; }\n    div.home section.section4 div.slide_inner:hover {\n      transform: translateY(-5px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.home section.section4 div.slide_inner > div:nth-child(1) {\n      height: 150px;\n      overflow: hidden; }\n      div.home section.section4 div.slide_inner > div:nth-child(1) img {\n        width: 100%; }\n    div.home section.section4 div.slide_inner > div:nth-child(2) {\n      padding: 20px 15px;\n      min-height: 100px;\n      background-color: rgba(0, 0, 0, 0.03);\n      border-top: 1px solid #d0d0d0; }\n      div.home section.section4 div.slide_inner > div:nth-child(2) h4 {\n        font-size: 0.875rem;\n        text-align: left;\n        margin: 0;\n        line-height: 1.25rem; }\n\ndiv.home .VueCarousel-navigation-button {\n  border: 1px solid #d0d0d0;\n  background-color: #fff; }\n  div.home .VueCarousel-navigation-button:hover {\n    background-color: lightsteelblue; }\n\ndiv.home .VueCarousel-navigation-next {\n  right: 25%;\n  border: 1px solid #d0d0d0; }\n\ndiv.home .VueCarousel-navigation-prev {\n  left: 25%; }\n\ndiv.home div.footer_banner {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  background-position: top;\n  background-size: cover; }\n  div.home div.footer_banner div.wrap > div {\n    padding: 100px 0px;\n    text-align: center; }\n  div.home div.footer_banner div.wrap h3 {\n    color: #444;\n    font-size: 1.5rem;\n    line-height: 2.2rem; }\n    @media (max-width: 1024px) {\n      div.home div.footer_banner div.wrap h3 {\n        font-size: 1.25rem;\n        text-align: center; } }\n    div.home div.footer_banner div.wrap h3 b {\n      font-weight: bold; }\n  div.home div.footer_banner div.wrap div.btn {\n    border: 0px;\n    color: #222;\n    border-radius: 0;\n    font-size: 1.125rem;\n    font-weight: bold;\n    background-color: lightskyblue;\n    transition: .1s ease-in-out;\n    padding: 20px 60px;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.home div.footer_banner div.wrap div.btn:hover {\n      transform: translateY(-3px); }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.home div.slider {\n  width: 100%; }\n  div.home div.slider .VueCarousel-wrapper div.inner {\n    width: 100%;\n    position: relative;\n    background-size: cover;\n    height: 500px; }\n  div.home div.slider .VueCarousel-wrapper div.inner_1 {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n    div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content {\n      width: 100%;\n      height: 100%;\n      background-color: rgba(68, 68, 68, 0.3); }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content > div {\n        width: 100%;\n        height: 100%; }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n        text-align: center;\n        font-weight: bold;\n        color: #fff;\n        font-size: 3rem;\n        margin: 10px 0px;\n        margin-bottom: 30px; }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h3 {\n            font-size: 1.75rem; } }\n      div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n        font-size: 2rem;\n        text-align: center;\n        color: #009c9e; }\n        div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4.w_text {\n          color: #fff;\n          font-weight: 600;\n          padding-top: 160px; }\n        @media (max-width: 767px) {\n          div.home div.slider .VueCarousel-wrapper div.inner_1 div.slide_content h4 {\n            font-size: 1.125rem; } }\n  div.home div.slider .VueCarousel-wrapper div.inner_2 {\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n    background-size: cover;\n    padding-top: 140px; }\n    div.home div.slider .VueCarousel-wrapper div.inner_2 div.btn {\n      background-color: #4682B4;\n      color: #fff; }\n    div.home div.slider .VueCarousel-wrapper div.inner_2 img {\n      max-width: 350px; }\n      @media (max-width: 1024px) {\n        div.home div.slider .VueCarousel-wrapper div.inner_2 img {\n          width: 30%; } }\n      @media (max-width: 767px) {\n        div.home div.slider .VueCarousel-wrapper div.inner_2 img {\n          width: 100%;\n          position: absolute;\n          opacity: 0.5; } }\n    div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area {\n      display: inline-block;\n      vertical-align: top;\n      margin-top: 20px;\n      margin-left: 50px; }\n      @media (max-width: 767px) {\n        div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area {\n          width: 100%;\n          margin: 0;\n          background-color: rgba(255, 255, 255, 0.5);\n          text-align: center;\n          padding: 50px 0px; } }\n      div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area h3 {\n        font-size: 1.556rem;\n        color: #444; }\n        div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area h3 span {\n          text-decoration: underline; }\n      div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area h2 {\n        color: #444;\n        font-weight: bold;\n        font-size: 2.556rem; }\n      div.home div.slider .VueCarousel-wrapper div.inner_2 div.text_area p {\n        margin-top: 40px;\n        color: IndianRed;\n        font-weight: bold;\n        font-size: 1.35rem;\n        top: 0; }\n  div.home div.slider .VueCarousel-wrapper p {\n    text-align: center;\n    position: relative;\n    top: 250px;\n    font-size: 50px; }\n  div.home div.slider .VueCarousel-pagination {\n    margin-top: -100px; }\n\ndiv.home section h2 {\n  border-bottom: 1px solid #d0d0d0;\n  padding-bottom: 15px;\n  vertical-align: middle;\n  text-align: left; }\n\ndiv.home section.section1 div.content {\n  width: 46%;\n  display: inline-block;\n  text-align: center;\n  vertical-align: top; }\n  @media (max-width: 1024px) {\n    div.home section.section1 div.content {\n      width: 95%;\n      display: block;\n      margin: 0 auto;\n      margin-bottom: 30px; } }\n  div.home section.section1 div.content.notice ul li {\n    text-align: left;\n    font-size: 1rem;\n    margin: 10px 0px;\n    overflow: hidden;\n    cursor: pointer; }\n    div.home section.section1 div.content.notice ul li p {\n      width: 80%;\n      height: 100%;\n      display: inline-block;\n      vertical-align: middle;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n      div.home section.section1 div.content.notice ul li p:hover {\n        text-decoration: underline; }\n    div.home section.section1 div.content.notice ul li span {\n      position: absolute;\n      right: 0;\n      font-size: 0.875rem; }\n  div.home section.section1 div.content.news_info {\n    margin-left: 5%; }\n    @media (max-width: 1024px) {\n      div.home section.section1 div.content.news_info {\n        margin: 0 auto; } }\n    div.home section.section1 div.content.news_info div.news_photo {\n      margin-top: 15px;\n      text-align: left;\n      overflow: hidden; }\n      @media (max-width: 1200px) {\n        div.home section.section1 div.content.news_info div.news_photo {\n          text-align: center; } }\n      div.home section.section1 div.content.news_info div.news_photo .VueCarousel-pagination {\n        display: none; }\n      div.home section.section1 div.content.news_info div.news_photo div.photos {\n        padding: 5px;\n        box-sizing: border-box;\n        vertical-align: middle;\n        text-align: center; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos img {\n          margin-top: 5px;\n          width: auto;\n          max-height: 90px; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n          width: 100%;\n          min-height: 100px;\n          height: auto;\n          background-color: #f9fafc;\n          overflow: hidden;\n          border: 1px solid #d0d0d0; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos div.inner div.photo {\n              height: auto; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner h4 {\n          margin: 10px 0px;\n          text-align: center; }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n          height: 50px;\n          overflow: hidden;\n          text-align: left;\n          font-size: 0.75rem;\n          text-align: center; }\n          @media (max-width: 767px) {\n            div.home section.section1 div.content.news_info div.news_photo div.photos div.inner p {\n              height: auto; } }\n        div.home section.section1 div.content.news_info div.news_photo div.photos div.inner b {\n          font-style: 0.6rem; }\n\n@media (max-width: 767px) {\n  div.home section.section2 div.wrap {\n    width: 95%; } }\n\ndiv.home section.section2 div.youtubes {\n  text-align: center; }\n  div.home section.section2 div.youtubes .VueCarousel-navigation {\n    z-index: 90;\n    top: 55px; }\n  div.home section.section2 div.youtubes .VueCarousel-navigation-next {\n    right: 25%; }\n  div.home section.section2 div.youtubes .VueCarousel-navigation-prev {\n    left: 25%; }\n  div.home section.section2 div.youtubes div.slide_inner {\n    cursor: pointer;\n    margin: 10px;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.home section.section2 div.youtubes div.slide_inner img {\n      width: 100%; }\n    div.home section.section2 div.youtubes div.slide_inner div.hover {\n      top: 0;\n      position: absolute;\n      width: 100%;\n      height: 100%;\n      background-color: rgba(255, 255, 255, 0.2);\n      z-index: 90;\n      transition: .15s ease-in-out; }\n      div.home section.section2 div.youtubes div.slide_inner div.hover img {\n        width: 100px;\n        position: absolute;\n        top: 50%;\n        left: 50%;\n        transform: translate(-50%, -50%);\n        transition: 0.1s ease-in-out; }\n      div.home section.section2 div.youtubes div.slide_inner div.hover:hover img {\n        width: 110px; }\n  div.home section.section2 div.youtubes h3 {\n    width: 90%;\n    margin: 0 auto;\n    font-size: 0.875rem;\n    font-weight: bold;\n    text-align: center; }\n\ndiv.home section.section3 {\n  background-color: #f9fafc; }\n  div.home section.section3 div.content {\n    width: 46%;\n    display: inline-block;\n    text-align: center; }\n    @media (max-width: 767px) {\n      div.home section.section3 div.content {\n        width: 95%;\n        display: block;\n        margin: 0 auto;\n        margin-bottom: 30px; } }\n    div.home section.section3 div.content.notice ul li {\n      text-align: left;\n      font-size: 1rem;\n      margin: 10px 0px;\n      overflow: hidden;\n      height: auto; }\n      div.home section.section3 div.content.notice ul li p {\n        width: 80%;\n        height: 100%;\n        display: inline-block;\n        text-overflow: ellipsis;\n        white-space: nowrap;\n        overflow: hidden;\n        vertical-align: middle; }\n      div.home section.section3 div.content.notice ul li span {\n        position: absolute;\n        right: 0;\n        font-size: 0.875rem;\n        border-left: 1px solid #f9fafc;\n        padding-left: 10px;\n        vertical-align: middle; }\n    div.home section.section3 div.content.news2_info {\n      float: right;\n      overflow: hidden; }\n      @media (max-width: 767px) {\n        div.home section.section3 div.content.news2_info {\n          float: initial; } }\n      div.home section.section3 div.content.news2_info div.news2 {\n        height: 180px;\n        padding: 20px 0px;\n        box-sizing: border-box;\n        overflow-y: scroll; }\n        div.home section.section3 div.content.news2_info div.news2 ul li {\n          text-align: left;\n          margin-bottom: 20px; }\n          div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n            vertical-align: middle;\n            display: inline-block;\n            width: 160px;\n            height: 115px;\n            background-color: #d0d0d0; }\n            @media (max-width: 767px) {\n              div.home section.section3 div.content.news2_info div.news2 ul li div.photo {\n                max-width: 40%;\n                height: 80px; } }\n          div.home section.section3 div.content.news2_info div.news2 ul li p {\n            height: 100px;\n            vertical-align: top;\n            width: 50%;\n            margin-left: 10px;\n            display: inline-block;\n            overflow: hidden;\n            font-size: 0.875rem; }\n\ndiv.home section.section4 {\n  background-color: #f9fafc;\n  text-align: center; }\n  div.home section.section4 .VueCarousel-navigation {\n    z-index: 90;\n    top: 55px; }\n  div.home section.section4 div.slide_inner {\n    cursor: pointer;\n    margin: 10px;\n    overflow: hidden;\n    box-sizing: border-box;\n    border-radius: 3px;\n    transition: .1s ease-in-out;\n    border: 1px solid #d0d0d0; }\n    div.home section.section4 div.slide_inner:hover {\n      transform: translateY(-5px);\n      -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n      box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.home section.section4 div.slide_inner > div:nth-child(1) {\n      height: 150px;\n      overflow: hidden; }\n      div.home section.section4 div.slide_inner > div:nth-child(1) img {\n        width: 100%; }\n    div.home section.section4 div.slide_inner > div:nth-child(2) {\n      padding: 20px 15px;\n      min-height: 100px;\n      background-color: rgba(0, 0, 0, 0.03);\n      border-top: 1px solid #d0d0d0; }\n      div.home section.section4 div.slide_inner > div:nth-child(2) h4 {\n        font-size: 0.875rem;\n        text-align: left;\n        margin: 0;\n        line-height: 1.25rem; }\n\ndiv.home .VueCarousel-navigation-button {\n  border: 1px solid #d0d0d0;\n  background-color: #fff; }\n  div.home .VueCarousel-navigation-button:hover {\n    background-color: lightsteelblue; }\n\ndiv.home .VueCarousel-navigation-next {\n  right: 25%;\n  border: 1px solid #d0d0d0; }\n\ndiv.home .VueCarousel-navigation-prev {\n  left: 25%; }\n\ndiv.home div.footer_banner {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  background-position: top;\n  background-size: cover; }\n  div.home div.footer_banner div.wrap > div {\n    padding: 100px 0px;\n    text-align: center; }\n  div.home div.footer_banner div.wrap h3 {\n    color: #444;\n    font-size: 1.5rem;\n    line-height: 2.2rem; }\n    @media (max-width: 1024px) {\n      div.home div.footer_banner div.wrap h3 {\n        font-size: 1.25rem;\n        text-align: center; } }\n    div.home div.footer_banner div.wrap h3 b {\n      font-weight: bold; }\n  div.home div.footer_banner div.wrap div.btn {\n    border: 0px;\n    color: #222;\n    border-radius: 0;\n    font-size: 1.125rem;\n    font-weight: bold;\n    background-color: lightskyblue;\n    transition: .1s ease-in-out;\n    padding: 20px 60px;\n    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);\n    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); }\n    div.home div.footer_banner div.wrap div.btn:hover {\n      transform: translateY(-3px); }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -72644,6 +72644,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./store */ "./src/store.js");
 /* harmony import */ var _common_contact__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./common/contact */ "./src/common/contact.js");
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_12__);
+
+
 
 
 
@@ -72659,8 +72663,10 @@ __webpack_require__.r(__webpack_exports__);
 
 Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_8__["BootstrapVue"])
 Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_8__["IconsPlugin"])
-
 Vue.use(vue_carousel__WEBPACK_IMPORTED_MODULE_5___default.a);
+Vue.prototype.$Axios = axios__WEBPACK_IMPORTED_MODULE_12___default.a;
+
+
 new Vue({
     router: _router__WEBPACK_IMPORTED_MODULE_4__["default"],
     store: _store__WEBPACK_IMPORTED_MODULE_9__["store"],
@@ -72857,7 +72863,7 @@ const faq = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -73027,7 +73033,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
 /* harmony import */ var _common_loginpage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/loginpage */ "./src/common/loginpage.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -73140,7 +73146,7 @@ const download = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../router */ "./src/router.js");
 
@@ -73291,7 +73297,7 @@ const qnaWrite = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
 
 
@@ -73387,7 +73393,7 @@ const support = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -73470,7 +73476,7 @@ const zoom = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _common_password_qna__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/password_qna */ "./src/common/password_qna.js");
 
@@ -73586,7 +73592,7 @@ module.exports = content.locals || {};
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 const contactPopup = {
@@ -73873,6 +73879,7 @@ const Header = {
                 <li>
                     <router-link to='/about' tag='span'>회사 소개</router-link>
                 </li>
+
                 <li>
                     <router-link to='/product' tag='span'>제품 소개</router-link>
                     <div class='hidden_menu'>
@@ -73888,9 +73895,8 @@ const Header = {
                         <!-- <router-link to='/information/info1' tag='p'>병충해 알림</router-link>     -->
                         <router-link to='/information/info3' tag='p'>정보 동영상</router-link>    
                         <router-link to='/information/info2' tag='p'>농업계 소식</router-link>    
-                        <p onclick="alert('서비스 준비중입니다.')">농자재 소식</p>
+                        <router-link to='/information/info4' tag='p'>농자재 정보</router-link>       
                         <p onclick="alert('서비스 준비중입니다.')">병해충 정보</p>
-                        <!-- <router-link to='/information/info4' tag='p'>농업계 소식</router-link>        -->
                     </div>
                 </li>
                 <li>
@@ -74344,7 +74350,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
 /* harmony import */ var _farm_popup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./farm_popup */ "./src/info/farm_popup.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -74352,7 +74358,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const farmPage = {
-    template:`<section class='farm '>
+    template:`<section class='farm'>
                     <div class='content wrap'>
                         <h2>농업계 소식</h2>
 
@@ -74557,20 +74563,99 @@ __webpack_require__.r(__webpack_exports__);
 const material = {
     template:`<section class='material wrap'>
                     <h2>농자재 정보</h2>
+                    <ul class='content_main'>
+                            <li v-for = "(content,i) in contents" >
+                                <div class='img'>
+                                    <img v-bind:src="content.img">
+                                </div>
+                                <router-link tag='div' v-bind:to="'info4/zoom/'+content.idx" class='text'>
+                                    <h4>{{content.name}}({{content.company}})</h4>
+                                    <p>{{content.exp}}</p>
+                                </router-link>
+                            </li>
+                    </ul>
 
               </section>`,
     data(){
         return{
-            boards:[
-                {idx:0,tit:'헤드라인',company:'팜한농',explan:'장마철에 강한 신제품 탄저병약',img:'image/material/sample1.jpg'},
-                {idx:0,tit:'폭격기',company:'동방아그로',explan:'페림존 헥사코나졸 액상수화제',img:'image/material/sample2.jpg'},
-                {idx:0,tit:'뉴택',company:'신젠타',explan:'높은 함량의 수도종합살균제',img:'image/material/sample3.jpg'}
-            ]
+            limit:9,
+            lists:Array,
+            contents:Array
+        }
+    },
+    
+    created() {
+        this.$Axios.get('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item')
+        .then((result)=>{
+            this.lists = result.data.result.filter((x)=>{
+                return x.active == 1
+            })
+            this.contents = this.lists.slice(0,9)
+        })
+        
+    },
+    mounted(){
+        document.addEventListener('scroll', () => {
+            this.getDistBottom()
+        })
+    },
+    methods:{
+        getDistBottom() {
+            let scrollPosition = window.pageYOffset;
+            let windowSize = window.innerHeight;
+            let bodyHeight = document.body.offsetHeight;
+
+            let bottom = Math.max(bodyHeight - (scrollPosition + windowSize), 0)
+
+            if (bottom <= 1600) {
+                this.limit+=3;
+                this.contents = this.lists.slice(0,this.limit)
+            }
         }
     }
+    
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (material);
+
+/***/ }),
+
+/***/ "./src/info/material_view.js":
+/*!***********************************!*\
+  !*** ./src/info/material_view.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const materialView = {
+    props:['idx'],
+    template:`<section class='material_view wrap'>
+                    <div class='head'>
+                        <h2>{{content.name}}</h2>
+                        <p>{{content.exp}}</p>
+                        <img v-bind:src="content.img">
+                    </div>
+                        <div v-html="content.desc" class='desc'></div>
+                        <div class='file' v-if="content.file" ><a v-bind:href="content.file" target='blank'>첨부파일 다운받기</a><b-icon icon="download"></b-icon></div>
+              </section>`,
+    data(){
+        return{
+            content:Array
+        }
+    },
+    created() {
+        this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item/zoom',{idx:this.idx})
+        .then((result)=>{
+            this.content = result.data.result[0]
+        })
+        
+    },
+    
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (materialView);
 
 /***/ }),
 
@@ -74622,7 +74707,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
 /* harmony import */ var _movie_popup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./movie_popup */ "./src/info/movie_popup.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -74771,68 +74856,44 @@ const MainMateral = {
         per-page="3"
         loop="true"
         >
-        <slide>
-             <div class='photos'>
-                <a href="https://www.farmhannong.com/kor/pr/news/view.do?pageIndex=1&f=&seq=6585&rtnParm=%2526f%253D%2526q%253D&q=" target="blank"> 
-                    <div class='inner'>
-                        <div class='photo'>
-                            <img src="image/material/sample1.jpg">
-                        </div>
-                        <h4>팜한농 "헤드라인"</h4>
-                        <p>장마철에 강한 신제품 탄저병약</p>
-                    </div>
-                </a>
-            </div>
-        </slide>
-        <slide>
+   
+        <slide v-for = 'list in lists' :key='list.idx'>
         <div class='photos'>
-                <a href="http://www.sbcc.kr/front/kor/product/product_view.do" target="blank"> 
                     <div class='inner'>
                         <div class='photo'>
-                            <img src="image/material/sample2.jpg">
+                            <img v-bind:src="list.img">
                         </div>
-                        <h4>성보화학 "페리맥스"</h4>
-                        <p>	달팽이 전문 유기농업자재</p>
+                        <h4>{{list.name}}</h4>
+                        <p>	{{list.exp}}</p>
                     
                     </div>
-                </a>
             </div>
         </slide>
         
-        <slide>
-        <div class='photos'>
-        <a href="http://knconews.com/?p=1144" target="blank"> 
-
-                <div class='inner'>
-                <div class='photo'>
-                        <img src="image/material/sample3.jpg">
-                    </div>
-                    <h4>중기스타</h4>
-                    <p>항성 잡초에 확실한 효과가 있는 신물질 제초제</p>
-                </div>
-            </div>
-        </slide>
-        <slide>
-             <div class='photos'>
-                <a href="https://www.farmhannong.com/kor/pr/news/view.do?pageIndex=1&f=&seq=6585&rtnParm=%2526f%253D%2526q%253D&q=" target="blank"> 
-                    <div class='inner'>
-                        <div class='photo'>
-                            <img src="image/material/sample1.jpg">
-                        </div>
-                        <h4>팜한농 "헤드라인"</h4>
-                        <p>장마철에 강한 신제품 탄저병약</p>
-                    </div>
-                </a>
-            </div>
-        </slide>
-
         </Carousel>
     </div>
 </div>`,
 components:{
     Carousel: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Carousel"],
     Slide: vue_carousel__WEBPACK_IMPORTED_MODULE_0__["Slide"],
-}
+},
+data(){
+    return{
+        lists:[]
+    }
+},
+created() {
+    this.$Axios.get('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item')
+    .then((result)=>{
+        let GetList = result.data.result.filter((x)=>{
+            return x.active == 1
+        })
+        this.lists = GetList.slice(0,9)
+        console.log(this.lists)
+
+    })
+    
+},
 
 }
 
@@ -74849,7 +74910,7 @@ components:{
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -75024,7 +75085,7 @@ const SectionInfoMain = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _info_farm_popup__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../info/farm_popup */ "./src/info/farm_popup.js");
 
@@ -75113,7 +75174,7 @@ const sectionImfoFarm = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-carousel */ "./node_modules/vue-carousel/dist/vue-carousel.min.js");
 /* harmony import */ var vue_carousel__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue_carousel__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _info_movie_popup__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../info/movie_popup */ "./src/info/movie_popup.js");
@@ -75261,7 +75322,6 @@ const MainSlider = {
                     <h2>Win-Win Pro</h2>
                     <p>복잡하고 어려워진 농약판매 우성 소프트가 해결 해드리겠습니다.</p>
                     <router-link tag='div' to='/product/pro' class='btn'>자세히 보기</router-link>
-
                 </div>
             </div>
                 </div>
@@ -75473,7 +75533,7 @@ const Plus = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
 /* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
 
 
@@ -76002,8 +76062,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _info_farmPage__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./info/farmPage */ "./src/info/farmPage.js");
 /* harmony import */ var _info_moviepage__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./info/moviepage */ "./src/info/moviepage.js");
 /* harmony import */ var _info_material__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./info/material */ "./src/info/material.js");
-/* harmony import */ var _board_qna_write__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./board/qna_write */ "./src/board/qna_write.js");
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
+/* harmony import */ var _info_material_view__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./info/material_view */ "./src/info/material_view.js");
+/* harmony import */ var _board_qna_write__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./board/qna_write */ "./src/board/qna_write.js");
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
 
 
 
@@ -76022,6 +76083,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
  
+
 
 
 
@@ -76096,7 +76158,15 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                 {
                     path:'info4',
                     component:_info_material__WEBPACK_IMPORTED_MODULE_18__["default"],
+                    name:'material',
+                },
+                {
+                    path:'info4/zoom/:idx',
+                    props:true,
+                    component:_info_material_view__WEBPACK_IMPORTED_MODULE_19__["default"]
+
                 }
+
             ]
         },
         {
@@ -76124,7 +76194,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                 },
                 {
                     path:'qnawrite/',
-                    component:_board_qna_write__WEBPACK_IMPORTED_MODULE_19__["default"]
+                    component:_board_qna_write__WEBPACK_IMPORTED_MODULE_20__["default"]
                 },
                 {
                     path:'support',
@@ -76143,7 +76213,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
         }
     ],
     scrollBehavior (to, from, savedPosition) {
-        _eventbus__WEBPACK_IMPORTED_MODULE_20__["default"].$emit('moNav',false)
+        _eventbus__WEBPACK_IMPORTED_MODULE_21__["default"].$emit('moNav',false)
         return { x: 0, y: 0 }
       }
     

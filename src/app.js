@@ -10,11 +10,15 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import {store} from './store'
 import contactPopup from './common/contact'
 import EventBus from './eventbus'
+import axios from 'axios'
+
 
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
-
 Vue.use(VueCarousel);
+Vue.prototype.$Axios = axios;
+
+
 new Vue({
     router,
     store,
