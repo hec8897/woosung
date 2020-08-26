@@ -79377,14 +79377,17 @@ const material = {
                     <h2>농자재 정보</h2>
                     <ul class='nav'>
                     <li
-                    v-bind:class="{active:mode=='전체'}"
-                    @click="filterData('전체')"
-                    >전체</li>
+                        v-bind:class="{active:mode=='전체'}"
+                        @click="filterData('전체')"
+                        >전체</li>
+
                     <li v-for="item in Cate"
-                    @click="filterData(item)"
-                    v-bind:class="{active:mode==item}"
-                    >{{item}}</li>
+                        @click="filterData(item)"
+                        v-bind:class="{active:mode==item}"
+                        >{{item}}</li>
+
                     </ul>
+
                     <ul class='content_main'>
                         <li 
                             v-for = "(content,i) in contents" 
@@ -79399,10 +79402,10 @@ const material = {
                                 <p>{{content.exp}}</p>
                                 <p class='bottom'>
 
-                                <span>
+                                <!-- <span>
                                     조회수: 
                                     {{content.join}}
-                                </span>
+                                </span> (사용안함)-->
                                 
                                 <span class='date'>
                                     {{$moment(content.date).format('YYYY-MM-DD')}}
@@ -79464,18 +79467,9 @@ const material = {
             this.mode = cate
         },
         listView(idx,join){
-            console.log(idx,join)
-            this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item/join',{
-                idx:idx,
-                join:join+1
-                })
-                .then((result)=>{
-                    console.log(result)
-                })
-
-            // this.$router.push({
-                // path:`info4/zoom/${idx}` 
-            // })
+            this.$router.push({
+                path:`info4/zoom/${idx}` 
+            })
 
       
 
@@ -79534,13 +79528,15 @@ const materialView = {
         this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item/zoom',{idx:this.idx})
         .then((result)=>{
             this.content = result.data.result[0]
+            //데이터 업데이트
+
+            this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item/join',{
+                idx:this.content.idx,
+                join:this.content.join+1
+            })
+            //조회수 업데이트
         })
-     
     },
-    mounted() {
-    
-    },
-    
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (materialView);

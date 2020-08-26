@@ -23,13 +23,15 @@ const materialView = {
         this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item/zoom',{idx:this.idx})
         .then((result)=>{
             this.content = result.data.result[0]
+            //데이터 업데이트
+
+            this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item/join',{
+                idx:this.content.idx,
+                join:this.content.join+1
+            })
+            //조회수 업데이트
         })
-     
     },
-    mounted() {
-    
-    },
-    
 }
 
 export default materialView;
