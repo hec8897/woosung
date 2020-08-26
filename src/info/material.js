@@ -12,10 +12,9 @@ const material = {
                     >{{item}}</li>
                     </ul>
                     <ul class='content_main'>
-                        <router-link 
-                            tag='li'
+                        <li 
                             v-for = "(content,i) in contents" 
-                            v-bind:to="'info4/zoom/'+content.idx" 
+                            @click="listView(content.idx,content.join)"
                             >
                             
                             <div class='img'>
@@ -37,7 +36,7 @@ const material = {
                                 
                                 </p>
                             </div>
-                        </router-link>
+                        </li>
                         <h3 v-if="contents == ''">등록된 제품이 없습니다.</h3>
                     </ul>
 
@@ -89,6 +88,23 @@ const material = {
     methods:{
         filterData(cate){
             this.mode = cate
+        },
+        listView(idx,join){
+            console.log(idx,join)
+            this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item/join',{
+                idx:idx,
+                join:join+1
+                })
+                .then((result)=>{
+                    console.log(result)
+                })
+
+            // this.$router.push({
+                // path:`info4/zoom/${idx}` 
+            // })
+
+      
+
         },
         getDistBottom() {
             let scrollPosition = window.pageYOffset;

@@ -24,6 +24,10 @@ const materialView = {
         .then((result)=>{
             this.content = result.data.result[0]
         })
+     
+    },
+    mounted() {
+    
     },
     
 }
