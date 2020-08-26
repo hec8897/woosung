@@ -29,6 +29,7 @@
     "style-loader": "^1.2.1",
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",
+    "vue-moment": "^4.1.0",
     "vue-router": "^3.3.2",
     "vue-tiny-slider": "^0.1.39",
     "vuex": "^3.4.0",

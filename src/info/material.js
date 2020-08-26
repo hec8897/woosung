@@ -1,31 +1,67 @@
 const material = {
     template:`<section class='material wrap'>
                     <h2>농자재 정보</h2>
+                    <ul class='nav'>
+                    <li
+                    v-bind:class="{active:mode=='전체'}"
+                    @click="filterData('전체')"
+                    >전체</li>
+                    <li v-for="item in Cate"
+                    @click="filterData(item)"
+                    v-bind:class="{active:mode==item}"
+                    >{{item}}</li>
+                    </ul>
                     <ul class='content_main'>
-                            <router-link 
-                                tag='li'
-                                v-for = "(content,i) in contents" 
-                                v-bind:to="'info4/zoom/'+content.idx" 
-                                >
+                        <router-link 
+                            tag='li'
+                            v-for = "(content,i) in contents" 
+                            v-bind:to="'info4/zoom/'+content.idx" 
+                            >
+                            
+                            <div class='img'>
+                                <img v-bind:src="content.img">
+                            </div>
+                            <div class='text'>
+                                <h4>{{content.name}}({{content.company}})</h4>
+                                <p>{{content.exp}}</p>
+                                <p class='bottom'>
+
+                                <span>
+                                    조회수: 
+                                    {{content.join}}
+                                </span>
                                 
-                                <div class='img'>
-                                    <img v-bind:src="content.img">
-                                </div>
-
-                                <div class='text'>
-
-                                    <h4>{{content.name}}({{content.company}})</h4>
-                                    <p>{{content.exp}}</p>
-                                </div>
-                            </router-link>
+                                <span class='date'>
+                                    {{$moment(content.date).format('YYYY-MM-DD')}}
+                                </span>
+                                
+                                </p>
+                            </div>
+                        </router-link>
+                        <h3 v-if="contents == ''">등록된 제품이 없습니다.</h3>
                     </ul>
 
               </section>`,
     data(){
         return{
-            limit:9,
+            mode:'전체',
+            Cate:["경농","농협케미컬","동방아그로","바이엘","성보화학","신젠타","인바이오","함국삼공","팜한농","한얼사이언스"],
             lists:Array,
-            contents:Array
+            contents:Array,
+            limit:9,
+        }
+    },
+    watch: {
+        mode(){
+            console.log(this.mode)
+            if(this.mode == '전체'){
+                this.contents = this.lists
+            }
+            else{
+                this.contents = this.lists.filter((x)=>{
+                    return x.company == this.mode
+                })
+            }
         }
     },
     
@@ -33,20 +69,27 @@ const material = {
         this.$Axios.get('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_item')
         .then((result)=>{
 
-            this.lists = result.data.result.filter((x)=>{
+            let Lists = result.data.result.filter((x)=>{
                 return x.active == 1
             })
             
-            this.contents = this.lists.slice(0,9)
+            this.lists = Lists;
+            this.contents = Lists.slice(0,9);
+
         })
         
     },
+
     mounted(){
         document.addEventListener('scroll', () => {
             this.getDistBottom()
         })
     },
+
     methods:{
+        filterData(cate){
+            this.mode = cate
+        },
         getDistBottom() {
             let scrollPosition = window.pageYOffset;
             let windowSize = window.innerHeight;
@@ -56,7 +99,7 @@ const material = {
 
             if (bottom <= 1600) {
                 this.limit+=3;
-                this.contents = this.lists.slice(0,this.limit)
+                this.contents = this.contents.slice(0,this.limit)
             }
         }
     }
