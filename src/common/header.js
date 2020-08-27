@@ -55,9 +55,7 @@ const Header = {
                 <div></div>
             </div>
         </div>
-        <div class='slide_down'>
-      
-        </div>
+        <div class='slide_down'></div>
     </header>`,
     components:{
         moNav
