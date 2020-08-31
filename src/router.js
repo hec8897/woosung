@@ -9,6 +9,7 @@ import Plus from './product/Plus'
 
 import boardPage from './board/boardpage';
 import faq from './board/faq';
+import zoomFaq from './board/zoom_faq'
 import qna from './board/qna';
 import support from './board/support';
 import zoom from './board/zoom'
@@ -112,9 +113,13 @@ const router = new VueRouter({
                     component:faq
                 },
                 {
-                    path:'faq/:mode',
+                    path:'faq',
                     component:faq,
-                    props:true
+                },
+                {
+                    props:true,
+                    path:'zoomfaq/:idx',
+                    component:zoomFaq
                 },
                 {
                     path:'qna',

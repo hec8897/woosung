@@ -55400,7 +55400,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #777777; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc textarea {\n      border: 0px;\n      width: 100%;\n      resize: none;\n      height: 150px; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq nav.faq_lnb {\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center; }\n    div.board div.faq nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-left: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq nav.faq_lnb ul li.active {\n        background-color: #d0d0d0; }\n      div.board div.faq nav.faq_lnb ul li:last-child {\n        border-right: 1px solid #d0d0d0; }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  margin-bottom: 30px; }\n  div.board div.faq section.section1 h2 span {\n    font-size: 0.875rem;\n    color: #d0d0d0;\n    margin-left: 20px; }\n\ndiv.board div.faq section.section1 ul.mid_cate {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq section.section1 ul.mid_cate li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.board div.faq section.section1 ul.mid_cate li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.mid_cate li.active {\n          border: 0px; } }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666;\n  overflow: hidden; }\n  div.board div.faq section.section1 ul.faq div.none p {\n    padding: 50px 20px; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li img {\n      width: 100%;\n      display: block;\n      height: auto; }\n    div.board div.faq section.section1 ul.faq li span {\n      display: inline-block;\n      color: #999;\n      width: 100px; }\n    div.board div.faq section.section1 ul.faq li b {\n      font-weight: normal; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li b {\n          display: block; } }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n    div.board div.faq section.section1 ul.faq li div.close_btn {\n      display: block;\n      background-color: #20a6f2;\n      color: #fff; }\n      div.board div.faq section.section1 ul.faq li div.close_btn:hover {\n        background-color: #0c8bd3; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n\ndiv.board div.qna section.section1 p.btn {\n  width: 100%;\n  text-align: center; }\n  div.board div.qna section.section1 p.btn button {\n    margin-top: 20px;\n    padding: 5px 35px; }\n", ""]);
+exports.push([module.i, "@charset \"UTF-8\";\n.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.board h2 {\n  font-weight: bold;\n  margin-bottom: 30px;\n  text-align: center; }\n\ndiv.board div.board_head {\n  width: 100%;\n  height: 500px;\n  background-color: #f9fafc; }\n  div.board div.board_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px;\n    width: 100%; }\n\ndiv.board table {\n  width: 100%;\n  max-width: 100%;\n  table-layout: fixed; }\n  div.board table thead {\n    background-color: #f9fafc; }\n    div.board table thead td {\n      border-top: 2px solid #444; }\n  div.board table tbody tr {\n    cursor: pointer; }\n    div.board table tbody tr:hover {\n      background-color: #f9f9f9; }\n  div.board table tr {\n    width: 100%;\n    max-width: 100%; }\n    div.board table tr td {\n      font-size: 0.75rem;\n      border-bottom: 1px solid #d0d0d0;\n      padding: 20px 5px;\n      overflow: hidden;\n      text-overflow: ellipsis;\n      white-space: nowrap; }\n      div.board table tr td:nth-child(1) {\n        width: 8%;\n        text-align: center; }\n      div.board table tr td:nth-child(2) {\n        width: 10%;\n        color: #777777; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(2) {\n            width: 35%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(3) {\n        width: 60%; }\n        @media (max-width: 767px) {\n          div.board table tr td:nth-child(3) {\n            width: 40%;\n            font-size: 0.875rem; } }\n      div.board table tr td:nth-child(4) {\n        width: 10%; }\n        div.board table tr td:nth-child(4) img {\n          width: 20px; }\n        @media (max-width: 1024px) {\n          div.board table tr td:nth-child(4) {\n            width: 25%; }\n            div.board table tr td:nth-child(4) img {\n              width: 15px; } }\n      @media (max-width: 767px) {\n        div.board table tr td {\n          width: 30%; }\n          div.board table tr td:nth-child(1) {\n            display: none; }\n          div.board table tr td:last-child {\n            display: none; } }\n\ndiv.board .zoom div.zoom_table {\n  width: 100%;\n  border-top: 2px solid #999; }\n  div.board .zoom div.zoom_table div.head {\n    padding: 20px 10px;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.head p {\n      margin-bottom: 20px;\n      font-size: 0.875rem;\n      color: #666; }\n      div.board .zoom div.zoom_table div.head p span {\n        float: right;\n        font-size: 0.75rem;\n        color: #666;\n        margin-left: 15px; }\n    div.board .zoom div.zoom_table div.head h4 {\n      font-size: 1rem; }\n    div.board .zoom div.zoom_table div.head h3 {\n      font-weight: bolder; }\n    div.board .zoom div.zoom_table div.head div.type {\n      margin-top: 15px; }\n      div.board .zoom div.zoom_table div.head div.type span {\n        border-right: 1px solid #d0d0d0;\n        margin-right: 10px;\n        padding-right: 10px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type span {\n            border: 0px;\n            display: block; } }\n      div.board .zoom div.zoom_table div.head div.type label {\n        font-size: 0.875rem;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.head div.type input {\n        display: inline-block;\n        vertical-align: middle;\n        margin-right: 20px; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.head div.type input {\n            margin-right: 10px; } }\n  div.board .zoom div.zoom_table div.desc {\n    padding: 50px 10px;\n    min-height: 200px;\n    color: #666;\n    border-bottom: 1px solid #d0d0d0; }\n    div.board .zoom div.zoom_table div.desc textarea {\n      border: 0px;\n      width: 100%;\n      resize: none;\n      height: 150px; }\n    div.board .zoom div.zoom_table div.desc img {\n      max-width: 100%; }\n    div.board .zoom div.zoom_table div.desc p {\n      line-height: 1.9rem; }\n    div.board .zoom div.zoom_table div.desc div.answer {\n      border-top: 1px dashed #999;\n      margin-top: 50px;\n      padding: 30px 0px; }\n    div.board .zoom div.zoom_table div.desc div.inputs label {\n      margin-right: 10px; }\n    div.board .zoom div.zoom_table div.desc div.inputs input {\n      display: inline-block; }\n  div.board .zoom div.zoom_table div.consult_board ul {\n    width: 100%; }\n    div.board .zoom div.zoom_table div.consult_board ul li {\n      box-sizing: border-box;\n      border-bottom: 1px solid #d0d0d0;\n      border-right: 1px solid #d0d0d0;\n      border-left: 1px solid #d0d0d0; }\n      div.board .zoom div.zoom_table div.consult_board ul li > div {\n        display: inline-block;\n        padding: 15px 0px; }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n        background-color: #f9fafc;\n        width: 15%;\n        height: 100%;\n        text-align: center; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(1) {\n            width: 40%; } }\n      div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n        width: 80%; }\n        @media (max-width: 767px) {\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) {\n            width: 55%; } }\n        div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input {\n          display: block;\n          border: 0;\n          height: 100%;\n          width: 100%; }\n          div.board .zoom div.zoom_table div.consult_board ul li div:nth-child(2) input:focus {\n            background-color: #fff; }\n      div.board .zoom div.zoom_table div.consult_board ul li textarea {\n        width: 100%;\n        margin: 0px auto;\n        height: 300px;\n        display: block;\n        padding: 20px;\n        box-sizing: border-box;\n        border: 0px;\n        resize: none; }\n        div.board .zoom div.zoom_table div.consult_board ul li textarea:focus {\n          background-color: #fff; }\n  div.board .zoom div.zoom_table div.foot {\n    padding: 20px 10px;\n    border-bottom: 2px solid #999; }\n    div.board .zoom div.zoom_table div.foot .custom-file-input:lang(en) ~ .custom-file-label::after {\n      content: '이미지 선택'; }\n    div.board .zoom div.zoom_table div.foot p {\n      width: 45%;\n      display: inline-block;\n      margin: 5px; }\n      div.board .zoom div.zoom_table div.foot p label {\n        font-size: 0.875rem;\n        margin-right: 5px;\n        cursor: pointer; }\n      div.board .zoom div.zoom_table div.foot p input {\n        display: inline;\n        vertical-align: middle; }\n    div.board .zoom div.zoom_table div.foot img {\n      width: 20px; }\n      @media (max-width: 375px) {\n        div.board .zoom div.zoom_table div.foot img {\n          width: 15px; } }\n    div.board .zoom div.zoom_table div.foot span, div.board .zoom div.zoom_table div.foot a {\n      font-size: 0.875rem;\n      margin: 0px 10px; }\n    div.board .zoom div.zoom_table div.foot svg {\n      width: 15px;\n      vertical-align: text-top; }\n\ndiv.board div.faq div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.board div.faq nav.faq_lnb {\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq nav.faq_lnb ul {\n    width: 100%;\n    height: 50px;\n    text-align: center; }\n    div.board div.faq nav.faq_lnb ul li {\n      cursor: pointer;\n      width: 25%;\n      float: left;\n      height: 100%;\n      border-left: 1px solid #d0d0d0;\n      transition: .1s ease-in-out;\n      box-sizing: border-box;\n      line-height: 50px; }\n      div.board div.faq nav.faq_lnb ul li.active {\n        background-color: #d0d0d0; }\n      div.board div.faq nav.faq_lnb ul li:last-child {\n        border-right: 1px solid #d0d0d0; }\n\ndiv.board div.faq section.section1 h2 {\n  font-weight: bold;\n  margin-bottom: 30px; }\n  div.board div.faq section.section1 h2 span {\n    font-size: 0.875rem;\n    color: #d0d0d0;\n    margin-left: 20px; }\n\ndiv.board div.faq section.section1 ul.mid_cate {\n  margin: 5px 0px;\n  margin-bottom: 30px;\n  border-bottom: 1px solid #d0d0d0; }\n  div.board div.faq section.section1 ul.mid_cate li {\n    cursor: pointer;\n    display: inline-block;\n    transition: 0.1s ease-in-out;\n    padding: 10px 20px 0px 20px;\n    transition: .1s ease-in-out; }\n    div.board div.faq section.section1 ul.mid_cate li.active {\n      font-weight: bold;\n      border: 1px solid #d0d0d0;\n      border-radius: 5px 5px 0px 0px;\n      border-bottom: 2px solid #fff;\n      position: relative;\n      top: 1px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.mid_cate li.active {\n          border: 0px; } }\n\ndiv.board div.faq section.section1 ul.faq {\n  width: 100%;\n  border-bottom: 2px solid #666;\n  border-top: 2px solid #666;\n  overflow: hidden; }\n  div.board div.faq section.section1 ul.faq div.none p {\n    padding: 50px 20px; }\n  div.board div.faq section.section1 ul.faq li {\n    width: 100%;\n    padding: 25px 10px;\n    border-bottom: 1px solid #d0d0d0;\n    box-sizing: border-box;\n    cursor: pointer; }\n    div.board div.faq section.section1 ul.faq li img {\n      width: 100%;\n      display: block;\n      height: auto; }\n    div.board div.faq section.section1 ul.faq li span {\n      display: inline-block;\n      color: #999;\n      width: 100px; }\n    div.board div.faq section.section1 ul.faq li b {\n      font-weight: normal; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li b {\n          display: block; } }\n    div.board div.faq section.section1 ul.faq li label {\n      display: inline-block;\n      width: 130px;\n      color: #999;\n      margin: 0px 10px; }\n      @media (max-width: 1024px) {\n        div.board div.faq section.section1 ul.faq li label {\n          display: block;\n          margin: 0px; } }\n    div.board div.faq section.section1 ul.faq li:last-child {\n      border-bottom: 0px; }\n    div.board div.faq section.section1 ul.faq li:nth-child(2n) {\n      padding: 55px 10px;\n      background-color: #f9f9f9;\n      border-bottom: 1px solid #d0d0d0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) p {\n        font-size: 0.875rem; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).active {\n        visibility: initial; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n).beactive {\n        visibility: hidden;\n        height: 0;\n        padding: 0; }\n      div.board div.faq section.section1 ul.faq li:nth-child(2n) span {\n        background-color: #20a6f2; }\n    div.board div.faq section.section1 ul.faq li div.close_btn {\n      display: block;\n      background-color: #20a6f2;\n      color: #fff; }\n      div.board div.faq section.section1 ul.faq li div.close_btn:hover {\n        background-color: #0c8bd3; }\n\ndiv.board div.support div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\ndiv.board div.support section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna div.board_head {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + "); }\n\ndiv.board div.qna section.section1 h2 {\n  margin-bottom: 30px;\n  font-weight: bold;\n  text-align: center; }\n\ndiv.board div.qna section.section1 nav {\n  width: 100%; }\n  div.board div.qna section.section1 nav div {\n    display: inline-block;\n    margin-right: 10px;\n    margin-top: 0;\n    margin-bottom: 10px; }\n\ndiv.board div.qna section.section1 table td:nth-child(2) {\n  width: 20%; }\n  @media (max-width: 767px) {\n    div.board div.qna section.section1 table td:nth-child(2) {\n      width: 40%; } }\n\ndiv.board div.qna section.section1 table td:nth-child(3) {\n  width: 50%; }\n\ndiv.board div.qna section.section1 p.btn {\n  width: 100%;\n  text-align: center; }\n  div.board div.qna section.section1 p.btn button {\n    margin-top: 20px;\n    padding: 5px 35px; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -77470,8 +77470,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
 Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_8__["BootstrapVue"])
 Vue.use(bootstrap_vue__WEBPACK_IMPORTED_MODULE_8__["IconsPlugin"])
 Vue.use(vue_carousel__WEBPACK_IMPORTED_MODULE_5___default.a);
@@ -77486,7 +77484,6 @@ new Vue({
     template:`<div>
                     <AppHeader/>
                     <router-view/>
-
                     <widgets/>
                     <topWidget/>
                     <contactPopup 
@@ -77505,6 +77502,7 @@ new Vue({
             this.show = Data
         })
     },
+
     components:{
         AppHeader: _common_header__WEBPACK_IMPORTED_MODULE_2__["default"],
         AppFooter: _common_footer__WEBPACK_IMPORTED_MODULE_3__["default"],
@@ -77585,6 +77583,8 @@ const boardPage = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _faq_board__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./faq_board */ "./src/board/faq_board.js");
+/* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
+
 
 
 
@@ -77598,7 +77598,7 @@ const faq = {
 
         <nav class='lnb faq_lnb'>
             <div class='wrap'>
-                <ul v-if="mode == 'all'">
+                <ul>
                     <li 
                         v-for="listCate in listCates" 
                         @click="filterData(listCate)" 
@@ -77613,10 +77613,40 @@ const faq = {
             </div>
         </nav>
         
-        <faqBoard v-bind:mode='filterCate' v-if="this.mode=='all'"/>
-        <faqBoard mode='pro' v-else-if="this.mode=='pro'"/>
-        <faqBoard mode='pos' v-else-if="this.mode=='pos'"/>
+        <section class='wrap'>
+            <h2>자주 묻는 질문 FAQ</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>번호</td>
+                        <td>분류</td>
+                        <td>제목</td>
+                        <td>날짜</td>
+                        <td>조회수</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <router-link tag='tr' v-bind:to="'zoomfaq/'+filter.idx" v-for="(filter,i) in filters" v-if='i < limit && i >= start'>
+                            <td>{{i+1}}</td>
+                            <td>
+                                <span v-if="filter.cate=='pro'">win-win Pro</span>
+                                <span v-else-if="filter.cate=='pos'">win-win 포스</span>
+                                <span v-else-if="filter.cate=='etc'">기타</span>
+                            </td>
+                            <td>{{filter.tit}}</td>
 
+                            <td>{{$moment(filter.date).format('YYYY-MM-DD')}}</td>
+                            <td >{{filter.join}}</td>
+                            
+                        </router-link>
+                </tbody>
+            </table>
+
+            <listNumber 
+            v-bind:DataLength='Math.ceil((filters.length)/10)' 
+            v-bind:nowpage='limit-10'/>
+
+        </section>
     </div>`,
     data(){
         return{
@@ -77627,15 +77657,22 @@ const faq = {
                 {Name:'etc', value:false},
             ],
             filterCate:'all',
-            filters:[],
+            faqs:null,
+            filters:null,
             midCates:'',
             ActiveCate:'전체',
+            limit:10,
+            start:0
         }
     },
     components:{
+        listNumber: _common_list_number__WEBPACK_IMPORTED_MODULE_2__["default"],
         faqBoard: _faq_board__WEBPACK_IMPORTED_MODULE_1__["default"]
     },
- 
+    created() {
+        this.getData();
+
+    },
     mounted() {
         _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$on('NextPage', (Data) => {
             this.start = Data * 10;
@@ -77646,18 +77683,41 @@ const faq = {
     methods: {
         //여기 수정
         filterData(cates){
-            this.ActiveCate = '전체'
+            // this.ActiveCate = '전체'
 
             for(let i = 0; i<this.listCates.length; i++){
                 this.listCates[i].value = false
             }
-            console.log(cates)
+
             cates.value = true
-            this.filterCate = cates.Name
+            if(cates.Name == 'all'){
+                this.filters = this.faqs
+            }
+            else{
 
-
-            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('filter',cates)
+                this.filters = this.faqs.filter((x)=>{
+                    return x.cate == cates.Name
+                })
+            }
+            _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
+                DataLength: Math.ceil((this.filters.length) / 10),
+                nowpage: this.limit - 10
+            })
+            this.start = 0
+            this.limit = 10
         },
+        getData(){
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/faq"
+            this.$Axios.get(BaseData)
+            .then((result)=>{
+                this.faqs = result.data.result;
+                this.filters = this.faqs;
+                _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
+                    DataLength: Math.ceil((this.filters.length) / 10),
+                    nowpage: this.limit - 10
+                })
+            })
+        }
     },
 }
 
@@ -78280,6 +78340,85 @@ const zoom = {
 
 /***/ }),
 
+/***/ "./src/board/zoom_faq.js":
+/*!*******************************!*\
+  !*** ./src/board/zoom_faq.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+
+const zoom = {
+    props:['idx','data'],
+    template:`<div class='support'>
+                    
+                    <div class='board_head'>
+                          <h3>고객지원센터</h3>
+                    </div>
+                    <section class='section1 zoom'>
+                        <div class='wrap'>
+                              <h2>자주 묻는 질문</h2>
+                              <div class='zoom_table'>
+                                    <div class='head'>
+                                          <p>자주 묻는 질문
+                                          <b-icon icon="chevron-compact-right"/> 
+                                          <b v-if="board.cate === 'pro'">Win-Win Pro</b>
+                                          <b v-else-if="board.cate === 'pos'">Win-Win 포스</b>
+                                          <b v-else-if="board.cate === 'etc'">기타</b>
+
+                                          <span> {{$moment(board.date).format('YYYY-MM-DD')}}</span>
+                                          <span> 조회수 : {{board.join}}</span>
+                                          </p>
+                                          <h4>{{board.tit}}</h4>
+                                    </div>
+                                    <div class='desc' v-html="board.desc"></div>      
+                         
+                              </div>
+                              <router-link tag='div'  to="/board/faq" class='btn'>목록</router-link>
+                        </div>
+                    </section>
+
+              </div>`,
+              created() {
+                    this.getData(this.idx)
+              },
+              data(){
+                    return{
+                        test:'',
+                        board:{
+                                  no:0,
+                                  cate:'',
+                                  title:"",
+                                  desc:"",
+                                  date:''
+                              }
+                    }
+              },
+              methods: {
+                  getData(idx){
+                        const BaseData = `http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/faq/${idx}`
+                        axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{idx})
+                        .then((result)=>{
+                            this.board = result.data.result[0];
+
+                            this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/faq/join',{
+                              idx:this.board.idx,
+                              join:this.board.join+1
+                          })
+                        })
+                    }
+                  }
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (zoom);
+
+/***/ }),
+
 /***/ "./src/board/zoom_qna.js":
 /*!*******************************!*\
   !*** ./src/board/zoom_qna.js ***!
@@ -78684,7 +78823,7 @@ const Header = {
     template:`<header >
         <moNav v-bind:show='moNav'/>
         <div class='wrap'>
-            <router-link to='/' tag='h1'>
+            <router-link :to="{name:'main'}" tag='h1'>
                 <img v-bind:src='logo' class='default'>
                 <img v-bind:src='logo_b' class='black'>
             </router-link>
@@ -78713,9 +78852,9 @@ const Header = {
                     </div>
                 </li>
                 <li>
-                    <router-link to='/board/faq/all' tag='span'>고객 지원 센터</router-link>
+                    <router-link to='/board/faq' tag='span'>고객 지원 센터</router-link>
                     <div class='hidden_menu'>
-                        <router-link to='/board/faq/all' tag='p'>자주하는 질문</router-link>    
+                        <router-link to='/board/faq' tag='p'>자주하는 질문</router-link>    
                         <router-link to='/board/qna' tag='p'>묻고 답하기</router-link>    
                         <router-link to='/board/support' tag='p'>고객지원센터</router-link>    
                     </div>
@@ -78732,9 +78871,7 @@ const Header = {
                 <div></div>
             </div>
         </div>
-        <div class='slide_down'>
-      
-        </div>
+        <div class='slide_down'></div>
     </header>`,
     components:{
         moNav: _common_mo_nav__WEBPACK_IMPORTED_MODULE_1__["default"]
@@ -79039,9 +79176,9 @@ const MoNav = {
                     </div>
                 </li>
                     <li>
-                    <router-link to='/board/faq/all' tag='span'>고객 지원 센터</router-link>
+                    <router-link to='/board/faq' tag='span'>고객 지원 센터</router-link>
                         <div class='sub_menu'>
-                            <router-link to='/board/faq/all' tag='p'>자주하는 질문</router-link>    
+                            <router-link to='/board/faq' tag='p'>자주하는 질문</router-link>    
                             <router-link to='/board/qna' tag='p'>묻고 답하기</router-link>    
                             <router-link to='/board/support' tag='p'>고객지원센터</router-link>  
                         </div>
@@ -79773,8 +79910,6 @@ created() {
             return x.active == 1
         })
         this.lists = GetList.slice(0,9)
-        console.log(this.lists)
-
     })
     
 },
@@ -80937,18 +81072,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _product_Plus__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./product/Plus */ "./src/product/Plus.js");
 /* harmony import */ var _board_boardpage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./board/boardpage */ "./src/board/boardpage.js");
 /* harmony import */ var _board_faq__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./board/faq */ "./src/board/faq.js");
-/* harmony import */ var _board_qna__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./board/qna */ "./src/board/qna.js");
-/* harmony import */ var _board_support__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./board/support */ "./src/board/support.js");
-/* harmony import */ var _board_zoom__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./board/zoom */ "./src/board/zoom.js");
-/* harmony import */ var _board_zoom_qna__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./board/zoom_qna */ "./src/board/zoom_qna.js");
-/* harmony import */ var _info_infopage__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./info/infopage */ "./src/info/infopage.js");
-/* harmony import */ var _info_insectPage__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./info/insectPage */ "./src/info/insectPage.js");
-/* harmony import */ var _info_farmPage__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./info/farmPage */ "./src/info/farmPage.js");
-/* harmony import */ var _info_moviepage__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./info/moviepage */ "./src/info/moviepage.js");
-/* harmony import */ var _info_material__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./info/material */ "./src/info/material.js");
-/* harmony import */ var _info_material_view__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./info/material_view */ "./src/info/material_view.js");
-/* harmony import */ var _board_qna_write__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./board/qna_write */ "./src/board/qna_write.js");
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
+/* harmony import */ var _board_zoom_faq__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./board/zoom_faq */ "./src/board/zoom_faq.js");
+/* harmony import */ var _board_qna__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./board/qna */ "./src/board/qna.js");
+/* harmony import */ var _board_support__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./board/support */ "./src/board/support.js");
+/* harmony import */ var _board_zoom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./board/zoom */ "./src/board/zoom.js");
+/* harmony import */ var _board_zoom_qna__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./board/zoom_qna */ "./src/board/zoom_qna.js");
+/* harmony import */ var _info_infopage__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./info/infopage */ "./src/info/infopage.js");
+/* harmony import */ var _info_insectPage__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./info/insectPage */ "./src/info/insectPage.js");
+/* harmony import */ var _info_farmPage__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./info/farmPage */ "./src/info/farmPage.js");
+/* harmony import */ var _info_moviepage__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./info/moviepage */ "./src/info/moviepage.js");
+/* harmony import */ var _info_material__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./info/material */ "./src/info/material.js");
+/* harmony import */ var _info_material_view__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./info/material_view */ "./src/info/material_view.js");
+/* harmony import */ var _board_qna_write__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./board/qna_write */ "./src/board/qna_write.js");
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
+
 
 
 
@@ -81018,36 +81155,36 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
         {
             path:'/Information',
             name:'information',
-            component:_info_infopage__WEBPACK_IMPORTED_MODULE_14__["default"],
+            component:_info_infopage__WEBPACK_IMPORTED_MODULE_15__["default"],
             children:[
                 {
                     path:'',
-                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_16__["default"],
+                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_17__["default"],
                 },
                 {
                     path:'info1',
-                    component:_info_insectPage__WEBPACK_IMPORTED_MODULE_15__["default"],
+                    component:_info_insectPage__WEBPACK_IMPORTED_MODULE_16__["default"],
                 },
                 {
                     path:'info2',
-                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_16__["default"],
+                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_17__["default"],
                     name:'farm'
 
                 },
                 {
                     path:'info3',
-                    component:_info_moviepage__WEBPACK_IMPORTED_MODULE_17__["default"],
+                    component:_info_moviepage__WEBPACK_IMPORTED_MODULE_18__["default"],
                     name:'movie'
                 },
                 {
                     path:'info4',
-                    component:_info_material__WEBPACK_IMPORTED_MODULE_18__["default"],
+                    component:_info_material__WEBPACK_IMPORTED_MODULE_19__["default"],
                     name:'material',
                 },
                 {
                     path:'info4/zoom/:idx',
                     props:true,
-                    component:_info_material_view__WEBPACK_IMPORTED_MODULE_19__["default"]
+                    component:_info_material_view__WEBPACK_IMPORTED_MODULE_20__["default"]
 
                 }
 
@@ -81063,31 +81200,35 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                     component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"]
                 },
                 {
-                    path:'faq/:mode',
+                    path:'faq',
                     component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"],
-                    props:true
+                },
+                {
+                    props:true,
+                    path:'zoomfaq/:idx',
+                    component:_board_zoom_faq__WEBPACK_IMPORTED_MODULE_10__["default"]
                 },
                 {
                     path:'qna',
-                    component:_board_qna__WEBPACK_IMPORTED_MODULE_10__["default"]
+                    component:_board_qna__WEBPACK_IMPORTED_MODULE_11__["default"]
                 },
                 {
                     props:true,
                     path:'zoomqna/:idx',
-                    component:_board_zoom_qna__WEBPACK_IMPORTED_MODULE_13__["default"]
+                    component:_board_zoom_qna__WEBPACK_IMPORTED_MODULE_14__["default"]
                 },
                 {
                     path:'qnawrite/',
-                    component:_board_qna_write__WEBPACK_IMPORTED_MODULE_20__["default"]
+                    component:_board_qna_write__WEBPACK_IMPORTED_MODULE_21__["default"]
                 },
                 {
                     path:'support',
-                    component:_board_support__WEBPACK_IMPORTED_MODULE_11__["default"],
+                    component:_board_support__WEBPACK_IMPORTED_MODULE_12__["default"],
                 },
                 {
                     props:true,
                     path:'zoom/:idx',
-                    component:_board_zoom__WEBPACK_IMPORTED_MODULE_12__["default"]
+                    component:_board_zoom__WEBPACK_IMPORTED_MODULE_13__["default"]
                 }
             ]
         },
@@ -81097,7 +81238,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
         }
     ],
     scrollBehavior (to, from, savedPosition) {
-        _eventbus__WEBPACK_IMPORTED_MODULE_21__["default"].$emit('moNav',false)
+        _eventbus__WEBPACK_IMPORTED_MODULE_22__["default"].$emit('moNav',false)
         return { x: 0, y: 0 }
       }
     

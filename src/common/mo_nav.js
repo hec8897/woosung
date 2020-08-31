@@ -29,9 +29,9 @@ const MoNav = {
                     </div>
                 </li>
                     <li>
-                    <router-link to='/board/faq/all' tag='span'>고객 지원 센터</router-link>
+                    <router-link to='/board/faq' tag='span'>고객 지원 센터</router-link>
                         <div class='sub_menu'>
-                            <router-link to='/board/faq/all' tag='p'>자주하는 질문</router-link>    
+                            <router-link to='/board/faq' tag='p'>자주하는 질문</router-link>    
                             <router-link to='/board/qna' tag='p'>묻고 답하기</router-link>    
                             <router-link to='/board/support' tag='p'>고객지원센터</router-link>  
                         </div>

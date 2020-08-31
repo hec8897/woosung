@@ -44,8 +44,6 @@ created() {
             return x.active == 1
         })
         this.lists = GetList.slice(0,9)
-        console.log(this.lists)
-
     })
     
 },

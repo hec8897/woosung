@@ -13,8 +13,6 @@ import EventBus from './eventbus'
 import axios from 'axios'
 import VueMoment from 'vue-moment';
 
-
-
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(VueCarousel);
@@ -29,7 +27,6 @@ new Vue({
     template:`<div>
                     <AppHeader/>
                     <router-view/>
-
                     <widgets/>
                     <topWidget/>
                     <contactPopup 
@@ -48,6 +45,7 @@ new Vue({
             this.show = Data
         })
     },
+
     components:{
         AppHeader,
         AppFooter,
