@@ -1,4 +1,3 @@
-import axios from 'axios';
 import router from '../router'
 
 const qnaWrite = {
@@ -83,14 +82,14 @@ const qnaWrite = {
                 write:"",
                 desc:"",
                 private:false,
-                password:""
+                password:"",
+                date:this.$moment().format('YYYY-MM-DD')
             }
         }
     },
     methods: { 
         PostData(){
             this.mode = 'insert';
-            const BaseData = "../woosung_api/qna.create.php";
 
             let cate = new Array();
 
@@ -118,10 +117,12 @@ const qnaWrite = {
                     this.mode = 'load'
                 }
                 else{
-                    axios.post(BaseData,this.InsertData)
+                    const BaseData = `http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/qna/new`
+
+                    this.$Axios.post(BaseData,this.InsertData)
                     .then((result)=>{
                         this.mode = 'load'
-                        if(result.data.phpResult == 'ok'){
+                        if(result.data.query == 'ok'){
                             alert('접수되었습니다.')
                             router.go(-1)
                         }

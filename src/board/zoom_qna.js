@@ -1,4 +1,3 @@
-import axios from 'axios'
 import passwordQna from '../common/password_qna'
 const zoomQna = {
     props:['idx'],
@@ -16,7 +15,7 @@ const zoomQna = {
                                 <h2>묻고 답하기</h2>   
                               <div class='zoom_table'>
                                     <div class='head'>
-                                          <p>묻고 답하기<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{board.date}}</span></p>
+                                          <p>묻고 답하기<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{$moment(board.date).format('YYYY-MM-DD')}}</span></p>
                                           <h4>{{board.title}}</h4>
                                           <p>작성자: {{board.writer}}</p>
                                     </div>
@@ -55,12 +54,11 @@ const zoomQna = {
                   },
               methods: {
                   getData(idx){
-                      const BaseData = "../woosung_api/qna.data.php"
-                      axios.post(BaseData,{idx})
+                    const BaseData = `http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/qna/${idx}`
+                      this.$Axios.post(BaseData,{idx})
                       .then((result)=>{
                           this.board = result.data.result[0];
                           this.mode = 'load'
-                          console.log(result.data.result[0])
                       })
                   },
                   parent(){

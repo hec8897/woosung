@@ -77906,9 +77906,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
 /* harmony import */ var _common_loginpage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../common/loginpage */ "./src/common/loginpage.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_3__);
-
 
 
 
@@ -77938,7 +77935,7 @@ const download = {
                         </tr>
                     </thead>
                     <tbody>
-                        <router-link tag='tr' v-bind:to="'zoomqna/'+board.no" v-for="(board,i) in boards" v-if='i < limit && i >= start'>
+                        <router-link tag='tr' v-bind:to="'zoomqna/'+board.idx" v-for="(board,i) in boards" v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
                           
 
@@ -77947,7 +77944,7 @@ const download = {
                             <td v-if="board.private" class='r_text'>비공개 글입니다</td>
                             <td v-else>{{board.title}}</td>
                             <td>{{board.writer}}</td>
-                            <td >{{board.date}}</td>
+                            <td >{{$moment(board.date).format('YYYY-MM-DD')}}</td>
                             
                         </router-link>
                     </tbody>
@@ -77992,9 +77989,11 @@ const download = {
             this.writeMode == true?this.writeMode = false:this.writeMode = true
         },
         getData(){
-            const BaseData = "../woosung_api/qna.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'main'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/qna"
+
+            this.$Axios.get(BaseData)
             .then((result)=>{
+
                 this.boards = result.data.result;
                 _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
                     DataLength: Math.ceil((this.boards.length) / 10),
@@ -78019,10 +78018,7 @@ const download = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../router */ "./src/router.js");
-
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../router */ "./src/router.js");
 
 
 const qnaWrite = {
@@ -78107,14 +78103,14 @@ const qnaWrite = {
                 write:"",
                 desc:"",
                 private:false,
-                password:""
+                password:"",
+                date:this.$moment().format('YYYY-MM-DD')
             }
         }
     },
     methods: { 
         PostData(){
             this.mode = 'insert';
-            const BaseData = "../woosung_api/qna.create.php";
 
             let cate = new Array();
 
@@ -78142,12 +78138,14 @@ const qnaWrite = {
                     this.mode = 'load'
                 }
                 else{
-                    axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,this.InsertData)
+                    const BaseData = `http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/qna/new`
+
+                    this.$Axios.post(BaseData,this.InsertData)
                     .then((result)=>{
                         this.mode = 'load'
-                        if(result.data.phpResult == 'ok'){
+                        if(result.data.query == 'ok'){
                             alert('접수되었습니다.')
-                            _router__WEBPACK_IMPORTED_MODULE_1__["default"].go(-1)
+                            _router__WEBPACK_IMPORTED_MODULE_0__["default"].go(-1)
                         }
                     })
                 }
@@ -78170,9 +78168,6 @@ const qnaWrite = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 /* harmony import */ var _common_list_number__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/list-number */ "./src/common/list-number.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
-
 
 
 
@@ -78195,7 +78190,7 @@ const support = {
                         </tr>
                     </thead>
                     <tbody>
-                        <router-link v-bind:to="'zoom/'+board.no" tag='tr' v-for='(board,i) in boards' v-if='i < limit && i >= start'>
+                        <router-link v-bind:to="'zoom/'+board.idx" tag='tr' v-for='(board,i) in boards' v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
                             <td>채널 <b-icon icon="chevron-compact-right"/> {{board.cate}}</td>
                             <td>{{board.title}}
@@ -78203,7 +78198,7 @@ const support = {
                             <td>
                                 {{board.join}}                       
                             </td>
-                            <td>{{board.date}}</td>
+                            <td>{{$moment(board.date).format('YYYY-MM-DD')}}</td>
                         </router-link>
                     </tbody>
                 </table>
@@ -78239,11 +78234,13 @@ const support = {
     },
     methods: {
             getData(){
-                        const BaseData = "../woosung_api/support.data.php"
-                        axios__WEBPACK_IMPORTED_MODULE_2___default.a.post(BaseData,{mode:'list'})
+                        const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support"
+                        this.$Axios.get(BaseData)
                         .then((result)=>{
-                            console.log(result)
-                            this.boards = result.data.result;
+                            this.boards = result.data.result.filter((x)=>{
+                                return x.active == 1
+
+                            });
                             _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('UpdateList', {
                                 DataLength: Math.ceil((this.boards.length) / 10),
                                 nowpage: this.limit - 10
@@ -78289,7 +78286,7 @@ const zoom = {
                                           <b v-else-if="board.cate === 'info'">공지사항</b>
                                           <b v-else-if="board.cate === 'notice'">정보</b>
 
-                                          <span> {{board.date}}</span>
+                                          <span> {{$moment(board.date).format('YYYY-MM-DD')}}</span>
                                           </p>
                                           <h4>{{board.title}}</h4>
                                     </div>
@@ -78322,15 +78319,17 @@ const zoom = {
               },
               methods: {
                   getData(idx){
-                        const BaseData = "../woosung_api/support.data.php"
-                        axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{idx,join:true})
+                        const BaseData = `http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support/${idx}`
+                        axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{idx})
                         .then((result)=>{
-
                             this.board = result.data.result[0];
-                            this.mode = 'load'
-                            if(this.board.files!=null){
-                              this.files = this.board.files.split(',');
-                          }
+                            
+                            if(this.board.files!=null) return this.files = this.board.files.split(',');
+
+                            this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support/join',{
+                                idx,join:this.board.join+1
+                            })
+
                         })
                     }
                   }
@@ -78428,10 +78427,7 @@ const zoom = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _common_password_qna__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../common/password_qna */ "./src/common/password_qna.js");
-
+/* harmony import */ var _common_password_qna__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../common/password_qna */ "./src/common/password_qna.js");
 
 const zoomQna = {
     props:['idx'],
@@ -78449,7 +78445,7 @@ const zoomQna = {
                                 <h2>묻고 답하기</h2>   
                               <div class='zoom_table'>
                                     <div class='head'>
-                                          <p>묻고 답하기<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{board.date}}</span></p>
+                                          <p>묻고 답하기<b-icon icon="chevron-compact-right"/> {{board.cate}} <span> {{$moment(board.date).format('YYYY-MM-DD')}}</span></p>
                                           <h4>{{board.title}}</h4>
                                           <p>작성자: {{board.writer}}</p>
                                     </div>
@@ -78468,7 +78464,7 @@ const zoomQna = {
                     </section>
                 </div>`,
             components:{
-                passwordQna: _common_password_qna__WEBPACK_IMPORTED_MODULE_1__["default"]
+                passwordQna: _common_password_qna__WEBPACK_IMPORTED_MODULE_0__["default"]
             },
             created() {
                   this.getData(this.idx)
@@ -78488,12 +78484,11 @@ const zoomQna = {
                   },
               methods: {
                   getData(idx){
-                      const BaseData = "../woosung_api/qna.data.php"
-                      axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{idx})
+                    const BaseData = `http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/qna/${idx}`
+                      this.$Axios.post(BaseData,{idx})
                       .then((result)=>{
                           this.board = result.data.result[0];
                           this.mode = 'load'
-                          console.log(result.data.result[0])
                       })
                   },
                   parent(){
@@ -79929,10 +79924,6 @@ created() {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "../../node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
-
-
 const MainNotice = {
     template:`    <div class='content notice'>
         
@@ -79945,23 +79936,24 @@ const MainNotice = {
 
                         <ul class='notices'>
                             <li v-for='(notice,i) in notices' v-if="i<=6">
-                                <router-link tag='p' v-bind:to="'/board/zoom/'+notice.no" v-html="notice.title"/>
-                                <span v-text="notice.date"></span>
+                                <router-link tag='p' v-bind:to="'/board/zoom/'+notice.idx" v-html="notice.title"/>
+                                <span>{{$moment(notice.date).format('YYYY-MM-DD')}}</span>
                             </li>
                         </ul>
 
                     </div>`,
                     data(){
                         return{
-                            notices:""
+                            notices:null
                         }
                     },
                     created() {
-                        const BaseData = "../woosung_api/support.data.php"
-
-                        axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{mode:'main'})
+                        const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support"
+                        this.$Axios.get(BaseData)
                         .then((result)=>{
-                            this.notices = result.data.result;
+                            this.notices = result.data.result.filter((x)=>{
+                                return x.active == 1 && x.fixed == 1
+                            });
                         })
                     },
 }
@@ -80002,7 +79994,7 @@ const MainPage = {
                 <div class='footer_banner'>
                 <div class='wrap'>
                     <div>
-                        <h3><b>적은 투자</b> 큰 효과 <b>다양한 기능</b>으로 업무를 신속하고 편리하게</br>
+                        <h3><b>1적은 투자</b> 큰 효과 <b>다양한 기능</b>으로 업무를 신속하고 편리하게</br>
                         <b>스마트 시대!</b> 사업주님의 사업장도 스마트 해집니다.</h3>
                         <div class='btn' @click='openPopup'>
                             간단 상담 신청
@@ -80264,7 +80256,7 @@ const SectionInfoMovie ={
         const BaseData = "../woosung_api/youtube.data.php"
         axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(BaseData,{mode:'page'})
         .then((result)=>{
-            this.movies = result.data.result
+            this.movies = result.data.result.slice(0,8)
             this.mode = 'load'
 
             _eventbus__WEBPACK_IMPORTED_MODULE_2__["default"].$emit('UpdateList', {

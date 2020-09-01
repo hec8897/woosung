@@ -1,6 +1,5 @@
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number'
-import axios from 'axios';
 
 const support = {
     template:`<div class='support'>
@@ -21,7 +20,7 @@ const support = {
                         </tr>
                     </thead>
                     <tbody>
-                        <router-link v-bind:to="'zoom/'+board.no" tag='tr' v-for='(board,i) in boards' v-if='i < limit && i >= start'>
+                        <router-link v-bind:to="'zoom/'+board.idx" tag='tr' v-for='(board,i) in boards' v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
                             <td>채널 <b-icon icon="chevron-compact-right"/> {{board.cate}}</td>
                             <td>{{board.title}}
@@ -29,7 +28,7 @@ const support = {
                             <td>
                                 {{board.join}}                       
                             </td>
-                            <td>{{board.date}}</td>
+                            <td>{{$moment(board.date).format('YYYY-MM-DD')}}</td>
                         </router-link>
                     </tbody>
                 </table>
@@ -65,11 +64,13 @@ const support = {
     },
     methods: {
             getData(){
-                        const BaseData = "../woosung_api/support.data.php"
-                        axios.post(BaseData,{mode:'list'})
+                        const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support"
+                        this.$Axios.get(BaseData)
                         .then((result)=>{
-                            console.log(result)
-                            this.boards = result.data.result;
+                            this.boards = result.data.result.filter((x)=>{
+                                return x.active == 1
+
+                            });
                             eventBus.$emit('UpdateList', {
                                 DataLength: Math.ceil((this.boards.length) / 10),
                                 nowpage: this.limit - 10

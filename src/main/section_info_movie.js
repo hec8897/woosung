@@ -65,7 +65,7 @@ const SectionInfoMovie ={
         const BaseData = "../woosung_api/youtube.data.php"
         axios.post(BaseData,{mode:'page'})
         .then((result)=>{
-            this.movies = result.data.result
+            this.movies = result.data.result.slice(0,8)
             this.mode = 'load'
 
             eventBus.$emit('UpdateList', {

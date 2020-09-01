@@ -1,5 +1,3 @@
-import axios from 'axios'
-
 const MainNotice = {
     template:`    <div class='content notice'>
         
@@ -12,23 +10,24 @@ const MainNotice = {
 
                         <ul class='notices'>
                             <li v-for='(notice,i) in notices' v-if="i<=6">
-                                <router-link tag='p' v-bind:to="'/board/zoom/'+notice.no" v-html="notice.title"/>
-                                <span v-text="notice.date"></span>
+                                <router-link tag='p' v-bind:to="'/board/zoom/'+notice.idx" v-html="notice.title"/>
+                                <span>{{$moment(notice.date).format('YYYY-MM-DD')}}</span>
                             </li>
                         </ul>
 
                     </div>`,
                     data(){
                         return{
-                            notices:""
+                            notices:null
                         }
                     },
                     created() {
-                        const BaseData = "../woosung_api/support.data.php"
-
-                        axios.post(BaseData,{mode:'main'})
+                        const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support"
+                        this.$Axios.get(BaseData)
                         .then((result)=>{
-                            this.notices = result.data.result;
+                            this.notices = result.data.result.filter((x)=>{
+                                return x.active == 1 && x.fixed == 1
+                            });
                         })
                     },
 }

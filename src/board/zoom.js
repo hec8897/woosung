@@ -19,7 +19,7 @@ const zoom = {
                                           <b v-else-if="board.cate === 'info'">공지사항</b>
                                           <b v-else-if="board.cate === 'notice'">정보</b>
 
-                                          <span> {{board.date}}</span>
+                                          <span> {{$moment(board.date).format('YYYY-MM-DD')}}</span>
                                           </p>
                                           <h4>{{board.title}}</h4>
                                     </div>
@@ -52,15 +52,17 @@ const zoom = {
               },
               methods: {
                   getData(idx){
-                        const BaseData = "../woosung_api/support.data.php"
-                        axios.post(BaseData,{idx,join:true})
+                        const BaseData = `http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support/${idx}`
+                        axios.post(BaseData,{idx})
                         .then((result)=>{
-
                             this.board = result.data.result[0];
-                            this.mode = 'load'
-                            if(this.board.files!=null){
-                              this.files = this.board.files.split(',');
-                          }
+                            
+                            if(this.board.files!=null) return this.files = this.board.files.split(',');
+
+                            this.$Axios.post('http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/support/join',{
+                                idx,join:this.board.join+1
+                            })
+
                         })
                     }
                   }

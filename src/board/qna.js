@@ -1,7 +1,6 @@
 import eventBus from '../eventbus';
 import listNumber from '../common/list-number'
 import LoginPage from '../common/loginpage';
-import axios from 'axios';
 
 const download = {
     template:`<div class='qna'>
@@ -28,7 +27,7 @@ const download = {
                         </tr>
                     </thead>
                     <tbody>
-                        <router-link tag='tr' v-bind:to="'zoomqna/'+board.no" v-for="(board,i) in boards" v-if='i < limit && i >= start'>
+                        <router-link tag='tr' v-bind:to="'zoomqna/'+board.idx" v-for="(board,i) in boards" v-if='i < limit && i >= start'>
                             <td>{{i+1}}</td>
                           
 
@@ -37,7 +36,7 @@ const download = {
                             <td v-if="board.private" class='r_text'>비공개 글입니다</td>
                             <td v-else>{{board.title}}</td>
                             <td>{{board.writer}}</td>
-                            <td >{{board.date}}</td>
+                            <td >{{$moment(board.date).format('YYYY-MM-DD')}}</td>
                             
                         </router-link>
                     </tbody>
@@ -82,9 +81,11 @@ const download = {
             this.writeMode == true?this.writeMode = false:this.writeMode = true
         },
         getData(){
-            const BaseData = "../woosung_api/qna.data.php"
-            axios.post(BaseData,{mode:'main'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/qna"
+
+            this.$Axios.get(BaseData)
             .then((result)=>{
+
                 this.boards = result.data.result;
                 eventBus.$emit('UpdateList', {
                     DataLength: Math.ceil((this.boards.length) / 10),
