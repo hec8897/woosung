@@ -2,6 +2,7 @@ import VueRouter from 'vue-router';
 import Mainpage from './main/mainpage';
 import About from './about/aboutpage';
 import CeoAbout from './about/ceo_about'
+import PlsAbout from './about/pls'
 import Product from './product/productpage'
 import Pro from './product/pro'
 import Pos from './product/pos'
@@ -38,6 +39,10 @@ const router = new VueRouter({
                 {
                     path:'',
                     component:CeoAbout
+                },
+                {
+                    path:'pls',
+                    component:PlsAbout
                 }
             ]
         },

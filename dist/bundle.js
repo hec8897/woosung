@@ -1912,6 +1912,19 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./image/about/menu_pls.jpg":
+/*!**********************************!*\
+  !*** ./image/about/menu_pls.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "dist/image/menu_pls.jpg");
+
+/***/ }),
+
 /***/ "./image/arrow_b.png":
 /*!***************************!*\
   !*** ./image/arrow_b.png ***!
@@ -55372,10 +55385,12 @@ module.exports = __webpack_require__(/*! ./modules/_core */ "./node_modules/core
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
 var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/about/menu_ceo.jpg */ "./image/about/menu_ceo.jpg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../image/about/menu_pls.jpg */ "./image/about/menu_pls.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 50px;\n  background-position: center; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n  @media (max-width: 1024px) {\n    div.about div.about_head {\n      background-position: right; } }\n\ndiv.about div.about_contant section {\n  padding: 75px 0px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section {\n      padding: 50px 0px; } }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 75px; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.obj {\n      width: 75%;\n      height: 600px;\n      bottom: -200px; } }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.wrap div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n    @media (max-width: 767px) {\n      div.about div.about_contant div.wrap div.text_contant h4 {\n        font-size: 18px; }\n        div.about div.about_contant div.wrap div.text_contant h4.tit {\n          text-align: center; } }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n    @media (max-width: 767px) {\n      div.about div.about_contant section.section1 div.caption {\n        display: none; } }\n\n@media (max-width: 767px) {\n  div.about div.about_contant section.section2 {\n    padding-top: 0; } }\n\ndiv.about div.about_contant section.section2 div.text_contant {\n  width: 40%;\n  margin-left: 10%; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n\ndiv.about div.about_contant section.section2 div.caption {\n  width: 45%;\n  max-width: 450px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.caption {\n      display: none; } }\n\ndiv.about div.about_contant section.section3 {\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%; }\n  div.about div.about_contant section div.fig img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section5 {\n  padding-bottom: 0;\n  position: relative; }\n  div.about div.about_contant section.section5 div#map {\n    height: 500px;\n    background-color: #d0d0d0;\n    z-index: 80; }\n  div.about div.about_contant section.section5 div.map_btns {\n    text-align: center;\n    position: absolute;\n    bottom: 30px;\n    z-index: 90;\n    left: 50%;\n    transform: translateX(-50%); }\n    div.about div.about_contant section.section5 div.map_btns a.map_btn {\n      cursor: pointer;\n      width: 220px;\n      font-size: 14px;\n      padding: 15px 0px;\n      background-color: #4682B4;\n      display: inline-block;\n      margin: 5px;\n      color: #fff;\n      transition: .1s ease-in-out; }\n      div.about div.about_contant section.section5 div.map_btns a.map_btn:hover {\n        background-color: #568ebd; }\n", ""]);
+exports.push([module.i, ".wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n  @media (max-width: 1200px) {\n    .wrap {\n      max-width: 98%; } }\n\n.mo {\n  visibility: hidden; }\n  @media (max-width: 767px) {\n    .mo {\n      visibility: initial; } }\n\nsection {\n  padding: 100px 0px; }\n  @media (max-width: 767px) {\n    section {\n      padding: 50px 0px; } }\n\nstrong {\n  font-weight: bold;\n  color: #4682B4; }\n\nspan.more {\n  cursor: pointer;\n  position: absolute;\n  right: 0;\n  font-size: 20px;\n  padding: 5px;\n  border-radius: 5px;\n  transition: .1s ease-in; }\n  span.more b {\n    font-size: 16px; }\n    @media (max-width: 1024px) {\n      span.more b {\n        font-size: 14px; } }\n  span.more:hover {\n    background-color: #87CEFA;\n    color: #fff; }\n  @media (max-width: 1024px) {\n    span.more {\n      font-size: 16 px; } }\n\ndiv.btn {\n  margin: 20px 0px;\n  padding: 8px 30px;\n  border: 1px solid #d0d0d0;\n  display: inline-block;\n  font-size: 0.75rem;\n  transition: .1s ease-in;\n  color: #444; }\n  div.btn:hover {\n    background-color: #4682B4;\n    color: white; }\n  div.btn.red:hover {\n    background-color: #d90125;\n    color: #fff; }\n  div.btn.active {\n    background-color: #4682B4;\n    color: white; }\n\ndiv.popup {\n  position: fixed;\n  width: 100%;\n  height: 100vh;\n  left: 0;\n  top: 0;\n  background-color: rgba(0, 0, 0, 0.5);\n  z-index: 999;\n  cursor: pointer; }\n\n.page {\n  clear: both;\n  margin: 30px auto 10px auto;\n  text-align: center; }\n  .page span {\n    cursor: pointer;\n    display: inline-block;\n    border: 1px solid #dfdfdf;\n    width: 40px;\n    height: 40px;\n    line-height: 40px;\n    background: #fff;\n    margin: 2px; }\n    @media (max-width: 767px) {\n      .page span {\n        width: 30px;\n        height: 30px;\n        line-height: 30px; } }\n    .page span b {\n      font-size: 0.75rem; }\n    .page span.on {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span:hover {\n      border: 1px solid #d90125;\n      color: #d90125; }\n    .page span.none {\n      pointer-events: none;\n      opacity: 0.3; }\n\ndiv.about div.about_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  margin-bottom: 50px;\n  background-position: center; }\n  div.about div.about_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    text-align: center;\n    letter-spacing: 2px; }\n  @media (max-width: 1024px) {\n    div.about div.about_head {\n      background-position: right; } }\n\ndiv.about div.pls_head {\n  width: 100%;\n  height: 500px;\n  background-size: cover;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ");\n  margin-bottom: 50px;\n  background-position: center; }\n  div.about div.pls_head h3 {\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%, -50%);\n    font-size: 2.2rem;\n    color: #fff;\n    font-weight: bold;\n    text-align: center;\n    letter-spacing: 2px; }\n  @media (max-width: 1024px) {\n    div.about div.pls_head {\n      background-position: right; } }\n\ndiv.about div.about_contant section {\n  padding: 75px 0px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section {\n      padding: 50px 0px; } }\n\ndiv.about div.about_contant h2 {\n  text-align: center;\n  font-weight: bold;\n  margin-bottom: 75px; }\n\ndiv.about div.about_contant div.obj {\n  width: 60%;\n  height: 200px;\n  position: absolute;\n  left: 0;\n  z-index: -1;\n  background-color: #f7f7f7; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.obj {\n      width: 75%;\n      height: 600px;\n      bottom: -200px; } }\n\ndiv.about div.about_contant div.wrap div.text_contant {\n  width: 45%;\n  display: inline-block; }\n  @media (max-width: 767px) {\n    div.about div.about_contant div.wrap div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n  div.about div.about_contant div.wrap div.text_contant h4 {\n    font-size: 24px;\n    margin: 20px 0px; }\n    @media (max-width: 767px) {\n      div.about div.about_contant div.wrap div.text_contant h4 {\n        font-size: 18px; }\n        div.about div.about_contant div.wrap div.text_contant h4.tit {\n          text-align: center; } }\n  div.about div.about_contant div.wrap div.text_contant p {\n    word-break: keep-all;\n    font-size: 16px;\n    line-height: 28px;\n    letter-spacing: -0.5px;\n    margin-bottom: 30px; }\n\ndiv.about div.about_contant div.wrap div.caption {\n  width: 40%;\n  max-width: 450px;\n  display: inline-block;\n  vertical-align: top; }\n  div.about div.about_contant div.wrap div.caption img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section1 {\n  padding-bottom: 0; }\n  div.about div.about_contant section.section1 div.caption {\n    margin-left: 10%;\n    text-align: right; }\n    @media (max-width: 767px) {\n      div.about div.about_contant section.section1 div.caption {\n        display: none; } }\n\n@media (max-width: 767px) {\n  div.about div.about_contant section.section2 {\n    padding-top: 0; } }\n\ndiv.about div.about_contant section.section2 div.text_contant {\n  width: 40%;\n  margin-left: 10%; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.text_contant {\n      width: 95%;\n      display: block;\n      margin: 0 auto; } }\n\ndiv.about div.about_contant section.section2 div.caption {\n  width: 45%;\n  max-width: 450px; }\n  @media (max-width: 767px) {\n    div.about div.about_contant section.section2 div.caption {\n      display: none; } }\n\ndiv.about div.about_contant section.section3 {\n  background-color: #f7f7f7; }\n\ndiv.about div.about_contant section div.fig {\n  width: 100%; }\n  div.about div.about_contant section div.fig img {\n    width: 100%; }\n\ndiv.about div.about_contant section.section5 {\n  padding-bottom: 0;\n  position: relative; }\n  div.about div.about_contant section.section5 div#map {\n    height: 500px;\n    background-color: #d0d0d0;\n    z-index: 80; }\n  div.about div.about_contant section.section5 div.map_btns {\n    text-align: center;\n    position: absolute;\n    bottom: 30px;\n    z-index: 90;\n    left: 50%;\n    transform: translateX(-50%); }\n    div.about div.about_contant section.section5 div.map_btns a.map_btn {\n      cursor: pointer;\n      width: 220px;\n      font-size: 14px;\n      padding: 15px 0px;\n      background-color: #4682B4;\n      display: inline-block;\n      margin: 5px;\n      color: #fff;\n      transition: .1s ease-in-out; }\n      div.about div.about_contant section.section5 div.map_btns a.map_btn:hover {\n        background-color: #568ebd; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -77427,6 +77442,27 @@ methods: {
 
 /***/ }),
 
+/***/ "./src/about/pls.js":
+/*!**************************!*\
+  !*** ./src/about/pls.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const PlsAbout = {
+    template:`<div class='about_contant'>
+    <div class='pls_head'>
+        <h3 class='wrap'>Pls 제도란</h3>
+    </div>
+</div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (PlsAbout);
+
+/***/ }),
+
 /***/ "./src/app.js":
 /*!********************!*\
   !*** ./src/app.js ***!
@@ -81058,25 +81094,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_mainpage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main/mainpage */ "./src/main/mainpage.js");
 /* harmony import */ var _about_aboutpage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./about/aboutpage */ "./src/about/aboutpage.js");
 /* harmony import */ var _about_ceo_about__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about/ceo_about */ "./src/about/ceo_about.js");
-/* harmony import */ var _product_productpage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./product/productpage */ "./src/product/productpage.js");
-/* harmony import */ var _product_pro__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./product/pro */ "./src/product/pro.js");
-/* harmony import */ var _product_pos__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./product/pos */ "./src/product/pos.js");
-/* harmony import */ var _product_Plus__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./product/Plus */ "./src/product/Plus.js");
-/* harmony import */ var _board_boardpage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./board/boardpage */ "./src/board/boardpage.js");
-/* harmony import */ var _board_faq__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./board/faq */ "./src/board/faq.js");
-/* harmony import */ var _board_zoom_faq__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./board/zoom_faq */ "./src/board/zoom_faq.js");
-/* harmony import */ var _board_qna__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./board/qna */ "./src/board/qna.js");
-/* harmony import */ var _board_support__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./board/support */ "./src/board/support.js");
-/* harmony import */ var _board_zoom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./board/zoom */ "./src/board/zoom.js");
-/* harmony import */ var _board_zoom_qna__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./board/zoom_qna */ "./src/board/zoom_qna.js");
-/* harmony import */ var _info_infopage__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./info/infopage */ "./src/info/infopage.js");
-/* harmony import */ var _info_insectPage__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./info/insectPage */ "./src/info/insectPage.js");
-/* harmony import */ var _info_farmPage__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./info/farmPage */ "./src/info/farmPage.js");
-/* harmony import */ var _info_moviepage__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./info/moviepage */ "./src/info/moviepage.js");
-/* harmony import */ var _info_material__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./info/material */ "./src/info/material.js");
-/* harmony import */ var _info_material_view__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./info/material_view */ "./src/info/material_view.js");
-/* harmony import */ var _board_qna_write__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./board/qna_write */ "./src/board/qna_write.js");
-/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
+/* harmony import */ var _about_pls__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./about/pls */ "./src/about/pls.js");
+/* harmony import */ var _product_productpage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./product/productpage */ "./src/product/productpage.js");
+/* harmony import */ var _product_pro__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./product/pro */ "./src/product/pro.js");
+/* harmony import */ var _product_pos__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./product/pos */ "./src/product/pos.js");
+/* harmony import */ var _product_Plus__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./product/Plus */ "./src/product/Plus.js");
+/* harmony import */ var _board_boardpage__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./board/boardpage */ "./src/board/boardpage.js");
+/* harmony import */ var _board_faq__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./board/faq */ "./src/board/faq.js");
+/* harmony import */ var _board_zoom_faq__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./board/zoom_faq */ "./src/board/zoom_faq.js");
+/* harmony import */ var _board_qna__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./board/qna */ "./src/board/qna.js");
+/* harmony import */ var _board_support__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./board/support */ "./src/board/support.js");
+/* harmony import */ var _board_zoom__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./board/zoom */ "./src/board/zoom.js");
+/* harmony import */ var _board_zoom_qna__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./board/zoom_qna */ "./src/board/zoom_qna.js");
+/* harmony import */ var _info_infopage__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./info/infopage */ "./src/info/infopage.js");
+/* harmony import */ var _info_insectPage__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./info/insectPage */ "./src/info/insectPage.js");
+/* harmony import */ var _info_farmPage__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./info/farmPage */ "./src/info/farmPage.js");
+/* harmony import */ var _info_moviepage__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./info/moviepage */ "./src/info/moviepage.js");
+/* harmony import */ var _info_material__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./info/material */ "./src/info/material.js");
+/* harmony import */ var _info_material_view__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./info/material_view */ "./src/info/material_view.js");
+/* harmony import */ var _board_qna_write__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./board/qna_write */ "./src/board/qna_write.js");
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
+
 
 
 
@@ -81117,66 +81155,70 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
                 {
                     path:'',
                     component:_about_ceo_about__WEBPACK_IMPORTED_MODULE_3__["default"]
+                },
+                {
+                    path:'pls',
+                    component:_about_pls__WEBPACK_IMPORTED_MODULE_4__["default"]
                 }
             ]
         },
       
         {
             path:'/product',
-            component:_product_productpage__WEBPACK_IMPORTED_MODULE_4__["default"],
+            component:_product_productpage__WEBPACK_IMPORTED_MODULE_5__["default"],
             name:'product',
             children:[
                 {
                     path:'',
-                    component:_product_pro__WEBPACK_IMPORTED_MODULE_5__["default"],
+                    component:_product_pro__WEBPACK_IMPORTED_MODULE_6__["default"],
                 },
                 {
                     path:'pro',
-                    component:_product_pro__WEBPACK_IMPORTED_MODULE_5__["default"]
+                    component:_product_pro__WEBPACK_IMPORTED_MODULE_6__["default"]
                 },
                 {
                     path:'plus',
-                    component:_product_Plus__WEBPACK_IMPORTED_MODULE_7__["default"]
+                    component:_product_Plus__WEBPACK_IMPORTED_MODULE_8__["default"]
                 },
                 {
                     path:'pos',
-                    component:_product_pos__WEBPACK_IMPORTED_MODULE_6__["default"]
+                    component:_product_pos__WEBPACK_IMPORTED_MODULE_7__["default"]
                 }
             ]
         },
         {
             path:'/Information',
             name:'information',
-            component:_info_infopage__WEBPACK_IMPORTED_MODULE_15__["default"],
+            component:_info_infopage__WEBPACK_IMPORTED_MODULE_16__["default"],
             children:[
                 {
                     path:'',
-                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_17__["default"],
+                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_18__["default"],
                 },
                 {
                     path:'info1',
-                    component:_info_insectPage__WEBPACK_IMPORTED_MODULE_16__["default"],
+                    component:_info_insectPage__WEBPACK_IMPORTED_MODULE_17__["default"],
                 },
                 {
                     path:'info2',
-                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_17__["default"],
+                    component:_info_farmPage__WEBPACK_IMPORTED_MODULE_18__["default"],
                     name:'farm'
 
                 },
                 {
                     path:'info3',
-                    component:_info_moviepage__WEBPACK_IMPORTED_MODULE_18__["default"],
+                    component:_info_moviepage__WEBPACK_IMPORTED_MODULE_19__["default"],
                     name:'movie'
                 },
                 {
                     path:'info4',
-                    component:_info_material__WEBPACK_IMPORTED_MODULE_19__["default"],
+                    component:_info_material__WEBPACK_IMPORTED_MODULE_20__["default"],
                     name:'material',
                 },
                 {
                     path:'info4/zoom/:idx',
                     props:true,
-                    component:_info_material_view__WEBPACK_IMPORTED_MODULE_20__["default"]
+                    component:_info_material_view__WEBPACK_IMPORTED_MODULE_21__["default"]
 
                 }
 
@@ -81185,42 +81227,42 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
         {
             path:'/board',
             name:'board',
-            component:_board_boardpage__WEBPACK_IMPORTED_MODULE_8__["default"],
+            component:_board_boardpage__WEBPACK_IMPORTED_MODULE_9__["default"],
             children:[
                 {
                     path:'',
-                    component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"]
+                    component:_board_faq__WEBPACK_IMPORTED_MODULE_10__["default"]
                 },
                 {
                     path:'faq',
-                    component:_board_faq__WEBPACK_IMPORTED_MODULE_9__["default"],
+                    component:_board_faq__WEBPACK_IMPORTED_MODULE_10__["default"],
                 },
                 {
                     props:true,
                     path:'zoomfaq/:idx',
-                    component:_board_zoom_faq__WEBPACK_IMPORTED_MODULE_10__["default"]
+                    component:_board_zoom_faq__WEBPACK_IMPORTED_MODULE_11__["default"]
                 },
                 {
                     path:'qna',
-                    component:_board_qna__WEBPACK_IMPORTED_MODULE_11__["default"]
+                    component:_board_qna__WEBPACK_IMPORTED_MODULE_12__["default"]
                 },
                 {
                     props:true,
                     path:'zoomqna/:idx',
-                    component:_board_zoom_qna__WEBPACK_IMPORTED_MODULE_14__["default"]
+                    component:_board_zoom_qna__WEBPACK_IMPORTED_MODULE_15__["default"]
                 },
                 {
                     path:'qnawrite/',
-                    component:_board_qna_write__WEBPACK_IMPORTED_MODULE_21__["default"]
+                    component:_board_qna_write__WEBPACK_IMPORTED_MODULE_22__["default"]
                 },
                 {
                     path:'support',
-                    component:_board_support__WEBPACK_IMPORTED_MODULE_12__["default"],
+                    component:_board_support__WEBPACK_IMPORTED_MODULE_13__["default"],
                 },
                 {
                     props:true,
                     path:'zoom/:idx',
-                    component:_board_zoom__WEBPACK_IMPORTED_MODULE_13__["default"]
+                    component:_board_zoom__WEBPACK_IMPORTED_MODULE_14__["default"]
                 }
             ]
         },
@@ -81230,7 +81272,7 @@ const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
         }
     ],
     scrollBehavior (to, from, savedPosition) {
-        _eventbus__WEBPACK_IMPORTED_MODULE_22__["default"].$emit('moNav',false)
+        _eventbus__WEBPACK_IMPORTED_MODULE_23__["default"].$emit('moNav',false)
         return { x: 0, y: 0 }
       }
     
