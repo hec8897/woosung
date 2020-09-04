@@ -79345,12 +79345,12 @@ const farmPage = {
                         <ul class='content_main'>
                             <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
                                 <div class='img'>
-                                    <img v-bind:src="content.img">
+                                    <img v-bind:src="content.thumnail">
                                 </div>
                                 <div class='text'>
                                     <h4>{{content.title}}</h4>
                                     <p>{{content.desc}}</p>
-                                    <p class='date'>작성일: {{content.date}}</p>
+                                    <p class='date'>작성일: {{$moment(content.date).format('YYYY-MM-DD')}}</p>
                                 </div>
                             </li>
                         </ul>
@@ -79381,13 +79381,12 @@ const farmPage = {
         },
         created() {
 
-            const BaseData = "../woosung_api/farm.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'main'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_data"
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
             .then((result)=>{
-                this.contents = result.data.result
-                this.mode = 'load'
-
-             
+                this.contents = result.data.result.filter((x)=>{
+                    return x.private == 1
+                })
             })
 
         },
@@ -79801,7 +79800,7 @@ const MoviePage = {
                         <div class='text-box'>
                             <h3 @click="youtubeBoxShow(i)">{{filter.title}}</h3>
                             <p>{{filter.desc}}</p>
-                            <p class='date'>게시일 : {{filter.date}}</p>
+                            <p class='date'>게시일 : {{$moment(filter.date).format('YYYY-MM-DD')}}</p>
                         </div>
                     </li>
             
@@ -79832,13 +79831,16 @@ const MoviePage = {
         },
         created() {
             
-            const BaseData = "../woosung_api/youtube.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_3___default.a.post(BaseData,{mode:'page'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/youtube_data"
+            axios__WEBPACK_IMPORTED_MODULE_3___default.a.get(BaseData)
             .then((result)=>{
-                this.movies = result.data.result
+                
+                this.movies = result.data.result.filter((x)=>{
+                    return x.private == 1
+                })
+                
                 this.mode = '전체'
                 this.filters = this.movies;
-              
             })
         },
         updated(){
@@ -80152,7 +80154,7 @@ const sectionImfoFarm = {
                         <slide v-for="(content,i) in contents" v-if="i<5" >
                             <div class='slide_inner' @click="popupBoxShow(i)">                                
                                 <div>
-                                    <img v-bind:src="content.img"/>
+                                    <img v-bind:src="content.thumnail"/>
                                 </div>
                                 <div>
                                     <h4>{{content.title}}</h4>
@@ -80188,11 +80190,12 @@ const sectionImfoFarm = {
             }
         },
         created() {
-            const BaseData = "../woosung_api/farm.data.php"
-            axios__WEBPACK_IMPORTED_MODULE_0___default.a.post(BaseData,{mode:'main'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_data"
+            axios__WEBPACK_IMPORTED_MODULE_0___default.a.get(BaseData)
             .then((result)=>{
-                this.contents = result.data.result
-                this.mode = 'load'
+                this.contents = result.data.result.filter((x)=>{
+                    return x.private == 1
+                })
             })
         },
         methods: {
@@ -80289,16 +80292,20 @@ const SectionInfoMovie ={
         }
       },
       created() {
-        const BaseData = "../woosung_api/youtube.data.php"
-        axios__WEBPACK_IMPORTED_MODULE_1___default.a.post(BaseData,{mode:'page'})
+        const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/youtube_data"
+        axios__WEBPACK_IMPORTED_MODULE_1___default.a.get(BaseData,{mode:'page'})
         .then((result)=>{
-            this.movies = result.data.result.slice(0,8)
-            this.mode = 'load'
+            let getData = result.data.result.filter((x)=>{
+                return x.private == 1
+            })
+
+            this.movies = getData.slice(0,8)
 
             _eventbus__WEBPACK_IMPORTED_MODULE_2__["default"].$emit('UpdateList', {
                 DataLength: Math.ceil((this.movies.length) / 10),
                 nowpage: this.limit - 10
             })
+            
         })
     },
     methods: {

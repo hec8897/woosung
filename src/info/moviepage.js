@@ -38,7 +38,7 @@ const MoviePage = {
                         <div class='text-box'>
                             <h3 @click="youtubeBoxShow(i)">{{filter.title}}</h3>
                             <p>{{filter.desc}}</p>
-                            <p class='date'>게시일 : {{filter.date}}</p>
+                            <p class='date'>게시일 : {{$moment(filter.date).format('YYYY-MM-DD')}}</p>
                         </div>
                     </li>
             
@@ -69,13 +69,16 @@ const MoviePage = {
         },
         created() {
             
-            const BaseData = "../woosung_api/youtube.data.php"
-            axios.post(BaseData,{mode:'page'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/youtube_data"
+            axios.get(BaseData)
             .then((result)=>{
-                this.movies = result.data.result
+                
+                this.movies = result.data.result.filter((x)=>{
+                    return x.private == 1
+                })
+                
                 this.mode = '전체'
                 this.filters = this.movies;
-              
             })
         },
         updated(){

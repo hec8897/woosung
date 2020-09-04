@@ -15,7 +15,7 @@ const sectionImfoFarm = {
                         <slide v-for="(content,i) in contents" v-if="i<5" >
                             <div class='slide_inner' @click="popupBoxShow(i)">                                
                                 <div>
-                                    <img v-bind:src="content.img"/>
+                                    <img v-bind:src="content.thumnail"/>
                                 </div>
                                 <div>
                                     <h4>{{content.title}}</h4>
@@ -51,11 +51,12 @@ const sectionImfoFarm = {
             }
         },
         created() {
-            const BaseData = "../woosung_api/farm.data.php"
-            axios.post(BaseData,{mode:'main'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_data"
+            axios.get(BaseData)
             .then((result)=>{
-                this.contents = result.data.result
-                this.mode = 'load'
+                this.contents = result.data.result.filter((x)=>{
+                    return x.private == 1
+                })
             })
         },
         methods: {

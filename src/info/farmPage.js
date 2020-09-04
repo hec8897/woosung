@@ -11,12 +11,12 @@ const farmPage = {
                         <ul class='content_main'>
                             <li v-for = "(content,i) in contents" v-if='i < limit && i >= start' @click="popupBoxShow(i)">
                                 <div class='img'>
-                                    <img v-bind:src="content.img">
+                                    <img v-bind:src="content.thumnail">
                                 </div>
                                 <div class='text'>
                                     <h4>{{content.title}}</h4>
                                     <p>{{content.desc}}</p>
-                                    <p class='date'>작성일: {{content.date}}</p>
+                                    <p class='date'>작성일: {{$moment(content.date).format('YYYY-MM-DD')}}</p>
                                 </div>
                             </li>
                         </ul>
@@ -47,13 +47,12 @@ const farmPage = {
         },
         created() {
 
-            const BaseData = "../woosung_api/farm.data.php"
-            axios.post(BaseData,{mode:'main'})
+            const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/farm_data"
+            axios.get(BaseData)
             .then((result)=>{
-                this.contents = result.data.result
-                this.mode = 'load'
-
-             
+                this.contents = result.data.result.filter((x)=>{
+                    return x.private == 1
+                })
             })
 
         },

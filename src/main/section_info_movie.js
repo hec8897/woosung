@@ -62,16 +62,20 @@ const SectionInfoMovie ={
         }
       },
       created() {
-        const BaseData = "../woosung_api/youtube.data.php"
-        axios.post(BaseData,{mode:'page'})
+        const BaseData = "http://ec2-13-124-19-117.ap-northeast-2.compute.amazonaws.com/admin/api/youtube_data"
+        axios.get(BaseData,{mode:'page'})
         .then((result)=>{
-            this.movies = result.data.result.slice(0,8)
-            this.mode = 'load'
+            let getData = result.data.result.filter((x)=>{
+                return x.private == 1
+            })
+
+            this.movies = getData.slice(0,8)
 
             eventBus.$emit('UpdateList', {
                 DataLength: Math.ceil((this.movies.length) / 10),
                 nowpage: this.limit - 10
             })
+            
         })
     },
     methods: {
