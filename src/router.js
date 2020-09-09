@@ -25,6 +25,7 @@ import qnaWrite from './board/qna_write';
 import EventBus from './eventbus'
 
 const router = new VueRouter({
+    mode:'history',
     routes: [
         {
             path: '/',

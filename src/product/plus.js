@@ -56,8 +56,6 @@ const Plus = {
             </ul>
             <p>Win-Win Pro 결제 연동의 기능은 전용 결제 단말기와 싸인패드에서만 작동됩니다.  </p>
             </div>
-            
-
         </section>
         <section class='section4 card_two'>
             <div class='wrap'>

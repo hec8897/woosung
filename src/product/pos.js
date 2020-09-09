@@ -112,7 +112,6 @@ const pos = {
         setTimeout(() => {
             this.S1B = true
         }, 500);
-        
     },
 }
 
